@@ -50,7 +50,7 @@ Here's an example of a correctly-formatted HTML5 compliant head area:
 <html lang="en">
     <head>
         <meta charset="..." />
-        <title>@ViewData["Title"] - Swastika I/O</title>
+        <title>@ViewData["Title"] - mixcore</title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         ...
     </head>

@@ -1,9 +1,9 @@
 ---
-title: First step - Swastika I/O Core
+title: First step - mixcore
 author: smilefounder
-description: Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc).
+description: mixcore is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc).
 manager: Smilefounder
-ms.author: Swastika I/O Team
+ms.author: mixcore Team
 ms.custom: mvc
 ms.date: 04/16/2018
 ms.prod: asp.net-core
@@ -11,13 +11,13 @@ ms.technology: aspnet core
 ms.topic: tutorial
 uid: client-side/swastika-io/first-step
 ---
-# First Steps With Swastika I/O Core CMS
+# First Steps With mixcore CMS
 
 ## Now What?
 
-You’ve just completed the 5 Minute Installation of Swastika I/O Core CMS or one-click install from your web host. Now what?
+You’ve just completed the 5 Minute Installation of mixcore CMS or one-click install from your web host. Now what?
 
-Let’s take a step-by-step tour through your Swastika I/O Core CMS site and see how the different functions work and how to make your new site your own. During the first part of this tutorial, please don’t change anything within the program unless it is part of the tutorial. After following these steps, you’ll soon be changing everything.
+Let’s take a step-by-step tour through your mixcore CMS site and see how the different functions work and how to make your new site your own. During the first part of this tutorial, please don’t change anything within the program unless it is part of the tutorial. After following these steps, you’ll soon be changing everything.
 
 ## Config CMS
 
@@ -39,7 +39,7 @@ Let’s take a step-by-step tour through your Swastika I/O Core CMS site and see
 
 ## Log In
 
-Begin by logging into the “administration area” or the back end of your website. Visit your site’s login page by placing “backend” after your domain name (e.g. http://example.com/backend/login). Now log into Swastika I/O Core CMS using your admin username and password that you have created above.
+Begin by logging into the “administration area” or the back end of your website. Visit your site’s login page by placing “backend” after your domain name (e.g. http://example.com/backend/login). Now log into mixcore CMS using your admin username and password that you have created above.
 
 ## Start at the Top
 

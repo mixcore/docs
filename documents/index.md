@@ -1,9 +1,9 @@
 ---
-title: All about Swastika I/O Core
+title: All about mixcore
 author: smilefounder
-description: Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc).
+description: mixcore is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc).
 manager: Smilefounder
-ms.author: Swastika I/O Team
+ms.author: mixcore Team
 ms.custom: mvc
 ms.date: 04/16/2018
 ms.prod: asp.net-core
@@ -11,9 +11,9 @@ ms.technology: aspnet core
 ms.topic: tutorial
 uid: client-side/swastika-io/index
 ---
-# Swastika I/O
+# mixcore
 
-Swastika I/O is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
+mixcore is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!
 
 Btw, the word ‘swastika’ is a Sanskrit word (‘svasktika’) meaning ‘It is’, ‘Well Being’, ‘Good Existence, and ‘Good Luck’.
 
@@ -35,9 +35,9 @@ Btw, the word ‘swastika’ is a Sanskrit word (‘svasktika’) meaning ‘It 
 - Demo: [http://demo.swastika.io](http://demo.swastika.io) | [https://www.swastika.io](https://www.swastika.io)
 - Screenshot:  
   - **Default template:**
-![Swastika I/O CMS default template with Now UI Pro](https://github.com/Swastika-IO/Swastika-IO-Core/blob/master/docs/_images/readme/Swastika-IO-Default-Template-Now-UI-Pro-800px.gif?raw=true "Swastika I/O CMS default template with Now UI Pro")
+![mixcore CMS default template with Now UI Pro](https://github.com/Swastika-IO/Swastika-IO-Core/blob/master/docs/_images/readme/Swastika-IO-Default-Template-Now-UI-Pro-800px.gif?raw=true "mixcore CMS default template with Now UI Pro")
   - **Admin Portal:**
-![Swastika I/O Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/white.png "Swastika I/O Admin Portal Bootstrap 4")
+![mixcore Admin Portal Bootstrap 4](https://swastika-io.github.io/Swastika-IO-Admin/img/white.png "mixcore Admin Portal Bootstrap 4")
 
 ## Getting Started
 
