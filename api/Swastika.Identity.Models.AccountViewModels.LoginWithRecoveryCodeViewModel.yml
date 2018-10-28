@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  commentId: T:Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  id: LoginWithRecoveryCodeViewModel
+  parent: Swastika.Identity.Models.AccountViewModels
+  children:
+  - Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  - Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  langs:
+  - csharp
+  - vb
+  name: LoginWithRecoveryCodeViewModel
+  nameWithType: LoginWithRecoveryCodeViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class LoginWithRecoveryCodeViewModel : Object'
+    content.vb: >-
+      Public Class LoginWithRecoveryCodeViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoginWithRecoveryCodeViewModel()
+  nameWithType: LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel()
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public LoginWithRecoveryCodeViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  id: RecoveryCode
+  parent: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RecoveryCode
+  nameWithType: LoginWithRecoveryCodeViewModel.RecoveryCode
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string RecoveryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RecoveryCode As String
+  overload: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.AccountViewModels
+  commentId: N:Swastika.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.AccountViewModels
+  nameWithType: Swastika.Identity.Models.AccountViewModels
+  fullName: Swastika.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  isExternal: true
+  name: LoginWithRecoveryCodeViewModel
+  nameWithType: LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel
+- uid: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  isExternal: true
+  name: RecoveryCode
+  nameWithType: LoginWithRecoveryCodeViewModel.RecoveryCode
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

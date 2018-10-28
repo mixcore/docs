@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1
+  commentId: T:Mix.Domain.Core.ViewModels.ApiResult`1
+  id: ApiResult`1
+  parent: Mix.Domain.Core.ViewModels
+  children:
+  - Mix.Domain.Core.ViewModels.ApiResult`1.#ctor
+  - Mix.Domain.Core.ViewModels.ApiResult`1.Data
+  - Mix.Domain.Core.ViewModels.ApiResult`1.Errors
+  - Mix.Domain.Core.ViewModels.ApiResult`1.Exception
+  - Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey
+  - Mix.Domain.Core.ViewModels.ApiResult`1.Status
+  langs:
+  - csharp
+  - vb
+  name: ApiResult<T>
+  nameWithType: ApiResult<T>
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>
+  type: Class
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: 'public class ApiResult<T> : Object'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class ApiResult(Of T)
+          Inherits Object
+  inheritance:
+  - System.Object
+  nameWithType.vb: ApiResult(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T)
+  name.vb: ApiResult(Of T)
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.#ctor
+  commentId: M:Mix.Domain.Core.ViewModels.ApiResult`1.#ctor
+  id: '#ctor'
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: ApiResult()
+  nameWithType: ApiResult<T>.ApiResult()
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.ApiResult()
+  type: Constructor
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public ApiResult()
+    content.vb: Public Sub New
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.#ctor*
+  nameWithType.vb: ApiResult(Of T).ApiResult()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).ApiResult()
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Data
+  commentId: P:Mix.Domain.Core.ViewModels.ApiResult`1.Data
+  id: Data
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: ApiResult<T>.Data
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Data
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public T Data { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property Data As T
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.Data*
+  nameWithType.vb: ApiResult(Of T).Data
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Data
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Errors
+  commentId: P:Mix.Domain.Core.ViewModels.ApiResult`1.Errors
+  id: Errors
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: Errors
+  nameWithType: ApiResult<T>.Errors
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Errors
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public List<string> Errors { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property Errors As List(Of String)
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.Errors*
+  nameWithType.vb: ApiResult(Of T).Errors
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Errors
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Exception
+  commentId: P:Mix.Domain.Core.ViewModels.ApiResult`1.Exception
+  id: Exception
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: ApiResult<T>.Exception
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Exception
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public Exception Exception { get; set; }
+    parameters: []
+    return:
+      type: System.Exception
+    content.vb: Public Property Exception As Exception
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.Exception*
+  nameWithType.vb: ApiResult(Of T).Exception
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Exception
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey
+  commentId: P:Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey
+  id: ResponseKey
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: ResponseKey
+  nameWithType: ApiResult<T>.ResponseKey
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.ResponseKey
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string ResponseKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ResponseKey As String
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey*
+  nameWithType.vb: ApiResult(Of T).ResponseKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).ResponseKey
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Status
+  commentId: P:Mix.Domain.Core.ViewModels.ApiResult`1.Status
+  id: Status
+  parent: Mix.Domain.Core.ViewModels.ApiResult`1
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ApiResult<T>.Status
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Status
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Domain.Core.ViewModels.ApiResult`1.Status*
+  nameWithType.vb: ApiResult(Of T).Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Status
+references:
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.#ctor*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.#ctor
+  isExternal: true
+  name: ApiResult
+  nameWithType: ApiResult<T>.ApiResult
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.ApiResult
+  nameWithType.vb: ApiResult(Of T).ApiResult
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).ApiResult
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Data*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.Data
+  isExternal: true
+  name: Data
+  nameWithType: ApiResult<T>.Data
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Data
+  nameWithType.vb: ApiResult(Of T).Data
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Data
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Errors*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.Errors
+  isExternal: true
+  name: Errors
+  nameWithType: ApiResult<T>.Errors
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Errors
+  nameWithType.vb: ApiResult(Of T).Errors
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Errors
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Exception*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: ApiResult<T>.Exception
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Exception
+  nameWithType.vb: ApiResult(Of T).Exception
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Exception
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.ResponseKey
+  isExternal: true
+  name: ResponseKey
+  nameWithType: ApiResult<T>.ResponseKey
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.ResponseKey
+  nameWithType.vb: ApiResult(Of T).ResponseKey
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).ResponseKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1.Status*
+  commentId: Overload:Mix.Domain.Core.ViewModels.ApiResult`1.Status
+  isExternal: true
+  name: Status
+  nameWithType: ApiResult<T>.Status
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>.Status
+  nameWithType.vb: ApiResult(Of T).Status
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T).Status
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

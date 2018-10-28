@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.MixPageType
+  commentId: T:Mix.Cms.Lib.MixEnums.MixPageType
+  id: MixEnums.MixPageType
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.MixPageType.Article
+  - Mix.Cms.Lib.MixEnums.MixPageType.Blank
+  - Mix.Cms.Lib.MixEnums.MixPageType.Home
+  - Mix.Cms.Lib.MixEnums.MixPageType.List
+  - Mix.Cms.Lib.MixEnums.MixPageType.ListProduct
+  - Mix.Cms.Lib.MixEnums.MixPageType.Modules
+  - Mix.Cms.Lib.MixEnums.MixPageType.StaticUrl
+  - Mix.Cms.Lib.MixEnums.MixPageType.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.MixPageType
+  nameWithType: MixEnums.MixPageType
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class MixPageType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MixPageType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.MixPageType.value__
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.Blank
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.Blank
+  id: Blank
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: Blank
+  nameWithType: MixEnums.MixPageType.Blank
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.Blank
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType Blank
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const Blank As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.Article
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.Article
+  id: Article
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: Article
+  nameWithType: MixEnums.MixPageType.Article
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.Article
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType Article
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const Article As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.List
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.List
+  id: List
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: MixEnums.MixPageType.List
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.List
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType List
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const List As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.Home
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.Home
+  id: Home
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: Home
+  nameWithType: MixEnums.MixPageType.Home
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.Home
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType Home
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const Home As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.StaticUrl
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.StaticUrl
+  id: StaticUrl
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: StaticUrl
+  nameWithType: MixEnums.MixPageType.StaticUrl
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.StaticUrl
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType StaticUrl
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const StaticUrl As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.Modules
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.Modules
+  id: Modules
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: Modules
+  nameWithType: MixEnums.MixPageType.Modules
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.Modules
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType Modules
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const Modules As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixPageType.ListProduct
+  commentId: F:Mix.Cms.Lib.MixEnums.MixPageType.ListProduct
+  id: ListProduct
+  parent: Mix.Cms.Lib.MixEnums.MixPageType
+  langs:
+  - csharp
+  - vb
+  name: ListProduct
+  nameWithType: MixEnums.MixPageType.ListProduct
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType.ListProduct
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixPageType ListProduct
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixPageType
+    content.vb: Public Const ListProduct As MixEnums.MixPageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.MixPageType
+  commentId: T:Mix.Cms.Lib.MixEnums.MixPageType
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.MixPageType
+  nameWithType: MixEnums.MixPageType
+  fullName: Mix.Cms.Lib.MixEnums.MixPageType

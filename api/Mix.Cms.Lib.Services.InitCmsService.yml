@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Services.InitCmsService
+  commentId: T:Mix.Cms.Lib.Services.InitCmsService
+  id: InitCmsService
+  parent: Mix.Cms.Lib.Services
+  children:
+  - Mix.Cms.Lib.Services.InitCmsService.#ctor
+  - Mix.Cms.Lib.Services.InitCmsService.InitCms(Mix.Cms.Lib.ViewModels.InitCulture)
+  - Mix.Cms.Lib.Services.InitCmsService.InitCultures(Mix.Cms.Lib.ViewModels.InitCulture,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Mix.Cms.Lib.Services.InitCmsService.InitPositions(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  langs:
+  - csharp
+  - vb
+  name: InitCmsService
+  nameWithType: InitCmsService
+  fullName: Mix.Cms.Lib.Services.InitCmsService
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Services
+  syntax:
+    content: 'public class InitCmsService : Object'
+    content.vb: >-
+      Public Class InitCmsService
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Services.InitCmsService.#ctor
+  commentId: M:Mix.Cms.Lib.Services.InitCmsService.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Services.InitCmsService
+  langs:
+  - csharp
+  - vb
+  name: InitCmsService()
+  nameWithType: InitCmsService.InitCmsService()
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCmsService()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Services
+  syntax:
+    content: public InitCmsService()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Services.InitCmsService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitCms(Mix.Cms.Lib.ViewModels.InitCulture)
+  commentId: M:Mix.Cms.Lib.Services.InitCmsService.InitCms(Mix.Cms.Lib.ViewModels.InitCulture)
+  id: InitCms(Mix.Cms.Lib.ViewModels.InitCulture)
+  parent: Mix.Cms.Lib.Services.InitCmsService
+  langs:
+  - csharp
+  - vb
+  name: InitCms(InitCulture)
+  nameWithType: InitCmsService.InitCms(InitCulture)
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCms(Mix.Cms.Lib.ViewModels.InitCulture)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Services
+  syntax:
+    content: public Task<RepositoryResponse<bool>> InitCms(InitCulture culture)
+    parameters:
+    - id: culture
+      type: Mix.Cms.Lib.ViewModels.InitCulture
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Function InitCms(culture As InitCulture) As Task(Of RepositoryResponse(Of Boolean))
+  overload: Mix.Cms.Lib.Services.InitCmsService.InitCms*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitCultures(Mix.Cms.Lib.ViewModels.InitCulture,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Mix.Cms.Lib.Services.InitCmsService.InitCultures(Mix.Cms.Lib.ViewModels.InitCulture,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: InitCultures(Mix.Cms.Lib.ViewModels.InitCulture,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Mix.Cms.Lib.Services.InitCmsService
+  langs:
+  - csharp
+  - vb
+  name: InitCultures(InitCulture, MixCmsContext, IDbContextTransaction)
+  nameWithType: InitCmsService.InitCultures(InitCulture, MixCmsContext, IDbContextTransaction)
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCultures(Mix.Cms.Lib.ViewModels.InitCulture, Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Services
+  syntax:
+    content: protected bool InitCultures(InitCulture culture, MixCmsContext context, IDbContextTransaction transaction)
+    parameters:
+    - id: culture
+      type: Mix.Cms.Lib.ViewModels.InitCulture
+    - id: context
+      type: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    - id: transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Protected Function InitCultures(culture As InitCulture, context As MixCmsContext, transaction As IDbContextTransaction) As Boolean
+  overload: Mix.Cms.Lib.Services.InitCmsService.InitCultures*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitPositions(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Mix.Cms.Lib.Services.InitCmsService.InitPositions(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: InitPositions(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Mix.Cms.Lib.Services.InitCmsService
+  langs:
+  - csharp
+  - vb
+  name: InitPositions(MixCmsContext, IDbContextTransaction)
+  nameWithType: InitCmsService.InitPositions(MixCmsContext, IDbContextTransaction)
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitPositions(Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Services
+  syntax:
+    content: protected bool InitPositions(MixCmsContext context, IDbContextTransaction transaction)
+    parameters:
+    - id: context
+      type: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    - id: transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Protected Function InitPositions(context As MixCmsContext, transaction As IDbContextTransaction) As Boolean
+  overload: Mix.Cms.Lib.Services.InitCmsService.InitPositions*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Mix.Cms.Lib.Services
+  commentId: N:Mix.Cms.Lib.Services
+  isExternal: true
+  name: Mix.Cms.Lib.Services
+  nameWithType: Mix.Cms.Lib.Services
+  fullName: Mix.Cms.Lib.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Services.InitCmsService.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Services.InitCmsService.#ctor
+  isExternal: true
+  name: InitCmsService
+  nameWithType: InitCmsService.InitCmsService
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCmsService
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitCms*
+  commentId: Overload:Mix.Cms.Lib.Services.InitCmsService.InitCms
+  isExternal: true
+  name: InitCms
+  nameWithType: InitCmsService.InitCms
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCms
+- uid: Mix.Cms.Lib.ViewModels.InitCulture
+  commentId: T:Mix.Cms.Lib.ViewModels.InitCulture
+  parent: Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: InitCulture
+  nameWithType: InitCulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<Boolean>>
+  nameWithType: Task<RepositoryResponse<Boolean>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean))
+  name.vb: Task(Of RepositoryResponse(Of Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.ViewModels
+  commentId: N:Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels
+  nameWithType: Mix.Cms.Lib.ViewModels
+  fullName: Mix.Cms.Lib.ViewModels
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitCultures*
+  commentId: Overload:Mix.Cms.Lib.Services.InitCmsService.InitCultures
+  isExternal: true
+  name: InitCultures
+  nameWithType: InitCmsService.InitCultures
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitCultures
+- uid: Mix.Cms.Lib.Models.Cms.MixCmsContext
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixCmsContext
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixCmsContext
+  nameWithType: MixCmsContext
+  fullName: Mix.Cms.Lib.Models.Cms.MixCmsContext
+- uid: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+  isExternal: true
+  name: IDbContextTransaction
+  nameWithType: IDbContextTransaction
+  fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: Mix.Cms.Lib.Services.InitCmsService.InitPositions*
+  commentId: Overload:Mix.Cms.Lib.Services.InitCmsService.InitPositions
+  isExternal: true
+  name: InitPositions
+  nameWithType: InitCmsService.InitPositions
+  fullName: Mix.Cms.Lib.Services.InitCmsService.InitPositions

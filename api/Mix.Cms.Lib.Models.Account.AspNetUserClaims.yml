@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  commentId: T:Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  id: AspNetUserClaims
+  parent: Mix.Cms.Lib.Models.Account
+  children:
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.User
+  - Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaims
+  nameWithType: AspNetUserClaims
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class AspNetUserClaims : Object'
+    content.vb: >-
+      Public Class AspNetUserClaims
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaims()
+  nameWithType: AspNetUserClaims.AspNetUserClaims()
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.AspNetUserClaims()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUserClaims()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: AspNetUserClaims.Id
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  id: ApplicationUserId
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUserId
+  nameWithType: AspNetUserClaims.ApplicationUserId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string ApplicationUserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationUserId As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  id: ClaimType
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ClaimType
+  nameWithType: AspNetUserClaims.ClaimType
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string ClaimType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClaimType As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  id: ClaimValue
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ClaimValue
+  nameWithType: AspNetUserClaims.ClaimValue
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string ClaimValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClaimValue As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  id: UserId
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: AspNetUserClaims.UserId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  id: ApplicationUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUser
+  nameWithType: AspNetUserClaims.ApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers ApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Account.AspNetUsers
+    content.vb: Public Property ApplicationUser As AspNetUsers
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.User
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUserClaims.User
+  id: User
+  parent: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: AspNetUserClaims.User
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.User
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers User { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Account.AspNetUsers
+    content.vb: Public Property User As AspNetUsers
+  overload: Mix.Cms.Lib.Models.Account.AspNetUserClaims.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Account
+  commentId: N:Mix.Cms.Lib.Models.Account
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Account
+  nameWithType: Mix.Cms.Lib.Models.Account
+  fullName: Mix.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  isExternal: true
+  name: AspNetUserClaims
+  nameWithType: AspNetUserClaims.AspNetUserClaims
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.AspNetUserClaims
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  isExternal: true
+  name: Id
+  nameWithType: AspNetUserClaims.Id
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  isExternal: true
+  name: ApplicationUserId
+  nameWithType: AspNetUserClaims.ApplicationUserId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  isExternal: true
+  name: ClaimType
+  nameWithType: AspNetUserClaims.ClaimType
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  isExternal: true
+  name: ClaimValue
+  nameWithType: AspNetUserClaims.ClaimValue
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: AspNetUserClaims.UserId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  isExternal: true
+  name: ApplicationUser
+  nameWithType: AspNetUserClaims.ApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers
+  commentId: T:Mix.Cms.Lib.Models.Account.AspNetUsers
+  parent: Mix.Cms.Lib.Models.Account
+  isExternal: true
+  name: AspNetUsers
+  nameWithType: AspNetUsers
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers
+- uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims.User*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUserClaims.User
+  isExternal: true
+  name: User
+  nameWithType: AspNetUserClaims.User
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims.User

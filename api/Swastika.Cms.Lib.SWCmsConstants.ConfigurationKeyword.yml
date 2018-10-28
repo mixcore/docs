@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  id: SWCmsConstants.ConfigurationKeyword
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  - Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.ConfigurationKeyword
+  nameWithType: SWCmsConstants.ConfigurationKeyword
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public static class ConfigurationKeyword : Object'
+    content.vb: >-
+      Public Module ConfigurationKeyword
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  id: ConnectionString
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ConnectionString
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ConnectionString
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ConnectionString = "ConnectionString"
+    return:
+      type: System.String
+    content.vb: Public Const ConnectionString As String = "ConnectionString"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  id: Theme
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: SWCmsConstants.ConfigurationKeyword.Theme
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Theme
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Theme = "Theme"
+    return:
+      type: System.String
+    content.vb: Public Const Theme As String = "Theme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  id: Language
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: SWCmsConstants.ConfigurationKeyword.Language
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.Language
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Language = "Language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  id: IsSqlite
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: IsSqlite
+  nameWithType: SWCmsConstants.ConfigurationKeyword.IsSqlite
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.IsSqlite
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string IsSqlite = "IsSqlite"
+    return:
+      type: System.String
+    content.vb: Public Const IsSqlite As String = "IsSqlite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  id: ThemeId
+  parent: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ThemeId
+  nameWithType: SWCmsConstants.ConfigurationKeyword.ThemeId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ConfigurationKeyword.ThemeId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ThemeId = "ThemeId"
+    return:
+      type: System.String
+    content.vb: Public Const ThemeId As String = "ThemeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

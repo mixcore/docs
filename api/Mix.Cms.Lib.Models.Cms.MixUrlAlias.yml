@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  id: MixUrlAlias
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+  - Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+  langs:
+  - csharp
+  - vb
+  name: MixUrlAlias
+  nameWithType: MixUrlAlias
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixUrlAlias : Object'
+    content.vb: >-
+      Public Class MixUrlAlias
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: MixUrlAlias()
+  nameWithType: MixUrlAlias.MixUrlAlias()
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.MixUrlAlias()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixUrlAlias()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MixUrlAlias.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixUrlAlias.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+  id: SourceId
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: MixUrlAlias.SourceId
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string SourceId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceId As String
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+  id: Type
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: MixUrlAlias.Type
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Type { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Type As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixUrlAlias.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixUrlAlias.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixUrlAlias.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+  id: Alias
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: Alias
+  nameWithType: MixUrlAlias.Alias
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Alias { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Alias As String
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+  id: CreatedDateTime
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: MixUrlAlias.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+  id: SpecificultureNavigation
+  parent: Mix.Cms.Lib.Models.Cms.MixUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: SpecificultureNavigation
+  nameWithType: MixUrlAlias.SpecificultureNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixCulture SpecificultureNavigation { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixCulture
+    content.vb: Public Property SpecificultureNavigation As MixCulture
+  overload: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.#ctor
+  isExternal: true
+  name: MixUrlAlias
+  nameWithType: MixUrlAlias.MixUrlAlias
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.MixUrlAlias
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+  isExternal: true
+  name: Id
+  nameWithType: MixUrlAlias.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixUrlAlias.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+  isExternal: true
+  name: SourceId
+  nameWithType: MixUrlAlias.SourceId
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SourceId
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+  isExternal: true
+  name: Type
+  nameWithType: MixUrlAlias.Type
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Type
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixUrlAlias.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixUrlAlias.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixUrlAlias.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+  isExternal: true
+  name: Alias
+  nameWithType: MixUrlAlias.Alias
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.Alias
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: MixUrlAlias.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+  isExternal: true
+  name: SpecificultureNavigation
+  nameWithType: MixUrlAlias.SpecificultureNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixUrlAlias.SpecificultureNavigation
+- uid: Mix.Cms.Lib.Models.Cms.MixCulture
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixCulture
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixCulture
+  nameWithType: MixCulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixCulture

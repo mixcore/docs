@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  id: RegisterViewModel
+  parent: Mix.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  - Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  langs:
+  - csharp
+  - vb
+  name: RegisterViewModel
+  nameWithType: RegisterViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class RegisterViewModel : Object'
+    content.vb: >-
+      Public Class RegisterViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  commentId: M:Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: RegisterViewModel()
+  nameWithType: RegisterViewModel.RegisterViewModel()
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.RegisterViewModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public RegisterViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  id: FirstName
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: RegisterViewModel.FirstName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  id: LastName
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: RegisterViewModel.LastName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  id: NickName
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: RegisterViewModel.NickName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  id: UserClaims
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserClaims
+  nameWithType: RegisterViewModel.UserClaims
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public List<SelectListItem> UserClaims { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}
+    content.vb: Public Property UserClaims As List(Of SelectListItem)
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  id: UserName
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: RegisterViewModel.UserName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  id: Email
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: RegisterViewModel.Email
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  id: Password
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: RegisterViewModel.Password
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  id: ConfirmPassword
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: ConfirmPassword
+  nameWithType: RegisterViewModel.ConfirmPassword
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ConfirmPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConfirmPassword As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  commentId: P:Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  id: ReturnUrl
+  parent: Mix.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: ReturnUrl
+  nameWithType: RegisterViewModel.ReturnUrl
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ReturnUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnUrl As String
+  overload: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  isExternal: true
+  name: RegisterViewModel
+  nameWithType: RegisterViewModel.RegisterViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.RegisterViewModel
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: RegisterViewModel.FirstName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: RegisterViewModel.LastName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: RegisterViewModel.NickName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  isExternal: true
+  name: UserClaims
+  nameWithType: RegisterViewModel.UserClaims
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+- uid: System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}
+  commentId: '!:System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}'
+  definition: System.Collections.Generic.List`1
+  name: List<SelectListItem>
+  nameWithType: List<SelectListItem>
+  fullName: System.Collections.Generic.List<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>
+  nameWithType.vb: List(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.List(Of Microsoft.AspNetCore.Mvc.Rendering.SelectListItem)
+  name.vb: List(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: RegisterViewModel.UserName
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  isExternal: true
+  name: Email
+  nameWithType: RegisterViewModel.Email
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Email
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  isExternal: true
+  name: Password
+  nameWithType: RegisterViewModel.Password
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.Password
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  isExternal: true
+  name: ConfirmPassword
+  nameWithType: RegisterViewModel.ConfirmPassword
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+- uid: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  isExternal: true
+  name: ReturnUrl
+  nameWithType: RegisterViewModel.ReturnUrl
+  fullName: Mix.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl

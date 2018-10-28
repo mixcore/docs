@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  commentId: T:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  id: JwtValidator
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors
+  children:
+  - Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor
+  - Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext)
+  - Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail(Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext)
+  langs:
+  - csharp
+  - vb
+  name: JwtValidator
+  nameWithType: JwtValidator
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  type: Class
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: 'public class JwtValidator : Object'
+    content.vb: >-
+      Public Class JwtValidator
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext)
+  commentId: M:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext)
+  id: ValidateAsync(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext)
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateAsync(TokenValidatedContext)
+  nameWithType: JwtValidator.ValidateAsync(TokenValidatedContext)
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: public static void ValidateAsync(TokenValidatedContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
+    content.vb: Public Shared Sub ValidateAsync(context As TokenValidatedContext)
+  overload: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail(Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext)
+  commentId: M:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail(Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext)
+  id: ValidateFail(Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext)
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateFail(AuthenticationFailedContext)
+  nameWithType: JwtValidator.ValidateFail(AuthenticationFailedContext)
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail(Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: public static void ValidateFail(AuthenticationFailedContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext
+    content.vb: Public Shared Sub ValidateFail(context As AuthenticationFailedContext)
+  overload: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor
+  commentId: M:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator
+  langs:
+  - csharp
+  - vb
+  name: JwtValidator()
+  nameWithType: JwtValidator.JwtValidator()
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.JwtValidator()
+  type: Constructor
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: public JwtValidator()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors
+  commentId: N:Mix.Cms.Web.Mvc.App_Start.Validattors
+  isExternal: true
+  name: Mix.Cms.Web.Mvc.App_Start.Validattors
+  nameWithType: Mix.Cms.Web.Mvc.App_Start.Validattors
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync*
+  commentId: Overload:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync
+  isExternal: true
+  name: ValidateAsync
+  nameWithType: JwtValidator.ValidateAsync
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateAsync
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
+  commentId: '!:Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext'
+  isExternal: true
+  name: TokenValidatedContext
+  nameWithType: TokenValidatedContext
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.TokenValidatedContext
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail*
+  commentId: Overload:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail
+  isExternal: true
+  name: ValidateFail
+  nameWithType: JwtValidator.ValidateFail
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.ValidateFail
+- uid: Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext
+  commentId: '!:Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext'
+  isExternal: true
+  name: AuthenticationFailedContext
+  nameWithType: AuthenticationFailedContext
+  fullName: Microsoft.AspNetCore.Authentication.JwtBearer.AuthenticationFailedContext
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor*
+  commentId: Overload:Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.#ctor
+  isExternal: true
+  name: JwtValidator
+  nameWithType: JwtValidator.JwtValidator
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.JwtValidator.JwtValidator

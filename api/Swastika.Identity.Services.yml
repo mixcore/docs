@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Services
+  commentId: N:Swastika.Identity.Services
+  id: Swastika.Identity.Services
+  children:
+  - Swastika.Identity.Services.AuthEmailMessageSender
+  - Swastika.Identity.Services.AuthSMSMessageSender
+  - Swastika.Identity.Services.EmailSender
+  - Swastika.Identity.Services.EmailSenderExtensions
+  - Swastika.Identity.Services.IEmailSender
+  - Swastika.Identity.Services.ISmsSender
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Identity.Services
+  nameWithType: Swastika.Identity.Services
+  fullName: Swastika.Identity.Services
+  type: Namespace
+  assemblies:
+  - Swastika.Identity
+references:
+- uid: Swastika.Identity.Services.EmailSenderExtensions
+  commentId: T:Swastika.Identity.Services.EmailSenderExtensions
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: EmailSenderExtensions
+  nameWithType: EmailSenderExtensions
+  fullName: Swastika.Identity.Services.EmailSenderExtensions
+- uid: Swastika.Identity.Services.EmailSender
+  commentId: T:Swastika.Identity.Services.EmailSender
+  isExternal: true
+  name: EmailSender
+  nameWithType: EmailSender
+  fullName: Swastika.Identity.Services.EmailSender
+- uid: Swastika.Identity.Services.IEmailSender
+  commentId: T:Swastika.Identity.Services.IEmailSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: IEmailSender
+  nameWithType: IEmailSender
+  fullName: Swastika.Identity.Services.IEmailSender
+- uid: Swastika.Identity.Services.ISmsSender
+  commentId: T:Swastika.Identity.Services.ISmsSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: Swastika.Identity.Services.ISmsSender
+- uid: Swastika.Identity.Services.AuthEmailMessageSender
+  commentId: T:Swastika.Identity.Services.AuthEmailMessageSender
+  isExternal: true
+  name: AuthEmailMessageSender
+  nameWithType: AuthEmailMessageSender
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender
+- uid: Swastika.Identity.Services.AuthSMSMessageSender
+  commentId: T:Swastika.Identity.Services.AuthSMSMessageSender
+  isExternal: true
+  name: AuthSMSMessageSender
+  nameWithType: AuthSMSMessageSender
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender
+- uid: Swastika.Identity.Services
+  commentId: N:Swastika.Identity.Services
+  isExternal: true
+  name: Swastika.Identity.Services
+  nameWithType: Swastika.Identity.Services
+  fullName: Swastika.Identity.Services

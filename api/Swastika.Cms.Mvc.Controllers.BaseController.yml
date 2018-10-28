@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Controllers.BaseController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController
+  id: BaseController
+  parent: Swastika.Cms.Mvc.Controllers
+  children:
+  - Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  - Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration)
+  - Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  - Swastika.Cms.Mvc.Controllers.BaseController._domain
+  - Swastika.Cms.Mvc.Controllers.BaseController._env
+  - Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  - Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  - Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  - Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  - Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  - Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  - Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  langs:
+  - csharp
+  - vb
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: 'public class BaseController : Controller'
+    content.vb: >-
+      Public Class BaseController
+          Inherits Controller
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
+  - Swastika.Cms.Mvc.Controllers.BackendController
+  - Swastika.Cms.Mvc.Controllers.HomeController
+  - Swastika.Cms.Web.Mvc.Controllers.InitCmsController
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  id: ROUTE_CULTURE_NAME
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: ROUTE_CULTURE_NAME
+  nameWithType: BaseController.ROUTE_CULTURE_NAME
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_CULTURE_NAME
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public readonly string ROUTE_CULTURE_NAME
+    return:
+      type: System.String
+    content.vb: Public ReadOnly ROUTE_CULTURE_NAME As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  id: ROUTE_DEFAULT_CULTURE
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: ROUTE_DEFAULT_CULTURE
+  nameWithType: BaseController.ROUTE_DEFAULT_CULTURE
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ROUTE_DEFAULT_CULTURE
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public readonly string ROUTE_DEFAULT_CULTURE
+    return:
+      type: System.String
+    content.vb: Public ReadOnly ROUTE_DEFAULT_CULTURE As String
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._domain
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._domain
+  id: _domain
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: _domain
+  nameWithType: BaseController._domain
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._domain
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected string _domain
+    return:
+      type: System.String
+    content.vb: Protected _domain As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  id: _configuration
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: _configuration
+  nameWithType: BaseController._configuration
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._configuration
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected IConfiguration _configuration
+    return:
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Protected _configuration As IConfiguration
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController._env
+  commentId: F:Swastika.Cms.Mvc.Controllers.BaseController._env
+  id: _env
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: _env
+  nameWithType: BaseController._env
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController._env
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected IHostingEnvironment _env
+    return:
+      type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    content.vb: Protected _env As IHostingEnvironment
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  id: '#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)'
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: BaseController(IHostingEnvironment)
+  nameWithType: BaseController.BaseController(IHostingEnvironment)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.BaseController(Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public BaseController(IHostingEnvironment env)
+    parameters:
+    - id: env
+      type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    content.vb: Public Sub New(env As IHostingEnvironment)
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration)
+  id: '#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration)'
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: BaseController(IHostingEnvironment, IConfiguration)
+  nameWithType: BaseController.BaseController(IHostingEnvironment, IConfiguration)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.BaseController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Configuration.IConfiguration)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public BaseController(IHostingEnvironment env, IConfiguration configuration)
+    parameters:
+    - id: env
+      type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Public Sub New(env As IHostingEnvironment, configuration As IConfiguration)
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  id: OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: OnActionExecuting(ActionExecutingContext)
+  nameWithType: BaseController.OnActionExecuting(ActionExecutingContext)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public override void OnActionExecuting(ActionExecutingContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    content.vb: Public Overrides Sub OnActionExecuting(context As ActionExecutingContext)
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  id: GetLanguage
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: GetLanguage()
+  nameWithType: BaseController.GetLanguage()
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected void GetLanguage()
+    content.vb: Protected Sub GetLanguage
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  id: UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: UploadFileAsync(IFormFile, String)
+  nameWithType: BaseController.UploadFileAsync(IFormFile, String)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected Task<string> UploadFileAsync(IFormFile file, string folderPath)
+    parameters:
+    - id: file
+      type: Microsoft.AspNetCore.Http.IFormFile
+    - id: folderPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Protected Function UploadFileAsync(file As IFormFile, folderPath As String) As Task(Of String)
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  commentId: M:Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  id: UploadListFileAsync(System.String)
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: UploadListFileAsync(String)
+  nameWithType: BaseController.UploadListFileAsync(String)
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected Task<List<string>> UploadListFileAsync(string folderPath)
+    parameters:
+    - id: folderPath
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.String}}
+    content.vb: Protected Function UploadListFileAsync(folderPath As String) As Task(Of List(Of String))
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  id: ViewContext
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: ViewContext
+  nameWithType: BaseController.ViewContext
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: public ViewContext ViewContext { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+    content.vb: Public Property ViewContext As ViewContext
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  commentId: P:Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  id: CurrentLanguage
+  parent: Swastika.Cms.Mvc.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: CurrentLanguage
+  nameWithType: BaseController.CurrentLanguage
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Controllers
+  syntax:
+    content: protected string CurrentLanguage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property CurrentLanguage As String
+  overload: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: Swastika.Cms.Mvc.Controllers
+  commentId: N:Swastika.Cms.Mvc.Controllers
+  isExternal: true
+  name: Swastika.Cms.Mvc.Controllers
+  nameWithType: Swastika.Cms.Mvc.Controllers
+  fullName: Swastika.Cms.Mvc.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
+- uid: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+  isExternal: true
+  name: IHostingEnvironment
+  nameWithType: IHostingEnvironment
+  fullName: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.#ctor*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.#ctor
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController.BaseController
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.BaseController
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting
+  isExternal: true
+  name: OnActionExecuting
+  nameWithType: BaseController.OnActionExecuting
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.OnActionExecuting
+- uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+  isExternal: true
+  name: ActionExecutingContext
+  nameWithType: ActionExecutingContext
+  fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+  isExternal: true
+  name: GetLanguage
+  nameWithType: BaseController.GetLanguage
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.GetLanguage
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync
+  isExternal: true
+  name: UploadFileAsync
+  nameWithType: BaseController.UploadFileAsync
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadFileAsync
+- uid: Microsoft.AspNetCore.Http.IFormFile
+  isExternal: true
+  name: IFormFile
+  nameWithType: IFormFile
+  fullName: Microsoft.AspNetCore.Http.IFormFile
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync
+  isExternal: true
+  name: UploadListFileAsync
+  nameWithType: BaseController.UploadListFileAsync
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.UploadListFileAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.String}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.List{System.String}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<String>>
+  nameWithType: Task<List<String>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<System.String>>
+  nameWithType.vb: Task(Of List(Of String))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of System.String))
+  name.vb: Task(Of List(Of String))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: BaseController.ViewContext
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.ViewContext
+- uid: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: ViewContext
+  fullName: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+- uid: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage*
+  commentId: Overload:Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage
+  isExternal: true
+  name: CurrentLanguage
+  nameWithType: BaseController.CurrentLanguage
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController.CurrentLanguage

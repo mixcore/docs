@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  commentId: N:Mix.Cms.Lib.ViewModels.Account.MixRoles
+  id: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  children:
+  - Mix.Cms.Lib.ViewModels.Account.MixRoles.ReadViewModel
+  - Mix.Cms.Lib.ViewModels.Account.MixRoles.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  nameWithType: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  fullName: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.Account.MixRoles.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.MixRoles.ReadViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.MixRoles.ReadViewModel
+- uid: Mix.Cms.Lib.ViewModels.Account.MixRoles.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.MixRoles.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.MixRoles.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  commentId: N:Mix.Cms.Lib.ViewModels.Account.MixRoles
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  nameWithType: Mix.Cms.Lib.ViewModels.Account.MixRoles
+  fullName: Mix.Cms.Lib.ViewModels.Account.MixRoles

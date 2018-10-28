@@ -1,0 +1,481 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  id: MixRelatedArticle
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+  langs:
+  - csharp
+  - vb
+  name: MixRelatedArticle
+  nameWithType: MixRelatedArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixRelatedArticle : Object'
+    content.vb: >-
+      Public Class MixRelatedArticle
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: MixRelatedArticle()
+  nameWithType: MixRelatedArticle.MixRelatedArticle()
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixRelatedArticle()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixRelatedArticle()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+  id: SourceId
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: SourceId
+  nameWithType: MixRelatedArticle.SourceId
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int SourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SourceId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixRelatedArticle.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+  id: DestinationId
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: DestinationId
+  nameWithType: MixRelatedArticle.DestinationId
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int DestinationId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DestinationId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+  id: CreatedDateTime
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: MixRelatedArticle.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixRelatedArticle.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixRelatedArticle.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixRelatedArticle.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+  id: Image
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: MixRelatedArticle.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+  id: MixArticle
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: MixArticle
+  nameWithType: MixRelatedArticle.MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixArticle MixArticle { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixArticle
+    content.vb: Public Property MixArticle As MixArticle
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S
+  id: S
+  parent: Mix.Cms.Lib.Models.Cms.MixRelatedArticle
+  langs:
+  - csharp
+  - vb
+  name: S
+  nameWithType: MixRelatedArticle.S
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixArticle S { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixArticle
+    content.vb: Public Property S As MixArticle
+  overload: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.#ctor
+  isExternal: true
+  name: MixRelatedArticle
+  nameWithType: MixRelatedArticle.MixRelatedArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixRelatedArticle
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+  isExternal: true
+  name: SourceId
+  nameWithType: MixRelatedArticle.SourceId
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.SourceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixRelatedArticle.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+  isExternal: true
+  name: DestinationId
+  nameWithType: MixRelatedArticle.DestinationId
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.DestinationId
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: MixRelatedArticle.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixRelatedArticle.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixRelatedArticle.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixRelatedArticle.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+  isExternal: true
+  name: Image
+  nameWithType: MixRelatedArticle.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.Image
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+  isExternal: true
+  name: MixArticle
+  nameWithType: MixRelatedArticle.MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.MixArticle
+- uid: Mix.Cms.Lib.Models.Cms.MixArticle
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixArticle
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixArticle
+  nameWithType: MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticle
+- uid: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S
+  isExternal: true
+  name: S
+  nameWithType: MixRelatedArticle.S
+  fullName: Mix.Cms.Lib.Models.Cms.MixRelatedArticle.S

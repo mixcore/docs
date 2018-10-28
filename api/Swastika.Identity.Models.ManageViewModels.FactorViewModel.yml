@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.ManageViewModels.FactorViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.FactorViewModel
+  id: FactorViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  children:
+  - Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor
+  - Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+  langs:
+  - csharp
+  - vb
+  name: FactorViewModel
+  nameWithType: FactorViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.FactorViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: 'public class FactorViewModel : Object'
+    content.vb: >-
+      Public Class FactorViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.ManageViewModels.FactorViewModel
+  langs:
+  - csharp
+  - vb
+  name: FactorViewModel()
+  nameWithType: FactorViewModel.FactorViewModel()
+  fullName: Swastika.Identity.Models.ManageViewModels.FactorViewModel.FactorViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public FactorViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+  commentId: P:Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+  id: Purpose
+  parent: Swastika.Identity.Models.ManageViewModels.FactorViewModel
+  langs:
+  - csharp
+  - vb
+  name: Purpose
+  nameWithType: FactorViewModel.Purpose
+  fullName: Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public string Purpose { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Purpose As String
+  overload: Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.ManageViewModels
+  commentId: N:Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.ManageViewModels
+  nameWithType: Swastika.Identity.Models.ManageViewModels
+  fullName: Swastika.Identity.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.FactorViewModel.#ctor
+  isExternal: true
+  name: FactorViewModel
+  nameWithType: FactorViewModel.FactorViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.FactorViewModel.FactorViewModel
+- uid: Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+  isExternal: true
+  name: Purpose
+  nameWithType: FactorViewModel.Purpose
+  fullName: Swastika.Identity.Models.ManageViewModels.FactorViewModel.Purpose
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

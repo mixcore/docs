@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.SearchType
+  commentId: T:Mix.Cms.Lib.MixEnums.SearchType
+  id: MixEnums.SearchType
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.SearchType.All
+  - Mix.Cms.Lib.MixEnums.SearchType.Article
+  - Mix.Cms.Lib.MixEnums.SearchType.Module
+  - Mix.Cms.Lib.MixEnums.SearchType.Page
+  - Mix.Cms.Lib.MixEnums.SearchType.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.SearchType
+  nameWithType: MixEnums.SearchType
+  fullName: Mix.Cms.Lib.MixEnums.SearchType
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class SearchType : Enum'
+    content.vb: >-
+      Public NotInheritable Class SearchType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.SearchType.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.SearchType.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.SearchType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.SearchType.value__
+  fullName: Mix.Cms.Lib.MixEnums.SearchType.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.SearchType.All
+  commentId: F:Mix.Cms.Lib.MixEnums.SearchType.All
+  id: All
+  parent: Mix.Cms.Lib.MixEnums.SearchType
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: MixEnums.SearchType.All
+  fullName: Mix.Cms.Lib.MixEnums.SearchType.All
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.SearchType All
+    return:
+      type: Mix.Cms.Lib.MixEnums.SearchType
+    content.vb: Public Const All As MixEnums.SearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.SearchType.Article
+  commentId: F:Mix.Cms.Lib.MixEnums.SearchType.Article
+  id: Article
+  parent: Mix.Cms.Lib.MixEnums.SearchType
+  langs:
+  - csharp
+  - vb
+  name: Article
+  nameWithType: MixEnums.SearchType.Article
+  fullName: Mix.Cms.Lib.MixEnums.SearchType.Article
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.SearchType Article
+    return:
+      type: Mix.Cms.Lib.MixEnums.SearchType
+    content.vb: Public Const Article As MixEnums.SearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.SearchType.Module
+  commentId: F:Mix.Cms.Lib.MixEnums.SearchType.Module
+  id: Module
+  parent: Mix.Cms.Lib.MixEnums.SearchType
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: MixEnums.SearchType.Module
+  fullName: Mix.Cms.Lib.MixEnums.SearchType.Module
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.SearchType Module
+    return:
+      type: Mix.Cms.Lib.MixEnums.SearchType
+    content.vb: Public Const Module As MixEnums.SearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.SearchType.Page
+  commentId: F:Mix.Cms.Lib.MixEnums.SearchType.Page
+  id: Page
+  parent: Mix.Cms.Lib.MixEnums.SearchType
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: MixEnums.SearchType.Page
+  fullName: Mix.Cms.Lib.MixEnums.SearchType.Page
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.SearchType Page
+    return:
+      type: Mix.Cms.Lib.MixEnums.SearchType
+    content.vb: Public Const Page As MixEnums.SearchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.SearchType
+  commentId: T:Mix.Cms.Lib.MixEnums.SearchType
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.SearchType
+  nameWithType: MixEnums.SearchType
+  fullName: Mix.Cms.Lib.MixEnums.SearchType

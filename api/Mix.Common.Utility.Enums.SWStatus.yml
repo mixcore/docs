@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Common.Utility.Enums.SWStatus
+  commentId: T:Mix.Common.Utility.Enums.SWStatus
+  id: Enums.SWStatus
+  parent: Mix.Common.Utility
+  children:
+  - Mix.Common.Utility.Enums.SWStatus.Deleted
+  - Mix.Common.Utility.Enums.SWStatus.Draft
+  - Mix.Common.Utility.Enums.SWStatus.Preview
+  - Mix.Common.Utility.Enums.SWStatus.Published
+  - Mix.Common.Utility.Enums.SWStatus.Schedule
+  - Mix.Common.Utility.Enums.SWStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: Enums.SWStatus
+  nameWithType: Enums.SWStatus
+  fullName: Mix.Common.Utility.Enums.SWStatus
+  type: Class
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: 'public sealed class SWStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class SWStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Common.Utility.Enums.SWStatus.value__
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.value__
+  id: value__
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Enums.SWStatus.value__
+  fullName: Mix.Common.Utility.Enums.SWStatus.value__
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Common.Utility.Enums.SWStatus.Deleted
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.Deleted
+  id: Deleted
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: Enums.SWStatus.Deleted
+  fullName: Mix.Common.Utility.Enums.SWStatus.Deleted
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public const Enums.SWStatus Deleted
+    return:
+      type: Mix.Common.Utility.Enums.SWStatus
+    content.vb: Public Const Deleted As Enums.SWStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Common.Utility.Enums.SWStatus.Preview
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.Preview
+  id: Preview
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Preview
+  nameWithType: Enums.SWStatus.Preview
+  fullName: Mix.Common.Utility.Enums.SWStatus.Preview
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public const Enums.SWStatus Preview
+    return:
+      type: Mix.Common.Utility.Enums.SWStatus
+    content.vb: Public Const Preview As Enums.SWStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Common.Utility.Enums.SWStatus.Published
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.Published
+  id: Published
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: Enums.SWStatus.Published
+  fullName: Mix.Common.Utility.Enums.SWStatus.Published
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public const Enums.SWStatus Published
+    return:
+      type: Mix.Common.Utility.Enums.SWStatus
+    content.vb: Public Const Published As Enums.SWStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Common.Utility.Enums.SWStatus.Draft
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.Draft
+  id: Draft
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: Enums.SWStatus.Draft
+  fullName: Mix.Common.Utility.Enums.SWStatus.Draft
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public const Enums.SWStatus Draft
+    return:
+      type: Mix.Common.Utility.Enums.SWStatus
+    content.vb: Public Const Draft As Enums.SWStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Common.Utility.Enums.SWStatus.Schedule
+  commentId: F:Mix.Common.Utility.Enums.SWStatus.Schedule
+  id: Schedule
+  parent: Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Schedule
+  nameWithType: Enums.SWStatus.Schedule
+  fullName: Mix.Common.Utility.Enums.SWStatus.Schedule
+  type: Field
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Common.Utility
+  syntax:
+    content: public const Enums.SWStatus Schedule
+    return:
+      type: Mix.Common.Utility.Enums.SWStatus
+    content.vb: Public Const Schedule As Enums.SWStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Common.Utility
+  commentId: N:Mix.Common.Utility
+  isExternal: true
+  name: Mix.Common.Utility
+  nameWithType: Mix.Common.Utility
+  fullName: Mix.Common.Utility
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Common.Utility.Enums.SWStatus
+  commentId: T:Mix.Common.Utility.Enums.SWStatus
+  parent: Mix.Common.Utility
+  isExternal: true
+  name: Enums.SWStatus
+  nameWithType: Enums.SWStatus
+  fullName: Mix.Common.Utility.Enums.SWStatus

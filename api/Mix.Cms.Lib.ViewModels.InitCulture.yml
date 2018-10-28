@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.InitCulture
+  commentId: T:Mix.Cms.Lib.ViewModels.InitCulture
+  id: InitCulture
+  parent: Mix.Cms.Lib.ViewModels
+  children:
+  - Mix.Cms.Lib.ViewModels.InitCulture.#ctor
+  - Mix.Cms.Lib.ViewModels.InitCulture.Alias
+  - Mix.Cms.Lib.ViewModels.InitCulture.Description
+  - Mix.Cms.Lib.ViewModels.InitCulture.FullName
+  - Mix.Cms.Lib.ViewModels.InitCulture.Icon
+  - Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+  langs:
+  - csharp
+  - vb
+  name: InitCulture
+  nameWithType: InitCulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: 'public class InitCulture : Object'
+    content.vb: >-
+      Public Class InitCulture
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.#ctor
+  commentId: M:Mix.Cms.Lib.ViewModels.InitCulture.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: InitCulture()
+  nameWithType: InitCulture.InitCulture()
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.InitCulture()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public InitCulture()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+  commentId: P:Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: InitCulture.Specificulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.FullName
+  commentId: P:Mix.Cms.Lib.ViewModels.InitCulture.FullName
+  id: FullName
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: InitCulture.FullName
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.FullName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Description
+  commentId: P:Mix.Cms.Lib.ViewModels.InitCulture.Description
+  id: Description
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: InitCulture.Description
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Icon
+  commentId: P:Mix.Cms.Lib.ViewModels.InitCulture.Icon
+  id: Icon
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: InitCulture.Icon
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Icon
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Icon As String
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Alias
+  commentId: P:Mix.Cms.Lib.ViewModels.InitCulture.Alias
+  id: Alias
+  parent: Mix.Cms.Lib.ViewModels.InitCulture
+  langs:
+  - csharp
+  - vb
+  name: Alias
+  nameWithType: InitCulture.Alias
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Alias
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Alias { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Alias As String
+  overload: Mix.Cms.Lib.ViewModels.InitCulture.Alias*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.ViewModels
+  commentId: N:Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels
+  nameWithType: Mix.Cms.Lib.ViewModels
+  fullName: Mix.Cms.Lib.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.#ctor*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.#ctor
+  isExternal: true
+  name: InitCulture
+  nameWithType: InitCulture.InitCulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.InitCulture
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: InitCulture.Specificulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.FullName*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: InitCulture.FullName
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.FullName
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Description*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.Description
+  isExternal: true
+  name: Description
+  nameWithType: InitCulture.Description
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Description
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Icon*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: InitCulture.Icon
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Icon
+- uid: Mix.Cms.Lib.ViewModels.InitCulture.Alias*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.InitCulture.Alias
+  isExternal: true
+  name: Alias
+  nameWithType: InitCulture.Alias
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture.Alias

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  commentId: T:Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  id: ErrorViewModel
+  parent: Swastika.Cms.Web.Mvc.Models
+  children:
+  - Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor
+  - Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+  - Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+  langs:
+  - csharp
+  - vb
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models
+  syntax:
+    content: 'public class ErrorViewModel : Object'
+    content.vb: >-
+      Public Class ErrorViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: ErrorViewModel()
+  nameWithType: ErrorViewModel.ErrorViewModel()
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ErrorViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models
+  syntax:
+    content: public ErrorViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+  commentId: P:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+  id: RequestId
+  parent: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: ErrorViewModel.RequestId
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models
+  syntax:
+    content: public string RequestId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestId As String
+  overload: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+  commentId: P:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+  id: ShowRequestId
+  parent: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: ShowRequestId
+  nameWithType: ErrorViewModel.ShowRequestId
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models
+  syntax:
+    content: public bool ShowRequestId { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ShowRequestId As Boolean
+  overload: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Swastika.Cms.Web.Mvc.Models
+  commentId: N:Swastika.Cms.Web.Mvc.Models
+  isExternal: true
+  name: Swastika.Cms.Web.Mvc.Models
+  nameWithType: Swastika.Cms.Web.Mvc.Models
+  fullName: Swastika.Cms.Web.Mvc.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.#ctor
+  isExternal: true
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel.ErrorViewModel
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ErrorViewModel
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+  isExternal: true
+  name: RequestId
+  nameWithType: ErrorViewModel.RequestId
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.RequestId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+  isExternal: true
+  name: ShowRequestId
+  nameWithType: ErrorViewModel.ShowRequestId
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel.ShowRequestId
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

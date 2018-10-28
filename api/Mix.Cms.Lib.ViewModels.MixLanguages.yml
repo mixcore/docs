@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixLanguages
+  commentId: N:Mix.Cms.Lib.ViewModels.MixLanguages
+  id: Mix.Cms.Lib.ViewModels.MixLanguages
+  children:
+  - Mix.Cms.Lib.ViewModels.MixLanguages.ReadMvcViewModel
+  - Mix.Cms.Lib.ViewModels.MixLanguages.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixLanguages
+  nameWithType: Mix.Cms.Lib.ViewModels.MixLanguages
+  fullName: Mix.Cms.Lib.ViewModels.MixLanguages
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixLanguages.ReadMvcViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixLanguages.ReadMvcViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixLanguages
+  isExternal: true
+  name: ReadMvcViewModel
+  nameWithType: ReadMvcViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixLanguages.ReadMvcViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixLanguages.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixLanguages.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixLanguages
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixLanguages.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixLanguages
+  commentId: N:Mix.Cms.Lib.ViewModels.MixLanguages
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixLanguages
+  nameWithType: Mix.Cms.Lib.ViewModels.MixLanguages
+  fullName: Mix.Cms.Lib.ViewModels.MixLanguages

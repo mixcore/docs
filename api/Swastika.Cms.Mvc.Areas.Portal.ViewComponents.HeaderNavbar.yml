@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  id: HeaderNavbar
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  children:
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke
+  langs:
+  - csharp
+  - vb
+  name: HeaderNavbar
+  nameWithType: HeaderNavbar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: 'public class HeaderNavbar : ViewComponent'
+    content.vb: >-
+      Public Class HeaderNavbar
+          Inherits ViewComponent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke
+  commentId: M:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke
+  id: Invoke
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  langs:
+  - csharp
+  - vb
+  name: Invoke()
+  nameWithType: HeaderNavbar.Invoke()
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: public IViewComponentResult Invoke()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IViewComponentResult
+    content.vb: Public Function Invoke As IViewComponentResult
+  overload: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor
+  commentId: M:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  langs:
+  - csharp
+  - vb
+  name: HeaderNavbar()
+  nameWithType: HeaderNavbar.HeaderNavbar()
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.HeaderNavbar()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: public HeaderNavbar()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  commentId: N:Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  isExternal: false
+  name: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  nameWithType: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: HeaderNavbar.Invoke
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.Invoke
+- uid: Microsoft.AspNetCore.Mvc.IViewComponentResult
+  isExternal: true
+  name: IViewComponentResult
+  nameWithType: IViewComponentResult
+  fullName: Microsoft.AspNetCore.Mvc.IViewComponentResult
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.#ctor
+  isExternal: true
+  name: HeaderNavbar
+  nameWithType: HeaderNavbar.HeaderNavbar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar.HeaderNavbar

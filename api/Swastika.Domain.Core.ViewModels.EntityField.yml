@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.ViewModels.EntityField
+  commentId: T:Swastika.Domain.Core.ViewModels.EntityField
+  id: EntityField
+  parent: Swastika.Domain.Core.ViewModels
+  children:
+  - Swastika.Domain.Core.ViewModels.EntityField.#ctor
+  - Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+  - Swastika.Domain.Core.ViewModels.EntityField.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: EntityField
+  nameWithType: EntityField
+  fullName: Swastika.Domain.Core.ViewModels.EntityField
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.ViewModels
+  syntax:
+    content: 'public class EntityField : Object'
+    content.vb: >-
+      Public Class EntityField
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Domain.Core.ViewModels.EntityField.#ctor
+  commentId: M:Swastika.Domain.Core.ViewModels.EntityField.#ctor
+  id: '#ctor'
+  parent: Swastika.Domain.Core.ViewModels.EntityField
+  langs:
+  - csharp
+  - vb
+  name: EntityField()
+  nameWithType: EntityField.EntityField()
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.EntityField()
+  type: Constructor
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.ViewModels
+  syntax:
+    content: public EntityField()
+    content.vb: Public Sub New
+  overload: Swastika.Domain.Core.ViewModels.EntityField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+  commentId: P:Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+  id: PropertyName
+  parent: Swastika.Domain.Core.ViewModels.EntityField
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: EntityField.PropertyName
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.ViewModels
+  syntax:
+    content: public string PropertyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyName As String
+  overload: Swastika.Domain.Core.ViewModels.EntityField.PropertyName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.ViewModels.EntityField.PropertyValue
+  commentId: P:Swastika.Domain.Core.ViewModels.EntityField.PropertyValue
+  id: PropertyValue
+  parent: Swastika.Domain.Core.ViewModels.EntityField
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue
+  nameWithType: EntityField.PropertyValue
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.PropertyValue
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.ViewModels
+  syntax:
+    content: public string PropertyValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PropertyValue As String
+  overload: Swastika.Domain.Core.ViewModels.EntityField.PropertyValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Domain.Core.ViewModels
+  commentId: N:Swastika.Domain.Core.ViewModels
+  isExternal: true
+  name: Swastika.Domain.Core.ViewModels
+  nameWithType: Swastika.Domain.Core.ViewModels
+  fullName: Swastika.Domain.Core.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Domain.Core.ViewModels.EntityField.#ctor*
+  commentId: Overload:Swastika.Domain.Core.ViewModels.EntityField.#ctor
+  isExternal: true
+  name: EntityField
+  nameWithType: EntityField.EntityField
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.EntityField
+- uid: Swastika.Domain.Core.ViewModels.EntityField.PropertyName*
+  commentId: Overload:Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+  isExternal: true
+  name: PropertyName
+  nameWithType: EntityField.PropertyName
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.PropertyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Domain.Core.ViewModels.EntityField.PropertyValue*
+  commentId: Overload:Swastika.Domain.Core.ViewModels.EntityField.PropertyValue
+  isExternal: true
+  name: PropertyValue
+  nameWithType: EntityField.PropertyValue
+  fullName: Swastika.Domain.Core.ViewModels.EntityField.PropertyValue

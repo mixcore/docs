@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey
+  commentId: T:Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey
+  id: Startup.JwtSecurityKey
+  parent: Swastika.Cms.Web.Mvc
+  children:
+  - Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Startup.JwtSecurityKey
+  nameWithType: Startup.JwtSecurityKey
+  fullName: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: 'protected static class JwtSecurityKey : Object'
+    content.vb: >-
+      Protected Module JwtSecurityKey
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - protected
+  - static
+  - class
+  modifiers.vb:
+  - Protected
+  - Module
+- uid: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)
+  id: Create(System.String)
+  parent: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: Startup.JwtSecurityKey.Create(String)
+  fullName: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public static SymmetricSecurityKey Create(string secret)
+    parameters:
+    - id: secret
+      type: System.String
+    return:
+      type: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+    content.vb: Public Shared Function Create(secret As String) As SymmetricSecurityKey
+  overload: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastika.Cms.Web.Mvc
+  commentId: N:Swastika.Cms.Web.Mvc
+  isExternal: true
+  name: Swastika.Cms.Web.Mvc
+  nameWithType: Swastika.Cms.Web.Mvc
+  fullName: Swastika.Cms.Web.Mvc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create
+  isExternal: true
+  name: Create
+  nameWithType: Startup.JwtSecurityKey.Create
+  fullName: Swastika.Cms.Web.Mvc.Startup.JwtSecurityKey.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+  isExternal: true
+  name: SymmetricSecurityKey
+  nameWithType: SymmetricSecurityKey
+  fullName: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey

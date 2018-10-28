@@ -1,0 +1,1179 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ReadViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ReadViewModel
+   ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel">
+  
+  
+  <h1 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel" class="text-break">Class ReadViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html">ViewModelBase</a>&lt;<a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a>, <a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a>, <a class="xref" href="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.html">ReadViewModel</a>&gt;</div>
+    <div class="level2"><span class="xref">ReadViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Repository">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Repository</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitModel">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.InitModel()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseModel__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ParseModel(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Validate__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Validate(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandViewAsync__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ExpandViewAsync(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitViewAsync__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.InitViewAsync(MixTemplate, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseViewAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ParseViewAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneAsync__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.CloneAsync(MixTemplate, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModelsAsync__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.CloneSubModelsAsync(ReadViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.RemoveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModelsAsync__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.RemoveRelatedModelsAsync(ReadViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.SaveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModelsAsync__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.SaveSubModelsAsync(MixTemplate, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitView__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.InitView(MixTemplate, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseView_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ParseView(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandView__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ExpandView(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Clone__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Clone(MixTemplate, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModels__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.CloneSubModels(ReadViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.RemoveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModels__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.RemoveRelatedModels(ReadViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.SaveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModels__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.SaveSubModels(MixTemplate, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Exception">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Exception</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsClone">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.IsClone</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsLazyLoad">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.IsLazyLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Cultures">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Cultures</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Mapper">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Mapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Model">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ModelMapper">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.ModelMapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Priority">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Specificulture">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Specificulture</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Errors">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsValid">ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;.IsValid</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mix.Cms.Lib.ViewModels.MixTemplates.html">Mix.Cms.Lib.ViewModels.MixTemplates</a></h6>
+  <h6><strong>Assembly</strong>: Mix.Cms.Lib.dll</h6>
+  <h5 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ReadViewModel : ViewModelBase&lt;MixCmsContext, MixTemplate, ReadViewModel&gt;, IViewModel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel__ctor" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.#ctor">ReadViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadViewModel()</code></pre>
+  </div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel__ctor_Mix_Cms_Lib_Models_Cms_MixTemplate_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.#ctor(Mix.Cms.Lib.Models.Cms.MixTemplate,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ReadViewModel(MixTemplate, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadViewModel(MixTemplate model, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_AssetFolder_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.AssetFolder*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_AssetFolder" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.AssetFolder">AssetFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AssetFolder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Content_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Content*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Content" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Content">Content</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_CreatedDateTime_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.CreatedDateTime*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_CreatedDateTime" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.CreatedDateTime">CreatedDateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreatedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Extension_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Extension*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Extension" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Extension">Extension</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Extension { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FileFolder_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FileFolder*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FileFolder" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FileFolder">FileFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FileFolder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FileName_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FileName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FileName" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FileName">FileName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FileName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FolderType_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FolderType*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_FolderType" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.FolderType">FolderType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FolderType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Id_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Id*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Id" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_LastModified_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.LastModified*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_LastModified" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.LastModified">LastModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;DateTime&gt; LastModified { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_MobileContent_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.MobileContent*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_MobileContent" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.MobileContent">MobileContent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MobileContent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_ModifiedBy_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.ModifiedBy*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_ModifiedBy" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.ModifiedBy">ModifiedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModifiedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Scripts_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Scripts*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Scripts" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Scripts">Scripts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Scripts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SpaContent_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SpaContent*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SpaContent" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SpaContent">SpaContent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SpaContent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Styles_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Styles*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_Styles" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.Styles">Styles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Styles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateFolder_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateFolder*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateFolder" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateFolder">TemplateFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TemplateFolder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateId_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateId*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateId" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateId">TemplateId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TemplateId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateName_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplateName" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplateName">TemplateName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TemplateName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplatePath_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplatePath*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_TemplatePath" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.TemplatePath">TemplatePath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TemplatePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetDefault_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetDefault*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetDefault_System_String_System_String_System_String_System_String_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetDefault(System.String,System.String,System.String,System.String)">GetDefault(String, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadViewModel GetDefault(string activedTemplate, string folderType, string folder, string specificulture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">activedTemplate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folderType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">specificulture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.html">ReadViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetTemplateByPath_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetTemplateByPath*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetTemplateByPath_System_Int32_System_String_System_String_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetTemplateByPath(System.Int32,System.String,System.String,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">GetTemplateByPath(Int32, String, String, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadViewModel GetTemplateByPath(int themeId, string path, string type, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">themeId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.html">ReadViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetTemplateByPath_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetTemplateByPath*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_GetTemplateByPath_System_String_System_String_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.GetTemplateByPath(System.String,System.String,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">GetTemplateByPath(String, String, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RepositoryResponse&lt;ReadViewModel&gt; GetTemplateByPath(string path, string culture, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">culture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.html">ReadViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_ParseModel_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.ParseModel*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_ParseModel_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.ParseModel(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ParseModel(MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MixTemplate ParseModel(MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel&gt;.ParseModel(Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_RemoveModel_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.RemoveModel*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_RemoveModel_System_Boolean_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.RemoveModel(System.Boolean,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">RemoveModel(Boolean, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;MixTemplate&gt; RemoveModel(bool isRemoveRelatedModels = false, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isRemoveRelatedModels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel&gt;.RemoveModel(System.Boolean, Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_RemoveModelAsync_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.RemoveModelAsync*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_RemoveModelAsync_System_Boolean_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.RemoveModelAsync(System.Boolean,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">RemoveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;RepositoryResponse&lt;MixTemplate&gt;&gt; RemoveModelAsync(bool isRemoveRelatedModels = false, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isRemoveRelatedModels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel&gt;.RemoveModelAsync(System.Boolean, Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SaveSubModels_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SaveSubModels*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SaveSubModels_Mix_Cms_Lib_Models_Cms_MixTemplate_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SaveSubModels(Mix.Cms.Lib.Models.Cms.MixTemplate,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">SaveSubModels(MixTemplate, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override RepositoryResponse&lt;bool&gt; SaveSubModels(MixTemplate parent, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel&gt;.SaveSubModels(Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SaveSubModelsAsync_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SaveSubModelsAsync*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixTemplates_ReadViewModel_SaveSubModelsAsync_Mix_Cms_Lib_Models_Cms_MixTemplate_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel.SaveSubModelsAsync(Mix.Cms.Lib.Models.Cms.MixTemplate,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">SaveSubModelsAsync(MixTemplate, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;RepositoryResponse&lt;bool&gt;&gt; SaveSubModelsAsync(MixTemplate parent, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixTemplate.html">MixTemplate</a></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel&gt;.SaveSubModelsAsync(Mix.Cms.Lib.Models.Cms.MixTemplate, Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixSystem
+  commentId: N:Mix.Cms.Lib.ViewModels.MixSystem
+  id: Mix.Cms.Lib.ViewModels.MixSystem
+  children:
+  - Mix.Cms.Lib.ViewModels.MixSystem.SystemConfigurationViewModel
+  - Mix.Cms.Lib.ViewModels.MixSystem.SystemCultureViewModel
+  - Mix.Cms.Lib.ViewModels.MixSystem.SystemLanguageViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixSystem
+  nameWithType: Mix.Cms.Lib.ViewModels.MixSystem
+  fullName: Mix.Cms.Lib.ViewModels.MixSystem
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixSystem.SystemConfigurationViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixSystem.SystemConfigurationViewModel
+  isExternal: true
+  name: SystemConfigurationViewModel
+  nameWithType: SystemConfigurationViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixSystem.SystemConfigurationViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixSystem.SystemCultureViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixSystem.SystemCultureViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixSystem
+  isExternal: true
+  name: SystemCultureViewModel
+  nameWithType: SystemCultureViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixSystem.SystemCultureViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixSystem.SystemLanguageViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixSystem.SystemLanguageViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixSystem
+  isExternal: true
+  name: SystemLanguageViewModel
+  nameWithType: SystemLanguageViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixSystem.SystemLanguageViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixSystem
+  commentId: N:Mix.Cms.Lib.ViewModels.MixSystem
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixSystem
+  nameWithType: Mix.Cms.Lib.ViewModels.MixSystem
+  fullName: Mix.Cms.Lib.ViewModels.MixSystem

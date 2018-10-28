@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixProductMedias
+  commentId: N:Mix.Cms.Lib.ViewModels.MixProductMedias
+  id: Mix.Cms.Lib.ViewModels.MixProductMedias
+  children:
+  - Mix.Cms.Lib.ViewModels.MixProductMedias.ReadViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixProductMedias
+  nameWithType: Mix.Cms.Lib.ViewModels.MixProductMedias
+  fullName: Mix.Cms.Lib.ViewModels.MixProductMedias
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixProductMedias.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixProductMedias.ReadViewModel
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixProductMedias.ReadViewModel

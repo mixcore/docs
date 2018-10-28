@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  commentId: T:Mix.Cms.Lib.MixEnums.MixOrderStatus
+  id: MixEnums.MixOrderStatus
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.Deleted
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.Draft
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.Preview
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.Published
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.Schedule
+  - Mix.Cms.Lib.MixEnums.MixOrderStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.MixOrderStatus
+  nameWithType: MixEnums.MixOrderStatus
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class MixOrderStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class MixOrderStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.MixOrderStatus.value__
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.Deleted
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.Deleted
+  id: Deleted
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: MixEnums.MixOrderStatus.Deleted
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.Deleted
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixOrderStatus Deleted
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixOrderStatus
+    content.vb: Public Const Deleted As MixEnums.MixOrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.Preview
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.Preview
+  id: Preview
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Preview
+  nameWithType: MixEnums.MixOrderStatus.Preview
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.Preview
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixOrderStatus Preview
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixOrderStatus
+    content.vb: Public Const Preview As MixEnums.MixOrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.Published
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.Published
+  id: Published
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Published
+  nameWithType: MixEnums.MixOrderStatus.Published
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.Published
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixOrderStatus Published
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixOrderStatus
+    content.vb: Public Const Published As MixEnums.MixOrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.Draft
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.Draft
+  id: Draft
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: MixEnums.MixOrderStatus.Draft
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.Draft
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixOrderStatus Draft
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixOrderStatus
+    content.vb: Public Const Draft As MixEnums.MixOrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus.Schedule
+  commentId: F:Mix.Cms.Lib.MixEnums.MixOrderStatus.Schedule
+  id: Schedule
+  parent: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  langs:
+  - csharp
+  - vb
+  name: Schedule
+  nameWithType: MixEnums.MixOrderStatus.Schedule
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus.Schedule
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixOrderStatus Schedule
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixOrderStatus
+    content.vb: Public Const Schedule As MixEnums.MixOrderStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.MixOrderStatus
+  commentId: T:Mix.Cms.Lib.MixEnums.MixOrderStatus
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.MixOrderStatus
+  nameWithType: MixEnums.MixOrderStatus
+  fullName: Mix.Cms.Lib.MixEnums.MixOrderStatus

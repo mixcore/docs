@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Account.Clients
+  commentId: T:Mix.Cms.Lib.Models.Account.Clients
+  id: Clients
+  parent: Mix.Cms.Lib.Models.Account
+  children:
+  - Mix.Cms.Lib.Models.Account.Clients.#ctor
+  - Mix.Cms.Lib.Models.Account.Clients.Active
+  - Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+  - Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+  - Mix.Cms.Lib.Models.Account.Clients.Id
+  - Mix.Cms.Lib.Models.Account.Clients.Name
+  - Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+  - Mix.Cms.Lib.Models.Account.Clients.Secret
+  langs:
+  - csharp
+  - vb
+  name: Clients
+  nameWithType: Clients
+  fullName: Mix.Cms.Lib.Models.Account.Clients
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class Clients : Object'
+    content.vb: >-
+      Public Class Clients
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Account.Clients.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Account.Clients.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: Clients()
+  nameWithType: Clients.Clients()
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Clients()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public Clients()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Account.Clients.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.Id
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Clients.Id
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Mix.Cms.Lib.Models.Account.Clients.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.Active
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.Active
+  id: Active
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: Clients.Active
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Active
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Mix.Cms.Lib.Models.Account.Clients.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+  id: AllowedOrigin
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: AllowedOrigin
+  nameWithType: Clients.AllowedOrigin
+  fullName: Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string AllowedOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AllowedOrigin As String
+  overload: Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+  id: ApplicationType
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: ApplicationType
+  nameWithType: Clients.ApplicationType
+  fullName: Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public int ApplicationType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ApplicationType As Integer
+  overload: Mix.Cms.Lib.Models.Account.Clients.ApplicationType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.Name
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.Name
+  id: Name
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Clients.Name
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Name
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Mix.Cms.Lib.Models.Account.Clients.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+  id: RefreshTokenLifeTime
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokenLifeTime
+  nameWithType: Clients.RefreshTokenLifeTime
+  fullName: Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public int RefreshTokenLifeTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RefreshTokenLifeTime As Integer
+  overload: Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.Clients.Secret
+  commentId: P:Mix.Cms.Lib.Models.Account.Clients.Secret
+  id: Secret
+  parent: Mix.Cms.Lib.Models.Account.Clients
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: Clients.Secret
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Secret
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: Mix.Cms.Lib.Models.Account.Clients.Secret*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Account
+  commentId: N:Mix.Cms.Lib.Models.Account
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Account
+  nameWithType: Mix.Cms.Lib.Models.Account
+  fullName: Mix.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Account.Clients.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.#ctor
+  isExternal: true
+  name: Clients
+  nameWithType: Clients.Clients
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Clients
+- uid: Mix.Cms.Lib.Models.Account.Clients.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.Id
+  isExternal: true
+  name: Id
+  nameWithType: Clients.Id
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Account.Clients.Active*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.Active
+  isExternal: true
+  name: Active
+  nameWithType: Clients.Active
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+  isExternal: true
+  name: AllowedOrigin
+  nameWithType: Clients.AllowedOrigin
+  fullName: Mix.Cms.Lib.Models.Account.Clients.AllowedOrigin
+- uid: Mix.Cms.Lib.Models.Account.Clients.ApplicationType*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+  isExternal: true
+  name: ApplicationType
+  nameWithType: Clients.ApplicationType
+  fullName: Mix.Cms.Lib.Models.Account.Clients.ApplicationType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Account.Clients.Name*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.Name
+  isExternal: true
+  name: Name
+  nameWithType: Clients.Name
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Name
+- uid: Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+  isExternal: true
+  name: RefreshTokenLifeTime
+  nameWithType: Clients.RefreshTokenLifeTime
+  fullName: Mix.Cms.Lib.Models.Account.Clients.RefreshTokenLifeTime
+- uid: Mix.Cms.Lib.Models.Account.Clients.Secret*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.Clients.Secret
+  isExternal: true
+  name: Secret
+  nameWithType: Clients.Secret
+  fullName: Mix.Cms.Lib.Models.Account.Clients.Secret

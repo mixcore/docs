@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates
+  commentId: N:Mix.Cms.Lib.ViewModels.MixTemplates
+  id: Mix.Cms.Lib.ViewModels.MixTemplates
+  children:
+  - Mix.Cms.Lib.ViewModels.MixTemplates.InitViewModel
+  - Mix.Cms.Lib.ViewModels.MixTemplates.ReadListItemViewModel
+  - Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel
+  - Mix.Cms.Lib.ViewModels.MixTemplates.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixTemplates
+  nameWithType: Mix.Cms.Lib.ViewModels.MixTemplates
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates.InitViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixTemplates.InitViewModel
+  isExternal: true
+  name: InitViewModel
+  nameWithType: InitViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates.InitViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates.ReadListItemViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixTemplates.ReadListItemViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixTemplates
+  isExternal: true
+  name: ReadListItemViewModel
+  nameWithType: ReadListItemViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates.ReadListItemViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixTemplates
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates.ReadViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixTemplates.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixTemplates
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixTemplates
+  commentId: N:Mix.Cms.Lib.ViewModels.MixTemplates
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixTemplates
+  nameWithType: Mix.Cms.Lib.ViewModels.MixTemplates
+  fullName: Mix.Cms.Lib.ViewModels.MixTemplates

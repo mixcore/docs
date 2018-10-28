@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.UI.Core.Controllers
+  commentId: N:Swastika.UI.Core.Controllers
+  id: Swastika.UI.Core.Controllers
+  children:
+  - Swastika.UI.Core.Controllers.ApiHubController`3
+  - Swastika.UI.Core.Controllers.ApiHubController`4
+  langs:
+  - csharp
+  - vb
+  name: Swastika.UI.Core.Controllers
+  nameWithType: Swastika.UI.Core.Controllers
+  fullName: Swastika.UI.Core.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.UI.Core.Controllers.ApiHubController`3
+  commentId: T:Swastika.UI.Core.Controllers.ApiHubController`3
+  isExternal: true
+  name: ApiHubController<THub, TDbContext, TModel>
+  nameWithType: ApiHubController<THub, TDbContext, TModel>
+  fullName: Swastika.UI.Core.Controllers.ApiHubController<THub, TDbContext, TModel>
+  nameWithType.vb: ApiHubController(Of THub, TDbContext, TModel)
+  fullName.vb: Swastika.UI.Core.Controllers.ApiHubController(Of THub, TDbContext, TModel)
+  name.vb: ApiHubController(Of THub, TDbContext, TModel)
+  spec.csharp:
+  - uid: Swastika.UI.Core.Controllers.ApiHubController`3
+    name: ApiHubController
+    nameWithType: ApiHubController
+    fullName: Swastika.UI.Core.Controllers.ApiHubController
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: THub
+    nameWithType: THub
+    fullName: THub
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.UI.Core.Controllers.ApiHubController`3
+    name: ApiHubController
+    nameWithType: ApiHubController
+    fullName: Swastika.UI.Core.Controllers.ApiHubController
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: THub
+    nameWithType: THub
+    fullName: THub
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.UI.Core.Controllers.ApiHubController`4
+  commentId: T:Swastika.UI.Core.Controllers.ApiHubController`4
+  isExternal: true
+  name: ApiHubController<THub, TDbContext, TModel, TView>
+  nameWithType: ApiHubController<THub, TDbContext, TModel, TView>
+  fullName: Swastika.UI.Core.Controllers.ApiHubController<THub, TDbContext, TModel, TView>
+  nameWithType.vb: ApiHubController(Of THub, TDbContext, TModel, TView)
+  fullName.vb: Swastika.UI.Core.Controllers.ApiHubController(Of THub, TDbContext, TModel, TView)
+  name.vb: ApiHubController(Of THub, TDbContext, TModel, TView)
+  spec.csharp:
+  - uid: Swastika.UI.Core.Controllers.ApiHubController`4
+    name: ApiHubController
+    nameWithType: ApiHubController
+    fullName: Swastika.UI.Core.Controllers.ApiHubController
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: THub
+    nameWithType: THub
+    fullName: THub
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.UI.Core.Controllers.ApiHubController`4
+    name: ApiHubController
+    nameWithType: ApiHubController
+    fullName: Swastika.UI.Core.Controllers.ApiHubController
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: THub
+    nameWithType: THub
+    fullName: THub
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: )
+    nameWithType: )
+    fullName: )

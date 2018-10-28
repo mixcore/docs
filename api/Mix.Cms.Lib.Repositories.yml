@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Repositories
+  commentId: N:Mix.Cms.Lib.Repositories
+  id: Mix.Cms.Lib.Repositories
+  children:
+  - Mix.Cms.Lib.Repositories.CommonRepository
+  - Mix.Cms.Lib.Repositories.FileRepository
+  - Mix.Cms.Lib.Repositories.TemplateRepository
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.Repositories
+  nameWithType: Mix.Cms.Lib.Repositories
+  fullName: Mix.Cms.Lib.Repositories
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.Repositories.CommonRepository
+  commentId: T:Mix.Cms.Lib.Repositories.CommonRepository
+  parent: Mix.Cms.Lib.Repositories
+  isExternal: true
+  name: CommonRepository
+  nameWithType: CommonRepository
+  fullName: Mix.Cms.Lib.Repositories.CommonRepository
+- uid: Mix.Cms.Lib.Repositories.FileRepository
+  commentId: T:Mix.Cms.Lib.Repositories.FileRepository
+  parent: Mix.Cms.Lib.Repositories
+  isExternal: true
+  name: FileRepository
+  nameWithType: FileRepository
+  fullName: Mix.Cms.Lib.Repositories.FileRepository
+- uid: Mix.Cms.Lib.Repositories.TemplateRepository
+  commentId: T:Mix.Cms.Lib.Repositories.TemplateRepository
+  parent: Mix.Cms.Lib.Repositories
+  isExternal: true
+  name: TemplateRepository
+  nameWithType: TemplateRepository
+  fullName: Mix.Cms.Lib.Repositories.TemplateRepository
+- uid: Mix.Cms.Lib.Repositories
+  commentId: N:Mix.Cms.Lib.Repositories
+  isExternal: true
+  name: Mix.Cms.Lib.Repositories
+  nameWithType: Mix.Cms.Lib.Repositories
+  fullName: Mix.Cms.Lib.Repositories

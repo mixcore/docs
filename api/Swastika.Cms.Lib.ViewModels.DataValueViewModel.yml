@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  id: DataValueViewModel
+  parent: Swastika.Cms.Lib.ViewModels
+  children:
+  - Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor
+  - Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+  - Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+  langs:
+  - csharp
+  - vb
+  name: DataValueViewModel
+  nameWithType: DataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: 'public class DataValueViewModel : Object'
+    content.vb: >-
+      Public Class DataValueViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor
+  commentId: M:Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataValueViewModel()
+  nameWithType: DataValueViewModel.DataValueViewModel()
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataValueViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public DataValueViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+  commentId: P:Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+  id: DataType
+  parent: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: DataValueViewModel.DataType
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public SWCmsConstants.DataType DataType { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.DataType
+    content.vb: Public Property DataType As SWCmsConstants.DataType
+  overload: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+  commentId: P:Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+  id: Value
+  parent: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DataValueViewModel.Value
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name
+  commentId: P:Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name
+  id: Name
+  parent: Swastika.Cms.Lib.ViewModels.DataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DataValueViewModel.Name
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.ViewModels
+  commentId: N:Swastika.Cms.Lib.ViewModels
+  isExternal: true
+  name: Swastika.Cms.Lib.ViewModels
+  nameWithType: Swastika.Cms.Lib.ViewModels
+  fullName: Swastika.Cms.Lib.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.DataValueViewModel.#ctor
+  isExternal: true
+  name: DataValueViewModel
+  nameWithType: DataValueViewModel.DataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataValueViewModel
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+  isExternal: true
+  name: DataType
+  nameWithType: DataValueViewModel.DataType
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.DataType
+- uid: Swastika.Cms.Lib.SWCmsConstants.DataType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.DataType
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.DataType
+  nameWithType: SWCmsConstants.DataType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.DataType
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+  isExternal: true
+  name: Value
+  nameWithType: DataValueViewModel.Value
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name
+  isExternal: true
+  name: Name
+  nameWithType: DataValueViewModel.Name
+  fullName: Swastika.Cms.Lib.ViewModels.DataValueViewModel.Name

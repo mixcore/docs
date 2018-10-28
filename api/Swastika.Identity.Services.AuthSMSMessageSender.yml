@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Services.AuthSMSMessageSender
+  commentId: T:Swastika.Identity.Services.AuthSMSMessageSender
+  id: AuthSMSMessageSender
+  parent: Swastika.Identity.Services
+  children:
+  - Swastika.Identity.Services.AuthSMSMessageSender.#ctor
+  - Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AuthSMSMessageSender
+  nameWithType: AuthSMSMessageSender
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: 'public class AuthSMSMessageSender : Object, ISmsSender'
+    content.vb: >-
+      Public Class AuthSMSMessageSender
+          Inherits Object
+          Implements ISmsSender
+  inheritance:
+  - System.Object
+  implements:
+  - Swastika.Identity.Services.ISmsSender
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync(System.String,System.String)
+  commentId: M:Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync(System.String,System.String)
+  id: SendSmsAsync(System.String,System.String)
+  parent: Swastika.Identity.Services.AuthSMSMessageSender
+  langs:
+  - csharp
+  - vb
+  name: SendSmsAsync(String, String)
+  nameWithType: AuthSMSMessageSender.SendSmsAsync(String, String)
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync(System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: public Task SendSmsAsync(string number, string message)
+    parameters:
+    - id: number
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendSmsAsync(number As String, message As String) As Task
+  overload: Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync*
+  implements:
+  - Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Services.AuthSMSMessageSender.#ctor
+  commentId: M:Swastika.Identity.Services.AuthSMSMessageSender.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Services.AuthSMSMessageSender
+  langs:
+  - csharp
+  - vb
+  name: AuthSMSMessageSender()
+  nameWithType: AuthSMSMessageSender.AuthSMSMessageSender()
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender.AuthSMSMessageSender()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: public AuthSMSMessageSender()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Services.AuthSMSMessageSender.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Services
+  commentId: N:Swastika.Identity.Services
+  isExternal: true
+  name: Swastika.Identity.Services
+  nameWithType: Swastika.Identity.Services
+  fullName: Swastika.Identity.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Swastika.Identity.Services.ISmsSender
+  commentId: T:Swastika.Identity.Services.ISmsSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: Swastika.Identity.Services.ISmsSender
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync*
+  commentId: Overload:Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync
+  isExternal: true
+  name: SendSmsAsync
+  nameWithType: AuthSMSMessageSender.SendSmsAsync
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender.SendSmsAsync
+- uid: Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  commentId: M:Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  parent: Swastika.Identity.Services.ISmsSender
+  isExternal: true
+  name: SendSmsAsync(String, String)
+  nameWithType: ISmsSender.SendSmsAsync(String, String)
+  fullName: Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String, System.String)
+  spec.csharp:
+  - uid: Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+    name: SendSmsAsync
+    nameWithType: ISmsSender.SendSmsAsync
+    fullName: Swastika.Identity.Services.ISmsSender.SendSmsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastika.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+    name: SendSmsAsync
+    nameWithType: ISmsSender.SendSmsAsync
+    fullName: Swastika.Identity.Services.ISmsSender.SendSmsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Swastika.Identity.Services.AuthSMSMessageSender.#ctor*
+  commentId: Overload:Swastika.Identity.Services.AuthSMSMessageSender.#ctor
+  isExternal: true
+  name: AuthSMSMessageSender
+  nameWithType: AuthSMSMessageSender.AuthSMSMessageSender
+  fullName: Swastika.Identity.Services.AuthSMSMessageSender.AuthSMSMessageSender

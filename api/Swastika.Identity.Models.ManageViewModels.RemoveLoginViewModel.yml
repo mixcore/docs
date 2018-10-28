@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  id: RemoveLoginViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  children:
+  - Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor
+  - Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+  - Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey
+  langs:
+  - csharp
+  - vb
+  name: RemoveLoginViewModel
+  nameWithType: RemoveLoginViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: 'public class RemoveLoginViewModel : Object'
+    content.vb: >-
+      Public Class RemoveLoginViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: RemoveLoginViewModel()
+  nameWithType: RemoveLoginViewModel.RemoveLoginViewModel()
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.RemoveLoginViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public RemoveLoginViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+  commentId: P:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+  id: LoginProvider
+  parent: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoginProvider
+  nameWithType: RemoveLoginViewModel.LoginProvider
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public string LoginProvider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LoginProvider As String
+  overload: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey
+  commentId: P:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey
+  id: ProviderKey
+  parent: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: ProviderKey
+  nameWithType: RemoveLoginViewModel.ProviderKey
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public string ProviderKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderKey As String
+  overload: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.ManageViewModels
+  commentId: N:Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.ManageViewModels
+  nameWithType: Swastika.Identity.Models.ManageViewModels
+  fullName: Swastika.Identity.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.#ctor
+  isExternal: true
+  name: RemoveLoginViewModel
+  nameWithType: RemoveLoginViewModel.RemoveLoginViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.RemoveLoginViewModel
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+  isExternal: true
+  name: LoginProvider
+  nameWithType: RemoveLoginViewModel.LoginProvider
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey
+  isExternal: true
+  name: ProviderKey
+  nameWithType: RemoveLoginViewModel.ProviderKey
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey

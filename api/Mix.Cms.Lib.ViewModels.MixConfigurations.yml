@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixConfigurations
+  commentId: N:Mix.Cms.Lib.ViewModels.MixConfigurations
+  id: Mix.Cms.Lib.ViewModels.MixConfigurations
+  children:
+  - Mix.Cms.Lib.ViewModels.MixConfigurations.ReadMvcViewModel
+  - Mix.Cms.Lib.ViewModels.MixConfigurations.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixConfigurations
+  nameWithType: Mix.Cms.Lib.ViewModels.MixConfigurations
+  fullName: Mix.Cms.Lib.ViewModels.MixConfigurations
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixConfigurations.ReadMvcViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixConfigurations.ReadMvcViewModel
+  isExternal: true
+  name: ReadMvcViewModel
+  nameWithType: ReadMvcViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixConfigurations.ReadMvcViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixConfigurations.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixConfigurations.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixConfigurations
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixConfigurations.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixConfigurations
+  commentId: N:Mix.Cms.Lib.ViewModels.MixConfigurations
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixConfigurations
+  nameWithType: Mix.Cms.Lib.ViewModels.MixConfigurations
+  fullName: Mix.Cms.Lib.ViewModels.MixConfigurations

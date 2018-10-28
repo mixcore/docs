@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Entities.RefreshToken
+  commentId: T:Mix.Identity.Entities.RefreshToken
+  id: RefreshToken
+  parent: Mix.Identity.Entities
+  children:
+  - Mix.Identity.Entities.RefreshToken.#ctor
+  - Mix.Identity.Entities.RefreshToken.ClientId
+  - Mix.Identity.Entities.RefreshToken.Email
+  - Mix.Identity.Entities.RefreshToken.ExpiresUtc
+  - Mix.Identity.Entities.RefreshToken.Id
+  - Mix.Identity.Entities.RefreshToken.IssuedUtc
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken
+  nameWithType: RefreshToken
+  fullName: Mix.Identity.Entities.RefreshToken
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: 'public class RefreshToken : Object'
+    content.vb: >-
+      Public Class RefreshToken
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Entities.RefreshToken.#ctor
+  commentId: M:Mix.Identity.Entities.RefreshToken.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken()
+  nameWithType: RefreshToken.RefreshToken()
+  fullName: Mix.Identity.Entities.RefreshToken.RefreshToken()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public RefreshToken()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Entities.RefreshToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Entities.RefreshToken.Id
+  commentId: P:Mix.Identity.Entities.RefreshToken.Id
+  id: Id
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RefreshToken.Id
+  fullName: Mix.Identity.Entities.RefreshToken.Id
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Mix.Identity.Entities.RefreshToken.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Entities.RefreshToken.ClientId
+  commentId: P:Mix.Identity.Entities.RefreshToken.ClientId
+  id: ClientId
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: RefreshToken.ClientId
+  fullName: Mix.Identity.Entities.RefreshToken.ClientId
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientId As String
+  overload: Mix.Identity.Entities.RefreshToken.ClientId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Entities.RefreshToken.IssuedUtc
+  commentId: P:Mix.Identity.Entities.RefreshToken.IssuedUtc
+  id: IssuedUtc
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: IssuedUtc
+  nameWithType: RefreshToken.IssuedUtc
+  fullName: Mix.Identity.Entities.RefreshToken.IssuedUtc
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public DateTime IssuedUtc { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property IssuedUtc As DateTime
+  overload: Mix.Identity.Entities.RefreshToken.IssuedUtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Entities.RefreshToken.ExpiresUtc
+  commentId: P:Mix.Identity.Entities.RefreshToken.ExpiresUtc
+  id: ExpiresUtc
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: ExpiresUtc
+  nameWithType: RefreshToken.ExpiresUtc
+  fullName: Mix.Identity.Entities.RefreshToken.ExpiresUtc
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public DateTime ExpiresUtc { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ExpiresUtc As DateTime
+  overload: Mix.Identity.Entities.RefreshToken.ExpiresUtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Entities.RefreshToken.Email
+  commentId: P:Mix.Identity.Entities.RefreshToken.Email
+  id: Email
+  parent: Mix.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: RefreshToken.Email
+  fullName: Mix.Identity.Entities.RefreshToken.Email
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Entities
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Mix.Identity.Entities.RefreshToken.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Entities
+  commentId: N:Mix.Identity.Entities
+  isExternal: true
+  name: Mix.Identity.Entities
+  nameWithType: Mix.Identity.Entities
+  fullName: Mix.Identity.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Entities.RefreshToken.#ctor*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.#ctor
+  isExternal: true
+  name: RefreshToken
+  nameWithType: RefreshToken.RefreshToken
+  fullName: Mix.Identity.Entities.RefreshToken.RefreshToken
+- uid: Mix.Identity.Entities.RefreshToken.Id*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.Id
+  isExternal: true
+  name: Id
+  nameWithType: RefreshToken.Id
+  fullName: Mix.Identity.Entities.RefreshToken.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Identity.Entities.RefreshToken.ClientId*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: RefreshToken.ClientId
+  fullName: Mix.Identity.Entities.RefreshToken.ClientId
+- uid: Mix.Identity.Entities.RefreshToken.IssuedUtc*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.IssuedUtc
+  isExternal: true
+  name: IssuedUtc
+  nameWithType: RefreshToken.IssuedUtc
+  fullName: Mix.Identity.Entities.RefreshToken.IssuedUtc
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Identity.Entities.RefreshToken.ExpiresUtc*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.ExpiresUtc
+  isExternal: true
+  name: ExpiresUtc
+  nameWithType: RefreshToken.ExpiresUtc
+  fullName: Mix.Identity.Entities.RefreshToken.ExpiresUtc
+- uid: Mix.Identity.Entities.RefreshToken.Email*
+  commentId: Overload:Mix.Identity.Entities.RefreshToken.Email
+  isExternal: true
+  name: Email
+  nameWithType: RefreshToken.Email
+  fullName: Mix.Identity.Entities.RefreshToken.Email

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixArticles
+  commentId: N:Mix.Cms.Lib.ViewModels.MixArticles
+  id: Mix.Cms.Lib.ViewModels.MixArticles
+  children:
+  - Mix.Cms.Lib.ViewModels.MixArticles.ReadListItemViewModel
+  - Mix.Cms.Lib.ViewModels.MixArticles.ReadMvcViewModel
+  - Mix.Cms.Lib.ViewModels.MixArticles.ReadViewModel
+  - Mix.Cms.Lib.ViewModels.MixArticles.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixArticles
+  nameWithType: Mix.Cms.Lib.ViewModels.MixArticles
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixArticles.ReadListItemViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixArticles.ReadListItemViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixArticles
+  isExternal: true
+  name: ReadListItemViewModel
+  nameWithType: ReadListItemViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles.ReadListItemViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixArticles.ReadMvcViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixArticles.ReadMvcViewModel
+  isExternal: true
+  name: ReadMvcViewModel
+  nameWithType: ReadMvcViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles.ReadMvcViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixArticles.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixArticles.ReadViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixArticles
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles.ReadViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixArticles.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixArticles.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixArticles
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixArticles
+  commentId: N:Mix.Cms.Lib.ViewModels.MixArticles
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixArticles
+  nameWithType: Mix.Cms.Lib.ViewModels.MixArticles
+  fullName: Mix.Cms.Lib.ViewModels.MixArticles

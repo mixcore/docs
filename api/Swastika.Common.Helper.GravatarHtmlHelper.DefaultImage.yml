@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  id: GravatarHtmlHelper.DefaultImage
+  parent: Swastika.Common.Helper
+  children:
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Default
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Http404
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Identicon
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MonsterId
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MysteryMan
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Retro
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.value__
+  - Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Wavatar
+  langs:
+  - csharp
+  - vb
+  name: GravatarHtmlHelper.DefaultImage
+  nameWithType: GravatarHtmlHelper.DefaultImage
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: 'public sealed class DefaultImage : Enum'
+    content.vb: >-
+      Public NotInheritable Class DefaultImage
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.value__
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.value__
+  id: value__
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GravatarHtmlHelper.DefaultImage.value__
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Default
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Default
+  id: Default
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: GravatarHtmlHelper.DefaultImage.Default
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Default
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage Default
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const Default As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Http404
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Http404
+  id: Http404
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: Http404
+  nameWithType: GravatarHtmlHelper.DefaultImage.Http404
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Http404
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage Http404
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const Http404 As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MysteryMan
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MysteryMan
+  id: MysteryMan
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: MysteryMan
+  nameWithType: GravatarHtmlHelper.DefaultImage.MysteryMan
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MysteryMan
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage MysteryMan
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const MysteryMan As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Identicon
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Identicon
+  id: Identicon
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: Identicon
+  nameWithType: GravatarHtmlHelper.DefaultImage.Identicon
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Identicon
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage Identicon
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const Identicon As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MonsterId
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MonsterId
+  id: MonsterId
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: MonsterId
+  nameWithType: GravatarHtmlHelper.DefaultImage.MonsterId
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.MonsterId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage MonsterId
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const MonsterId As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Wavatar
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Wavatar
+  id: Wavatar
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: Wavatar
+  nameWithType: GravatarHtmlHelper.DefaultImage.Wavatar
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Wavatar
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage Wavatar
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const Wavatar As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Retro
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Retro
+  id: Retro
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  langs:
+  - csharp
+  - vb
+  name: Retro
+  nameWithType: GravatarHtmlHelper.DefaultImage.Retro
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage.Retro
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.DefaultImage Retro
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+    content.vb: Public Const Retro As GravatarHtmlHelper.DefaultImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Common.Helper
+  commentId: N:Swastika.Common.Helper
+  isExternal: true
+  name: Swastika.Common.Helper
+  nameWithType: Swastika.Common.Helper
+  fullName: Swastika.Common.Helper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage
+  parent: Swastika.Common.Helper
+  isExternal: true
+  name: GravatarHtmlHelper.DefaultImage
+  nameWithType: GravatarHtmlHelper.DefaultImage
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.DefaultImage

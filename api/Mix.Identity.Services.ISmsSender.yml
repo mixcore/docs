@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Services.ISmsSender
+  commentId: T:Mix.Identity.Services.ISmsSender
+  id: ISmsSender
+  parent: Mix.Identity.Services
+  children:
+  - Mix.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: Mix.Identity.Services.ISmsSender
+  type: Interface
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Services
+  syntax:
+    content: public interface ISmsSender
+    content.vb: Public Interface ISmsSender
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Mix.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  commentId: M:Mix.Identity.Services.ISmsSender.SendSmsAsync(System.String,System.String)
+  id: SendSmsAsync(System.String,System.String)
+  parent: Mix.Identity.Services.ISmsSender
+  langs:
+  - csharp
+  - vb
+  name: SendSmsAsync(String, String)
+  nameWithType: ISmsSender.SendSmsAsync(String, String)
+  fullName: Mix.Identity.Services.ISmsSender.SendSmsAsync(System.String, System.String)
+  type: Method
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Services
+  syntax:
+    content: Task SendSmsAsync(string number, string message)
+    parameters:
+    - id: number
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SendSmsAsync(number As String, message As String) As Task
+  overload: Mix.Identity.Services.ISmsSender.SendSmsAsync*
+references:
+- uid: Mix.Identity.Services
+  commentId: N:Mix.Identity.Services
+  isExternal: true
+  name: Mix.Identity.Services
+  nameWithType: Mix.Identity.Services
+  fullName: Mix.Identity.Services
+- uid: Mix.Identity.Services.ISmsSender.SendSmsAsync*
+  commentId: Overload:Mix.Identity.Services.ISmsSender.SendSmsAsync
+  isExternal: true
+  name: SendSmsAsync
+  nameWithType: ISmsSender.SendSmsAsync
+  fullName: Mix.Identity.Services.ISmsSender.SendSmsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  commentId: T:Swastika.Cms.Lib.Models.Account.RefreshTokens
+  id: RefreshTokens
+  parent: Swastika.Cms.Lib.Models.Account
+  children:
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  - Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokens
+  nameWithType: RefreshTokens
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class RefreshTokens : Object'
+    content.vb: >-
+      Public Class RefreshTokens
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokens()
+  nameWithType: RefreshTokens.RefreshTokens()
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.RefreshTokens()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public RefreshTokens()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RefreshTokens.Id
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+  id: ClientId
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: RefreshTokens.ClientId
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClientId As String
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+  id: Email
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: RefreshTokens.Email
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  id: Username
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: RefreshTokens.Username
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+  id: ExpiresUtc
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: ExpiresUtc
+  nameWithType: RefreshTokens.ExpiresUtc
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime ExpiresUtc { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ExpiresUtc As DateTime
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  commentId: P:Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  id: IssuedUtc
+  parent: Swastika.Cms.Lib.Models.Account.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: IssuedUtc
+  nameWithType: RefreshTokens.IssuedUtc
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime IssuedUtc { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property IssuedUtc As DateTime
+  overload: Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Account
+  commentId: N:Swastika.Cms.Lib.Models.Account
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Account
+  nameWithType: Swastika.Cms.Lib.Models.Account
+  fullName: Swastika.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.#ctor
+  isExternal: true
+  name: RefreshTokens
+  nameWithType: RefreshTokens.RefreshTokens
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.RefreshTokens
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+  isExternal: true
+  name: Id
+  nameWithType: RefreshTokens.Id
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+  isExternal: true
+  name: ClientId
+  nameWithType: RefreshTokens.ClientId
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.ClientId
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+  isExternal: true
+  name: Email
+  nameWithType: RefreshTokens.Email
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Email
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+  isExternal: true
+  name: Username
+  nameWithType: RefreshTokens.Username
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.Username
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+  isExternal: true
+  name: ExpiresUtc
+  nameWithType: RefreshTokens.ExpiresUtc
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.ExpiresUtc
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc
+  isExternal: true
+  name: IssuedUtc
+  nameWithType: RefreshTokens.IssuedUtc
+  fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens.IssuedUtc

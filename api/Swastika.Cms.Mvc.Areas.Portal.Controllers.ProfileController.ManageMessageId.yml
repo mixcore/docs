@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  id: ProfileController.ManageMessageId
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  children:
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddLoginSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddPhoneSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.ChangePasswordSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.Error
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemoveLoginSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemovePhoneSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetPasswordSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetTwoFactorSuccess
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.value__
+  langs:
+  - csharp
+  - vb
+  name: ProfileController.ManageMessageId
+  nameWithType: ProfileController.ManageMessageId
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: 'public sealed class ManageMessageId : Enum'
+    content.vb: >-
+      Public NotInheritable Class ManageMessageId
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.value__
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.value__
+  id: value__
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProfileController.ManageMessageId.value__
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddPhoneSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddPhoneSuccess
+  id: AddPhoneSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneSuccess
+  nameWithType: ProfileController.ManageMessageId.AddPhoneSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddPhoneSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId AddPhoneSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const AddPhoneSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddLoginSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddLoginSuccess
+  id: AddLoginSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: AddLoginSuccess
+  nameWithType: ProfileController.ManageMessageId.AddLoginSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.AddLoginSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId AddLoginSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const AddLoginSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.ChangePasswordSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.ChangePasswordSuccess
+  id: ChangePasswordSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: ChangePasswordSuccess
+  nameWithType: ProfileController.ManageMessageId.ChangePasswordSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.ChangePasswordSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId ChangePasswordSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const ChangePasswordSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetTwoFactorSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetTwoFactorSuccess
+  id: SetTwoFactorSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetTwoFactorSuccess
+  nameWithType: ProfileController.ManageMessageId.SetTwoFactorSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetTwoFactorSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId SetTwoFactorSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const SetTwoFactorSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetPasswordSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetPasswordSuccess
+  id: SetPasswordSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetPasswordSuccess
+  nameWithType: ProfileController.ManageMessageId.SetPasswordSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.SetPasswordSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId SetPasswordSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const SetPasswordSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemoveLoginSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemoveLoginSuccess
+  id: RemoveLoginSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemoveLoginSuccess
+  nameWithType: ProfileController.ManageMessageId.RemoveLoginSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemoveLoginSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId RemoveLoginSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const RemoveLoginSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemovePhoneSuccess
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemovePhoneSuccess
+  id: RemovePhoneSuccess
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemovePhoneSuccess
+  nameWithType: ProfileController.ManageMessageId.RemovePhoneSuccess
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.RemovePhoneSuccess
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId RemovePhoneSuccess
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const RemovePhoneSuccess As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.Error
+  commentId: F:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.Error
+  id: Error
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ProfileController.ManageMessageId.Error
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId.Error
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public const ProfileController.ManageMessageId Error
+    return:
+      type: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+    content.vb: Public Const Error As ProfileController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  commentId: N:Swastika.Cms.Mvc.Areas.Portal.Controllers
+  isExternal: false
+  name: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  nameWithType: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId
+  parent: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  isExternal: true
+  name: ProfileController.ManageMessageId
+  nameWithType: ProfileController.ManageMessageId
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.ProfileController.ManageMessageId

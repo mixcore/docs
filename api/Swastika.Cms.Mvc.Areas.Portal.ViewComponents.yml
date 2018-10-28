@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  commentId: N:Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  id: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  children:
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  nameWithType: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs
+  isExternal: true
+  name: Breadcrumbs
+  nameWithType: Breadcrumbs
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Breadcrumbs
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  isExternal: true
+  name: ControlSidebar
+  nameWithType: ControlSidebar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+  isExternal: true
+  name: HeaderNavbar
+  nameWithType: HeaderNavbar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.HeaderNavbar
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter
+  isExternal: true
+  name: MainFooter
+  nameWithType: MainFooter
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainFooter
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar
+  isExternal: true
+  name: MainSidebar
+  nameWithType: MainSidebar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.MainSidebar
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals
+  isExternal: true
+  name: Modals
+  nameWithType: Modals
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.Modals

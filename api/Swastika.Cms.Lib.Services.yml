@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Services
+  commentId: N:Swastika.Cms.Lib.Services
+  id: Swastika.Cms.Lib.Services
+  children:
+  - Swastika.Cms.Lib.Services.CmsConfiguration
+  - Swastika.Cms.Lib.Services.CmsCultureConfiguration
+  - Swastika.Cms.Lib.Services.GlobalConfigurationService
+  - Swastika.Cms.Lib.Services.IViewRenderService
+  - Swastika.Cms.Lib.Services.Translator
+  - Swastika.Cms.Lib.Services.ViewRenderService
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Lib.Services
+  nameWithType: Swastika.Cms.Lib.Services
+  fullName: Swastika.Cms.Lib.Services
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Cms.Lib.Services.CmsConfiguration
+  commentId: T:Swastika.Cms.Lib.Services.CmsConfiguration
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: CmsConfiguration
+  nameWithType: CmsConfiguration
+  fullName: Swastika.Cms.Lib.Services.CmsConfiguration
+- uid: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+  commentId: T:Swastika.Cms.Lib.Services.CmsCultureConfiguration
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: CmsCultureConfiguration
+  nameWithType: CmsCultureConfiguration
+  fullName: Swastika.Cms.Lib.Services.CmsCultureConfiguration
+- uid: Swastika.Cms.Lib.Services.Translator
+  commentId: T:Swastika.Cms.Lib.Services.Translator
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: Translator
+  nameWithType: Translator
+  fullName: Swastika.Cms.Lib.Services.Translator
+- uid: Swastika.Cms.Lib.Services.GlobalConfigurationService
+  commentId: T:Swastika.Cms.Lib.Services.GlobalConfigurationService
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: GlobalConfigurationService
+  nameWithType: GlobalConfigurationService
+  fullName: Swastika.Cms.Lib.Services.GlobalConfigurationService
+- uid: Swastika.Cms.Lib.Services.IViewRenderService
+  commentId: T:Swastika.Cms.Lib.Services.IViewRenderService
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: IViewRenderService
+  nameWithType: IViewRenderService
+  fullName: Swastika.Cms.Lib.Services.IViewRenderService
+- uid: Swastika.Cms.Lib.Services.ViewRenderService
+  commentId: T:Swastika.Cms.Lib.Services.ViewRenderService
+  isExternal: true
+  name: ViewRenderService
+  nameWithType: ViewRenderService
+  fullName: Swastika.Cms.Lib.Services.ViewRenderService
+- uid: Swastika.Cms.Lib.Services
+  commentId: N:Swastika.Cms.Lib.Services
+  isExternal: true
+  name: Swastika.Cms.Lib.Services
+  nameWithType: Swastika.Cms.Lib.Services
+  fullName: Swastika.Cms.Lib.Services

@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api.Program
+  commentId: T:Mix.Cms.Api.Program
+  id: Program
+  parent: Mix.Cms.Api
+  children:
+  - Mix.Cms.Api.Program.#ctor
+  - Mix.Cms.Api.Program.CreateWebHostBuilder(System.String[])
+  - Mix.Cms.Api.Program.Main(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Program
+  nameWithType: Program
+  fullName: Mix.Cms.Api.Program
+  type: Class
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api
+  syntax:
+    content: 'public class Program : Object'
+    content.vb: >-
+      Public Class Program
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Api.Program.Main(System.String[])
+  commentId: M:Mix.Cms.Api.Program.Main(System.String[])
+  id: Main(System.String[])
+  parent: Mix.Cms.Api.Program
+  langs:
+  - csharp
+  - vb
+  name: Main(String[])
+  nameWithType: Program.Main(String[])
+  fullName: Mix.Cms.Api.Program.Main(System.String[])
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api
+  syntax:
+    content: public static void Main(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+    content.vb: Public Shared Sub Main(args As String())
+  overload: Mix.Cms.Api.Program.Main*
+  nameWithType.vb: Program.Main(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mix.Cms.Api.Program.Main(System.String())
+  name.vb: Main(String())
+- uid: Mix.Cms.Api.Program.CreateWebHostBuilder(System.String[])
+  commentId: M:Mix.Cms.Api.Program.CreateWebHostBuilder(System.String[])
+  id: CreateWebHostBuilder(System.String[])
+  parent: Mix.Cms.Api.Program
+  langs:
+  - csharp
+  - vb
+  name: CreateWebHostBuilder(String[])
+  nameWithType: Program.CreateWebHostBuilder(String[])
+  fullName: Mix.Cms.Api.Program.CreateWebHostBuilder(System.String[])
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api
+  syntax:
+    content: public static IWebHostBuilder CreateWebHostBuilder(string[] args)
+    parameters:
+    - id: args
+      type: System.String[]
+    return:
+      type: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    content.vb: Public Shared Function CreateWebHostBuilder(args As String()) As IWebHostBuilder
+  overload: Mix.Cms.Api.Program.CreateWebHostBuilder*
+  nameWithType.vb: Program.CreateWebHostBuilder(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Mix.Cms.Api.Program.CreateWebHostBuilder(System.String())
+  name.vb: CreateWebHostBuilder(String())
+- uid: Mix.Cms.Api.Program.#ctor
+  commentId: M:Mix.Cms.Api.Program.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Api.Program
+  langs:
+  - csharp
+  - vb
+  name: Program()
+  nameWithType: Program.Program()
+  fullName: Mix.Cms.Api.Program.Program()
+  type: Constructor
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api
+  syntax:
+    content: public Program()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Api.Program.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Api
+  commentId: N:Mix.Cms.Api
+  isExternal: true
+  name: Mix.Cms.Api
+  nameWithType: Mix.Cms.Api
+  fullName: Mix.Cms.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Api.Program.Main*
+  commentId: Overload:Mix.Cms.Api.Program.Main
+  isExternal: true
+  name: Main
+  nameWithType: Program.Main
+  fullName: Mix.Cms.Api.Program.Main
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Mix.Cms.Api.Program.CreateWebHostBuilder*
+  commentId: Overload:Mix.Cms.Api.Program.CreateWebHostBuilder
+  isExternal: true
+  name: CreateWebHostBuilder
+  nameWithType: Program.CreateWebHostBuilder
+  fullName: Mix.Cms.Api.Program.CreateWebHostBuilder
+- uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+  isExternal: true
+  name: IWebHostBuilder
+  nameWithType: IWebHostBuilder
+  fullName: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+- uid: Mix.Cms.Api.Program.#ctor*
+  commentId: Overload:Mix.Cms.Api.Program.#ctor
+  isExternal: true
+  name: Program
+  nameWithType: Program.Program
+  fullName: Mix.Cms.Api.Program.Program

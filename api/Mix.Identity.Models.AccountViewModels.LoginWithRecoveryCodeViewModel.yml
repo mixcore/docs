@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  id: LoginWithRecoveryCodeViewModel
+  parent: Mix.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  - Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  langs:
+  - csharp
+  - vb
+  name: LoginWithRecoveryCodeViewModel
+  nameWithType: LoginWithRecoveryCodeViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class LoginWithRecoveryCodeViewModel : Object'
+    content.vb: >-
+      Public Class LoginWithRecoveryCodeViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  commentId: M:Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoginWithRecoveryCodeViewModel()
+  nameWithType: LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel()
+  fullName: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public LoginWithRecoveryCodeViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  commentId: P:Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  id: RecoveryCode
+  parent: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RecoveryCode
+  nameWithType: LoginWithRecoveryCodeViewModel.RecoveryCode
+  fullName: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string RecoveryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RecoveryCode As String
+  overload: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.#ctor
+  isExternal: true
+  name: LoginWithRecoveryCodeViewModel
+  nameWithType: LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.LoginWithRecoveryCodeViewModel
+- uid: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+  isExternal: true
+  name: RecoveryCode
+  nameWithType: LoginWithRecoveryCodeViewModel.RecoveryCode
+  fullName: Mix.Identity.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

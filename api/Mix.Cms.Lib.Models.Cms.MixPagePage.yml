@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPagePage
+  id: MixPagePage
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+  langs:
+  - csharp
+  - vb
+  name: MixPagePage
+  nameWithType: MixPagePage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixPagePage : Object'
+    content.vb: >-
+      Public Class MixPagePage
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: MixPagePage()
+  nameWithType: MixPagePage.MixPagePage()
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPagePage()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPagePage()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MixPagePage.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+  id: ParentId
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: MixPagePage.ParentId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ParentId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixPagePage.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixPagePage.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+  id: Image
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: MixPagePage.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixPagePage.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixPagePage.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+  id: MixPage
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: MixPage
+  nameWithType: MixPagePage.MixPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPage MixPage { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixPage
+    content.vb: Public Property MixPage As MixPage
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation
+  id: MixPageNavigation
+  parent: Mix.Cms.Lib.Models.Cms.MixPagePage
+  langs:
+  - csharp
+  - vb
+  name: MixPageNavigation
+  nameWithType: MixPagePage.MixPageNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPage MixPageNavigation { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixPage
+    content.vb: Public Property MixPageNavigation As MixPage
+  overload: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.#ctor
+  isExternal: true
+  name: MixPagePage
+  nameWithType: MixPagePage.MixPagePage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPagePage
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+  isExternal: true
+  name: Id
+  nameWithType: MixPagePage.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+  isExternal: true
+  name: ParentId
+  nameWithType: MixPagePage.ParentId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.ParentId
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixPagePage.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixPagePage.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Image*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+  isExternal: true
+  name: Image
+  nameWithType: MixPagePage.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Image
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixPagePage.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixPagePage.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+  isExternal: true
+  name: MixPage
+  nameWithType: MixPagePage.MixPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPage
+- uid: Mix.Cms.Lib.Models.Cms.MixPage
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPage
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixPage
+  nameWithType: MixPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPage
+- uid: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation
+  isExternal: true
+  name: MixPageNavigation
+  nameWithType: MixPagePage.MixPageNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixPagePage.MixPageNavigation

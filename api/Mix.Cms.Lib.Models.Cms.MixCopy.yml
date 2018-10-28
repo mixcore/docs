@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixCopy
+  id: MixCopy
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixCopy.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Note
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Status
+  - Mix.Cms.Lib.Models.Cms.MixCopy.Value
+  langs:
+  - csharp
+  - vb
+  name: MixCopy
+  nameWithType: MixCopy
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixCopy : Object'
+    content.vb: >-
+      Public Class MixCopy
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixCopy.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: MixCopy()
+  nameWithType: MixCopy.MixCopy()
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.MixCopy()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixCopy()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+  id: Culture
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: MixCopy.Culture
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+  id: Keyword
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: MixCopy.Keyword
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Keyword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Keyword As String
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Keyword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Note
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Note
+  id: Note
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: MixCopy.Note
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Note
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Note { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Note As String
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Note*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixCopy.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixCopy.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Value
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixCopy.Value
+  id: Value
+  parent: Mix.Cms.Lib.Models.Cms.MixCopy
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MixCopy.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Value
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Mix.Cms.Lib.Models.Cms.MixCopy.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.#ctor
+  isExternal: true
+  name: MixCopy
+  nameWithType: MixCopy.MixCopy
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.MixCopy
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Culture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: MixCopy.Culture
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Culture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Keyword*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+  isExternal: true
+  name: Keyword
+  nameWithType: MixCopy.Keyword
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Keyword
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Note*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Note
+  isExternal: true
+  name: Note
+  nameWithType: MixCopy.Note
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Note
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixCopy.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixCopy.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixCopy.Value*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixCopy.Value
+  isExternal: true
+  name: Value
+  nameWithType: MixCopy.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixCopy.Value

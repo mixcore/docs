@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount
+  commentId: N:Mix.Cms.Lib.Migrations.MixCmsAccount
+  id: Mix.Cms.Lib.Migrations.MixCmsAccount
+  children:
+  - Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.Migrations.MixCmsAccount
+  nameWithType: Mix.Cms.Lib.Migrations.MixCmsAccount
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  commentId: T:Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  isExternal: true
+  name: init
+  nameWithType: init
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init

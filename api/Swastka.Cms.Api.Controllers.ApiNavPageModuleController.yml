@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Api.Controllers.ApiNavPageModuleController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiNavPageModuleController
+  id: ApiNavPageModuleController
+  parent: Swastka.Cms.Api.Controllers
+  children:
+  - Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor
+  langs:
+  - csharp
+  - vb
+  name: ApiNavPageModuleController
+  nameWithType: ApiNavPageModuleController
+  fullName: Swastka.Cms.Api.Controllers.ApiNavPageModuleController
+  type: Class
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: 'public class ApiNavPageModuleController : Controller'
+    content.vb: >-
+      Public Class ApiNavPageModuleController
+          Inherits Controller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor
+  commentId: M:Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor
+  id: '#ctor'
+  parent: Swastka.Cms.Api.Controllers.ApiNavPageModuleController
+  langs:
+  - csharp
+  - vb
+  name: ApiNavPageModuleController()
+  nameWithType: ApiNavPageModuleController.ApiNavPageModuleController()
+  fullName: Swastka.Cms.Api.Controllers.ApiNavPageModuleController.ApiNavPageModuleController()
+  type: Constructor
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public ApiNavPageModuleController()
+    content.vb: Public Sub New
+  overload: Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastka.Cms.Api.Controllers
+  commentId: N:Swastka.Cms.Api.Controllers
+  isExternal: true
+  name: Swastka.Cms.Api.Controllers
+  nameWithType: Swastka.Cms.Api.Controllers
+  fullName: Swastka.Cms.Api.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiNavPageModuleController.#ctor
+  isExternal: true
+  name: ApiNavPageModuleController
+  nameWithType: ApiNavPageModuleController.ApiNavPageModuleController
+  fullName: Swastka.Cms.Api.Controllers.ApiNavPageModuleController.ApiNavPageModuleController

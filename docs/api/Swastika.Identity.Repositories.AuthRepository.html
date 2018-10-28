@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AuthRepository
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AuthRepository
+   ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Swastika.Identity.Repositories.AuthRepository">
+  
+  
+  <h1 id="Swastika_Identity_Repositories_AuthRepository" data-uid="Swastika.Identity.Repositories.AuthRepository" class="text-break">Class AuthRepository
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AuthRepository</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Swastika.Identity.Repositories.html">Swastika.Identity.Repositories</a></h6>
+  <h6><strong>Assembly</strong>: Swastika.Identity.dll</h6>
+  <h5 id="Swastika_Identity_Repositories_AuthRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AuthRepository : UserManager&lt;ApplicationUser&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Swastika_Identity_Repositories_AuthRepository__ctor_" data-uid="Swastika.Identity.Repositories.AuthRepository.#ctor*"></a>
+  <h4 id="Swastika_Identity_Repositories_AuthRepository__ctor_Microsoft_AspNetCore_Identity_IUserStore_Swastika_Identity_Models_ApplicationUser__Microsoft_Extensions_Options_IOptions_Microsoft_AspNetCore_Identity_IdentityOptions__Microsoft_AspNetCore_Identity_IPasswordHasher_Swastika_Identity_Models_ApplicationUser__System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Identity_IUserValidator_Swastika_Identity_Models_ApplicationUser___System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Identity_IPasswordValidator_Swastika_Identity_Models_ApplicationUser___Microsoft_AspNetCore_Identity_ILookupNormalizer_Microsoft_AspNetCore_Identity_IdentityErrorDescriber_System_IServiceProvider_Microsoft_Extensions_Logging_ILogger_Microsoft_AspNetCore_Identity_UserManager_Swastika_Identity_Models_ApplicationUser___" data-uid="Swastika.Identity.Repositories.AuthRepository.#ctor(Microsoft.AspNetCore.Identity.IUserStore{Swastika.Identity.Models.ApplicationUser},Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.IdentityOptions},Microsoft.AspNetCore.Identity.IPasswordHasher{Swastika.Identity.Models.ApplicationUser},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IUserValidator{Swastika.Identity.Models.ApplicationUser}},System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Identity.IPasswordValidator{Swastika.Identity.Models.ApplicationUser}},Microsoft.AspNetCore.Identity.ILookupNormalizer,Microsoft.AspNetCore.Identity.IdentityErrorDescriber,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}})">AuthRepository(IUserStore&lt;ApplicationUser&gt;, IOptions&lt;IdentityOptions&gt;, IPasswordHasher&lt;ApplicationUser&gt;, IEnumerable&lt;IUserValidator&lt;ApplicationUser&gt;&gt;, IEnumerable&lt;IPasswordValidator&lt;ApplicationUser&gt;&gt;, ILookupNormalizer, IdentityErrorDescriber, IServiceProvider, ILogger&lt;UserManager&lt;ApplicationUser&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AuthRepository(IUserStore&lt;ApplicationUser&gt; store, IOptions&lt;IdentityOptions&gt; optionsAccessor, IPasswordHasher&lt;ApplicationUser&gt; passwordHasher, IEnumerable&lt;IUserValidator&lt;ApplicationUser&gt;&gt; userValidators, IEnumerable&lt;IPasswordValidator&lt;ApplicationUser&gt;&gt; passwordValidators, ILookupNormalizer keyNormalizer, IdentityErrorDescriber errors, IServiceProvider services, ILogger&lt;UserManager&lt;ApplicationUser&gt;&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Identity.IUserStore</span>&lt;<a class="xref" href="Swastika.Identity.Models.ApplicationUser.html">ApplicationUser</a>&gt;</td>
+        <td><span class="parametername">store</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Options.IOptions</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityOptions</span>&gt;</td>
+        <td><span class="parametername">optionsAccessor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Identity.IPasswordHasher</span>&lt;<a class="xref" href="Swastika.Identity.Models.ApplicationUser.html">ApplicationUser</a>&gt;</td>
+        <td><span class="parametername">passwordHasher</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IUserValidator</span>&lt;<a class="xref" href="Swastika.Identity.Models.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</td>
+        <td><span class="parametername">userValidators</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IPasswordValidator</span>&lt;<a class="xref" href="Swastika.Identity.Models.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</td>
+        <td><span class="parametername">passwordValidators</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Identity.ILookupNormalizer</span></td>
+        <td><span class="parametername">keyNormalizer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Identity.IdentityErrorDescriber</span></td>
+        <td><span class="parametername">errors</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IServiceProvider</span></td>
+        <td><span class="parametername">services</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.UserManager</span>&lt;<a class="xref" href="Swastika.Identity.Models.ApplicationUser.html">ApplicationUser</a>&gt;&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

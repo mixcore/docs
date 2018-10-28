@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  id: SWCmsConstants.FileFolder
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Fonts
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Images
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Others
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Scripts
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolder.Styles
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.FileFolder
+  nameWithType: SWCmsConstants.FileFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public class FileFolder : Object'
+    content.vb: >-
+      Public Class FileFolder
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Fonts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Fonts
+  id: Fonts
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Fonts
+  nameWithType: SWCmsConstants.FileFolder.Fonts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Fonts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Fonts = "Fonts"
+    return:
+      type: System.String
+    content.vb: Public Const Fonts As String = "Fonts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Images
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Images
+  id: Images
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Images
+  nameWithType: SWCmsConstants.FileFolder.Images
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Images
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Images = "Images"
+    return:
+      type: System.String
+    content.vb: Public Const Images As String = "Images"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Others
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Others
+  id: Others
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Others
+  nameWithType: SWCmsConstants.FileFolder.Others
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Others
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Others = "Others"
+    return:
+      type: System.String
+    content.vb: Public Const Others As String = "Others"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Scripts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Scripts
+  id: Scripts
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Scripts
+  nameWithType: SWCmsConstants.FileFolder.Scripts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Scripts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Scripts = "Scripts"
+    return:
+      type: System.String
+    content.vb: Public Const Scripts As String = "Scripts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Styles
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Styles
+  id: Styles
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Styles
+  nameWithType: SWCmsConstants.FileFolder.Styles
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Styles
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Styles = "Styles"
+    return:
+      type: System.String
+    content.vb: Public Const Styles As String = "Styles"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  id: Medias
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Medias
+  nameWithType: SWCmsConstants.FileFolder.Medias
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.Medias
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Medias = "Medias"
+    return:
+      type: System.String
+    content.vb: Public Const Medias As String = "Medias"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor
+  commentId: M:Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: FileFolder()
+  nameWithType: SWCmsConstants.FileFolder.FileFolder()
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.FileFolder()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public FileFolder()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.FileFolder.#ctor
+  isExternal: true
+  name: FileFolder
+  nameWithType: SWCmsConstants.FileFolder.FileFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolder.FileFolder

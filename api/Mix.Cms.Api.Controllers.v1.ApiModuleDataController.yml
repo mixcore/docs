@@ -1,0 +1,2580 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  id: ApiModuleDataController
+  parent: Mix.Cms.Api.Controllers.v1
+  children:
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync(System.Int32)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync(System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync(System.String,System.Int32,System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit(System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList(Mix.Domain.Core.ViewModels.RequestPaging,System.Nullable{System.Int32})
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync(System.Int32)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync(System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post(Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel)
+  langs:
+  - csharp
+  - vb
+  name: ApiModuleDataController
+  nameWithType: ApiModuleDataController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  type: Class
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: 'public class ApiModuleDataController : BaseGenericApiControoler<MixCmsContext, MixModuleData>'
+    content.vb: >-
+      Public Class ApiModuleDataController
+          Inherits BaseGenericApiControoler(Of MixCmsContext, MixModuleData)
+  inheritance:
+  - System.Object
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  inheritedMembers:
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._hubContext
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._memoryCache
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._lang
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._domain
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},System.Boolean)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveAsync``1({TView},System.Boolean)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.RemoveCache
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.AlertAsync(System.String,System.Int32,System.String)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetLanguage
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})
+  id: '#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})'
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: ApiModuleDataController(IMemoryCache, IHubContext<PortalHub>)
+  nameWithType: ApiModuleDataController.ApiModuleDataController(IMemoryCache, IHubContext<PortalHub>)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.ApiModuleDataController(Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.AspNetCore.SignalR.IHubContext<Mix.Cms.Hub.PortalHub>)
+  type: Constructor
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public ApiModuleDataController(IMemoryCache memoryCache, IHubContext<PortalHub> hubContext)
+    parameters:
+    - id: memoryCache
+      type: Microsoft.Extensions.Caching.Memory.IMemoryCache
+    - id: hubContext
+      type: Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub}
+    content.vb: Public Sub New(memoryCache As IMemoryCache, hubContext As IHubContext(Of PortalHub))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor*
+  nameWithType.vb: ApiModuleDataController.ApiModuleDataController(IMemoryCache, IHubContext(Of PortalHub))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.ApiModuleDataController(Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.AspNetCore.SignalR.IHubContext(Of Mix.Cms.Hub.PortalHub))
+  name.vb: ApiModuleDataController(IMemoryCache, IHubContext(Of PortalHub))
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync(System.String,System.Int32,System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync(System.String,System.Int32,System.String)
+  id: DetailsAsync(System.String,System.Int32,System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: DetailsAsync(String, Int32, String)
+  nameWithType: ApiModuleDataController.DetailsAsync(String, Int32, String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync(System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UpdateViewModel>> DetailsAsync(string viewType, int moduleId, string id = null)
+    parameters:
+    - id: viewType
+      type: System.String
+    - id: moduleId
+      type: System.Int32
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+    content.vb: Public Function DetailsAsync(viewType As String, moduleId As Integer, id As String = Nothing) As Task(Of RepositoryResponse(Of UpdateViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit(System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit(System.String)
+  id: Edit(System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: Edit(String)
+  nameWithType: ApiModuleDataController.Edit(String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<ReadViewModel>> Edit(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}
+    content.vb: Public Function Edit(id As String) As Task(Of RepositoryResponse(Of ReadViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync(System.Int32)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync(System.Int32)
+  id: CreateAsync(System.Int32)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(Int32)
+  nameWithType: ApiModuleDataController.CreateAsync(Int32)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync(System.Int32)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UpdateViewModel>> CreateAsync(int moduleId)
+    parameters:
+    - id: moduleId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+    content.vb: Public Function CreateAsync(moduleId As Integer) As Task(Of RepositoryResponse(Of UpdateViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync(System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync(System.String)
+  id: InitViewAsync(System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: InitViewAsync(String)
+  nameWithType: ApiModuleDataController.InitViewAsync(String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UpdateViewModel>> InitViewAsync(string moduleName)
+    parameters:
+    - id: moduleName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+    content.vb: Public Function InitViewAsync(moduleName As String) As Task(Of RepositoryResponse(Of UpdateViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync(System.Int32)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync(System.Int32)
+  id: InitByIdAsync(System.Int32)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: InitByIdAsync(Int32)
+  nameWithType: ApiModuleDataController.InitByIdAsync(Int32)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync(System.Int32)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UpdateViewModel>> InitByIdAsync(int moduleId)
+    parameters:
+    - id: moduleId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+    content.vb: Public Function InitByIdAsync(moduleId As Integer) As Task(Of RepositoryResponse(Of UpdateViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync(System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync(System.String)
+  id: DeleteAsync(System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(String)
+  nameWithType: ApiModuleDataController.DeleteAsync(String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<MixModuleData>> DeleteAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.Models.Cms.MixModuleData}}
+    content.vb: Public Function DeleteAsync(id As String) As Task(Of RepositoryResponse(Of MixModuleData))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post(Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post(Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel)
+  id: Post(Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel)
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: Post(UpdateViewModel)
+  nameWithType: ApiModuleDataController.Post(UpdateViewModel)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post(Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UpdateViewModel>> Post(UpdateViewModel data)
+    parameters:
+    - id: data
+      type: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+    content.vb: Public Function Post(data As UpdateViewModel) As Task(Of RepositoryResponse(Of UpdateViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList(Mix.Domain.Core.ViewModels.RequestPaging,System.Nullable{System.Int32})
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList(Mix.Domain.Core.ViewModels.RequestPaging,System.Nullable{System.Int32})
+  id: GetList(Mix.Domain.Core.ViewModels.RequestPaging,System.Nullable{System.Int32})
+  parent: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  langs:
+  - csharp
+  - vb
+  name: GetList(RequestPaging, Nullable<Int32>)
+  nameWithType: ApiModuleDataController.GetList(RequestPaging, Nullable<Int32>)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList(Mix.Domain.Core.ViewModels.RequestPaging, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<ActionResult<RepositoryResponse<PaginationModel<ReadViewModel>>>> GetList(RequestPaging request, Nullable<int> level)
+    parameters:
+    - id: request
+      type: Mix.Domain.Core.ViewModels.RequestPaging
+    - id: level
+      type: System.Nullable{System.Int32}
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}}}
+    content.vb: Public Function GetList(request As RequestPaging, level As Nullable(Of Integer)) As Task(Of ActionResult(Of RepositoryResponse(Of PaginationModel(Of ReadViewModel))))
+  overload: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList*
+  nameWithType.vb: ApiModuleDataController.GetList(RequestPaging, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList(Mix.Domain.Core.ViewModels.RequestPaging, System.Nullable(Of System.Int32))
+  name.vb: GetList(RequestPaging, Nullable(Of Int32))
+references:
+- uid: Mix.Cms.Api.Controllers.v1
+  commentId: N:Mix.Cms.Api.Controllers.v1
+  isExternal: true
+  name: Mix.Cms.Api.Controllers.v1
+  nameWithType: Mix.Cms.Api.Controllers.v1
+  fullName: Mix.Cms.Api.Controllers.v1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  commentId: T:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  parent: Mix.Cms.Api.Controllers.v1
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  name: BaseGenericApiControoler<MixCmsContext, MixModuleData>
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData)
+  name.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    name: MixCmsContext
+    nameWithType: MixCmsContext
+    fullName: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    name: MixCmsContext
+    nameWithType: MixCmsContext
+    fullName: Mix.Cms.Lib.Models.Cms.MixCmsContext
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._hubContext
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._hubContext
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._hubContext
+  name: _hubContext
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>._hubContext
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>._hubContext
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)._hubContext
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData)._hubContext
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._memoryCache
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._memoryCache
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._memoryCache
+  name: _memoryCache
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>._memoryCache
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>._memoryCache
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)._memoryCache
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData)._memoryCache
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._lang
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._lang
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._lang
+  name: _lang
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>._lang
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>._lang
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)._lang
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData)._lang
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._domain
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}._domain
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._domain
+  name: _domain
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>._domain
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>._domain
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData)._domain
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData)._domain
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  name: OnActionExecuting(ActionExecutingContext)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.OnActionExecuting(ActionExecutingContext)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).OnActionExecuting(ActionExecutingContext)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.OnActionExecuting
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).OnActionExecuting
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  name: GetSingleAsync<TView>(String, Expression<Func<MixModuleData, Boolean>>, MixModuleData)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetSingleAsync<TView>(String, Expression<Func<MixModuleData, Boolean>>, MixModuleData)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetSingleAsync<TView>(System.String, System.Linq.Expressions.Expression<System.Func<Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean>>, Mix.Cms.Lib.Models.Cms.MixModuleData)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetSingleAsync(Of TView)(String, Expression(Of Func(Of MixModuleData, Boolean)), MixModuleData)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetSingleAsync(Of TView)(System.String, System.Linq.Expressions.Expression(Of System.Func(Of Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean)), Mix.Cms.Lib.Models.Cms.MixModuleData)
+  name.vb: GetSingleAsync(Of TView)(String, Expression(Of Func(Of MixModuleData, Boolean)), MixModuleData)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetSingleAsync<TView>
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetSingleAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetSingleAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetSingleAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetSingleAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetSingleAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},System.Boolean)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},System.Boolean)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+  name: DeleteAsync<TView>(Expression<Func<MixModuleData, Boolean>>, Boolean)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.DeleteAsync<TView>(Expression<Func<MixModuleData, Boolean>>, Boolean)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.DeleteAsync<TView>(System.Linq.Expressions.Expression<System.Func<Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean>>, System.Boolean)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).DeleteAsync(Of TView)(Expression(Of Func(Of MixModuleData, Boolean)), Boolean)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).DeleteAsync(Of TView)(System.Linq.Expressions.Expression(Of System.Func(Of Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean)), System.Boolean)
+  name.vb: DeleteAsync(Of TView)(Expression(Of Func(Of MixModuleData, Boolean)), Boolean)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+    name: DeleteAsync<TView>
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.DeleteAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.DeleteAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+    name: DeleteAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).DeleteAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).DeleteAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{Mix.Cms.Lib.Models.Cms.MixModuleData,System.Boolean}},Mix.Cms.Lib.Models.Cms.MixModuleData)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  name: GetListAsync<TView>(String, RequestPaging, Expression<Func<MixModuleData, Boolean>>, MixModuleData)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetListAsync<TView>(String, RequestPaging, Expression<Func<MixModuleData, Boolean>>, MixModuleData)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetListAsync<TView>(System.String, Mix.Domain.Core.ViewModels.RequestPaging, System.Linq.Expressions.Expression<System.Func<Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean>>, Mix.Cms.Lib.Models.Cms.MixModuleData)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetListAsync(Of TView)(String, RequestPaging, Expression(Of Func(Of MixModuleData, Boolean)), MixModuleData)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetListAsync(Of TView)(System.String, Mix.Domain.Core.ViewModels.RequestPaging, System.Linq.Expressions.Expression(Of System.Func(Of Mix.Cms.Lib.Models.Cms.MixModuleData, System.Boolean)), Mix.Cms.Lib.Models.Cms.MixModuleData)
+  name.vb: GetListAsync(Of TView)(String, RequestPaging, Expression(Of Func(Of MixModuleData, Boolean)), MixModuleData)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetListAsync<TView>
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetListAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetListAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetListAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetListAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetListAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveAsync``1({TView},System.Boolean)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveAsync``1(``0,System.Boolean)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+  name: SaveAsync<TView>(TView, Boolean)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.SaveAsync<TView>(TView, Boolean)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.SaveAsync<TView>(TView, System.Boolean)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).SaveAsync(Of TView)(TView, Boolean)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).SaveAsync(Of TView)(TView, System.Boolean)
+  name.vb: SaveAsync(Of TView)(TView, Boolean)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+    name: SaveAsync<TView>
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.SaveAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.SaveAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+    name: SaveAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).SaveAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).SaveAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  name: SaveEncrypt(RequestEncrypted)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.SaveEncrypt(RequestEncrypted)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).SaveEncrypt(RequestEncrypted)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+    name: SaveEncrypt
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.SaveEncrypt
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.SaveEncrypt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestEncrypted
+    name: RequestEncrypted
+    nameWithType: RequestEncrypted
+    fullName: Mix.Domain.Core.ViewModels.RequestEncrypted
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+    name: SaveEncrypt
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).SaveEncrypt
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).SaveEncrypt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestEncrypted
+    name: RequestEncrypted
+    nameWithType: RequestEncrypted
+    fullName: Mix.Domain.Core.ViewModels.RequestEncrypted
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.RemoveCache
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.RemoveCache
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+  name: RemoveCache()
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.RemoveCache()
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.RemoveCache()
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).RemoveCache()
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).RemoveCache()
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+    name: RemoveCache
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.RemoveCache
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.RemoveCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+    name: RemoveCache
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).RemoveCache
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).RemoveCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.AlertAsync(System.String,System.Int32,System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.AlertAsync(System.String,System.Int32,System.String)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+  name: AlertAsync(String, Int32, String)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.AlertAsync(String, Int32, String)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.AlertAsync(System.String, System.Int32, System.String)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).AlertAsync(String, Int32, String)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).AlertAsync(System.String, System.Int32, System.String)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+    name: AlertAsync
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.AlertAsync
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.AlertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+    name: AlertAsync
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).AlertAsync
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).AlertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  name: ParseRequestPagingDate(RequestPaging)
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.ParseRequestPagingDate(RequestPaging)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).ParseRequestPagingDate(RequestPaging)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.ParseRequestPagingDate
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).ParseRequestPagingDate
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetLanguage
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}.GetLanguage
+  parent: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler{Mix.Cms.Lib.Models.Cms.MixCmsContext,Mix.Cms.Lib.Models.Cms.MixModuleData}
+  definition: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+  name: GetLanguage()
+  nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetLanguage()
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetLanguage()
+  nameWithType.vb: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetLanguage()
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetLanguage()
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseGenericApiControoler<MixCmsContext, MixModuleData>.GetLanguage
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData>.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseGenericApiControoler(Of MixCmsContext, MixModuleData).GetLanguage
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixModuleData).GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  commentId: T:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  isExternal: true
+  name: BaseGenericApiControoler<TDbContext, TModel>
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)
+  name.vb: BaseGenericApiControoler(Of TDbContext, TModel)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._hubContext
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._hubContext
+  isExternal: true
+  name: _hubContext
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>._hubContext
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>._hubContext
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)._hubContext
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)._hubContext
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._memoryCache
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._memoryCache
+  isExternal: true
+  name: _memoryCache
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>._memoryCache
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>._memoryCache
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)._memoryCache
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)._memoryCache
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._lang
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._lang
+  isExternal: true
+  name: _lang
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>._lang
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>._lang
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)._lang
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)._lang
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._domain
+  commentId: F:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._domain
+  isExternal: true
+  name: _domain
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>._domain
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>._domain
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)._domain
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)._domain
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  isExternal: true
+  name: OnActionExecuting(ActionExecutingContext)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.OnActionExecuting(ActionExecutingContext)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).OnActionExecuting(ActionExecutingContext)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.OnActionExecuting
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).OnActionExecuting
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  isExternal: true
+  name: GetSingleAsync<TView>(String, Expression<Func<TModel, Boolean>>, TModel)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetSingleAsync<TView>(String, Expression<Func<TModel, Boolean>>, TModel)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetSingleAsync<TView>(System.String, System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TModel)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).GetSingleAsync(Of TView)(String, Expression(Of Func(Of TModel, Boolean)), TModel)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetSingleAsync(Of TView)(System.String, System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TModel)
+  name.vb: GetSingleAsync(Of TView)(String, Expression(Of Func(Of TModel, Boolean)), TModel)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetSingleAsync<TView>
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetSingleAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetSingleAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetSingleAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).GetSingleAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetSingleAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+  isExternal: true
+  name: DeleteAsync<TView>(Expression<Func<TModel, Boolean>>, Boolean)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.DeleteAsync<TView>(Expression<Func<TModel, Boolean>>, Boolean)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.DeleteAsync<TView>(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, System.Boolean)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).DeleteAsync(Of TView)(Expression(Of Func(Of TModel, Boolean)), Boolean)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).DeleteAsync(Of TView)(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), System.Boolean)
+  name.vb: DeleteAsync(Of TView)(Expression(Of Func(Of TModel, Boolean)), Boolean)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+    name: DeleteAsync<TView>
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.DeleteAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.DeleteAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)
+    name: DeleteAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).DeleteAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).DeleteAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+  isExternal: true
+  name: GetListAsync<TView>(String, RequestPaging, Expression<Func<TModel, Boolean>>, TModel)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetListAsync<TView>(String, RequestPaging, Expression<Func<TModel, Boolean>>, TModel)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetListAsync<TView>(System.String, Mix.Domain.Core.ViewModels.RequestPaging, System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TModel)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).GetListAsync(Of TView)(String, RequestPaging, Expression(Of Func(Of TModel, Boolean)), TModel)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetListAsync(Of TView)(System.String, Mix.Domain.Core.ViewModels.RequestPaging, System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TModel)
+  name.vb: GetListAsync(Of TView)(String, RequestPaging, Expression(Of Func(Of TModel, Boolean)), TModel)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetListAsync<TView>
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetListAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetListAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)
+    name: GetListAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).GetListAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetListAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+  isExternal: true
+  name: SaveAsync<TView>(TView, Boolean)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.SaveAsync<TView>(TView, Boolean)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.SaveAsync<TView>(TView, System.Boolean)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).SaveAsync(Of TView)(TView, Boolean)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).SaveAsync(Of TView)(TView, System.Boolean)
+  name.vb: SaveAsync(Of TView)(TView, Boolean)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+    name: SaveAsync<TView>
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.SaveAsync<TView>
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.SaveAsync<TView>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)
+    name: SaveAsync(Of TView)
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).SaveAsync(Of TView)
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).SaveAsync(Of TView)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  isExternal: true
+  name: SaveEncrypt(RequestEncrypted)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.SaveEncrypt(RequestEncrypted)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).SaveEncrypt(RequestEncrypted)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+    name: SaveEncrypt
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.SaveEncrypt
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.SaveEncrypt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestEncrypted
+    name: RequestEncrypted
+    nameWithType: RequestEncrypted
+    fullName: Mix.Domain.Core.ViewModels.RequestEncrypted
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)
+    name: SaveEncrypt
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).SaveEncrypt
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).SaveEncrypt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestEncrypted
+    name: RequestEncrypted
+    nameWithType: RequestEncrypted
+    fullName: Mix.Domain.Core.ViewModels.RequestEncrypted
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+  isExternal: true
+  name: RemoveCache()
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.RemoveCache()
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.RemoveCache()
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).RemoveCache()
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).RemoveCache()
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+    name: RemoveCache
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.RemoveCache
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.RemoveCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache
+    name: RemoveCache
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).RemoveCache
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).RemoveCache
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+  isExternal: true
+  name: AlertAsync(String, Int32, String)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.AlertAsync(String, Int32, String)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.AlertAsync(System.String, System.Int32, System.String)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).AlertAsync(String, Int32, String)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).AlertAsync(System.String, System.Int32, System.String)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+    name: AlertAsync
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.AlertAsync
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.AlertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)
+    name: AlertAsync
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).AlertAsync
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).AlertAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  isExternal: true
+  name: ParseRequestPagingDate(RequestPaging)
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.ParseRequestPagingDate(RequestPaging)
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).ParseRequestPagingDate(RequestPaging)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.ParseRequestPagingDate
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).ParseRequestPagingDate
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Mix.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Mix.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+  commentId: M:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+  isExternal: true
+  name: GetLanguage()
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetLanguage()
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetLanguage()
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel).GetLanguage()
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetLanguage()
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseGenericApiControoler<TDbContext, TModel>.GetLanguage
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseGenericApiControoler(Of TDbContext, TModel).GetLanguage
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel).GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.#ctor
+  isExternal: true
+  name: ApiModuleDataController
+  nameWithType: ApiModuleDataController.ApiModuleDataController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.ApiModuleDataController
+- uid: Microsoft.Extensions.Caching.Memory.IMemoryCache
+  isExternal: true
+  name: IMemoryCache
+  nameWithType: IMemoryCache
+  fullName: Microsoft.Extensions.Caching.Memory.IMemoryCache
+- uid: Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub}
+  commentId: '!:Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub}'
+  definition: Microsoft.AspNetCore.SignalR.IHubContext`1
+  name: IHubContext<PortalHub>
+  nameWithType: IHubContext<PortalHub>
+  fullName: Microsoft.AspNetCore.SignalR.IHubContext<Mix.Cms.Hub.PortalHub>
+  nameWithType.vb: IHubContext(Of PortalHub)
+  fullName.vb: Microsoft.AspNetCore.SignalR.IHubContext(Of Mix.Cms.Hub.PortalHub)
+  name.vb: IHubContext(Of PortalHub)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.IHubContext`1
+    name: IHubContext
+    nameWithType: IHubContext
+    fullName: Microsoft.AspNetCore.SignalR.IHubContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Hub.PortalHub
+    name: PortalHub
+    nameWithType: PortalHub
+    fullName: Mix.Cms.Hub.PortalHub
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.IHubContext`1
+    name: IHubContext
+    nameWithType: IHubContext
+    fullName: Microsoft.AspNetCore.SignalR.IHubContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Hub.PortalHub
+    name: PortalHub
+    nameWithType: PortalHub
+    fullName: Mix.Cms.Hub.PortalHub
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.SignalR.IHubContext`1
+  isExternal: true
+  name: IHubContext<>
+  nameWithType: IHubContext<>
+  fullName: Microsoft.AspNetCore.SignalR.IHubContext<>
+  nameWithType.vb: IHubContext(Of )
+  fullName.vb: Microsoft.AspNetCore.SignalR.IHubContext(Of )
+  name.vb: IHubContext(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.SignalR.IHubContext`1
+    name: IHubContext
+    nameWithType: IHubContext
+    fullName: Microsoft.AspNetCore.SignalR.IHubContext
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.SignalR.IHubContext`1
+    name: IHubContext
+    nameWithType: IHubContext
+    fullName: Microsoft.AspNetCore.SignalR.IHubContext
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync
+  isExternal: true
+  name: DetailsAsync
+  nameWithType: ApiModuleDataController.DetailsAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DetailsAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<UpdateViewModel>>
+  nameWithType: Task<RepositoryResponse<UpdateViewModel>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of UpdateViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel))
+  name.vb: Task(Of RepositoryResponse(Of UpdateViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+    name: UpdateViewModel
+    nameWithType: UpdateViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+    name: UpdateViewModel
+    nameWithType: UpdateViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit
+  isExternal: true
+  name: Edit
+  nameWithType: ApiModuleDataController.Edit
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Edit
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<ReadViewModel>>
+  nameWithType: Task<RepositoryResponse<ReadViewModel>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of ReadViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel))
+  name.vb: Task(Of RepositoryResponse(Of ReadViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    name: ReadViewModel
+    nameWithType: ReadViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    name: ReadViewModel
+    nameWithType: ReadViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync
+  isExternal: true
+  name: CreateAsync
+  nameWithType: ApiModuleDataController.CreateAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.CreateAsync
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync
+  isExternal: true
+  name: InitViewAsync
+  nameWithType: ApiModuleDataController.InitViewAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitViewAsync
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync
+  isExternal: true
+  name: InitByIdAsync
+  nameWithType: ApiModuleDataController.InitByIdAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.InitByIdAsync
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync
+  isExternal: true
+  name: DeleteAsync
+  nameWithType: ApiModuleDataController.DeleteAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.DeleteAsync
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.Models.Cms.MixModuleData}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.Models.Cms.MixModuleData}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<MixModuleData>>
+  nameWithType: Task<RepositoryResponse<MixModuleData>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Cms.Lib.Models.Cms.MixModuleData>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of MixModuleData))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Cms.Lib.Models.Cms.MixModuleData))
+  name.vb: Task(Of RepositoryResponse(Of MixModuleData))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post
+  isExternal: true
+  name: Post
+  nameWithType: ApiModuleDataController.Post
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.Post
+- uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixModuleDatas
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixModuleDatas
+  commentId: N:Mix.Cms.Lib.ViewModels.MixModuleDatas
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixModuleDatas
+  nameWithType: Mix.Cms.Lib.ViewModels.MixModuleDatas
+  fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: ApiModuleDataController.GetList
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController.GetList
+- uid: Mix.Domain.Core.ViewModels.RequestPaging
+  commentId: T:Mix.Domain.Core.ViewModels.RequestPaging
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestPaging
+  nameWithType: RequestPaging
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}}}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel}}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActionResult<RepositoryResponse<PaginationModel<ReadViewModel>>>>
+  nameWithType: Task<ActionResult<RepositoryResponse<PaginationModel<ReadViewModel>>>>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.ActionResult<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Domain.Core.ViewModels.PaginationModel<Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel>>>>
+  nameWithType.vb: Task(Of ActionResult(Of RepositoryResponse(Of PaginationModel(Of ReadViewModel))))
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.ActionResult(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Domain.Core.ViewModels.PaginationModel(Of Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel))))
+  name.vb: Task(Of ActionResult(Of RepositoryResponse(Of PaginationModel(Of ReadViewModel))))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    name: ReadViewModel
+    nameWithType: ReadViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    name: ReadViewModel
+    nameWithType: ReadViewModel
+    fullName: Mix.Cms.Lib.ViewModels.MixModuleDatas.ReadViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

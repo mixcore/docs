@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  commentId: N:Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  id: Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  children:
+  - Mix.Cms.Lib.ViewModels.MixPortalPagePositions.ReadViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  nameWithType: Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPagePositions
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPagePositions.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixPortalPagePositions.ReadViewModel
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPagePositions.ReadViewModel

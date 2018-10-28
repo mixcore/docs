@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Frequently asked questions (FAQ) about Blazor </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Frequently asked questions (FAQ) about Blazor ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="client-side/blazor/introduction/faq">
+<h1 id="frequently-asked-questions-faq-about-blazor">Frequently asked questions (FAQ) about Blazor</h1>
+
+<div class="NOTE"><h5>Note</h5><p>Blazor is an unsupported experimental web framework that shouldn&#39;t be used for production workloads at this time.</p>
+</div>
+<h2 id="what-is-blazor">What is Blazor?</h2>
+<p>Blazor is a single-page web app framework built on .NET that runs in the browser with WebAssembly.</p>
+<h2 id="im-new-to-net-whats-net">I&#39;m new to .NET. What&#39;s .NET?</h2>
+<p><a href="https://www.microsoft.com/net">.NET</a> is a free, cross-platform, open source developer platform for building many different types of apps (desktop, mobile, games, web). .NET includes a managed runtime, a standard set of <a href="https://docs.microsoft.com/dotnet/api">libraries</a>, and support for multiple modern programming languages: <a href="https://docs.microsoft.com/dotnet/csharp/">C#</a>, <a href="https://docs.microsoft.com/dotnet/fsharp/">F#</a>, and <a href="https://docs.microsoft.com/dotnet/visual-basic/">VB</a>. You can <a href="https://www.microsoft.com/net/learn/get-started/windows">get started with .NET in 10 min</a>.</p>
+<h2 id="why-would-i-use-net-for-web-development">Why would I use .NET for web development?</h2>
+<p>Using .NET in the browser offers many advantages that can help make web development easier and more productive:</p>
+<ul>
+<li><strong>Stable and consistent</strong>: .NET offers standard APIs, tools, and build infrastructure across all .NET platforms that are stable, feature rich, and easy to use.</li>
+<li><strong>Modern innovative languages</strong>: .NET languages like <a href="https://docs.microsoft.com/dotnet/csharp/">C#</a> and <a href="https://docs.microsoft.com/dotnet/fsharp/">F#</a> make programming a joy and keep getting better with innovative new language features.</li>
+<li><strong>Industry leading tools</strong>: The <a href="https://www.visualstudio.com/">Visual Studio</a> product family provides a great .NET development experience on Windows, Linux, and macOS.</li>
+<li><strong>Fast and scalable</strong>: .NET has a long history of performance, reliability, and security on the server. Using .NET as a full-stack solution makes it easier to scale your apps.</li>
+</ul>
+<h2 id="how-can-you-run-net-in-a-web-browser">How can you run .NET in a web browser?</h2>
+<p>Running .NET in the browser is made possible by a relatively new standardized web technology called <a href="http://webassembly.org/">WebAssembly</a>. WebAssembly is a &quot;portable, size- and load-time-efficient format suitable for compilation to the web.&quot; Code compiled to WebAssembly can run in any browser at native speeds. To run .NET binaries in a web browser, we use a .NET runtime (specifically <a href="http://www.mono-project.com/news/2017/08/09/hello-webassembly/">Mono</a>) that has been compiled to WebAssembly.</p>
+<h2 id="does-blazor-compile-my-entire-net-based-app-to-webassembly">Does Blazor compile my entire .NET-based app to WebAssembly?</h2>
+<p>No, a Blazor app consists of normal compiled .NET assemblies that are downloaded and run in a web browser using a WebAssembly-based .NET runtime. Only the .NET runtime itself is compiled to WebAssembly. That said, support for full <a href="http://www.mono-project.com/news/2018/01/16/mono-static-webassembly-compilation/">static ahead of time (AoT) compilation</a> of the app to WebAssembly may be something we add further down the road.</p>
+<h2 id="wouldnt-the-app-download-size-be-huge-if-it-also-includes-a-net-runtime">Wouldn&#39;t the app download size be huge if it also includes a .NET runtime?</h2>
+<p>Not necessarily. .NET runtimes come in all shapes in sizes. Early Blazor prototypes used a compact .NET runtime (including assembly execution, garbage collection, threading) that compiled to a mere 60KB of WebAssembly. Blazor now runs on Mono, which is currently significantly larger. However, opportunities for size optimization abound, including merging and trimming the runtime and application binaries. Other potential download size mitigations include caching and using a CDN.</p>
+<h2 id="what-features-will-blazor-support">What features will Blazor support?</h2>
+<p>Blazor will support all of the features of a modern single-page app framework:</p>
+<ul>
+<li>A component model for building composable UI</li>
+<li>Routing</li>
+<li>Layouts</li>
+<li>Forms and validation</li>
+<li>Dependency injection</li>
+<li>JavaScript interop</li>
+<li>Live reloading in the browser during development</li>
+<li>Server-side rendering</li>
+<li>Full .NET debugging both in browsers and in the IDE</li>
+<li>Rich IntelliSense and tooling</li>
+<li>Ability to run on older (non-WebAssembly) browsers via asm.js</li>
+<li>Publishing and app size trimming</li>
+</ul>
+<h2 id="can-i-use-blazor-without-running-net-on-the-server">Can I use Blazor without running .NET on the server?</h2>
+<p>Yes, a Blazor app can be deployed as a set of static files without the need for any .NET support on the server.</p>
+<h2 id="can-i-use-blazor-with-aspnet-core-on-the-server">Can I use Blazor with ASP.NET Core on the server?</h2>
+<p>Yes! Blazor optionally integrates with <a href="https://docs.microsoft.com/aspnet/core">ASP.NET Core</a> to provide a seamless and consistent full-stack web development solution.</p>
+<h2 id="is-blazor-a-net-port-of-an-existing-javascript-framework">Is Blazor a .NET port of an existing JavaScript framework?</h2>
+<p>Blazor is a <em>new framework</em> inspired by existing modern single-page app frameworks, such as React, Angular, and Vue.</p>
+<h2 id="how-can-i-try-out-blazor">How can I try out Blazor?</h2>
+<p>To build your first Blazor web app check out our <a class="xref" href="../get-started.html">getting started guide</a>.</p>
+<h2 id="why-is-blazor-an-experimental-project">Why is Blazor an &quot;experimental&quot; project?</h2>
+<p>Blazor is an experimental project because there are still many questions to answer about its viability and appeal. The purposes of this initial experimental phase are to:</p>
+<ul>
+<li>Work through technical issues.</li>
+<li>Gauge interest and to listen to feedback.</li>
+</ul>
+<p>We&#39;re optimistic about Blazor&#39;s future; but at this time, Blazor isn&#39;t a committed product and should be considered pre-alpha.</p>
+<h2 id="is-this-silverlight-all-over-again">Is this Silverlight all over again?</h2>
+<p>No, Blazor is a .NET web framework based on HTML and CSS that runs in the browser using open web standards. It doesn&#39;t require a plugin, and it works on mobile devices and older browsers.</p>
+<h2 id="does-blazor-use-xaml">Does Blazor use XAML?</h2>
+<p>No, Blazor is a web framework based on HTML, CSS, and other standard web technologies.</p>
+<h2 id="is-webassembly-supported-in-all-browsers">Is WebAssembly supported in all browsers?</h2>
+<p>Yes, WebAssembly has achieved cross-browser consensus and <a href="https://caniuse.com/#search=webassembly">all modern browsers now support WebAssembly</a>.</p>
+<h2 id="does-blazor-work-on-mobile-browsers">Does Blazor work on mobile browsers?</h2>
+<p>Yes, <a href="https://caniuse.com/#search=webassembly">modern mobile browsers also support WebAssembly</a>.</p>
+<h2 id="what-about-older-browsers-that-dont-support-webassembly-for-example-does-blazor-work-in-ie">What about older browsers that don&#39;t support WebAssembly? For example, does Blazor work in IE?</h2>
+<p>For older browsers that don&#39;t support WebAssembly, Blazor falls back to using an asm.js-based .NET runtime. Using asm.js is slower and has a larger download size but is still quite functional.</p>
+<h2 id="can-i-use-net-standard-libraries-with-blazor">Can I use .NET Standard libraries with Blazor?</h2>
+<p>Yes, the .NET runtime used for Blazor supports .NET Standard 2.0. APIs that aren&#39;t supported in the browser throw <em>Not Supported</em> exceptions.</p>
+<h2 id="dont-you-need-features-like-garbage-collection-and-threading-added-to-webassembly-to-make-this-work">Don&#39;t you need features like garbage collection and threading added to WebAssembly to make this work?</h2>
+<p>No, WebAssembly in its current state is sufficient. The .NET runtime handles its own garbage collection and threading concerns.</p>
+<h2 id="can-i-use-existing-javascript-libraries-with-blazor">Can I use existing JavaScript libraries with Blazor?</h2>
+<p>Yes, Blazor apps can call into JavaScript through JavaScript interop APIs.</p>
+<h2 id="can-i-access-the-dom-from-a-blazor-app">Can I access the DOM from a Blazor app?</h2>
+<p>You can access the DOM through JavaScript interop from .NET code. However, Blazor is a component-based framework that minimizes the need to access the DOM directly.</p>
+<h2 id="why-mono-why-not-net-core-or-corert">Why Mono? Why not .NET Core or CoreRT?</h2>
+<p><a href="http://www.mono-project.com/">Mono</a> is a Microsoft-sponsored open source implementation of the .NET Framework. Mono is used by <a href="https://www.xamarin.com/">Xamarin</a> to build native client apps for Android, iOS, and macOS. Xamarin is also used by <a href="https://unity3d.com/">Unity</a> for game development. Microsoft&#39;s Xamarin team <a href="http://www.mono-project.com/news/2017/08/09/hello-webassembly/">announced their plans</a> to add support for WebAssembly to Mono, and they&#39;ve been making steady progress (<a href="http://www.mono-project.com/news/2018/01/16/mono-static-webassembly-compilation/">Mono and WebAssembly - Updates on Static Compilation 1/16/2018</a>). Because Blazor is a client-side web UI framework targeted at WebAssembly, Mono is a natural fit.</p>
+<p>By comparison, <a href="https://www.microsoft.com/net/learn/get-started/windows">.NET Core</a> is primarily used for server apps and for cross-platform console apps. .NET Core can be used for creating an ASP.NET Core backend for a Blazor app but not for building the client app itself. <a href="https://github.com/dotnet/corert">CoreRT</a> is a .NET Core runtime optimized for AoT compilation; and while it has WebAssembly aspirations, the project is still a work-in-progress and not a shipping product.</p>
+<h2 id="where-did-the-name-blazor-come-from">Where did the name &quot;Blazor&quot; come from?</h2>
+<p>Blazor makes heavy use of <a href="https://docs.microsoft.com/aspnet/core/mvc/views/razor?view=aspnetcore-2.1">Razor</a>, a markup syntax for HTML and C#. <strong>Browser + Razor = Blazor!</strong> When pronounced, it&#39;s also the name of a swanky jacket worn by hipsters that have excellent taste in fashion, style, and programming languages.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

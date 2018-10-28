@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.IO.Cms.Api.Controllers
+  commentId: N:Swastka.IO.Cms.Api.Controllers
+  id: Swastka.IO.Cms.Api.Controllers
+  children:
+  - Swastka.IO.Cms.Api.Controllers.ApiCategoryController
+  - Swastka.IO.Cms.Api.Controllers.ApiFileController
+  - Swastka.IO.Cms.Api.Controllers.ApiModuleController
+  - Swastka.IO.Cms.Api.Controllers.ApiTemplateController
+  langs:
+  - csharp
+  - vb
+  name: Swastka.IO.Cms.Api.Controllers
+  nameWithType: Swastka.IO.Cms.Api.Controllers
+  fullName: Swastka.IO.Cms.Api.Controllers
+  type: Namespace
+  assemblies:
+  - Swastka.Cms.Api
+references:
+- uid: Swastka.IO.Cms.Api.Controllers.ApiFileController
+  commentId: T:Swastka.IO.Cms.Api.Controllers.ApiFileController
+  isExternal: true
+  name: ApiFileController
+  nameWithType: ApiFileController
+  fullName: Swastka.IO.Cms.Api.Controllers.ApiFileController
+- uid: Swastka.IO.Cms.Api.Controllers.ApiModuleController
+  commentId: T:Swastka.IO.Cms.Api.Controllers.ApiModuleController
+  isExternal: true
+  name: ApiModuleController
+  nameWithType: ApiModuleController
+  fullName: Swastka.IO.Cms.Api.Controllers.ApiModuleController
+- uid: Swastka.IO.Cms.Api.Controllers.ApiCategoryController
+  commentId: T:Swastka.IO.Cms.Api.Controllers.ApiCategoryController
+  isExternal: true
+  name: ApiCategoryController
+  nameWithType: ApiCategoryController
+  fullName: Swastka.IO.Cms.Api.Controllers.ApiCategoryController
+- uid: Swastka.IO.Cms.Api.Controllers.ApiTemplateController
+  commentId: T:Swastka.IO.Cms.Api.Controllers.ApiTemplateController
+  isExternal: true
+  name: ApiTemplateController
+  nameWithType: ApiTemplateController
+  fullName: Swastka.IO.Cms.Api.Controllers.ApiTemplateController

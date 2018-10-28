@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixConstants.Folder
+  commentId: T:Mix.Cms.Lib.MixConstants.Folder
+  id: MixConstants.Folder
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixConstants.Folder.FileFolder
+  - Mix.Cms.Lib.MixConstants.Folder.TemplateExtension
+  - Mix.Cms.Lib.MixConstants.Folder.TemplatesAssetFolder
+  - Mix.Cms.Lib.MixConstants.Folder.TemplatesFolder
+  - Mix.Cms.Lib.MixConstants.Folder.UploadFolder
+  - Mix.Cms.Lib.MixConstants.Folder.WebRootPath
+  langs:
+  - csharp
+  - vb
+  name: MixConstants.Folder
+  nameWithType: MixConstants.Folder
+  fullName: Mix.Cms.Lib.MixConstants.Folder
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public static class Folder : Object'
+    content.vb: >-
+      Public Module Folder
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mix.Cms.Lib.MixConstants.Folder.FileFolder
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.FileFolder
+  id: FileFolder
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: FileFolder
+  nameWithType: MixConstants.Folder.FileFolder
+  fullName: Mix.Cms.Lib.MixConstants.Folder.FileFolder
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string FileFolder = "Content"
+    return:
+      type: System.String
+    content.vb: Public Const FileFolder As String = "Content"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.Folder.TemplateExtension
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.TemplateExtension
+  id: TemplateExtension
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: TemplateExtension
+  nameWithType: MixConstants.Folder.TemplateExtension
+  fullName: Mix.Cms.Lib.MixConstants.Folder.TemplateExtension
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string TemplateExtension = ".cshtml"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateExtension As String = ".cshtml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.Folder.TemplatesAssetFolder
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.TemplatesAssetFolder
+  id: TemplatesAssetFolder
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: TemplatesAssetFolder
+  nameWithType: MixConstants.Folder.TemplatesAssetFolder
+  fullName: Mix.Cms.Lib.MixConstants.Folder.TemplatesAssetFolder
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string TemplatesAssetFolder = "Templates"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatesAssetFolder As String = "Templates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.Folder.TemplatesFolder
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.TemplatesFolder
+  id: TemplatesFolder
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: TemplatesFolder
+  nameWithType: MixConstants.Folder.TemplatesFolder
+  fullName: Mix.Cms.Lib.MixConstants.Folder.TemplatesFolder
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string TemplatesFolder = "Views/Shared/Templates"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatesFolder As String = "Views/Shared/Templates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.Folder.UploadFolder
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.UploadFolder
+  id: UploadFolder
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: UploadFolder
+  nameWithType: MixConstants.Folder.UploadFolder
+  fullName: Mix.Cms.Lib.MixConstants.Folder.UploadFolder
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string UploadFolder = "Content/Uploads"
+    return:
+      type: System.String
+    content.vb: Public Const UploadFolder As String = "Content/Uploads"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.Folder.WebRootPath
+  commentId: F:Mix.Cms.Lib.MixConstants.Folder.WebRootPath
+  id: WebRootPath
+  parent: Mix.Cms.Lib.MixConstants.Folder
+  langs:
+  - csharp
+  - vb
+  name: WebRootPath
+  nameWithType: MixConstants.Folder.WebRootPath
+  fullName: Mix.Cms.Lib.MixConstants.Folder.WebRootPath
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string WebRootPath = "wwwroot"
+    return:
+      type: System.String
+    content.vb: Public Const WebRootPath As String = "wwwroot"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

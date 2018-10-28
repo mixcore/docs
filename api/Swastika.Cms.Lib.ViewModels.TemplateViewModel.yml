@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  id: TemplateViewModel
+  parent: Swastika.Cms.Lib.ViewModels
+  children:
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+  - Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+  langs:
+  - csharp
+  - vb
+  name: TemplateViewModel
+  nameWithType: TemplateViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: 'public class TemplateViewModel : Object'
+    content.vb: >-
+      Public Class TemplateViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor
+  commentId: M:Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: TemplateViewModel()
+  nameWithType: TemplateViewModel.TemplateViewModel()
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.TemplateViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public TemplateViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+  id: FileFolder
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileFolder
+  nameWithType: TemplateViewModel.FileFolder
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string FileFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileFolder As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+  id: Filename
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: TemplateViewModel.Filename
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filename As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+  id: Extension
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: TemplateViewModel.Extension
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Extension { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Extension As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+  id: Content
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: TemplateViewModel.Content
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+  id: Scripts
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Scripts
+  nameWithType: TemplateViewModel.Scripts
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Scripts { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Scripts As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+  id: Styles
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Styles
+  nameWithType: TemplateViewModel.Styles
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string Styles { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Styles As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream
+  commentId: P:Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream
+  id: FileStream
+  parent: Swastika.Cms.Lib.ViewModels.TemplateViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileStream
+  nameWithType: TemplateViewModel.FileStream
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels
+  syntax:
+    content: public string FileStream { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileStream As String
+  overload: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.ViewModels
+  commentId: N:Swastika.Cms.Lib.ViewModels
+  isExternal: true
+  name: Swastika.Cms.Lib.ViewModels
+  nameWithType: Swastika.Cms.Lib.ViewModels
+  fullName: Swastika.Cms.Lib.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.#ctor
+  isExternal: true
+  name: TemplateViewModel
+  nameWithType: TemplateViewModel.TemplateViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.TemplateViewModel
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+  isExternal: true
+  name: FileFolder
+  nameWithType: TemplateViewModel.FileFolder
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileFolder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: TemplateViewModel.Filename
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Filename
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+  isExternal: true
+  name: Extension
+  nameWithType: TemplateViewModel.Extension
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Extension
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+  isExternal: true
+  name: Content
+  nameWithType: TemplateViewModel.Content
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Content
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+  isExternal: true
+  name: Scripts
+  nameWithType: TemplateViewModel.Scripts
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Scripts
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+  isExternal: true
+  name: Styles
+  nameWithType: TemplateViewModel.Styles
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.Styles
+- uid: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream
+  isExternal: true
+  name: FileStream
+  nameWithType: TemplateViewModel.FileStream
+  fullName: Swastika.Cms.Lib.ViewModels.TemplateViewModel.FileStream

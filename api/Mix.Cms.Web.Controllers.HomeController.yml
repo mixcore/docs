@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Web.Controllers.HomeController
+  commentId: T:Mix.Cms.Web.Controllers.HomeController
+  id: HomeController
+  parent: Mix.Cms.Web.Controllers
+  children:
+  - Mix.Cms.Web.Controllers.HomeController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser})
+  - Mix.Cms.Web.Controllers.HomeController.Error
+  - Mix.Cms.Web.Controllers.HomeController.Index(System.String,System.String)
+  - Mix.Cms.Web.Controllers.HomeController.Init(System.String)
+  - Mix.Cms.Web.Controllers.HomeController.PageNotFound
+  - Mix.Cms.Web.Controllers.HomeController.Portal
+  langs:
+  - csharp
+  - vb
+  name: HomeController
+  nameWithType: HomeController
+  fullName: Mix.Cms.Web.Controllers.HomeController
+  type: Class
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: 'public class HomeController : BaseController'
+    content.vb: >-
+      Public Class HomeController
+          Inherits BaseController
+  inheritance:
+  - System.Object
+  - Mix.Cms.Web.Controllers.BaseController
+  inheritedMembers:
+  - Mix.Cms.Web.Controllers.BaseController._domain
+  - Mix.Cms.Web.Controllers.BaseController._configuration
+  - Mix.Cms.Web.Controllers.BaseController._env
+  - Mix.Cms.Web.Controllers.BaseController._memoryCache
+  - Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - Mix.Cms.Web.Controllers.BaseController.GetLanguage
+  - Mix.Cms.Web.Controllers.BaseController.ViewContext
+  - Mix.Cms.Web.Controllers.BaseController._culture
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Web.Controllers.HomeController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser})
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser})
+  id: '#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser})'
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: HomeController(IHostingEnvironment, IMemoryCache, UserManager<ApplicationUser>)
+  nameWithType: HomeController.HomeController(IHostingEnvironment, IMemoryCache, UserManager<ApplicationUser>)
+  fullName: Mix.Cms.Web.Controllers.HomeController.HomeController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.AspNetCore.Identity.UserManager<Mix.Identity.Models.ApplicationUser>)
+  type: Constructor
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public HomeController(IHostingEnvironment env, IMemoryCache memoryCache, UserManager<ApplicationUser> userManager)
+    parameters:
+    - id: env
+      type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    - id: memoryCache
+      type: Microsoft.Extensions.Caching.Memory.IMemoryCache
+    - id: userManager
+      type: Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}
+    content.vb: Public Sub New(env As IHostingEnvironment, memoryCache As IMemoryCache, userManager As UserManager(Of ApplicationUser))
+  overload: Mix.Cms.Web.Controllers.HomeController.#ctor*
+  nameWithType.vb: HomeController.HomeController(IHostingEnvironment, IMemoryCache, UserManager(Of ApplicationUser))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Cms.Web.Controllers.HomeController.HomeController(Microsoft.AspNetCore.Hosting.IHostingEnvironment, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.AspNetCore.Identity.UserManager(Of Mix.Identity.Models.ApplicationUser))
+  name.vb: HomeController(IHostingEnvironment, IMemoryCache, UserManager(Of ApplicationUser))
+- uid: Mix.Cms.Web.Controllers.HomeController.Index(System.String,System.String)
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.Index(System.String,System.String)
+  id: Index(System.String,System.String)
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: Index(String, String)
+  nameWithType: HomeController.Index(String, String)
+  fullName: Mix.Cms.Web.Controllers.HomeController.Index(System.String, System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public Task<IActionResult> Index(string culture, string seoName)
+    parameters:
+    - id: culture
+      type: System.String
+    - id: seoName
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function Index(culture As String, seoName As String) As Task(Of IActionResult)
+  overload: Mix.Cms.Web.Controllers.HomeController.Index*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Web.Controllers.HomeController.Portal
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.Portal
+  id: Portal
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: Portal()
+  nameWithType: HomeController.Portal()
+  fullName: Mix.Cms.Web.Controllers.HomeController.Portal()
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public IActionResult Portal()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function Portal As IActionResult
+  overload: Mix.Cms.Web.Controllers.HomeController.Portal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Web.Controllers.HomeController.Init(System.String)
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.Init(System.String)
+  id: Init(System.String)
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: Init(String)
+  nameWithType: HomeController.Init(String)
+  fullName: Mix.Cms.Web.Controllers.HomeController.Init(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public IActionResult Init(string page)
+    parameters:
+    - id: page
+      type: System.String
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function Init(page As String) As IActionResult
+  overload: Mix.Cms.Web.Controllers.HomeController.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Web.Controllers.HomeController.PageNotFound
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.PageNotFound
+  id: PageNotFound
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: PageNotFound()
+  nameWithType: HomeController.PageNotFound()
+  fullName: Mix.Cms.Web.Controllers.HomeController.PageNotFound()
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public Task<IActionResult> PageNotFound()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function PageNotFound As Task(Of IActionResult)
+  overload: Mix.Cms.Web.Controllers.HomeController.PageNotFound*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Web.Controllers.HomeController.Error
+  commentId: M:Mix.Cms.Web.Controllers.HomeController.Error
+  id: Error
+  parent: Mix.Cms.Web.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: Error()
+  nameWithType: HomeController.Error()
+  fullName: Mix.Cms.Web.Controllers.HomeController.Error()
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Controllers
+  syntax:
+    content: public IActionResult Error()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function Error As IActionResult
+  overload: Mix.Cms.Web.Controllers.HomeController.Error*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Web.Controllers
+  commentId: N:Mix.Cms.Web.Controllers
+  isExternal: true
+  name: Mix.Cms.Web.Controllers
+  nameWithType: Mix.Cms.Web.Controllers
+  fullName: Mix.Cms.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Mix.Cms.Web.Controllers.BaseController
+  commentId: T:Mix.Cms.Web.Controllers.BaseController
+  parent: Mix.Cms.Web.Controllers
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Mix.Cms.Web.Controllers.BaseController
+- uid: Mix.Cms.Web.Controllers.BaseController._domain
+  commentId: F:Mix.Cms.Web.Controllers.BaseController._domain
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: _domain
+  nameWithType: BaseController._domain
+  fullName: Mix.Cms.Web.Controllers.BaseController._domain
+- uid: Mix.Cms.Web.Controllers.BaseController._configuration
+  commentId: F:Mix.Cms.Web.Controllers.BaseController._configuration
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: _configuration
+  nameWithType: BaseController._configuration
+  fullName: Mix.Cms.Web.Controllers.BaseController._configuration
+- uid: Mix.Cms.Web.Controllers.BaseController._env
+  commentId: F:Mix.Cms.Web.Controllers.BaseController._env
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: _env
+  nameWithType: BaseController._env
+  fullName: Mix.Cms.Web.Controllers.BaseController._env
+- uid: Mix.Cms.Web.Controllers.BaseController._memoryCache
+  commentId: F:Mix.Cms.Web.Controllers.BaseController._memoryCache
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: _memoryCache
+  nameWithType: BaseController._memoryCache
+  fullName: Mix.Cms.Web.Controllers.BaseController._memoryCache
+- uid: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: OnActionExecuting(ActionExecutingContext)
+  nameWithType: BaseController.OnActionExecuting(ActionExecutingContext)
+  fullName: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  spec.csharp:
+  - uid: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseController.OnActionExecuting
+    fullName: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseController.OnActionExecuting
+    fullName: Mix.Cms.Web.Controllers.BaseController.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Web.Controllers.BaseController.GetLanguage
+  commentId: M:Mix.Cms.Web.Controllers.BaseController.GetLanguage
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: GetLanguage()
+  nameWithType: BaseController.GetLanguage()
+  fullName: Mix.Cms.Web.Controllers.BaseController.GetLanguage()
+  spec.csharp:
+  - uid: Mix.Cms.Web.Controllers.BaseController.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseController.GetLanguage
+    fullName: Mix.Cms.Web.Controllers.BaseController.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Mix.Cms.Web.Controllers.BaseController.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseController.GetLanguage
+    fullName: Mix.Cms.Web.Controllers.BaseController.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Web.Controllers.BaseController.ViewContext
+  commentId: P:Mix.Cms.Web.Controllers.BaseController.ViewContext
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: ViewContext
+  nameWithType: BaseController.ViewContext
+  fullName: Mix.Cms.Web.Controllers.BaseController.ViewContext
+- uid: Mix.Cms.Web.Controllers.BaseController._culture
+  commentId: P:Mix.Cms.Web.Controllers.BaseController._culture
+  parent: Mix.Cms.Web.Controllers.BaseController
+  isExternal: true
+  name: _culture
+  nameWithType: BaseController._culture
+  fullName: Mix.Cms.Web.Controllers.BaseController._culture
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Web.Controllers.HomeController.#ctor*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.#ctor
+  isExternal: true
+  name: HomeController
+  nameWithType: HomeController.HomeController
+  fullName: Mix.Cms.Web.Controllers.HomeController.HomeController
+- uid: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+  isExternal: true
+  name: IHostingEnvironment
+  nameWithType: IHostingEnvironment
+  fullName: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+- uid: Microsoft.Extensions.Caching.Memory.IMemoryCache
+  isExternal: true
+  name: IMemoryCache
+  nameWithType: IMemoryCache
+  fullName: Microsoft.Extensions.Caching.Memory.IMemoryCache
+- uid: Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.UserManager`1
+  name: UserManager<ApplicationUser>
+  nameWithType: UserManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<Mix.Identity.Models.ApplicationUser>
+  nameWithType.vb: UserManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of Mix.Identity.Models.ApplicationUser)
+  name.vb: UserManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.UserManager`1
+  isExternal: true
+  name: UserManager<>
+  nameWithType: UserManager<>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<>
+  nameWithType.vb: UserManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of )
+  name.vb: UserManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Web.Controllers.HomeController.Index*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.Index
+  isExternal: true
+  name: Index
+  nameWithType: HomeController.Index
+  fullName: Mix.Cms.Web.Controllers.HomeController.Index
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IActionResult>
+  nameWithType: Task<IActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+  nameWithType.vb: Task(Of IActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.IActionResult)
+  name.vb: Task(Of IActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Web.Controllers.HomeController.Portal*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.Portal
+  isExternal: true
+  name: Portal
+  nameWithType: HomeController.Portal
+  fullName: Mix.Cms.Web.Controllers.HomeController.Portal
+- uid: Microsoft.AspNetCore.Mvc.IActionResult
+  isExternal: true
+  name: IActionResult
+  nameWithType: IActionResult
+  fullName: Microsoft.AspNetCore.Mvc.IActionResult
+- uid: Mix.Cms.Web.Controllers.HomeController.Init*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.Init
+  isExternal: true
+  name: Init
+  nameWithType: HomeController.Init
+  fullName: Mix.Cms.Web.Controllers.HomeController.Init
+- uid: Mix.Cms.Web.Controllers.HomeController.PageNotFound*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.PageNotFound
+  isExternal: true
+  name: PageNotFound
+  nameWithType: HomeController.PageNotFound
+  fullName: Mix.Cms.Web.Controllers.HomeController.PageNotFound
+- uid: Mix.Cms.Web.Controllers.HomeController.Error*
+  commentId: Overload:Mix.Cms.Web.Controllers.HomeController.Error
+  isExternal: true
+  name: Error
+  nameWithType: HomeController.Error
+  fullName: Mix.Cms.Web.Controllers.HomeController.Error

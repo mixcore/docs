@@ -1,0 +1,1097 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  commentId: T:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  id: ProfileController
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers
+  children:
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser},Swastika.Identity.Services.IEmailSender,Swastika.Identity.Services.ISmsSender,Microsoft.Extensions.Logging.ILoggerFactory)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber(Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword(Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin(System.String)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin(Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword(Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel)
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProfileController
+  nameWithType: ProfileController
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: 'public class ProfileController : Controller'
+    content.vb: >-
+      Public Class ProfileController
+          Inherits Controller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser},Swastika.Identity.Services.IEmailSender,Swastika.Identity.Services.ISmsSender,Microsoft.Extensions.Logging.ILoggerFactory)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser},Swastika.Identity.Services.IEmailSender,Swastika.Identity.Services.ISmsSender,Microsoft.Extensions.Logging.ILoggerFactory)
+  id: '#ctor(Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser},Swastika.Identity.Services.IEmailSender,Swastika.Identity.Services.ISmsSender,Microsoft.Extensions.Logging.ILoggerFactory)'
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: ProfileController(UserManager<ApplicationUser>, SignInManager<ApplicationUser>, IEmailSender, ISmsSender, ILoggerFactory)
+  nameWithType: ProfileController.ProfileController(UserManager<ApplicationUser>, SignInManager<ApplicationUser>, IEmailSender, ISmsSender, ILoggerFactory)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ProfileController(Microsoft.AspNetCore.Identity.UserManager<Swastika.Identity.Models.ApplicationUser>, Microsoft.AspNetCore.Identity.SignInManager<Swastika.Identity.Models.ApplicationUser>, Swastika.Identity.Services.IEmailSender, Swastika.Identity.Services.ISmsSender, Microsoft.Extensions.Logging.ILoggerFactory)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public ProfileController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IEmailSender emailSender, ISmsSender smsSender, ILoggerFactory loggerFactory)
+    parameters:
+    - id: userManager
+      type: Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}
+    - id: signInManager
+      type: Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser}
+    - id: emailSender
+      type: Swastika.Identity.Services.IEmailSender
+    - id: smsSender
+      type: Swastika.Identity.Services.ISmsSender
+    - id: loggerFactory
+      type: Microsoft.Extensions.Logging.ILoggerFactory
+    content.vb: Public Sub New(userManager As UserManager(Of ApplicationUser), signInManager As SignInManager(Of ApplicationUser), emailSender As IEmailSender, smsSender As ISmsSender, loggerFactory As ILoggerFactory)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor*
+  nameWithType.vb: ProfileController.ProfileController(UserManager(Of ApplicationUser), SignInManager(Of ApplicationUser), IEmailSender, ISmsSender, ILoggerFactory)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ProfileController(Microsoft.AspNetCore.Identity.UserManager(Of Swastika.Identity.Models.ApplicationUser), Microsoft.AspNetCore.Identity.SignInManager(Of Swastika.Identity.Models.ApplicationUser), Swastika.Identity.Services.IEmailSender, Swastika.Identity.Services.ISmsSender, Microsoft.Extensions.Logging.ILoggerFactory)
+  name.vb: ProfileController(UserManager(Of ApplicationUser), SignInManager(Of ApplicationUser), IEmailSender, ISmsSender, ILoggerFactory)
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  id: Index(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: Index(Nullable<ProfileController.ManageMessageId>)
+  nameWithType: ProfileController.Index(Nullable<ProfileController.ManageMessageId>)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index(System.Nullable<Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId>)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> Index(Nullable<ProfileController.ManageMessageId> message = null)
+    parameters:
+    - id: message
+      type: System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId}
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function Index(message As Nullable(Of ProfileController.ManageMessageId) = Nothing) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index*
+  nameWithType.vb: ProfileController.Index(Nullable(Of ProfileController.ManageMessageId))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index(System.Nullable(Of Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId))
+  name.vb: Index(Nullable(Of ProfileController.ManageMessageId))
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin(Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin(Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel)
+  id: RemoveLogin(Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: RemoveLogin(RemoveLoginViewModel)
+  nameWithType: ProfileController.RemoveLogin(RemoveLoginViewModel)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin(Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> RemoveLogin(RemoveLoginViewModel account)
+    parameters:
+    - id: account
+      type: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function RemoveLogin(account As RemoveLoginViewModel) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber
+  id: AddPhoneNumber
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumber()
+  nameWithType: ProfileController.AddPhoneNumber()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public IActionResult AddPhoneNumber()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function AddPhoneNumber As IActionResult
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber(Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber(Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel)
+  id: AddPhoneNumber(Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumber(AddPhoneNumberViewModel)
+  nameWithType: ProfileController.AddPhoneNumber(AddPhoneNumberViewModel)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber(Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> AddPhoneNumber(AddPhoneNumberViewModel model)
+    parameters:
+    - id: model
+      type: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function AddPhoneNumber(model As AddPhoneNumberViewModel) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication
+  id: EnableTwoFactorAuthentication
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: EnableTwoFactorAuthentication()
+  nameWithType: ProfileController.EnableTwoFactorAuthentication()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> EnableTwoFactorAuthentication()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function EnableTwoFactorAuthentication As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication
+  id: DisableTwoFactorAuthentication
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: DisableTwoFactorAuthentication()
+  nameWithType: ProfileController.DisableTwoFactorAuthentication()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> DisableTwoFactorAuthentication()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function DisableTwoFactorAuthentication As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(System.String)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(System.String)
+  id: VerifyPhoneNumber(System.String)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: VerifyPhoneNumber(String)
+  nameWithType: ProfileController.VerifyPhoneNumber(String)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> VerifyPhoneNumber(string phoneNumber)
+    parameters:
+    - id: phoneNumber
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function VerifyPhoneNumber(phoneNumber As String) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel)
+  id: VerifyPhoneNumber(Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: VerifyPhoneNumber(VerifyPhoneNumberViewModel)
+  nameWithType: ProfileController.VerifyPhoneNumber(VerifyPhoneNumberViewModel)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber(Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> VerifyPhoneNumber(VerifyPhoneNumberViewModel model)
+    parameters:
+    - id: model
+      type: Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function VerifyPhoneNumber(model As VerifyPhoneNumberViewModel) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber
+  id: RemovePhoneNumber
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: RemovePhoneNumber()
+  nameWithType: ProfileController.RemovePhoneNumber()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> RemovePhoneNumber()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function RemovePhoneNumber As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword
+  id: ChangePassword
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: ChangePassword()
+  nameWithType: ProfileController.ChangePassword()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public IActionResult ChangePassword()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function ChangePassword As IActionResult
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword(Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword(Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel)
+  id: ChangePassword(Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: ChangePassword(ChangePasswordViewModel)
+  nameWithType: ProfileController.ChangePassword(ChangePasswordViewModel)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword(Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+    parameters:
+    - id: model
+      type: Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function ChangePassword(model As ChangePasswordViewModel) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword
+  id: SetPassword
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: SetPassword()
+  nameWithType: ProfileController.SetPassword()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public IActionResult SetPassword()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+    content.vb: Public Function SetPassword As IActionResult
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword(Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword(Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel)
+  id: SetPassword(Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: SetPassword(SetPasswordViewModel)
+  nameWithType: ProfileController.SetPassword(SetPasswordViewModel)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword(Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> SetPassword(SetPasswordViewModel model)
+    parameters:
+    - id: model
+      type: Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function SetPassword(model As SetPasswordViewModel) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  id: ManageLogins(System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId})
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: ManageLogins(Nullable<ProfileController.ManageMessageId>)
+  nameWithType: ProfileController.ManageLogins(Nullable<ProfileController.ManageMessageId>)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins(System.Nullable<Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId>)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> ManageLogins(Nullable<ProfileController.ManageMessageId> message = null)
+    parameters:
+    - id: message
+      type: System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId}
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function ManageLogins(message As Nullable(Of ProfileController.ManageMessageId) = Nothing) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins*
+  nameWithType.vb: ProfileController.ManageLogins(Nullable(Of ProfileController.ManageMessageId))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins(System.Nullable(Of Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId))
+  name.vb: ManageLogins(Nullable(Of ProfileController.ManageMessageId))
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin(System.String)
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin(System.String)
+  id: LinkLogin(System.String)
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: LinkLogin(String)
+  nameWithType: ProfileController.LinkLogin(String)
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<IActionResult> LinkLogin(string provider)
+    parameters:
+    - id: provider
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+    content.vb: Public Function LinkLogin(provider As String) As Task(Of IActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback
+  commentId: M:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback
+  id: LinkLoginCallback
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  langs:
+  - csharp
+  - vb
+  name: LinkLoginCallback()
+  nameWithType: ProfileController.LinkLoginCallback()
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.User.Controllers
+  syntax:
+    content: public Task<ActionResult> LinkLoginCallback()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}
+    content.vb: Public Function LinkLoginCallback As Task(Of ActionResult)
+  overload: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers
+  commentId: N:Swastika.Cms.Mvc.Areas.User.Controllers
+  isExternal: false
+  name: Swastika.Cms.Mvc.Areas.User.Controllers
+  nameWithType: Swastika.Cms.Mvc.Areas.User.Controllers
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.#ctor
+  isExternal: true
+  name: ProfileController
+  nameWithType: ProfileController.ProfileController
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ProfileController
+- uid: Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.UserManager{Swastika.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.UserManager`1
+  name: UserManager<ApplicationUser>
+  nameWithType: UserManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<Swastika.Identity.Models.ApplicationUser>
+  nameWithType.vb: UserManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of Swastika.Identity.Models.ApplicationUser)
+  name.vb: UserManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.SignInManager{Swastika.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.SignInManager`1
+  name: SignInManager<ApplicationUser>
+  nameWithType: SignInManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.SignInManager<Swastika.Identity.Models.ApplicationUser>
+  nameWithType.vb: SignInManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.SignInManager(Of Swastika.Identity.Models.ApplicationUser)
+  name.vb: SignInManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Swastika.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Services.IEmailSender
+  commentId: T:Swastika.Identity.Services.IEmailSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: IEmailSender
+  nameWithType: IEmailSender
+  fullName: Swastika.Identity.Services.IEmailSender
+- uid: Swastika.Identity.Services.ISmsSender
+  commentId: T:Swastika.Identity.Services.ISmsSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: Swastika.Identity.Services.ISmsSender
+- uid: Microsoft.Extensions.Logging.ILoggerFactory
+  isExternal: true
+  name: ILoggerFactory
+  nameWithType: ILoggerFactory
+  fullName: Microsoft.Extensions.Logging.ILoggerFactory
+- uid: Microsoft.AspNetCore.Identity.UserManager`1
+  isExternal: true
+  name: UserManager<>
+  nameWithType: UserManager<>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<>
+  nameWithType.vb: UserManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of )
+  name.vb: UserManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.SignInManager`1
+  isExternal: true
+  name: SignInManager<>
+  nameWithType: SignInManager<>
+  fullName: Microsoft.AspNetCore.Identity.SignInManager<>
+  nameWithType.vb: SignInManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.SignInManager(Of )
+  name.vb: SignInManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Services
+  commentId: N:Swastika.Identity.Services
+  isExternal: false
+  name: Swastika.Identity.Services
+  nameWithType: Swastika.Identity.Services
+  fullName: Swastika.Identity.Services
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index
+  isExternal: true
+  name: Index
+  nameWithType: ProfileController.Index
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.Index
+- uid: System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId}
+  commentId: '!:System.Nullable{Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId}'
+  definition: System.Nullable`1
+  name: Nullable<ProfileController.ManageMessageId>
+  nameWithType: Nullable<ProfileController.ManageMessageId>
+  fullName: System.Nullable<Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId>
+  nameWithType.vb: Nullable(Of ProfileController.ManageMessageId)
+  fullName.vb: System.Nullable(Of Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId)
+  name.vb: Nullable(Of ProfileController.ManageMessageId)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+    name: ProfileController.ManageMessageId
+    nameWithType: ProfileController.ManageMessageId
+    fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+    name: ProfileController.ManageMessageId
+    nameWithType: ProfileController.ManageMessageId
+    fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IActionResult>
+  nameWithType: Task<IActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+  nameWithType.vb: Task(Of IActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.IActionResult)
+  name.vb: Task(Of IActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin
+  isExternal: true
+  name: RemoveLogin
+  nameWithType: ProfileController.RemoveLogin
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemoveLogin
+- uid: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: RemoveLoginViewModel
+  nameWithType: RemoveLoginViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.RemoveLoginViewModel
+- uid: Swastika.Identity.Models.ManageViewModels
+  commentId: N:Swastika.Identity.Models.ManageViewModels
+  isExternal: false
+  name: Swastika.Identity.Models.ManageViewModels
+  nameWithType: Swastika.Identity.Models.ManageViewModels
+  fullName: Swastika.Identity.Models.ManageViewModels
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber
+  isExternal: true
+  name: AddPhoneNumber
+  nameWithType: ProfileController.AddPhoneNumber
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.AddPhoneNumber
+- uid: Microsoft.AspNetCore.Mvc.IActionResult
+  isExternal: true
+  name: IActionResult
+  nameWithType: IActionResult
+  fullName: Microsoft.AspNetCore.Mvc.IActionResult
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: AddPhoneNumberViewModel
+  nameWithType: AddPhoneNumberViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication
+  isExternal: true
+  name: EnableTwoFactorAuthentication
+  nameWithType: ProfileController.EnableTwoFactorAuthentication
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.EnableTwoFactorAuthentication
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication
+  isExternal: true
+  name: DisableTwoFactorAuthentication
+  nameWithType: ProfileController.DisableTwoFactorAuthentication
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.DisableTwoFactorAuthentication
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber
+  isExternal: true
+  name: VerifyPhoneNumber
+  nameWithType: ProfileController.VerifyPhoneNumber
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.VerifyPhoneNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: VerifyPhoneNumberViewModel
+  nameWithType: VerifyPhoneNumberViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.VerifyPhoneNumberViewModel
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber
+  isExternal: true
+  name: RemovePhoneNumber
+  nameWithType: ProfileController.RemovePhoneNumber
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.RemovePhoneNumber
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword
+  isExternal: true
+  name: ChangePassword
+  nameWithType: ProfileController.ChangePassword
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ChangePassword
+- uid: Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: ChangePasswordViewModel
+  nameWithType: ChangePasswordViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.ChangePasswordViewModel
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword
+  isExternal: true
+  name: SetPassword
+  nameWithType: ProfileController.SetPassword
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.SetPassword
+- uid: Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: SetPasswordViewModel
+  nameWithType: SetPasswordViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.SetPasswordViewModel
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins
+  isExternal: true
+  name: ManageLogins
+  nameWithType: ProfileController.ManageLogins
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageLogins
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin
+  isExternal: true
+  name: LinkLogin
+  nameWithType: ProfileController.LinkLogin
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLogin
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback
+  isExternal: true
+  name: LinkLoginCallback
+  nameWithType: ProfileController.LinkLoginCallback
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.LinkLoginCallback
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActionResult>
+  nameWithType: Task<ActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.ActionResult>
+  nameWithType.vb: Task(Of ActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.ActionResult)
+  name.vb: Task(Of ActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

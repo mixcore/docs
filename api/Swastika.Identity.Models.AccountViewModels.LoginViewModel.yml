@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  commentId: T:Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  id: LoginViewModel
+  parent: Swastika.Identity.Models.AccountViewModels
+  children:
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl
+  - Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+  langs:
+  - csharp
+  - vb
+  name: LoginViewModel
+  nameWithType: LoginViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class LoginViewModel : Object'
+    content.vb: >-
+      Public Class LoginViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: LoginViewModel()
+  nameWithType: LoginViewModel.LoginViewModel()
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.LoginViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public LoginViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+  id: Email
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: LoginViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+  id: UserName
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: LoginViewModel.UserName
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+  id: Password
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: LoginViewModel.Password
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+  id: RememberMe
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: RememberMe
+  nameWithType: LoginViewModel.RememberMe
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public bool RememberMe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RememberMe As Boolean
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl
+  commentId: P:Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl
+  id: ReturnUrl
+  parent: Swastika.Identity.Models.AccountViewModels.LoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: ReturnUrl
+  nameWithType: LoginViewModel.ReturnUrl
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ReturnUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnUrl As String
+  overload: Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.AccountViewModels
+  commentId: N:Swastika.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.AccountViewModels
+  nameWithType: Swastika.Identity.Models.AccountViewModels
+  fullName: Swastika.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.#ctor
+  isExternal: true
+  name: LoginViewModel
+  nameWithType: LoginViewModel.LoginViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.LoginViewModel
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+  isExternal: true
+  name: Email
+  nameWithType: LoginViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Email
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: LoginViewModel.UserName
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.UserName
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+  isExternal: true
+  name: Password
+  nameWithType: LoginViewModel.Password
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.Password
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+  isExternal: true
+  name: RememberMe
+  nameWithType: LoginViewModel.RememberMe
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.RememberMe
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl
+  isExternal: true
+  name: ReturnUrl
+  nameWithType: LoginViewModel.ReturnUrl
+  fullName: Swastika.Identity.Models.AccountViewModels.LoginViewModel.ReturnUrl

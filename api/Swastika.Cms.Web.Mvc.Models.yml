@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models
+  commentId: N:Swastika.Cms.Web.Mvc.Models
+  id: Swastika.Cms.Web.Mvc.Models
+  children:
+  - Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Web.Mvc.Models
+  nameWithType: Swastika.Cms.Web.Mvc.Models
+  fullName: Swastika.Cms.Web.Mvc.Models
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  commentId: T:Swastika.Cms.Web.Mvc.Models.ErrorViewModel
+  isExternal: true
+  name: ErrorViewModel
+  nameWithType: ErrorViewModel
+  fullName: Swastika.Cms.Web.Mvc.Models.ErrorViewModel

@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ApiFileController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ApiFileController
+   ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController">
+  
+  
+  <h1 id="Mix_Cms_Api_Controllers_v1_ApiFileController" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController" class="text-break">Class ApiFileController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html">BaseApiController</a></div>
+    <div class="level2"><span class="xref">ApiFileController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController__hubContext">BaseApiController._hubContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController__memoryCache">BaseApiController._memoryCache</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController__lang">BaseApiController._lang</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController__domain">BaseApiController._domain</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_">BaseApiController.OnActionExecuting(ActionExecutingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController_AlertAsync_System_String_System_Int32_System_String_">BaseApiController.AlertAsync(String, Int32, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController_ParseRequestPagingDate_Mix_Domain_Core_ViewModels_RequestPaging_">BaseApiController.ParseRequestPagingDate(RequestPaging)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Cms.Api.Controllers.v1.BaseApiController.html#Mix_Cms_Api_Controllers_v1_BaseApiController_GetLanguage">BaseApiController.GetLanguage()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mix.Cms.Api.Controllers.v1.html">Mix.Cms.Api.Controllers.v1</a></h6>
+  <h6><strong>Assembly</strong>: Mix.Cms.Api.dll</h6>
+  <h5 id="Mix_Cms_Api_Controllers_v1_ApiFileController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApiFileController : BaseApiController</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController__ctor_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.#ctor*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController__ctor_Microsoft_AspNetCore_SignalR_IHubContext_Mix_Cms_Hub_PortalHub__" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.#ctor(Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})">ApiFileController(IHubContext&lt;PortalHub&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApiFileController(IHubContext&lt;PortalHub&gt; hubContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.SignalR.IHubContext</span>&lt;<a class="xref" href="Mix.Cms.Hub.PortalHub.html">PortalHub</a>&gt;</td>
+        <td><span class="parametername">hubContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController_Delete_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Delete*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController_Delete_Mix_Domain_Core_ViewModels_RequestObject_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Delete(Mix.Domain.Core.ViewModels.RequestObject)">Delete(RequestObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;bool&gt; Delete(RequestObject request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RequestObject.html">RequestObject</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController_Details_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Details*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController_Details_System_String_System_String_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Details(System.String,System.String)">Details(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;FileViewModel&gt; Details(string folder, string filename)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">folder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController_Edit_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Edit*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController_Edit_Mix_Cms_Lib_ViewModels_FileViewModel_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Edit(Mix.Cms.Lib.ViewModels.FileViewModel)">Edit(FileViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult Edit(FileViewModel file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController_GetList_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.GetList*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController_GetList_Mix_Domain_Core_ViewModels_RequestPaging_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.GetList(Mix.Domain.Core.ViewModels.RequestPaging)">GetList(RequestPaging)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;FilePageViewModel&gt; GetList(RequestPaging request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RequestPaging.html">RequestPaging</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.FilePageViewModel.html">FilePageViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_ApiFileController_Save_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Save*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_ApiFileController_Save_Mix_Cms_Lib_ViewModels_FileViewModel_" data-uid="Mix.Cms.Api.Controllers.v1.ApiFileController.Save(Mix.Cms.Lib.ViewModels.FileViewModel)">Save(FileViewModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RepositoryResponse&lt;FileViewModel&gt; Save(FileViewModel model)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

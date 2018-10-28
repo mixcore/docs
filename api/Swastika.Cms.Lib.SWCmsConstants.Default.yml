@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.Default
+  id: SWCmsConstants.Default
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
+  - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateFolder
+  - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayout
+  - Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayoutBody
+  - Swastika.Cms.Lib.SWCmsConstants.Default.OrderBy
+  - Swastika.Cms.Lib.SWCmsConstants.Default.PageSizeArticle
+  - Swastika.Cms.Lib.SWCmsConstants.Default.Password
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.Default
+  nameWithType: SWCmsConstants.Default
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public static class Default : Object'
+    content.vb: >-
+      Public Module Default
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
+  id: DefaultTemplate
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplate
+  nameWithType: SWCmsConstants.Default.DefaultTemplate
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplate
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplate = "_Default"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplate As String = "_Default"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateFolder
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateFolder
+  id: DefaultTemplateFolder
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplateFolder
+  nameWithType: SWCmsConstants.Default.DefaultTemplateFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateFolder
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplateFolder = "Default_Blank"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplateFolder As String = "Default_Blank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayout
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayout
+  id: DefaultTemplateLayout
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplateLayout
+  nameWithType: SWCmsConstants.Default.DefaultTemplateLayout
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayout
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplateLayout = "_Layout"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplateLayout As String = "_Layout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayoutBody
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayoutBody
+  id: DefaultTemplateLayoutBody
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplateLayoutBody
+  nameWithType: SWCmsConstants.Default.DefaultTemplateLayoutBody
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.DefaultTemplateLayoutBody
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplateLayoutBody = "<div>@RenderBody();</div>"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplateLayoutBody As String = "<div>@RenderBody();</div>"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.OrderBy
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.OrderBy
+  id: OrderBy
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: SWCmsConstants.Default.OrderBy
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.OrderBy
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string OrderBy = "Priority"
+    return:
+      type: System.String
+    content.vb: Public Const OrderBy As String = "Priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.PageSizeArticle
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.PageSizeArticle
+  id: PageSizeArticle
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: PageSizeArticle
+  nameWithType: SWCmsConstants.Default.PageSizeArticle
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.PageSizeArticle
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const int PageSizeArticle = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const PageSizeArticle As Integer = 20
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Default.Password
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Default.Password
+  id: Password
+  parent: Swastika.Cms.Lib.SWCmsConstants.Default
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: SWCmsConstants.Default.Password
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Default.Password
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Password = ""
+    return:
+      type: System.String
+    content.vb: Public Const Password As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

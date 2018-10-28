@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Web
+  commentId: N:Swastka.Cms.Web
+  id: Swastka.Cms.Web
+  children:
+  - Swastka.Cms.Web.Startup
+  langs:
+  - csharp
+  - vb
+  name: Swastka.Cms.Web
+  nameWithType: Swastka.Cms.Web
+  fullName: Swastka.Cms.Web
+  type: Namespace
+  assemblies:
+  - Swastka.Cms.Api
+references:
+- uid: Swastka.Cms.Web.Startup
+  commentId: T:Swastka.Cms.Web.Startup
+  isExternal: true
+  name: Startup
+  nameWithType: Startup
+  fullName: Swastka.Cms.Web.Startup

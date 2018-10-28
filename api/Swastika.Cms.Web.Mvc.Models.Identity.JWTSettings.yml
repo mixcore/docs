@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  commentId: T:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  id: JwtSettings
+  parent: Swastika.Cms.Web.Mvc.Models.Identity
+  children:
+  - Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor
+  - Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience
+  - Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+  - Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+  langs:
+  - csharp
+  - vb
+  name: JwtSettings
+  nameWithType: JwtSettings
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Identity
+  syntax:
+    content: 'public class JwtSettings : Object'
+    content.vb: >-
+      Public Class JwtSettings
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  langs:
+  - csharp
+  - vb
+  name: JwtSettings()
+  nameWithType: JwtSettings.JwtSettings()
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.JwtSettings()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Identity
+  syntax:
+    content: public JwtSettings()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+  id: SecretKey
+  parent: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  langs:
+  - csharp
+  - vb
+  name: SecretKey
+  nameWithType: JwtSettings.SecretKey
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Identity
+  syntax:
+    content: public string SecretKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SecretKey As String
+  overload: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+  id: Issuer
+  parent: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  langs:
+  - csharp
+  - vb
+  name: Issuer
+  nameWithType: JwtSettings.Issuer
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Identity
+  syntax:
+    content: public string Issuer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Issuer As String
+  overload: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience
+  id: Audience
+  parent: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: JwtSettings.Audience
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Identity
+  syntax:
+    content: public string Audience { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Audience As String
+  overload: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc.Models.Identity
+  commentId: N:Swastika.Cms.Web.Mvc.Models.Identity
+  isExternal: true
+  name: Swastika.Cms.Web.Mvc.Models.Identity
+  nameWithType: Swastika.Cms.Web.Mvc.Models.Identity
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.#ctor
+  isExternal: true
+  name: JwtSettings
+  nameWithType: JwtSettings.JwtSettings
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.JwtSettings
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+  isExternal: true
+  name: SecretKey
+  nameWithType: JwtSettings.SecretKey
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.SecretKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+  isExternal: true
+  name: Issuer
+  nameWithType: JwtSettings.Issuer
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Issuer
+- uid: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience
+  isExternal: true
+  name: Audience
+  nameWithType: JwtSettings.Audience
+  fullName: Swastika.Cms.Web.Mvc.Models.Identity.JwtSettings.Audience

@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  id: SiocPortalPage
+  parent: Swastika.Cms.Lib.Models.Cms
+  children:
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+  - Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPage
+  nameWithType: SiocPortalPage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class SiocPortalPage : Object'
+    content.vb: >-
+      Public Class SiocPortalPage
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPage()
+  nameWithType: SiocPortalPage.SiocPortalPage()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPage()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocPortalPage()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SiocPortalPage.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+  id: CreatedBy
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: SiocPortalPage.CreatedBy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatedBy As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+  id: CreatedDateTime
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: SiocPortalPage.CreatedDateTime
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+  id: ParentId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: SiocPortalPage.ParentId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public Nullable<int> ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property ParentId As Nullable(Of Integer)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+  id: Priority
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocPortalPage.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+  id: RouteAction
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: RouteAction
+  nameWithType: SiocPortalPage.RouteAction
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string RouteAction { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RouteAction As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+  id: RouteName
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: RouteName
+  nameWithType: SiocPortalPage.RouteName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string RouteName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RouteName As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+  id: RouteValue
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: RouteValue
+  nameWithType: SiocPortalPage.RouteValue
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string RouteValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RouteValue As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+  id: Status
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocPortalPage.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+  id: Title
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SiocPortalPage.Title
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+  id: Url
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: SiocPortalPage.Url
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  id: SiocPortalPageNavigationIdNavigation
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPageNavigationIdNavigation
+  nameWithType: SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocPortalPageNavigation> SiocPortalPageNavigationIdNavigation { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}
+    content.vb: Public Property SiocPortalPageNavigationIdNavigation As ICollection(Of SiocPortalPageNavigation)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+  id: SiocPortalPageNavigationParent
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPageNavigationParent
+  nameWithType: SiocPortalPage.SiocPortalPageNavigationParent
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocPortalPageNavigation> SiocPortalPageNavigationParent { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}
+    content.vb: Public Property SiocPortalPageNavigationParent As ICollection(Of SiocPortalPageNavigation)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+  id: SiocPortalPageRole
+  parent: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPageRole
+  nameWithType: SiocPortalPage.SiocPortalPageRole
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocPortalPageRole> SiocPortalPageRole { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}
+    content.vb: Public Property SiocPortalPageRole As ICollection(Of SiocPortalPageRole)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.#ctor
+  isExternal: true
+  name: SiocPortalPage
+  nameWithType: SiocPortalPage.SiocPortalPage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPage
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+  isExternal: true
+  name: Id
+  nameWithType: SiocPortalPage.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: SiocPortalPage.CreatedBy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedBy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: SiocPortalPage.CreatedDateTime
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+  isExternal: true
+  name: ParentId
+  nameWithType: SiocPortalPage.ParentId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.ParentId
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocPortalPage.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Priority
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+  isExternal: true
+  name: RouteAction
+  nameWithType: SiocPortalPage.RouteAction
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteAction
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+  isExternal: true
+  name: RouteName
+  nameWithType: SiocPortalPage.RouteName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteName
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+  isExternal: true
+  name: RouteValue
+  nameWithType: SiocPortalPage.RouteValue
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.RouteValue
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocPortalPage.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Status
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+  isExternal: true
+  name: Title
+  nameWithType: SiocPortalPage.Title
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Title
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+  isExternal: true
+  name: Url
+  nameWithType: SiocPortalPage.Url
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.Url
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  isExternal: true
+  name: SiocPortalPageNavigationIdNavigation
+  nameWithType: SiocPortalPage.SiocPortalPageNavigationIdNavigation
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationIdNavigation
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocPortalPageNavigation>
+  nameWithType: ICollection<SiocPortalPageNavigation>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation>
+  nameWithType.vb: ICollection(Of SiocPortalPageNavigation)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation)
+  name.vb: ICollection(Of SiocPortalPageNavigation)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    name: SiocPortalPageNavigation
+    nameWithType: SiocPortalPageNavigation
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    name: SiocPortalPageNavigation
+    nameWithType: SiocPortalPageNavigation
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+  isExternal: true
+  name: SiocPortalPageNavigationParent
+  nameWithType: SiocPortalPage.SiocPortalPageNavigationParent
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageNavigationParent
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+  isExternal: true
+  name: SiocPortalPageRole
+  nameWithType: SiocPortalPage.SiocPortalPageRole
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage.SiocPortalPageRole
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocPortalPageRole>
+  nameWithType: ICollection<SiocPortalPageRole>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole>
+  nameWithType.vb: ICollection(Of SiocPortalPageRole)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole)
+  name.vb: ICollection(Of SiocPortalPageRole)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    name: SiocPortalPageRole
+    nameWithType: SiocPortalPageRole
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    name: SiocPortalPageRole
+    nameWithType: SiocPortalPageRole
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

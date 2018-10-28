@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  commentId: T:Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  id: AspNetUserClaims
+  parent: Swastika.Cms.Lib.Models.Account
+  children:
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User
+  - Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaims
+  nameWithType: AspNetUserClaims
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class AspNetUserClaims : Object'
+    content.vb: >-
+      Public Class AspNetUserClaims
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaims()
+  nameWithType: AspNetUserClaims.AspNetUserClaims()
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.AspNetUserClaims()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUserClaims()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: AspNetUserClaims.Id
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  id: ApplicationUserId
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUserId
+  nameWithType: AspNetUserClaims.ApplicationUserId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ApplicationUserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationUserId As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  id: ClaimType
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ClaimType
+  nameWithType: AspNetUserClaims.ClaimType
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ClaimType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClaimType As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  id: ClaimValue
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ClaimValue
+  nameWithType: AspNetUserClaims.ClaimValue
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ClaimValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ClaimValue As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  id: UserId
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: AspNetUserClaims.UserId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  id: ApplicationUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUser
+  nameWithType: AspNetUserClaims.ApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers ApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    content.vb: Public Property ApplicationUser As AspNetUsers
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User
+  id: User
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: AspNetUserClaims.User
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers User { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    content.vb: Public Property User As AspNetUsers
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Account
+  commentId: N:Swastika.Cms.Lib.Models.Account
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Account
+  nameWithType: Swastika.Cms.Lib.Models.Account
+  fullName: Swastika.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.#ctor
+  isExternal: true
+  name: AspNetUserClaims
+  nameWithType: AspNetUserClaims.AspNetUserClaims
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.AspNetUserClaims
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+  isExternal: true
+  name: Id
+  nameWithType: AspNetUserClaims.Id
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+  isExternal: true
+  name: ApplicationUserId
+  nameWithType: AspNetUserClaims.ApplicationUserId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+  isExternal: true
+  name: ClaimType
+  nameWithType: AspNetUserClaims.ClaimType
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimType
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+  isExternal: true
+  name: ClaimValue
+  nameWithType: AspNetUserClaims.ClaimValue
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ClaimValue
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: AspNetUserClaims.UserId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.UserId
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+  isExternal: true
+  name: ApplicationUser
+  nameWithType: AspNetUserClaims.ApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.ApplicationUser
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  commentId: T:Swastika.Cms.Lib.Models.Account.AspNetUsers
+  parent: Swastika.Cms.Lib.Models.Account
+  isExternal: true
+  name: AspNetUsers
+  nameWithType: AspNetUsers
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User
+  isExternal: true
+  name: User
+  nameWithType: AspNetUserClaims.User
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims.User

@@ -1,0 +1,3614 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  id: SiocCmsContext
+  parent: Swastika.Cms.Lib.Models.Cms
+  children:
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext})
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsContext
+  nameWithType: SiocCmsContext
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class SiocCmsContext : DbContext'
+    content.vb: >-
+      Public Class SiocCmsContext
+          Inherits DbContext
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext})
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext})
+  id: '#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext})'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsContext(DbContextOptions<SiocCmsContext>)
+  nameWithType: SiocCmsContext.SiocCmsContext(DbContextOptions<SiocCmsContext>)
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsContext(Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Cms.Lib.Models.Cms.SiocCmsContext>)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocCmsContext(DbContextOptions<SiocCmsContext> options)
+    parameters:
+    - id: options
+      type: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext}
+    content.vb: Public Sub New(options As DbContextOptions(Of SiocCmsContext))
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor*
+  nameWithType.vb: SiocCmsContext.SiocCmsContext(DbContextOptions(Of SiocCmsContext))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Cms.Lib.Models.Cms.SiocCmsContext))
+  name.vb: SiocCmsContext(DbContextOptions(Of SiocCmsContext))
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsContext()
+  nameWithType: SiocCmsContext.SiocCmsContext()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsContext()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocCmsContext()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges
+  id: SaveChanges
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SaveChanges()
+  nameWithType: SiocCmsContext.SaveChanges()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges()
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public override int SaveChanges()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function SaveChanges As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
+  id: SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SaveChangesAsync(Boolean, CancellationToken)
+  nameWithType: SiocCmsContext.SaveChangesAsync(Boolean, CancellationToken)
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync(System.Boolean, System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = null)
+    parameters:
+    - id: acceptAllChangesOnSuccess
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+    content.vb: Public Overrides Function SaveChangesAsync(acceptAllChangesOnSuccess As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  id: OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: OnConfiguring(DbContextOptionsBuilder)
+  nameWithType: SiocCmsContext.OnConfiguring(DbContextOptionsBuilder)
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    parameters:
+    - id: optionsBuilder
+      type: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+    content.vb: Protected Overrides Sub OnConfiguring(optionsBuilder As DbContextOptionsBuilder)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: OnModelCreating(ModelBuilder)
+  nameWithType: SiocCmsContext.OnModelCreating(ModelBuilder)
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: protected override void OnModelCreating(ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Protected Overrides Sub OnModelCreating(modelBuilder As ModelBuilder)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+  id: SiocArticle
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocArticle
+  nameWithType: SiocCmsContext.SiocArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocArticle> SiocArticle { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticle}
+    content.vb: Public Overridable Property SiocArticle As DbSet(Of SiocArticle)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+  id: SiocArticleMedia
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocArticleMedia
+  nameWithType: SiocCmsContext.SiocArticleMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocArticleMedia> SiocArticleMedia { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleMedia}
+    content.vb: Public Overridable Property SiocArticleMedia As DbSet(Of SiocArticleMedia)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+  id: SiocArticleModule
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocArticleModule
+  nameWithType: SiocCmsContext.SiocArticleModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocArticleModule> SiocArticleModule { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleModule}
+    content.vb: Public Overridable Property SiocArticleModule As DbSet(Of SiocArticleModule)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+  id: SiocCategory
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategory
+  nameWithType: SiocCmsContext.SiocCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategory> SiocCategory { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategory}
+    content.vb: Public Overridable Property SiocCategory As DbSet(Of SiocCategory)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+  id: SiocCategoryArticle
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryArticle
+  nameWithType: SiocCmsContext.SiocCategoryArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategoryArticle> SiocCategoryArticle { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle}
+    content.vb: Public Overridable Property SiocCategoryArticle As DbSet(Of SiocCategoryArticle)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+  id: SiocCategoryCategory
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryCategory
+  nameWithType: SiocCmsContext.SiocCategoryCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategoryCategory> SiocCategoryCategory { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory}
+    content.vb: Public Overridable Property SiocCategoryCategory As DbSet(Of SiocCategoryCategory)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+  id: SiocCategoryModule
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryModule
+  nameWithType: SiocCmsContext.SiocCategoryModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategoryModule> SiocCategoryModule { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryModule}
+    content.vb: Public Overridable Property SiocCategoryModule As DbSet(Of SiocCategoryModule)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+  id: SiocCategoryPosition
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryPosition
+  nameWithType: SiocCmsContext.SiocCategoryPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategoryPosition> SiocCategoryPosition { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition}
+    content.vb: Public Overridable Property SiocCategoryPosition As DbSet(Of SiocCategoryPosition)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+  id: SiocCategoryProduct
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryProduct
+  nameWithType: SiocCmsContext.SiocCategoryProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCategoryProduct> SiocCategoryProduct { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct}
+    content.vb: Public Overridable Property SiocCategoryProduct As DbSet(Of SiocCategoryProduct)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+  id: SiocUrlAlias
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocUrlAlias
+  nameWithType: SiocCmsContext.SiocUrlAlias
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocUrlAlias> SiocUrlAlias { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocUrlAlias}
+    content.vb: Public Overridable Property SiocUrlAlias As DbSet(Of SiocUrlAlias)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+  id: SiocCmsUser
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsUser
+  nameWithType: SiocCmsContext.SiocCmsUser
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCmsUser> SiocCmsUser { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCmsUser}
+    content.vb: Public Overridable Property SiocCmsUser As DbSet(Of SiocCmsUser)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+  id: SiocComment
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocComment
+  nameWithType: SiocCmsContext.SiocComment
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocComment> SiocComment { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocComment}
+    content.vb: Public Overridable Property SiocComment As DbSet(Of SiocComment)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+  id: SiocConfiguration
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocConfiguration
+  nameWithType: SiocCmsContext.SiocConfiguration
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocConfiguration> SiocConfiguration { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocConfiguration}
+    content.vb: Public Overridable Property SiocConfiguration As DbSet(Of SiocConfiguration)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+  id: SiocCopy
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCopy
+  nameWithType: SiocCmsContext.SiocCopy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCopy> SiocCopy { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCopy}
+    content.vb: Public Overridable Property SiocCopy As DbSet(Of SiocCopy)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+  id: SiocCulture
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCulture
+  nameWithType: SiocCmsContext.SiocCulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCulture> SiocCulture { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCulture}
+    content.vb: Public Overridable Property SiocCulture As DbSet(Of SiocCulture)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+  id: SiocCustomer
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCustomer
+  nameWithType: SiocCmsContext.SiocCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocCustomer> SiocCustomer { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCustomer}
+    content.vb: Public Overridable Property SiocCustomer As DbSet(Of SiocCustomer)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+  id: SiocFile
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocFile
+  nameWithType: SiocCmsContext.SiocFile
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocFile> SiocFile { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocFile}
+    content.vb: Public Overridable Property SiocFile As DbSet(Of SiocFile)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+  id: SiocLanguage
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocLanguage
+  nameWithType: SiocCmsContext.SiocLanguage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocLanguage> SiocLanguage { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocLanguage}
+    content.vb: Public Overridable Property SiocLanguage As DbSet(Of SiocLanguage)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+  id: SiocMedia
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocMedia
+  nameWithType: SiocCmsContext.SiocMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocMedia> SiocMedia { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocMedia}
+    content.vb: Public Overridable Property SiocMedia As DbSet(Of SiocMedia)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+  id: SiocModule
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModule
+  nameWithType: SiocCmsContext.SiocModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModule> SiocModule { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModule}
+    content.vb: Public Overridable Property SiocModule As DbSet(Of SiocModule)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+  id: SiocModuleArticle
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleArticle
+  nameWithType: SiocCmsContext.SiocModuleArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModuleArticle> SiocModuleArticle { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleArticle}
+    content.vb: Public Overridable Property SiocModuleArticle As DbSet(Of SiocModuleArticle)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+  id: SiocModuleAttributeSet
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleAttributeSet
+  nameWithType: SiocCmsContext.SiocModuleAttributeSet
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModuleAttributeSet> SiocModuleAttributeSet { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet}
+    content.vb: Public Overridable Property SiocModuleAttributeSet As DbSet(Of SiocModuleAttributeSet)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+  id: SiocModuleAttributeValue
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleAttributeValue
+  nameWithType: SiocCmsContext.SiocModuleAttributeValue
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModuleAttributeValue> SiocModuleAttributeValue { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue}
+    content.vb: Public Overridable Property SiocModuleAttributeValue As DbSet(Of SiocModuleAttributeValue)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+  id: SiocModuleData
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleData
+  nameWithType: SiocCmsContext.SiocModuleData
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModuleData> SiocModuleData { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleData}
+    content.vb: Public Overridable Property SiocModuleData As DbSet(Of SiocModuleData)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+  id: SiocModuleProduct
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleProduct
+  nameWithType: SiocCmsContext.SiocModuleProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocModuleProduct> SiocModuleProduct { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleProduct}
+    content.vb: Public Overridable Property SiocModuleProduct As DbSet(Of SiocModuleProduct)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+  id: SiocOrder
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocOrder
+  nameWithType: SiocCmsContext.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocOrder> SiocOrder { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrder}
+    content.vb: Public Overridable Property SiocOrder As DbSet(Of SiocOrder)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+  id: SiocOrderItem
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocOrderItem
+  nameWithType: SiocCmsContext.SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocOrderItem> SiocOrderItem { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}
+    content.vb: Public Overridable Property SiocOrderItem As DbSet(Of SiocOrderItem)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+  id: SiocParameter
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocParameter
+  nameWithType: SiocCmsContext.SiocParameter
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocParameter> SiocParameter { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocParameter}
+    content.vb: Public Overridable Property SiocParameter As DbSet(Of SiocParameter)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+  id: SiocPortalPage
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPage
+  nameWithType: SiocCmsContext.SiocPortalPage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocPortalPage> SiocPortalPage { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPage}
+    content.vb: Public Overridable Property SiocPortalPage As DbSet(Of SiocPortalPage)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+  id: SiocPortalPageNavigation
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPageNavigation
+  nameWithType: SiocCmsContext.SiocPortalPageNavigation
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocPortalPageNavigation> SiocPortalPageNavigation { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}
+    content.vb: Public Overridable Property SiocPortalPageNavigation As DbSet(Of SiocPortalPageNavigation)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+  id: SiocPortalPageRole
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocPortalPageRole
+  nameWithType: SiocCmsContext.SiocPortalPageRole
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocPortalPageRole> SiocPortalPageRole { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}
+    content.vb: Public Overridable Property SiocPortalPageRole As DbSet(Of SiocPortalPageRole)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+  id: SiocPosition
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocPosition
+  nameWithType: SiocCmsContext.SiocPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocPosition> SiocPosition { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPosition}
+    content.vb: Public Overridable Property SiocPosition As DbSet(Of SiocPosition)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+  id: SiocProduct
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocProduct
+  nameWithType: SiocCmsContext.SiocProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocProduct> SiocProduct { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProduct}
+    content.vb: Public Overridable Property SiocProduct As DbSet(Of SiocProduct)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+  id: SiocProductMedia
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocProductMedia
+  nameWithType: SiocCmsContext.SiocProductMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocProductMedia> SiocProductMedia { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductMedia}
+    content.vb: Public Overridable Property SiocProductMedia As DbSet(Of SiocProductMedia)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+  id: SiocProductModule
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocProductModule
+  nameWithType: SiocCmsContext.SiocProductModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocProductModule> SiocProductModule { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductModule}
+    content.vb: Public Overridable Property SiocProductModule As DbSet(Of SiocProductModule)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+  id: SiocRelatedProduct
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocRelatedProduct
+  nameWithType: SiocCmsContext.SiocRelatedProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocRelatedProduct> SiocRelatedProduct { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct}
+    content.vb: Public Overridable Property SiocRelatedProduct As DbSet(Of SiocRelatedProduct)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+  id: SiocTemplate
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocTemplate
+  nameWithType: SiocCmsContext.SiocTemplate
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocTemplate> SiocTemplate { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTemplate}
+    content.vb: Public Overridable Property SiocTemplate As DbSet(Of SiocTemplate)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+  id: SiocTheme
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  langs:
+  - csharp
+  - vb
+  name: SiocTheme
+  nameWithType: SiocCmsContext.SiocTheme
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public virtual DbSet<SiocTheme> SiocTheme { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTheme}
+    content.vb: Public Overridable Property SiocTheme As DbSet(Of SiocTheme)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.#ctor
+  isExternal: true
+  name: SiocCmsContext
+  nameWithType: SiocCmsContext.SiocCmsContext
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsContext
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Cms.Lib.Models.Cms.SiocCmsContext}'
+  definition: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  name: DbContextOptions<SiocCmsContext>
+  nameWithType: DbContextOptions<SiocCmsContext>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Cms.Lib.Models.Cms.SiocCmsContext>
+  nameWithType.vb: DbContextOptions(Of SiocCmsContext)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Cms.Lib.Models.Cms.SiocCmsContext)
+  name.vb: DbContextOptions(Of SiocCmsContext)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    name: SiocCmsContext
+    nameWithType: SiocCmsContext
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    name: SiocCmsContext
+    nameWithType: SiocCmsContext
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  isExternal: true
+  name: DbContextOptions<>
+  nameWithType: DbContextOptions<>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<>
+  nameWithType.vb: DbContextOptions(Of )
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of )
+  name.vb: DbContextOptions(Of )
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges
+  isExternal: true
+  name: SaveChanges
+  nameWithType: SiocCmsContext.SaveChanges
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChanges
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync
+  isExternal: true
+  name: SaveChangesAsync
+  nameWithType: SiocCmsContext.SaveChangesAsync
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SaveChangesAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.CancellationToken
+  commentId: '!:System.Threading.CancellationToken'
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring
+  isExternal: true
+  name: OnConfiguring
+  nameWithType: SiocCmsContext.OnConfiguring
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnConfiguring
+- uid: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+  isExternal: true
+  name: DbContextOptionsBuilder
+  nameWithType: DbContextOptionsBuilder
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating
+  isExternal: true
+  name: OnModelCreating
+  nameWithType: SiocCmsContext.OnModelCreating
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.OnModelCreating
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+  isExternal: true
+  name: SiocArticle
+  nameWithType: SiocCmsContext.SiocArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticle
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticle}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticle}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocArticle>
+  nameWithType: DbSet<SiocArticle>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocArticle>
+  nameWithType.vb: DbSet(Of SiocArticle)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocArticle)
+  name.vb: DbSet(Of SiocArticle)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    name: SiocArticle
+    nameWithType: SiocArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    name: SiocArticle
+    nameWithType: SiocArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.DbSet`1
+  isExternal: true
+  name: DbSet<>
+  nameWithType: DbSet<>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<>
+  nameWithType.vb: DbSet(Of )
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of )
+  name.vb: DbSet(Of )
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+  isExternal: true
+  name: SiocArticleMedia
+  nameWithType: SiocCmsContext.SiocArticleMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleMedia
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleMedia}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleMedia}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocArticleMedia>
+  nameWithType: DbSet<SiocArticleMedia>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocArticleMedia>
+  nameWithType.vb: DbSet(Of SiocArticleMedia)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocArticleMedia)
+  name.vb: DbSet(Of SiocArticleMedia)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticleMedia
+    name: SiocArticleMedia
+    nameWithType: SiocArticleMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticleMedia
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticleMedia
+    name: SiocArticleMedia
+    nameWithType: SiocArticleMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticleMedia
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+  isExternal: true
+  name: SiocArticleModule
+  nameWithType: SiocCmsContext.SiocArticleModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocArticleModule
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleModule}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocArticleModule}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocArticleModule>
+  nameWithType: DbSet<SiocArticleModule>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocArticleModule>
+  nameWithType.vb: DbSet(Of SiocArticleModule)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocArticleModule)
+  name.vb: DbSet(Of SiocArticleModule)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticleModule
+    name: SiocArticleModule
+    nameWithType: SiocArticleModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticleModule
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticleModule
+    name: SiocArticleModule
+    nameWithType: SiocArticleModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticleModule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+  isExternal: true
+  name: SiocCategory
+  nameWithType: SiocCmsContext.SiocCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategory
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategory}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategory}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategory>
+  nameWithType: DbSet<SiocCategory>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategory>
+  nameWithType.vb: DbSet(Of SiocCategory)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategory)
+  name.vb: DbSet(Of SiocCategory)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategory
+    name: SiocCategory
+    nameWithType: SiocCategory
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategory
+    name: SiocCategory
+    nameWithType: SiocCategory
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+  isExternal: true
+  name: SiocCategoryArticle
+  nameWithType: SiocCmsContext.SiocCategoryArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryArticle
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategoryArticle>
+  nameWithType: DbSet<SiocCategoryArticle>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle>
+  nameWithType.vb: DbSet(Of SiocCategoryArticle)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle)
+  name.vb: DbSet(Of SiocCategoryArticle)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle
+    name: SiocCategoryArticle
+    nameWithType: SiocCategoryArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle
+    name: SiocCategoryArticle
+    nameWithType: SiocCategoryArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+  isExternal: true
+  name: SiocCategoryCategory
+  nameWithType: SiocCmsContext.SiocCategoryCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryCategory
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategoryCategory>
+  nameWithType: DbSet<SiocCategoryCategory>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory>
+  nameWithType.vb: DbSet(Of SiocCategoryCategory)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory)
+  name.vb: DbSet(Of SiocCategoryCategory)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory
+    name: SiocCategoryCategory
+    nameWithType: SiocCategoryCategory
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory
+    name: SiocCategoryCategory
+    nameWithType: SiocCategoryCategory
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryCategory
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+  isExternal: true
+  name: SiocCategoryModule
+  nameWithType: SiocCmsContext.SiocCategoryModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryModule
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryModule}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryModule}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategoryModule>
+  nameWithType: DbSet<SiocCategoryModule>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategoryModule>
+  nameWithType.vb: DbSet(Of SiocCategoryModule)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategoryModule)
+  name.vb: DbSet(Of SiocCategoryModule)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryModule
+    name: SiocCategoryModule
+    nameWithType: SiocCategoryModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryModule
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryModule
+    name: SiocCategoryModule
+    nameWithType: SiocCategoryModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryModule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+  isExternal: true
+  name: SiocCategoryPosition
+  nameWithType: SiocCmsContext.SiocCategoryPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryPosition
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategoryPosition>
+  nameWithType: DbSet<SiocCategoryPosition>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition>
+  nameWithType.vb: DbSet(Of SiocCategoryPosition)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition)
+  name.vb: DbSet(Of SiocCategoryPosition)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+    name: SiocCategoryPosition
+    nameWithType: SiocCategoryPosition
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+    name: SiocCategoryPosition
+    nameWithType: SiocCategoryPosition
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+  isExternal: true
+  name: SiocCategoryProduct
+  nameWithType: SiocCmsContext.SiocCategoryProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCategoryProduct
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCategoryProduct>
+  nameWithType: DbSet<SiocCategoryProduct>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct>
+  nameWithType.vb: DbSet(Of SiocCategoryProduct)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct)
+  name.vb: DbSet(Of SiocCategoryProduct)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
+    name: SiocCategoryProduct
+    nameWithType: SiocCategoryProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
+    name: SiocCategoryProduct
+    nameWithType: SiocCategoryProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryProduct
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+  isExternal: true
+  name: SiocUrlAlias
+  nameWithType: SiocCmsContext.SiocUrlAlias
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocUrlAlias
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocUrlAlias}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocUrlAlias}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocUrlAlias>
+  nameWithType: DbSet<SiocUrlAlias>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocUrlAlias>
+  nameWithType.vb: DbSet(Of SiocUrlAlias)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocUrlAlias)
+  name.vb: DbSet(Of SiocUrlAlias)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+    name: SiocUrlAlias
+    nameWithType: SiocUrlAlias
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+    name: SiocUrlAlias
+    nameWithType: SiocUrlAlias
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocUrlAlias
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+  isExternal: true
+  name: SiocCmsUser
+  nameWithType: SiocCmsContext.SiocCmsUser
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCmsUser
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCmsUser}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCmsUser}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCmsUser>
+  nameWithType: DbSet<SiocCmsUser>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCmsUser>
+  nameWithType.vb: DbSet(Of SiocCmsUser)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCmsUser)
+  name.vb: DbSet(Of SiocCmsUser)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+    name: SiocCmsUser
+    nameWithType: SiocCmsUser
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+    name: SiocCmsUser
+    nameWithType: SiocCmsUser
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+  isExternal: true
+  name: SiocComment
+  nameWithType: SiocCmsContext.SiocComment
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocComment
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocComment}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocComment}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocComment>
+  nameWithType: DbSet<SiocComment>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocComment>
+  nameWithType.vb: DbSet(Of SiocComment)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocComment)
+  name.vb: DbSet(Of SiocComment)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
+    name: SiocComment
+    nameWithType: SiocComment
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocComment
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocComment
+    name: SiocComment
+    nameWithType: SiocComment
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocComment
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+  isExternal: true
+  name: SiocConfiguration
+  nameWithType: SiocCmsContext.SiocConfiguration
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocConfiguration
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocConfiguration}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocConfiguration}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocConfiguration>
+  nameWithType: DbSet<SiocConfiguration>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocConfiguration>
+  nameWithType.vb: DbSet(Of SiocConfiguration)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocConfiguration)
+  name.vb: DbSet(Of SiocConfiguration)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocConfiguration
+    name: SiocConfiguration
+    nameWithType: SiocConfiguration
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocConfiguration
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocConfiguration
+    name: SiocConfiguration
+    nameWithType: SiocConfiguration
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+  isExternal: true
+  name: SiocCopy
+  nameWithType: SiocCmsContext.SiocCopy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCopy
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCopy}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCopy}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCopy>
+  nameWithType: DbSet<SiocCopy>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCopy>
+  nameWithType.vb: DbSet(Of SiocCopy)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCopy)
+  name.vb: DbSet(Of SiocCopy)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCopy
+    name: SiocCopy
+    nameWithType: SiocCopy
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCopy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCopy
+    name: SiocCopy
+    nameWithType: SiocCopy
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCopy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+  isExternal: true
+  name: SiocCulture
+  nameWithType: SiocCmsContext.SiocCulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCulture
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCulture}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCulture}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCulture>
+  nameWithType: DbSet<SiocCulture>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCulture>
+  nameWithType.vb: DbSet(Of SiocCulture)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCulture)
+  name.vb: DbSet(Of SiocCulture)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCulture
+    name: SiocCulture
+    nameWithType: SiocCulture
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCulture
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCulture
+    name: SiocCulture
+    nameWithType: SiocCulture
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCulture
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+  isExternal: true
+  name: SiocCustomer
+  nameWithType: SiocCmsContext.SiocCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocCustomer
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCustomer}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocCustomer}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocCustomer>
+  nameWithType: DbSet<SiocCustomer>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocCustomer>
+  nameWithType.vb: DbSet(Of SiocCustomer)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocCustomer)
+  name.vb: DbSet(Of SiocCustomer)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+    name: SiocCustomer
+    nameWithType: SiocCustomer
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+    name: SiocCustomer
+    nameWithType: SiocCustomer
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocCustomer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+  isExternal: true
+  name: SiocFile
+  nameWithType: SiocCmsContext.SiocFile
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocFile
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocFile}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocFile}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocFile>
+  nameWithType: DbSet<SiocFile>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocFile>
+  nameWithType.vb: DbSet(Of SiocFile)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocFile)
+  name.vb: DbSet(Of SiocFile)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocFile
+    name: SiocFile
+    nameWithType: SiocFile
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocFile
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocFile
+    name: SiocFile
+    nameWithType: SiocFile
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocFile
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+  isExternal: true
+  name: SiocLanguage
+  nameWithType: SiocCmsContext.SiocLanguage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocLanguage
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocLanguage}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocLanguage}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocLanguage>
+  nameWithType: DbSet<SiocLanguage>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocLanguage>
+  nameWithType.vb: DbSet(Of SiocLanguage)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocLanguage)
+  name.vb: DbSet(Of SiocLanguage)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocLanguage
+    name: SiocLanguage
+    nameWithType: SiocLanguage
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocLanguage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocLanguage
+    name: SiocLanguage
+    nameWithType: SiocLanguage
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocLanguage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+  isExternal: true
+  name: SiocMedia
+  nameWithType: SiocCmsContext.SiocMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocMedia
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocMedia}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocMedia}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocMedia>
+  nameWithType: DbSet<SiocMedia>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocMedia>
+  nameWithType.vb: DbSet(Of SiocMedia)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocMedia)
+  name.vb: DbSet(Of SiocMedia)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocMedia
+    name: SiocMedia
+    nameWithType: SiocMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocMedia
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocMedia
+    name: SiocMedia
+    nameWithType: SiocMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocMedia
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+  isExternal: true
+  name: SiocModule
+  nameWithType: SiocCmsContext.SiocModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModule
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModule}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModule}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModule>
+  nameWithType: DbSet<SiocModule>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModule>
+  nameWithType.vb: DbSet(Of SiocModule)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModule)
+  name.vb: DbSet(Of SiocModule)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModule
+    name: SiocModule
+    nameWithType: SiocModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModule
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModule
+    name: SiocModule
+    nameWithType: SiocModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+  isExternal: true
+  name: SiocModuleArticle
+  nameWithType: SiocCmsContext.SiocModuleArticle
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleArticle
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleArticle}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleArticle}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModuleArticle>
+  nameWithType: DbSet<SiocModuleArticle>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModuleArticle>
+  nameWithType.vb: DbSet(Of SiocModuleArticle)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModuleArticle)
+  name.vb: DbSet(Of SiocModuleArticle)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleArticle
+    name: SiocModuleArticle
+    nameWithType: SiocModuleArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleArticle
+    name: SiocModuleArticle
+    nameWithType: SiocModuleArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+  isExternal: true
+  name: SiocModuleAttributeSet
+  nameWithType: SiocCmsContext.SiocModuleAttributeSet
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeSet
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModuleAttributeSet>
+  nameWithType: DbSet<SiocModuleAttributeSet>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet>
+  nameWithType.vb: DbSet(Of SiocModuleAttributeSet)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet)
+  name.vb: DbSet(Of SiocModuleAttributeSet)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet
+    name: SiocModuleAttributeSet
+    nameWithType: SiocModuleAttributeSet
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet
+    name: SiocModuleAttributeSet
+    nameWithType: SiocModuleAttributeSet
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+  isExternal: true
+  name: SiocModuleAttributeValue
+  nameWithType: SiocCmsContext.SiocModuleAttributeValue
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleAttributeValue
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModuleAttributeValue>
+  nameWithType: DbSet<SiocModuleAttributeValue>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue>
+  nameWithType.vb: DbSet(Of SiocModuleAttributeValue)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue)
+  name.vb: DbSet(Of SiocModuleAttributeValue)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue
+    name: SiocModuleAttributeValue
+    nameWithType: SiocModuleAttributeValue
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue
+    name: SiocModuleAttributeValue
+    nameWithType: SiocModuleAttributeValue
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleAttributeValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+  isExternal: true
+  name: SiocModuleData
+  nameWithType: SiocCmsContext.SiocModuleData
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleData
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleData}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleData}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModuleData>
+  nameWithType: DbSet<SiocModuleData>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModuleData>
+  nameWithType.vb: DbSet(Of SiocModuleData)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModuleData)
+  name.vb: DbSet(Of SiocModuleData)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    name: SiocModuleData
+    nameWithType: SiocModuleData
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+  isExternal: true
+  name: SiocModuleProduct
+  nameWithType: SiocCmsContext.SiocModuleProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocModuleProduct
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleProduct}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocModuleProduct}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocModuleProduct>
+  nameWithType: DbSet<SiocModuleProduct>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocModuleProduct>
+  nameWithType.vb: DbSet(Of SiocModuleProduct)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocModuleProduct)
+  name.vb: DbSet(Of SiocModuleProduct)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+    name: SiocModuleProduct
+    nameWithType: SiocModuleProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+    name: SiocModuleProduct
+    nameWithType: SiocModuleProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocModuleProduct
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+  isExternal: true
+  name: SiocOrder
+  nameWithType: SiocCmsContext.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrder
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrder}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrder}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocOrder>
+  nameWithType: DbSet<SiocOrder>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocOrder>
+  nameWithType.vb: DbSet(Of SiocOrder)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocOrder)
+  name.vb: DbSet(Of SiocOrder)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    name: SiocOrder
+    nameWithType: SiocOrder
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    name: SiocOrder
+    nameWithType: SiocOrder
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+  isExternal: true
+  name: SiocOrderItem
+  nameWithType: SiocCmsContext.SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocOrderItem
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocOrderItem}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocOrderItem>
+  nameWithType: DbSet<SiocOrderItem>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocOrderItem>
+  nameWithType.vb: DbSet(Of SiocOrderItem)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocOrderItem)
+  name.vb: DbSet(Of SiocOrderItem)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    name: SiocOrderItem
+    nameWithType: SiocOrderItem
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    name: SiocOrderItem
+    nameWithType: SiocOrderItem
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+  isExternal: true
+  name: SiocParameter
+  nameWithType: SiocCmsContext.SiocParameter
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocParameter
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocParameter}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocParameter}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocParameter>
+  nameWithType: DbSet<SiocParameter>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocParameter>
+  nameWithType.vb: DbSet(Of SiocParameter)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocParameter)
+  name.vb: DbSet(Of SiocParameter)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocParameter
+    name: SiocParameter
+    nameWithType: SiocParameter
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocParameter
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocParameter
+    name: SiocParameter
+    nameWithType: SiocParameter
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocParameter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+  isExternal: true
+  name: SiocPortalPage
+  nameWithType: SiocCmsContext.SiocPortalPage
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPage
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPage}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPage}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocPortalPage>
+  nameWithType: DbSet<SiocPortalPage>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocPortalPage>
+  nameWithType.vb: DbSet(Of SiocPortalPage)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocPortalPage)
+  name.vb: DbSet(Of SiocPortalPage)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+    name: SiocPortalPage
+    nameWithType: SiocPortalPage
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+    name: SiocPortalPage
+    nameWithType: SiocPortalPage
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+  isExternal: true
+  name: SiocPortalPageNavigation
+  nameWithType: SiocCmsContext.SiocPortalPageNavigation
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageNavigation
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocPortalPageNavigation>
+  nameWithType: DbSet<SiocPortalPageNavigation>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation>
+  nameWithType.vb: DbSet(Of SiocPortalPageNavigation)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation)
+  name.vb: DbSet(Of SiocPortalPageNavigation)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    name: SiocPortalPageNavigation
+    nameWithType: SiocPortalPageNavigation
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    name: SiocPortalPageNavigation
+    nameWithType: SiocPortalPageNavigation
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageNavigation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+  isExternal: true
+  name: SiocPortalPageRole
+  nameWithType: SiocCmsContext.SiocPortalPageRole
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPortalPageRole
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocPortalPageRole>
+  nameWithType: DbSet<SiocPortalPageRole>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole>
+  nameWithType.vb: DbSet(Of SiocPortalPageRole)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole)
+  name.vb: DbSet(Of SiocPortalPageRole)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    name: SiocPortalPageRole
+    nameWithType: SiocPortalPageRole
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    name: SiocPortalPageRole
+    nameWithType: SiocPortalPageRole
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPortalPageRole
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+  isExternal: true
+  name: SiocPosition
+  nameWithType: SiocCmsContext.SiocPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocPosition
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPosition}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocPosition}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocPosition>
+  nameWithType: DbSet<SiocPosition>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocPosition>
+  nameWithType.vb: DbSet(Of SiocPosition)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocPosition)
+  name.vb: DbSet(Of SiocPosition)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPosition
+    name: SiocPosition
+    nameWithType: SiocPosition
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPosition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocPosition
+    name: SiocPosition
+    nameWithType: SiocPosition
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocPosition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+  isExternal: true
+  name: SiocProduct
+  nameWithType: SiocCmsContext.SiocProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProduct
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProduct}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProduct}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocProduct>
+  nameWithType: DbSet<SiocProduct>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocProduct>
+  nameWithType.vb: DbSet(Of SiocProduct)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocProduct)
+  name.vb: DbSet(Of SiocProduct)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct
+    name: SiocProduct
+    nameWithType: SiocProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProduct
+    name: SiocProduct
+    nameWithType: SiocProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+  isExternal: true
+  name: SiocProductMedia
+  nameWithType: SiocCmsContext.SiocProductMedia
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductMedia
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductMedia}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductMedia}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocProductMedia>
+  nameWithType: DbSet<SiocProductMedia>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocProductMedia>
+  nameWithType.vb: DbSet(Of SiocProductMedia)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocProductMedia)
+  name.vb: DbSet(Of SiocProductMedia)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProductMedia
+    name: SiocProductMedia
+    nameWithType: SiocProductMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProductMedia
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProductMedia
+    name: SiocProductMedia
+    nameWithType: SiocProductMedia
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProductMedia
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+  isExternal: true
+  name: SiocProductModule
+  nameWithType: SiocCmsContext.SiocProductModule
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocProductModule
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductModule}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocProductModule}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocProductModule>
+  nameWithType: DbSet<SiocProductModule>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocProductModule>
+  nameWithType.vb: DbSet(Of SiocProductModule)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocProductModule)
+  name.vb: DbSet(Of SiocProductModule)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProductModule
+    name: SiocProductModule
+    nameWithType: SiocProductModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProductModule
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocProductModule
+    name: SiocProductModule
+    nameWithType: SiocProductModule
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocProductModule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+  isExternal: true
+  name: SiocRelatedProduct
+  nameWithType: SiocCmsContext.SiocRelatedProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocRelatedProduct
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocRelatedProduct>
+  nameWithType: DbSet<SiocRelatedProduct>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct>
+  nameWithType.vb: DbSet(Of SiocRelatedProduct)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct)
+  name.vb: DbSet(Of SiocRelatedProduct)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct
+    name: SiocRelatedProduct
+    nameWithType: SiocRelatedProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct
+    name: SiocRelatedProduct
+    nameWithType: SiocRelatedProduct
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocRelatedProduct
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+  isExternal: true
+  name: SiocTemplate
+  nameWithType: SiocCmsContext.SiocTemplate
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTemplate
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTemplate}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTemplate}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocTemplate>
+  nameWithType: DbSet<SiocTemplate>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocTemplate>
+  nameWithType.vb: DbSet(Of SiocTemplate)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocTemplate)
+  name.vb: DbSet(Of SiocTemplate)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocTemplate
+    name: SiocTemplate
+    nameWithType: SiocTemplate
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocTemplate
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocTemplate
+    name: SiocTemplate
+    nameWithType: SiocTemplate
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocTemplate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+  isExternal: true
+  name: SiocTheme
+  nameWithType: SiocCmsContext.SiocTheme
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext.SiocTheme
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTheme}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Cms.SiocTheme}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<SiocTheme>
+  nameWithType: DbSet<SiocTheme>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Cms.SiocTheme>
+  nameWithType.vb: DbSet(Of SiocTheme)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Cms.SiocTheme)
+  name.vb: DbSet(Of SiocTheme)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocTheme
+    name: SiocTheme
+    nameWithType: SiocTheme
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocTheme
+    name: SiocTheme
+    nameWithType: SiocTheme
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocTheme
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

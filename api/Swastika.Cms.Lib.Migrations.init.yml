@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Migrations.init
+  commentId: T:Swastika.Cms.Lib.Migrations.init
+  id: init
+  parent: Swastika.Cms.Lib.Migrations
+  children:
+  - Swastika.Cms.Lib.Migrations.init.#ctor
+  - Swastika.Cms.Lib.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Swastika.Cms.Lib.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  - Swastika.Cms.Lib.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: init
+  nameWithType: init
+  fullName: Swastika.Cms.Lib.Migrations.init
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations
+  syntax:
+    content: 'public class init : Migration'
+    content.vb: >-
+      Public Class init
+          Inherits Migration
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Swastika.Cms.Lib.Migrations.init
+  langs:
+  - csharp
+  - vb
+  name: Up(MigrationBuilder)
+  nameWithType: init.Up(MigrationBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations
+  syntax:
+    content: protected override void Up(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Up(migrationBuilder As MigrationBuilder)
+  overload: Swastika.Cms.Lib.Migrations.init.Up*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Swastika.Cms.Lib.Migrations.init
+  langs:
+  - csharp
+  - vb
+  name: Down(MigrationBuilder)
+  nameWithType: init.Down(MigrationBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations
+  syntax:
+    content: protected override void Down(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Down(migrationBuilder As MigrationBuilder)
+  overload: Swastika.Cms.Lib.Migrations.init.Down*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Swastika.Cms.Lib.Migrations.init
+  langs:
+  - csharp
+  - vb
+  name: BuildTargetModel(ModelBuilder)
+  nameWithType: init.BuildTargetModel(ModelBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations
+  syntax:
+    content: protected override void BuildTargetModel(ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Protected Overrides Sub BuildTargetModel(modelBuilder As ModelBuilder)
+  overload: Swastika.Cms.Lib.Migrations.init.BuildTargetModel*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.init.#ctor
+  commentId: M:Swastika.Cms.Lib.Migrations.init.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Migrations.init
+  langs:
+  - csharp
+  - vb
+  name: init()
+  nameWithType: init.init()
+  fullName: Swastika.Cms.Lib.Migrations.init.init()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations
+  syntax:
+    content: public init()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Migrations.init.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Migrations
+  commentId: N:Swastika.Cms.Lib.Migrations
+  isExternal: true
+  name: Swastika.Cms.Lib.Migrations
+  nameWithType: Swastika.Cms.Lib.Migrations
+  fullName: Swastika.Cms.Lib.Migrations
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Migrations.init.Up*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.init.Up
+  isExternal: true
+  name: Up
+  nameWithType: init.Up
+  fullName: Swastika.Cms.Lib.Migrations.init.Up
+- uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  isExternal: true
+  name: MigrationBuilder
+  nameWithType: MigrationBuilder
+  fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+- uid: Swastika.Cms.Lib.Migrations.init.Down*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.init.Down
+  isExternal: true
+  name: Down
+  nameWithType: init.Down
+  fullName: Swastika.Cms.Lib.Migrations.init.Down
+- uid: Swastika.Cms.Lib.Migrations.init.BuildTargetModel*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.init.BuildTargetModel
+  isExternal: true
+  name: BuildTargetModel
+  nameWithType: init.BuildTargetModel
+  fullName: Swastika.Cms.Lib.Migrations.init.BuildTargetModel
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Swastika.Cms.Lib.Migrations.init.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.init.#ctor
+  isExternal: true
+  name: init
+  nameWithType: init.init
+  fullName: Swastika.Cms.Lib.Migrations.init.init

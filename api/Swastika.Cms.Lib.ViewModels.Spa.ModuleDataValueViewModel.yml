@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  id: ModuleDataValueViewModel
+  parent: Swastika.Cms.Lib.ViewModels.Spa
+  children:
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue``1
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+  langs:
+  - csharp
+  - vb
+  name: ModuleDataValueViewModel
+  nameWithType: ModuleDataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: 'public class ModuleDataValueViewModel : Object'
+    content.vb: >-
+      Public Class ModuleDataValueViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue``1
+  commentId: M:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue``1
+  id: GetValue``1
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>()
+  nameWithType: ModuleDataValueViewModel.GetValue<T>()
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue<T>()
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public T GetValue<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetValue(Of T) As T
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue*
+  nameWithType.vb: ModuleDataValueViewModel.GetValue(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue(Of T)()
+  name.vb: GetValue(Of T)()
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor
+  commentId: M:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: ModuleDataValueViewModel()
+  nameWithType: ModuleDataValueViewModel.ModuleDataValueViewModel()
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleDataValueViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public ModuleDataValueViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+  commentId: P:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+  id: ModuleId
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: ModuleDataValueViewModel.ModuleId
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public int ModuleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ModuleId As Integer
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+  commentId: P:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+  id: Name
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ModuleDataValueViewModel.Name
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+  commentId: P:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+  id: DataType
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: ModuleDataValueViewModel.DataType
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public SWCmsConstants.DataType DataType { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.DataType
+    content.vb: Public Property DataType As SWCmsConstants.DataType
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+  commentId: P:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+  id: Value
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ModuleDataValueViewModel.Value
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public IConvertible Value { get; set; }
+    parameters: []
+    return:
+      type: System.IConvertible
+    content.vb: Public Property Value As IConvertible
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue
+  commentId: P:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue
+  id: StringValue
+  parent: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  langs:
+  - csharp
+  - vb
+  name: StringValue
+  nameWithType: ModuleDataValueViewModel.StringValue
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.ViewModels.Spa
+  syntax:
+    content: public string StringValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StringValue As String
+  overload: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.ViewModels.Spa
+  commentId: N:Swastika.Cms.Lib.ViewModels.Spa
+  isExternal: true
+  name: Swastika.Cms.Lib.ViewModels.Spa
+  nameWithType: Swastika.Cms.Lib.ViewModels.Spa
+  fullName: Swastika.Cms.Lib.ViewModels.Spa
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: ModuleDataValueViewModel.GetValue
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.#ctor
+  isExternal: true
+  name: ModuleDataValueViewModel
+  nameWithType: ModuleDataValueViewModel.ModuleDataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleDataValueViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+  isExternal: true
+  name: ModuleId
+  nameWithType: ModuleDataValueViewModel.ModuleId
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.ModuleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+  isExternal: true
+  name: Name
+  nameWithType: ModuleDataValueViewModel.Name
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+  isExternal: true
+  name: DataType
+  nameWithType: ModuleDataValueViewModel.DataType
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.DataType
+- uid: Swastika.Cms.Lib.SWCmsConstants.DataType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.DataType
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.DataType
+  nameWithType: SWCmsConstants.DataType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.DataType
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+  isExternal: true
+  name: Value
+  nameWithType: ModuleDataValueViewModel.Value
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.Value
+- uid: System.IConvertible
+  isExternal: true
+  name: IConvertible
+  nameWithType: IConvertible
+  fullName: System.IConvertible
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue*
+  commentId: Overload:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue
+  isExternal: true
+  name: StringValue
+  nameWithType: ModuleDataValueViewModel.StringValue
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel.StringValue

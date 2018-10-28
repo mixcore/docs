@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Common.Utility
+  commentId: N:Mix.Common.Utility
+  id: Mix.Common.Utility
+  children:
+  - Mix.Common.Utility.Const
+  - Mix.Common.Utility.Enums
+  - Mix.Common.Utility.Enums.ResponseKey
+  - Mix.Common.Utility.Enums.SWStatus
+  langs:
+  - csharp
+  - vb
+  name: Mix.Common.Utility
+  nameWithType: Mix.Common.Utility
+  fullName: Mix.Common.Utility
+  type: Namespace
+  assemblies:
+  - Mix.Heart
+references:
+- uid: Mix.Common.Utility.Const
+  commentId: T:Mix.Common.Utility.Const
+  isExternal: true
+  name: Const
+  nameWithType: Const
+  fullName: Mix.Common.Utility.Const
+- uid: Mix.Common.Utility.Enums
+  commentId: T:Mix.Common.Utility.Enums
+  isExternal: true
+  name: Enums
+  nameWithType: Enums
+  fullName: Mix.Common.Utility.Enums
+- uid: Mix.Common.Utility.Enums.SWStatus
+  commentId: T:Mix.Common.Utility.Enums.SWStatus
+  parent: Mix.Common.Utility
+  isExternal: true
+  name: Enums.SWStatus
+  nameWithType: Enums.SWStatus
+  fullName: Mix.Common.Utility.Enums.SWStatus
+- uid: Mix.Common.Utility.Enums.ResponseKey
+  commentId: T:Mix.Common.Utility.Enums.ResponseKey
+  parent: Mix.Common.Utility
+  isExternal: true
+  name: Enums.ResponseKey
+  nameWithType: Enums.ResponseKey
+  fullName: Mix.Common.Utility.Enums.ResponseKey
+- uid: Mix.Common.Utility
+  commentId: N:Mix.Common.Utility
+  isExternal: true
+  name: Mix.Common.Utility
+  nameWithType: Mix.Common.Utility
+  fullName: Mix.Common.Utility

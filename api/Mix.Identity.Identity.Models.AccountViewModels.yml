@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Identity.Models.AccountViewModels
+  id: Mix.Identity.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Identity.Models.AccountViewModels.CreateRoleBindingModel
+  - Mix.Identity.Identity.Models.AccountViewModels.UsersInRoleModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Identity.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Identity.Models.AccountViewModels
+  type: Namespace
+  assemblies:
+  - Mix.Identity
+references:
+- uid: Mix.Identity.Identity.Models.AccountViewModels.CreateRoleBindingModel
+  commentId: T:Mix.Identity.Identity.Models.AccountViewModels.CreateRoleBindingModel
+  isExternal: true
+  name: CreateRoleBindingModel
+  nameWithType: CreateRoleBindingModel
+  fullName: Mix.Identity.Identity.Models.AccountViewModels.CreateRoleBindingModel
+- uid: Mix.Identity.Identity.Models.AccountViewModels.UsersInRoleModel
+  commentId: T:Mix.Identity.Identity.Models.AccountViewModels.UsersInRoleModel
+  isExternal: true
+  name: UsersInRoleModel
+  nameWithType: UsersInRoleModel
+  fullName: Mix.Identity.Identity.Models.AccountViewModels.UsersInRoleModel

@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  id: SWCmsConstants.FileFolderEnum
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Fonts
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Images
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Others
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Scripts
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Styles
+  - Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.value__
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.FileFolderEnum
+  nameWithType: SWCmsConstants.FileFolderEnum
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public sealed class FileFolderEnum : Enum'
+    content.vb: >-
+      Public NotInheritable Class FileFolderEnum
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.value__
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.value__
+  id: value__
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SWCmsConstants.FileFolderEnum.value__
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Styles
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Styles
+  id: Styles
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: Styles
+  nameWithType: SWCmsConstants.FileFolderEnum.Styles
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Styles
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.FileFolderEnum Styles
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+    content.vb: Public Const Styles As SWCmsConstants.FileFolderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Scripts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Scripts
+  id: Scripts
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: Scripts
+  nameWithType: SWCmsConstants.FileFolderEnum.Scripts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Scripts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.FileFolderEnum Scripts
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+    content.vb: Public Const Scripts As SWCmsConstants.FileFolderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Images
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Images
+  id: Images
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: Images
+  nameWithType: SWCmsConstants.FileFolderEnum.Images
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Images
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.FileFolderEnum Images
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+    content.vb: Public Const Images As SWCmsConstants.FileFolderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Fonts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Fonts
+  id: Fonts
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: Fonts
+  nameWithType: SWCmsConstants.FileFolderEnum.Fonts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Fonts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.FileFolderEnum Fonts
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+    content.vb: Public Const Fonts As SWCmsConstants.FileFolderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Others
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Others
+  id: Others
+  parent: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  langs:
+  - csharp
+  - vb
+  name: Others
+  nameWithType: SWCmsConstants.FileFolderEnum.Others
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum.Others
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.FileFolderEnum Others
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+    content.vb: Public Const Others As SWCmsConstants.FileFolderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: false
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.FileFolderEnum
+  nameWithType: SWCmsConstants.FileFolderEnum
+  fullName: Swastika.Cms.Lib.SWCmsConstants.FileFolderEnum

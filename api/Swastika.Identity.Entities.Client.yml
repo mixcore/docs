@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Entities.Client
+  commentId: T:Swastika.Identity.Entities.Client
+  id: Client
+  parent: Swastika.Identity.Entities
+  children:
+  - Swastika.Identity.Entities.Client.#ctor
+  - Swastika.Identity.Entities.Client.Active
+  - Swastika.Identity.Entities.Client.AllowedOrigin
+  - Swastika.Identity.Entities.Client.ApplicationType
+  - Swastika.Identity.Entities.Client.Id
+  - Swastika.Identity.Entities.Client.Name
+  - Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+  - Swastika.Identity.Entities.Client.Secret
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: Client
+  fullName: Swastika.Identity.Entities.Client
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: 'public class Client : Object'
+    content.vb: >-
+      Public Class Client
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Entities.Client.#ctor
+  commentId: M:Swastika.Identity.Entities.Client.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: Client()
+  nameWithType: Client.Client()
+  fullName: Swastika.Identity.Entities.Client.Client()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public Client()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Entities.Client.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.Id
+  commentId: P:Swastika.Identity.Entities.Client.Id
+  id: Id
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Client.Id
+  fullName: Swastika.Identity.Entities.Client.Id
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Identity.Entities.Client.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.Secret
+  commentId: P:Swastika.Identity.Entities.Client.Secret
+  id: Secret
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: Client.Secret
+  fullName: Swastika.Identity.Entities.Client.Secret
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: Swastika.Identity.Entities.Client.Secret*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.Name
+  commentId: P:Swastika.Identity.Entities.Client.Name
+  id: Name
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Client.Name
+  fullName: Swastika.Identity.Entities.Client.Name
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Swastika.Identity.Entities.Client.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.ApplicationType
+  commentId: P:Swastika.Identity.Entities.Client.ApplicationType
+  id: ApplicationType
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: ApplicationType
+  nameWithType: Client.ApplicationType
+  fullName: Swastika.Identity.Entities.Client.ApplicationType
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public Const.ApplicationTypes ApplicationType { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Identity.Const.ApplicationTypes
+    content.vb: 'Public Property ApplicationType As '
+  overload: Swastika.Identity.Entities.Client.ApplicationType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.Active
+  commentId: P:Swastika.Identity.Entities.Client.Active
+  id: Active
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: Client.Active
+  fullName: Swastika.Identity.Entities.Client.Active
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Active As Boolean
+  overload: Swastika.Identity.Entities.Client.Active*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+  commentId: P:Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+  id: RefreshTokenLifeTime
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokenLifeTime
+  nameWithType: Client.RefreshTokenLifeTime
+  fullName: Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public int RefreshTokenLifeTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RefreshTokenLifeTime As Integer
+  overload: Swastika.Identity.Entities.Client.RefreshTokenLifeTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Entities.Client.AllowedOrigin
+  commentId: P:Swastika.Identity.Entities.Client.AllowedOrigin
+  id: AllowedOrigin
+  parent: Swastika.Identity.Entities.Client
+  langs:
+  - csharp
+  - vb
+  name: AllowedOrigin
+  nameWithType: Client.AllowedOrigin
+  fullName: Swastika.Identity.Entities.Client.AllowedOrigin
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Entities
+  syntax:
+    content: public string AllowedOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AllowedOrigin As String
+  overload: Swastika.Identity.Entities.Client.AllowedOrigin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Entities
+  commentId: N:Swastika.Identity.Entities
+  isExternal: true
+  name: Swastika.Identity.Entities
+  nameWithType: Swastika.Identity.Entities
+  fullName: Swastika.Identity.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Entities.Client.#ctor*
+  commentId: Overload:Swastika.Identity.Entities.Client.#ctor
+  isExternal: true
+  name: Client
+  nameWithType: Client.Client
+  fullName: Swastika.Identity.Entities.Client.Client
+- uid: Swastika.Identity.Entities.Client.Id*
+  commentId: Overload:Swastika.Identity.Entities.Client.Id
+  isExternal: true
+  name: Id
+  nameWithType: Client.Id
+  fullName: Swastika.Identity.Entities.Client.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Identity.Entities.Client.Secret*
+  commentId: Overload:Swastika.Identity.Entities.Client.Secret
+  isExternal: true
+  name: Secret
+  nameWithType: Client.Secret
+  fullName: Swastika.Identity.Entities.Client.Secret
+- uid: Swastika.Identity.Entities.Client.Name*
+  commentId: Overload:Swastika.Identity.Entities.Client.Name
+  isExternal: true
+  name: Name
+  nameWithType: Client.Name
+  fullName: Swastika.Identity.Entities.Client.Name
+- uid: Swastika.Identity.Entities.Client.ApplicationType*
+  commentId: Overload:Swastika.Identity.Entities.Client.ApplicationType
+  isExternal: true
+  name: ApplicationType
+  nameWithType: Client.ApplicationType
+  fullName: Swastika.Identity.Entities.Client.ApplicationType
+- uid: Swastika.Identity.Const.ApplicationTypes
+  commentId: T:Swastika.Identity.Const.ApplicationTypes
+  parent: Swastika.Identity
+  isExternal: true
+  name: Const.ApplicationTypes
+  nameWithType: Const.ApplicationTypes
+  fullName: Swastika.Identity.Const.ApplicationTypes
+- uid: Swastika.Identity
+  commentId: N:Swastika.Identity
+  isExternal: true
+  name: Swastika.Identity
+  nameWithType: Swastika.Identity
+  fullName: Swastika.Identity
+- uid: Swastika.Identity.Entities.Client.Active*
+  commentId: Overload:Swastika.Identity.Entities.Client.Active
+  isExternal: true
+  name: Active
+  nameWithType: Client.Active
+  fullName: Swastika.Identity.Entities.Client.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Identity.Entities.Client.RefreshTokenLifeTime*
+  commentId: Overload:Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+  isExternal: true
+  name: RefreshTokenLifeTime
+  nameWithType: Client.RefreshTokenLifeTime
+  fullName: Swastika.Identity.Entities.Client.RefreshTokenLifeTime
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Identity.Entities.Client.AllowedOrigin*
+  commentId: Overload:Swastika.Identity.Entities.Client.AllowedOrigin
+  isExternal: true
+  name: AllowedOrigin
+  nameWithType: Client.AllowedOrigin
+  fullName: Swastika.Identity.Entities.Client.AllowedOrigin

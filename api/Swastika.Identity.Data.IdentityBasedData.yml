@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Data.IdentityBasedData
+  commentId: T:Swastika.Identity.Data.IdentityBasedData
+  id: IdentityBasedData
+  parent: Swastika.Identity.Data
+  children:
+  - Swastika.Identity.Data.IdentityBasedData.UserClaims
+  langs:
+  - csharp
+  - vb
+  name: IdentityBasedData
+  nameWithType: IdentityBasedData
+  fullName: Swastika.Identity.Data.IdentityBasedData
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Data
+  syntax:
+    content: 'public static class IdentityBasedData : Object'
+    content.vb: >-
+      Public Module IdentityBasedData
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Identity.Data.IdentityBasedData.UserClaims
+  commentId: P:Swastika.Identity.Data.IdentityBasedData.UserClaims
+  id: UserClaims
+  parent: Swastika.Identity.Data.IdentityBasedData
+  langs:
+  - csharp
+  - vb
+  name: UserClaims
+  nameWithType: IdentityBasedData.UserClaims
+  fullName: Swastika.Identity.Data.IdentityBasedData.UserClaims
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Data
+  syntax:
+    content: public static List<string> UserClaims { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Property UserClaims As List(Of String)
+  overload: Swastika.Identity.Data.IdentityBasedData.UserClaims*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastika.Identity.Data
+  commentId: N:Swastika.Identity.Data
+  isExternal: true
+  name: Swastika.Identity.Data
+  nameWithType: Swastika.Identity.Data
+  fullName: Swastika.Identity.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Data.IdentityBasedData.UserClaims*
+  commentId: Overload:Swastika.Identity.Data.IdentityBasedData.UserClaims
+  isExternal: true
+  name: UserClaims
+  nameWithType: IdentityBasedData.UserClaims
+  fullName: Swastika.Identity.Data.IdentityBasedData.UserClaims
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

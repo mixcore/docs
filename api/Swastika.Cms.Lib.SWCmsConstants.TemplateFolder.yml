@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  id: SWCmsConstants.TemplateFolder
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Layouts
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Modules
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Pages
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Products
+  - Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Widgets
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.TemplateFolder
+  nameWithType: SWCmsConstants.TemplateFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public static class TemplateFolder : Object'
+    content.vb: >-
+      Public Module TemplateFolder
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
+  id: Articles
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Articles
+  nameWithType: SWCmsConstants.TemplateFolder.Articles
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Articles
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Articles = "Articles"
+    return:
+      type: System.String
+    content.vb: Public Const Articles As String = "Articles"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Layouts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Layouts
+  id: Layouts
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Layouts
+  nameWithType: SWCmsConstants.TemplateFolder.Layouts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Layouts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Layouts = "Layouts"
+    return:
+      type: System.String
+    content.vb: Public Const Layouts As String = "Layouts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Modules
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Modules
+  id: Modules
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Modules
+  nameWithType: SWCmsConstants.TemplateFolder.Modules
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Modules
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Modules = "Modules"
+    return:
+      type: System.String
+    content.vb: Public Const Modules As String = "Modules"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Pages
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Pages
+  id: Pages
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Pages
+  nameWithType: SWCmsConstants.TemplateFolder.Pages
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Pages
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Pages = "Pages"
+    return:
+      type: System.String
+    content.vb: Public Const Pages As String = "Pages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Products
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Products
+  id: Products
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: SWCmsConstants.TemplateFolder.Products
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Products
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Products = "Products"
+    return:
+      type: System.String
+    content.vb: Public Const Products As String = "Products"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Widgets
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Widgets
+  id: Widgets
+  parent: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Widgets
+  nameWithType: SWCmsConstants.TemplateFolder.Widgets
+  fullName: Swastika.Cms.Lib.SWCmsConstants.TemplateFolder.Widgets
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string Widgets = "Widgets"
+    return:
+      type: System.String
+    content.vb: Public Const Widgets As String = "Widgets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

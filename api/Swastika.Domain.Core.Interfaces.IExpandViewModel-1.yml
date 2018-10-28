@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  commentId: T:Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  id: IExpandViewModel`1
+  parent: Swastika.Domain.Core.Interfaces
+  children:
+  - Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel(`0)
+  - Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView
+  - Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate(System.Collections.Generic.List{System.String}@)
+  langs:
+  - csharp
+  - vb
+  name: IExpandViewModel<TModel>
+  nameWithType: IExpandViewModel<TModel>
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>
+  type: Interface
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Interfaces
+  syntax:
+    content: >-
+      public interface IExpandViewModel<TModel>
+          where TModel : class
+    typeParameters:
+    - id: TModel
+    content.vb: Public Interface IExpandViewModel(Of TModel As Class)
+  nameWithType.vb: IExpandViewModel(Of TModel)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel)
+  name.vb: IExpandViewModel(Of TModel)
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel(`0)
+  commentId: M:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel(`0)
+  id: ExpandModel(`0)
+  parent: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  langs:
+  - csharp
+  - vb
+  name: ExpandModel(TModel)
+  nameWithType: IExpandViewModel<TModel>.ExpandModel(TModel)
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.ExpandModel(TModel)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Interfaces
+  syntax:
+    content: void ExpandModel(TModel model)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    content.vb: Sub ExpandModel(model As TModel)
+  overload: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel*
+  nameWithType.vb: IExpandViewModel(Of TModel).ExpandModel(TModel)
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).ExpandModel(TModel)
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView
+  commentId: M:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView
+  id: ExpandView
+  parent: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  langs:
+  - csharp
+  - vb
+  name: ExpandView()
+  nameWithType: IExpandViewModel<TModel>.ExpandView()
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.ExpandView()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Interfaces
+  syntax:
+    content: void ExpandView()
+    content.vb: Sub ExpandView
+  overload: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView*
+  nameWithType.vb: IExpandViewModel(Of TModel).ExpandView()
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).ExpandView()
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate(System.Collections.Generic.List{System.String}@)
+  commentId: M:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate(System.Collections.Generic.List{System.String}@)
+  id: Validate(System.Collections.Generic.List{System.String}@)
+  parent: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  langs:
+  - csharp
+  - vb
+  name: Validate(out List<String>)
+  nameWithType: IExpandViewModel<TModel>.Validate(out List<String>)
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.Validate(out System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Interfaces
+  syntax:
+    content: bool Validate(out List<string> errors)
+    parameters:
+    - id: errors
+      type: System.Collections.Generic.List{System.String}
+    return:
+      type: System.Boolean
+    content.vb: Function Validate(ByRef errors As List(Of String)) As Boolean
+  overload: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate*
+  nameWithType.vb: IExpandViewModel(Of TModel).Validate(ByRef List(Of String))
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).Validate(ByRef System.Collections.Generic.List(Of System.String))
+  name.vb: Validate(ByRef List(Of String))
+references:
+- uid: Swastika.Domain.Core.Interfaces
+  commentId: N:Swastika.Domain.Core.Interfaces
+  isExternal: true
+  name: Swastika.Domain.Core.Interfaces
+  nameWithType: Swastika.Domain.Core.Interfaces
+  fullName: Swastika.Domain.Core.Interfaces
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel*
+  commentId: Overload:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandModel
+  isExternal: true
+  name: ExpandModel
+  nameWithType: IExpandViewModel<TModel>.ExpandModel
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.ExpandModel
+  nameWithType.vb: IExpandViewModel(Of TModel).ExpandModel
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).ExpandModel
+- uid: '{TModel}'
+  commentId: '!:TModel'
+  definition: TModel
+  name: TModel
+  nameWithType: TModel
+  fullName: TModel
+- uid: TModel
+  name: TModel
+  nameWithType: TModel
+  fullName: TModel
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView*
+  commentId: Overload:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.ExpandView
+  isExternal: true
+  name: ExpandView
+  nameWithType: IExpandViewModel<TModel>.ExpandView
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.ExpandView
+  nameWithType.vb: IExpandViewModel(Of TModel).ExpandView
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).ExpandView
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate*
+  commentId: Overload:Swastika.Domain.Core.Interfaces.IExpandViewModel`1.Validate
+  isExternal: true
+  name: Validate
+  nameWithType: IExpandViewModel<TModel>.Validate
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>.Validate
+  nameWithType.vb: IExpandViewModel(Of TModel).Validate
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel).Validate
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

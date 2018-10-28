@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Api
+  commentId: N:Swastka.Cms.Api
+  id: Swastka.Cms.Api
+  children:
+  - Swastka.Cms.Api.JwtSecurityKey
+  - Swastka.Cms.Api.Program
+  - Swastka.Cms.Api.Startup
+  langs:
+  - csharp
+  - vb
+  name: Swastka.Cms.Api
+  nameWithType: Swastka.Cms.Api
+  fullName: Swastka.Cms.Api
+  type: Namespace
+  assemblies:
+  - Swastka.Cms.Api
+references:
+- uid: Swastka.Cms.Api.Program
+  commentId: T:Swastka.Cms.Api.Program
+  isExternal: true
+  name: Program
+  nameWithType: Program
+  fullName: Swastka.Cms.Api.Program
+- uid: Swastka.Cms.Api.Startup
+  commentId: T:Swastka.Cms.Api.Startup
+  isExternal: true
+  name: Startup
+  nameWithType: Startup
+  fullName: Swastka.Cms.Api.Startup
+- uid: Swastka.Cms.Api.JwtSecurityKey
+  commentId: T:Swastka.Cms.Api.JwtSecurityKey
+  isExternal: true
+  name: JwtSecurityKey
+  nameWithType: JwtSecurityKey
+  fullName: Swastka.Cms.Api.JwtSecurityKey

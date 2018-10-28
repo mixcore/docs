@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  commentId: N:Swastika.Cms.Mvc.Areas.Portal.Controllers
+  id: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  children:
+  - Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  nameWithType: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController
+  isExternal: true
+  name: PortalController
+  nameWithType: PortalController
+  fullName: Swastika.Cms.Mvc.Areas.Portal.Controllers.PortalController

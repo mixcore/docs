@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  commentId: N:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  id: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  children:
+  - Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController
+  - Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  - Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  nameWithType: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController
+  commentId: T:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController
+  isExternal: true
+  name: AuthController
+  nameWithType: AuthController
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.AuthController
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  commentId: T:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  isExternal: true
+  name: Common
+  nameWithType: Common
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController
+  commentId: T:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController
+  isExternal: true
+  name: LanguageController
+  nameWithType: LanguageController
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.LanguageController

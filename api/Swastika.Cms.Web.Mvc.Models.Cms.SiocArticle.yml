@@ -1,0 +1,1518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  commentId: T:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  id: SiocArticle
+  parent: Swastika.Cms.Web.Mvc.Models.Cms
+  children:
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+  langs:
+  - csharp
+  - vb
+  name: SiocArticle
+  nameWithType: SiocArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: 'public class SiocArticle : Object'
+    content.vb: >-
+      Public Class SiocArticle
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SiocArticle()
+  nameWithType: SiocArticle.SiocArticle()
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticle()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public SiocArticle()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+  id: Id
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SiocArticle.Id
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+  id: Specificulture
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: SiocArticle.Specificulture
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+  id: Content
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: SiocArticle.Content
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+  id: CreatedBy
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: SiocArticle.CreatedBy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatedBy As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+  id: CreatedDateTime
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: SiocArticle.CreatedDateTime
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+  id: Excerpt
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Excerpt
+  nameWithType: SiocArticle.Excerpt
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Excerpt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Excerpt As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+  id: Icon
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: SiocArticle.Icon
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Icon As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+  id: Image
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: SiocArticle.Image
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+  id: LastModified
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: LastModified
+  nameWithType: SiocArticle.LastModified
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public Nullable<DateTime> LastModified { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property LastModified As Nullable(Of DateTime)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+  id: ModifiedBy
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: ModifiedBy
+  nameWithType: SiocArticle.ModifiedBy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string ModifiedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ModifiedBy As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+  id: SeoDescription
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SeoDescription
+  nameWithType: SiocArticle.SeoDescription
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string SeoDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SeoDescription As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+  id: SeoKeywords
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SeoKeywords
+  nameWithType: SiocArticle.SeoKeywords
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string SeoKeywords { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SeoKeywords As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+  id: SeoName
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SeoName
+  nameWithType: SiocArticle.SeoName
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string SeoName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SeoName As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+  id: SeoTitle
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SeoTitle
+  nameWithType: SiocArticle.SeoTitle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string SeoTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SeoTitle As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+  id: Source
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: SiocArticle.Source
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+  id: Tags
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: SiocArticle.Tags
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Tags { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tags As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+  id: Template
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Template
+  nameWithType: SiocArticle.Template
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Template { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Template As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+  id: Thumbnail
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: SiocArticle.Thumbnail
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Thumbnail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Thumbnail As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+  id: Title
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: SiocArticle.Title
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+  id: Type
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SiocArticle.Type
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Type { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Type As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+  id: Views
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Views
+  nameWithType: SiocArticle.Views
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public Nullable<int> Views { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Views As Nullable(Of Integer)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+  id: Priority
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocArticle.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+  id: ExtraProperties
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: ExtraProperties
+  nameWithType: SiocArticle.ExtraProperties
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string ExtraProperties { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraProperties As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+  id: Status
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocArticle.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+  id: SpecificultureNavigation
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SpecificultureNavigation
+  nameWithType: SiocArticle.SpecificultureNavigation
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public SiocCulture SpecificultureNavigation { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture
+    content.vb: Public Property SpecificultureNavigation As SiocCulture
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+  id: SiocArticleMedia
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SiocArticleMedia
+  nameWithType: SiocArticle.SiocArticleMedia
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public ICollection<SiocArticleMedia> SiocArticleMedia { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia}
+    content.vb: Public Property SiocArticleMedia As ICollection(Of SiocArticleMedia)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+  id: SiocArticleModule
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SiocArticleModule
+  nameWithType: SiocArticle.SiocArticleModule
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public ICollection<SiocArticleModule> SiocArticleModule { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule}
+    content.vb: Public Property SiocArticleModule As ICollection(Of SiocArticleModule)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+  id: SiocCategoryArticle
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryArticle
+  nameWithType: SiocArticle.SiocCategoryArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public ICollection<SiocCategoryArticle> SiocCategoryArticle { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle}
+    content.vb: Public Property SiocCategoryArticle As ICollection(Of SiocCategoryArticle)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+  id: SiocModuleArticle
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle
+  langs:
+  - csharp
+  - vb
+  name: SiocModuleArticle
+  nameWithType: SiocArticle.SiocModuleArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public ICollection<SiocModuleArticle> SiocModuleArticle { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle}
+    content.vb: Public Property SiocModuleArticle As ICollection(Of SiocModuleArticle)
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms
+  commentId: N:Swastika.Cms.Web.Mvc.Models.Cms
+  isExternal: false
+  name: Swastika.Cms.Web.Mvc.Models.Cms
+  nameWithType: Swastika.Cms.Web.Mvc.Models.Cms
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.#ctor
+  isExternal: true
+  name: SiocArticle
+  nameWithType: SiocArticle.SiocArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticle
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+  isExternal: true
+  name: Id
+  nameWithType: SiocArticle.Id
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: SiocArticle.Specificulture
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Specificulture
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+  isExternal: true
+  name: Content
+  nameWithType: SiocArticle.Content
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Content
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: SiocArticle.CreatedBy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedBy
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: SiocArticle.CreatedDateTime
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+  isExternal: true
+  name: Excerpt
+  nameWithType: SiocArticle.Excerpt
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Excerpt
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: SiocArticle.Icon
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Icon
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+  isExternal: true
+  name: Image
+  nameWithType: SiocArticle.Image
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Image
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+  isExternal: true
+  name: LastModified
+  nameWithType: SiocArticle.LastModified
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.LastModified
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+  isExternal: true
+  name: ModifiedBy
+  nameWithType: SiocArticle.ModifiedBy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ModifiedBy
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+  isExternal: true
+  name: SeoDescription
+  nameWithType: SiocArticle.SeoDescription
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoDescription
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+  isExternal: true
+  name: SeoKeywords
+  nameWithType: SiocArticle.SeoKeywords
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoKeywords
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+  isExternal: true
+  name: SeoName
+  nameWithType: SiocArticle.SeoName
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoName
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+  isExternal: true
+  name: SeoTitle
+  nameWithType: SiocArticle.SeoTitle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SeoTitle
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+  isExternal: true
+  name: Source
+  nameWithType: SiocArticle.Source
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Source
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+  isExternal: true
+  name: Tags
+  nameWithType: SiocArticle.Tags
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Tags
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+  isExternal: true
+  name: Template
+  nameWithType: SiocArticle.Template
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Template
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+  isExternal: true
+  name: Thumbnail
+  nameWithType: SiocArticle.Thumbnail
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Thumbnail
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+  isExternal: true
+  name: Title
+  nameWithType: SiocArticle.Title
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Title
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+  isExternal: true
+  name: Type
+  nameWithType: SiocArticle.Type
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Type
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+  isExternal: true
+  name: Views
+  nameWithType: SiocArticle.Views
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Views
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocArticle.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Priority
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+  isExternal: true
+  name: ExtraProperties
+  nameWithType: SiocArticle.ExtraProperties
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.ExtraProperties
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocArticle.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.Status
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+  isExternal: true
+  name: SpecificultureNavigation
+  nameWithType: SiocArticle.SpecificultureNavigation
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SpecificultureNavigation
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture
+  commentId: T:Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture
+  parent: Swastika.Cms.Web.Mvc.Models.Cms
+  isExternal: true
+  name: SiocCulture
+  nameWithType: SiocCulture
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCulture
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+  isExternal: true
+  name: SiocArticleMedia
+  nameWithType: SiocArticle.SiocArticleMedia
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleMedia
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocArticleMedia>
+  nameWithType: ICollection<SiocArticleMedia>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia>
+  nameWithType.vb: ICollection(Of SiocArticleMedia)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia)
+  name.vb: ICollection(Of SiocArticleMedia)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia
+    name: SiocArticleMedia
+    nameWithType: SiocArticleMedia
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia
+    name: SiocArticleMedia
+    nameWithType: SiocArticleMedia
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleMedia
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+  isExternal: true
+  name: SiocArticleModule
+  nameWithType: SiocArticle.SiocArticleModule
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocArticleModule
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocArticleModule>
+  nameWithType: ICollection<SiocArticleModule>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule>
+  nameWithType.vb: ICollection(Of SiocArticleModule)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule)
+  name.vb: ICollection(Of SiocArticleModule)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule
+    name: SiocArticleModule
+    nameWithType: SiocArticleModule
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule
+    name: SiocArticleModule
+    nameWithType: SiocArticleModule
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticleModule
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+  isExternal: true
+  name: SiocCategoryArticle
+  nameWithType: SiocArticle.SiocCategoryArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocCategoryArticle
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocCategoryArticle>
+  nameWithType: ICollection<SiocCategoryArticle>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle>
+  nameWithType.vb: ICollection(Of SiocCategoryArticle)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle)
+  name.vb: ICollection(Of SiocCategoryArticle)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle
+    name: SiocCategoryArticle
+    nameWithType: SiocCategoryArticle
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle
+    name: SiocCategoryArticle
+    nameWithType: SiocCategoryArticle
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCategoryArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+  isExternal: true
+  name: SiocModuleArticle
+  nameWithType: SiocArticle.SiocModuleArticle
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocArticle.SiocModuleArticle
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocModuleArticle>
+  nameWithType: ICollection<SiocModuleArticle>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle>
+  nameWithType.vb: ICollection(Of SiocModuleArticle)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle)
+  name.vb: ICollection(Of SiocModuleArticle)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle
+    name: SiocModuleArticle
+    nameWithType: SiocModuleArticle
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle
+    name: SiocModuleArticle
+    nameWithType: SiocModuleArticle
+    fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocModuleArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

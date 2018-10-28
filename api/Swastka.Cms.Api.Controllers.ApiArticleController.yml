@@ -1,0 +1,1624 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController
+  commentId: T:Swastka.Cms.Api.Controllers.ApiArticleController
+  id: ApiArticleController
+  parent: Swastka.Cms.Api.Controllers
+  children:
+  - Swastka.Cms.Api.Controllers.ApiArticleController.#ctor
+  - Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails(System.String,System.String)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Create
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Delete(System.String)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Get(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,Microsoft.Data.OData.Query.OrderByDirection)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.GetList(Swastika.Domain.Core.ViewModels.RequestPaging)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Init(System.String)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Recycle(System.String)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Restore(System.String)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.Save(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  - Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields(System.String,System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField})
+  langs:
+  - csharp
+  - vb
+  name: ApiArticleController
+  nameWithType: ApiArticleController
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController
+  type: Class
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: 'public class ApiArticleController : BaseApiController'
+    content.vb: >-
+      Public Class ApiArticleController
+          Inherits BaseApiController
+  inheritance:
+  - System.Object
+  - Swastka.Cms.Api.Controllers.BaseApiController
+  inheritedMembers:
+  - Swastka.Cms.Api.Controllers.BaseApiController._domain
+  - Swastka.Cms.Api.Controllers.BaseApiController._lang
+  - Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+  - Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+  - Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+  - Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  - Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String,System.String)
+  - Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+  - Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1({TResult})
+  - Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+  - Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  - Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.#ctor
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.#ctor
+  id: '#ctor'
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: ApiArticleController()
+  nameWithType: ApiArticleController.ApiArticleController()
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.ApiArticleController()
+  type: Constructor
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public ApiArticleController()
+    content.vb: Public Sub New
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails(System.String,System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails(System.String,System.String)
+  id: BEDetails(System.String,System.String)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: BEDetails(String, String)
+  nameWithType: ApiArticleController.BEDetails(String, String)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails(System.String, System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<JObject> BEDetails(string viewType, string id)
+    parameters:
+    - id: viewType
+      type: System.String
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}
+    content.vb: Public Function BEDetails(viewType As String, id As String) As Task(Of JObject)
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Create
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Create
+  id: Create
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: ApiArticleController.Create()
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Create()
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public RepositoryResponse<BEArticleViewModel> Create()
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}
+    content.vb: Public Function Create As RepositoryResponse(Of BEArticleViewModel)
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Create*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Init(System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Init(System.String)
+  id: Init(System.String)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Init(String)
+  nameWithType: ApiArticleController.Init(String)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Init(System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public JObject Init(string viewType)
+    parameters:
+    - id: viewType
+      type: System.String
+    return:
+      type: Newtonsoft.Json.Linq.JObject
+    content.vb: Public Function Init(viewType As String) As JObject
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Recycle(System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Recycle(System.String)
+  id: Recycle(System.String)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Recycle(String)
+  nameWithType: ApiArticleController.Recycle(String)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Recycle(System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<InfoArticleViewModel>> Recycle(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}
+    content.vb: Public Function Recycle(id As String) As Task(Of RepositoryResponse(Of InfoArticleViewModel))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Recycle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Restore(System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Restore(System.String)
+  id: Restore(System.String)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Restore(String)
+  nameWithType: ApiArticleController.Restore(String)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Restore(System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<InfoArticleViewModel>> Restore(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}
+    content.vb: Public Function Restore(id As String) As Task(Of RepositoryResponse(Of InfoArticleViewModel))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Restore*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Delete(System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Delete(System.String)
+  id: Delete(System.String)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Delete(String)
+  nameWithType: ApiArticleController.Delete(String)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Delete(System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<SiocArticle>> Delete(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocArticle}}
+    content.vb: Public Function Delete(id As String) As Task(Of RepositoryResponse(Of SiocArticle))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Get(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,Microsoft.Data.OData.Query.OrderByDirection)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Get(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,Microsoft.Data.OData.Query.OrderByDirection)
+  id: Get(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,Microsoft.Data.OData.Query.OrderByDirection)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Get(Nullable<Int32>, Nullable<Int32>, String, OrderByDirection)
+  nameWithType: ApiArticleController.Get(Nullable<Int32>, Nullable<Int32>, String, OrderByDirection)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Get(System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.String, Microsoft.Data.OData.Query.OrderByDirection)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<PaginationModel<InfoArticleViewModel>>> Get(Nullable<int> pageSize, Nullable<int> pageIndex, string orderBy = "Id", OrderByDirection direction)
+    parameters:
+    - id: pageSize
+      type: System.Nullable{System.Int32}
+    - id: pageIndex
+      type: System.Nullable{System.Int32}
+    - id: orderBy
+      type: System.String
+    - id: direction
+      type: Microsoft.Data.OData.Query.OrderByDirection
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}}
+    content.vb: Public Function Get(pageSize As Nullable(Of Integer), pageIndex As Nullable(Of Integer), orderBy As String = "Id", direction As OrderByDirection) As Task(Of RepositoryResponse(Of PaginationModel(Of InfoArticleViewModel)))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Get*
+  nameWithType.vb: ApiArticleController.Get(Nullable(Of Int32), Nullable(Of Int32), String, OrderByDirection)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastka.Cms.Api.Controllers.ApiArticleController.Get(System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.String, Microsoft.Data.OData.Query.OrderByDirection)
+  name.vb: Get(Nullable(Of Int32), Nullable(Of Int32), String, OrderByDirection)
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Save(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.Save(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  id: Save(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: Save(BEArticleViewModel)
+  nameWithType: ApiArticleController.Save(BEArticleViewModel)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Save(Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<BEArticleViewModel>> Save(BEArticleViewModel Article)
+    parameters:
+    - id: Article
+      type: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}}
+    content.vb: Public Function Save(Article As BEArticleViewModel) As Task(Of RepositoryResponse(Of BEArticleViewModel))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields(System.String,System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField})
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields(System.String,System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField})
+  id: SaveFields(System.String,System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField})
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: SaveFields(String, List<EntityField>)
+  nameWithType: ApiArticleController.SaveFields(String, List<EntityField>)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields(System.String, System.Collections.Generic.List<Swastika.Domain.Core.ViewModels.EntityField>)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<SiocArticle>> SaveFields(string id, List<EntityField> fields)
+    parameters:
+    - id: id
+      type: System.String
+    - id: fields
+      type: System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField}
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocArticle}}
+    content.vb: Public Function SaveFields(id As String, fields As List(Of EntityField)) As Task(Of RepositoryResponse(Of SiocArticle))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields*
+  nameWithType.vb: ApiArticleController.SaveFields(String, List(Of EntityField))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields(System.String, System.Collections.Generic.List(Of Swastika.Domain.Core.ViewModels.EntityField))
+  name.vb: SaveFields(String, List(Of EntityField))
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.GetList(Swastika.Domain.Core.ViewModels.RequestPaging)
+  commentId: M:Swastka.Cms.Api.Controllers.ApiArticleController.GetList(Swastika.Domain.Core.ViewModels.RequestPaging)
+  id: GetList(Swastika.Domain.Core.ViewModels.RequestPaging)
+  parent: Swastka.Cms.Api.Controllers.ApiArticleController
+  langs:
+  - csharp
+  - vb
+  name: GetList(RequestPaging)
+  nameWithType: ApiArticleController.GetList(RequestPaging)
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.GetList(Swastika.Domain.Core.ViewModels.RequestPaging)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api.Controllers
+  syntax:
+    content: public Task<RepositoryResponse<PaginationModel<InfoArticleViewModel>>> GetList(RequestPaging request)
+    parameters:
+    - id: request
+      type: Swastika.Domain.Core.ViewModels.RequestPaging
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}}
+    content.vb: Public Function GetList(request As RequestPaging) As Task(Of RepositoryResponse(Of PaginationModel(Of InfoArticleViewModel)))
+  overload: Swastka.Cms.Api.Controllers.ApiArticleController.GetList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastka.Cms.Api.Controllers
+  commentId: N:Swastka.Cms.Api.Controllers
+  isExternal: true
+  name: Swastka.Cms.Api.Controllers
+  nameWithType: Swastka.Cms.Api.Controllers
+  fullName: Swastka.Cms.Api.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Swastka.Cms.Api.Controllers.BaseApiController
+  commentId: T:Swastka.Cms.Api.Controllers.BaseApiController
+  parent: Swastka.Cms.Api.Controllers
+  isExternal: true
+  name: BaseApiController
+  nameWithType: BaseApiController
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController
+- uid: Swastka.Cms.Api.Controllers.BaseApiController._domain
+  commentId: F:Swastka.Cms.Api.Controllers.BaseApiController._domain
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: _domain
+  nameWithType: BaseApiController._domain
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController._domain
+- uid: Swastka.Cms.Api.Controllers.BaseApiController._lang
+  commentId: F:Swastka.Cms.Api.Controllers.BaseApiController._lang
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: _lang
+  nameWithType: BaseApiController._lang
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController._lang
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: BadRequest(ModelStateDictionary)
+  nameWithType: BaseApiController.BadRequest(ModelStateDictionary)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+    name: BadRequest
+    nameWithType: BaseApiController.BadRequest
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary
+    name: ModelStateDictionary
+    nameWithType: ModelStateDictionary
+    fullName: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)
+    name: BadRequest
+    nameWithType: BaseApiController.BadRequest
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary
+    name: ModelStateDictionary
+    nameWithType: ModelStateDictionary
+    fullName: Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: BadRequest(Object)
+  nameWithType: BaseApiController.BadRequest(Object)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+    name: BadRequest
+    nameWithType: BaseApiController.BadRequest
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest(System.Object)
+    name: BadRequest
+    nameWithType: BaseApiController.BadRequest
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.BadRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: NotFound(Object)
+  nameWithType: BaseApiController.NotFound(Object)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+    name: NotFound
+    nameWithType: BaseApiController.NotFound
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.NotFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.NotFound(System.Object)
+    name: NotFound
+    nameWithType: BaseApiController.NotFound
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.NotFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: OnActionExecuting(ActionExecutingContext)
+  nameWithType: BaseApiController.OnActionExecuting(ActionExecutingContext)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseApiController.OnActionExecuting
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+    name: OnActionExecuting
+    nameWithType: BaseApiController.OnActionExecuting
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.OnActionExecuting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    name: ActionExecutingContext
+    nameWithType: ActionExecutingContext
+    fullName: Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String,System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String,System.String)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: GetErrorResult(String, String)
+  nameWithType: BaseApiController.GetErrorResult(String, String)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String, System.String)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String,System.String)
+    name: GetErrorResult
+    nameWithType: BaseApiController.GetErrorResult
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult(System.String,System.String)
+    name: GetErrorResult
+    nameWithType: BaseApiController.GetErrorResult
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetErrorResult
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: GetLanguage()
+  nameWithType: BaseApiController.GetLanguage()
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage()
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseApiController.GetLanguage
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+    name: GetLanguage
+    nameWithType: BaseApiController.GetLanguage
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetLanguage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1({TResult})
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  definition: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+  name: GetSuccessResult<TResult>(TResult)
+  nameWithType: BaseApiController.GetSuccessResult<TResult>(TResult)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult<TResult>(TResult)
+  nameWithType.vb: BaseApiController.GetSuccessResult(Of TResult)(TResult)
+  fullName.vb: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult(Of TResult)(TResult)
+  name.vb: GetSuccessResult(Of TResult)(TResult)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+    name: GetSuccessResult<TResult>
+    nameWithType: BaseApiController.GetSuccessResult<TResult>
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult<TResult>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+    name: GetSuccessResult(Of TResult)
+    nameWithType: BaseApiController.GetSuccessResult(Of TResult)
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult(Of TResult)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: ParseRequestPagingDate(RequestPaging)
+  nameWithType: BaseApiController.ParseRequestPagingDate(RequestPaging)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseApiController.ParseRequestPagingDate
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Swastika.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Swastika.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate(Swastika.Domain.Core.ViewModels.RequestPaging)
+    name: ParseRequestPagingDate
+    nameWithType: BaseApiController.ParseRequestPagingDate
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.ParseRequestPagingDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Swastika.Domain.Core.ViewModels.RequestPaging
+    name: RequestPaging
+    nameWithType: RequestPaging
+    fullName: Swastika.Domain.Core.ViewModels.RequestPaging
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: UploadFileAsync(IFormFile, String)
+  nameWithType: BaseApiController.UploadFileAsync(IFormFile, String)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile, System.String)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+    name: UploadFileAsync
+    nameWithType: BaseApiController.UploadFileAsync
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.IFormFile
+    name: IFormFile
+    nameWithType: IFormFile
+    fullName: Microsoft.AspNetCore.Http.IFormFile
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync(Microsoft.AspNetCore.Http.IFormFile,System.String)
+    name: UploadFileAsync
+    nameWithType: BaseApiController.UploadFileAsync
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Http.IFormFile
+    name: IFormFile
+    nameWithType: IFormFile
+    fullName: Microsoft.AspNetCore.Http.IFormFile
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+  parent: Swastka.Cms.Api.Controllers.BaseApiController
+  isExternal: true
+  name: UploadListFileAsync(String)
+  nameWithType: BaseApiController.UploadListFileAsync(String)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+    name: UploadListFileAsync
+    nameWithType: BaseApiController.UploadListFileAsync
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync(System.String)
+    name: UploadListFileAsync
+    nameWithType: BaseApiController.UploadListFileAsync
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.UploadListFileAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+  commentId: M:Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+  isExternal: true
+  name: GetSuccessResult<TResult>(TResult)
+  nameWithType: BaseApiController.GetSuccessResult<TResult>(TResult)
+  fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult<TResult>(TResult)
+  nameWithType.vb: BaseApiController.GetSuccessResult(Of TResult)(TResult)
+  fullName.vb: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult(Of TResult)(TResult)
+  name.vb: GetSuccessResult(Of TResult)(TResult)
+  spec.csharp:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+    name: GetSuccessResult<TResult>
+    nameWithType: BaseApiController.GetSuccessResult<TResult>
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult<TResult>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult``1(``0)
+    name: GetSuccessResult(Of TResult)
+    nameWithType: BaseApiController.GetSuccessResult(Of TResult)
+    fullName: Swastka.Cms.Api.Controllers.BaseApiController.GetSuccessResult(Of TResult)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.#ctor*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.#ctor
+  isExternal: true
+  name: ApiArticleController
+  nameWithType: ApiArticleController.ApiArticleController
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.ApiArticleController
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails
+  isExternal: true
+  name: BEDetails
+  nameWithType: ApiArticleController.BEDetails
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.BEDetails
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}
+  commentId: '!:System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<JObject>
+  nameWithType: Task<JObject>
+  fullName: System.Threading.Tasks.Task<Newtonsoft.Json.Linq.JObject>
+  nameWithType.vb: Task(Of JObject)
+  fullName.vb: System.Threading.Tasks.Task(Of Newtonsoft.Json.Linq.JObject)
+  name.vb: Task(Of JObject)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Newtonsoft.Json.Linq.JObject
+    name: JObject
+    nameWithType: JObject
+    fullName: Newtonsoft.Json.Linq.JObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Newtonsoft.Json.Linq.JObject
+    name: JObject
+    nameWithType: JObject
+    fullName: Newtonsoft.Json.Linq.JObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Create*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Create
+  isExternal: true
+  name: Create
+  nameWithType: ApiArticleController.Create
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Create
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<BEArticleViewModel>
+  nameWithType: RepositoryResponse<BEArticleViewModel>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel>
+  nameWithType.vb: RepositoryResponse(Of BEArticleViewModel)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel)
+  name.vb: RepositoryResponse(Of BEArticleViewModel)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    name: BEArticleViewModel
+    nameWithType: BEArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    name: BEArticleViewModel
+    nameWithType: BEArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  isExternal: true
+  name: RepositoryResponse<TResult>
+  nameWithType: RepositoryResponse<TResult>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<TResult>
+  nameWithType.vb: RepositoryResponse(Of TResult)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of TResult)
+  name.vb: RepositoryResponse(Of TResult)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels
+  commentId: N:Swastika.Domain.Core.ViewModels
+  isExternal: true
+  name: Swastika.Domain.Core.ViewModels
+  nameWithType: Swastika.Domain.Core.ViewModels
+  fullName: Swastika.Domain.Core.ViewModels
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Init*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Init
+  isExternal: true
+  name: Init
+  nameWithType: ApiArticleController.Init
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Init
+- uid: Newtonsoft.Json.Linq.JObject
+  isExternal: true
+  name: JObject
+  nameWithType: JObject
+  fullName: Newtonsoft.Json.Linq.JObject
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Recycle*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Recycle
+  isExternal: true
+  name: Recycle
+  nameWithType: ApiArticleController.Recycle
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Recycle
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<InfoArticleViewModel>>
+  nameWithType: Task<RepositoryResponse<InfoArticleViewModel>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of InfoArticleViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel))
+  name.vb: Task(Of RepositoryResponse(Of InfoArticleViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    name: InfoArticleViewModel
+    nameWithType: InfoArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    name: InfoArticleViewModel
+    nameWithType: InfoArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Restore*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Restore
+  isExternal: true
+  name: Restore
+  nameWithType: ApiArticleController.Restore
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Restore
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Delete*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: ApiArticleController.Delete
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Delete
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocArticle}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.Models.Cms.SiocArticle}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<SiocArticle>>
+  nameWithType: Task<RepositoryResponse<SiocArticle>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.Models.Cms.SiocArticle>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of SiocArticle))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.Models.Cms.SiocArticle))
+  name.vb: Task(Of RepositoryResponse(Of SiocArticle))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    name: SiocArticle
+    nameWithType: SiocArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    name: SiocArticle
+    nameWithType: SiocArticle
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocArticle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Get*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Get
+  isExternal: true
+  name: Get
+  nameWithType: ApiArticleController.Get
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Get
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Data.OData.Query.OrderByDirection
+  isExternal: true
+  name: OrderByDirection
+  nameWithType: OrderByDirection
+  fullName: Microsoft.Data.OData.Query.OrderByDirection
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<PaginationModel<InfoArticleViewModel>>>
+  nameWithType: Task<RepositoryResponse<PaginationModel<InfoArticleViewModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Domain.Core.ViewModels.PaginationModel<Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of PaginationModel(Of InfoArticleViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Domain.Core.ViewModels.PaginationModel(Of Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel)))
+  name.vb: Task(Of RepositoryResponse(Of PaginationModel(Of InfoArticleViewModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    name: InfoArticleViewModel
+    nameWithType: InfoArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    name: InfoArticleViewModel
+    nameWithType: InfoArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.Info.InfoArticleViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.Save*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.Save
+  isExternal: true
+  name: Save
+  nameWithType: ApiArticleController.Save
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.Save
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+  parent: Swastika.Cms.Lib.ViewModels.BackEnd
+  isExternal: true
+  name: BEArticleViewModel
+  nameWithType: BEArticleViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<BEArticleViewModel>>
+  nameWithType: Task<RepositoryResponse<BEArticleViewModel>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of BEArticleViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel))
+  name.vb: Task(Of RepositoryResponse(Of BEArticleViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    name: BEArticleViewModel
+    nameWithType: BEArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    name: BEArticleViewModel
+    nameWithType: BEArticleViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BEArticleViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.ViewModels.BackEnd
+  commentId: N:Swastika.Cms.Lib.ViewModels.BackEnd
+  isExternal: true
+  name: Swastika.Cms.Lib.ViewModels.BackEnd
+  nameWithType: Swastika.Cms.Lib.ViewModels.BackEnd
+  fullName: Swastika.Cms.Lib.ViewModels.BackEnd
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields
+  isExternal: true
+  name: SaveFields
+  nameWithType: ApiArticleController.SaveFields
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.SaveFields
+- uid: System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField}
+  commentId: '!:System.Collections.Generic.List{Swastika.Domain.Core.ViewModels.EntityField}'
+  definition: System.Collections.Generic.List`1
+  name: List<EntityField>
+  nameWithType: List<EntityField>
+  fullName: System.Collections.Generic.List<Swastika.Domain.Core.ViewModels.EntityField>
+  nameWithType.vb: List(Of EntityField)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Domain.Core.ViewModels.EntityField)
+  name.vb: List(Of EntityField)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.EntityField
+    name: EntityField
+    nameWithType: EntityField
+    fullName: Swastika.Domain.Core.ViewModels.EntityField
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.EntityField
+    name: EntityField
+    nameWithType: EntityField
+    fullName: Swastika.Domain.Core.ViewModels.EntityField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastka.Cms.Api.Controllers.ApiArticleController.GetList*
+  commentId: Overload:Swastka.Cms.Api.Controllers.ApiArticleController.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: ApiArticleController.GetList
+  fullName: Swastka.Cms.Api.Controllers.ApiArticleController.GetList
+- uid: Swastika.Domain.Core.ViewModels.RequestPaging
+  commentId: T:Swastika.Domain.Core.ViewModels.RequestPaging
+  parent: Swastika.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestPaging
+  nameWithType: RequestPaging
+  fullName: Swastika.Domain.Core.ViewModels.RequestPaging

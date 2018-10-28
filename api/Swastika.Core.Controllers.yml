@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Core.Controllers
+  commentId: N:Swastika.Core.Controllers
+  id: Swastika.Core.Controllers
+  children:
+  - Swastika.Core.Controllers.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Core.Controllers
+  nameWithType: Swastika.Core.Controllers
+  fullName: Swastika.Core.Controllers
+  type: Namespace
+  assemblies:
+  - Swastka.Cms.Api
+references:
+- uid: Swastika.Core.Controllers.ApiAccountController
+  commentId: T:Swastika.Core.Controllers.ApiAccountController
+  isExternal: true
+  name: ApiAccountController
+  nameWithType: ApiAccountController
+  fullName: Swastika.Core.Controllers.ApiAccountController

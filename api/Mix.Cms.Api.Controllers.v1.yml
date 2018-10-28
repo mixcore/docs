@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api.Controllers.v1
+  commentId: N:Mix.Cms.Api.Controllers.v1
+  id: Mix.Cms.Api.Controllers.v1
+  children:
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  - Mix.Cms.Api.Controllers.v1.ApiArticleController
+  - Mix.Cms.Api.Controllers.v1.ApiConfigurationController
+  - Mix.Cms.Api.Controllers.v1.ApiCultureController
+  - Mix.Cms.Api.Controllers.v1.ApiCustomerController
+  - Mix.Cms.Api.Controllers.v1.ApiFileController
+  - Mix.Cms.Api.Controllers.v1.ApiLanguageController
+  - Mix.Cms.Api.Controllers.v1.ApiMediaController
+  - Mix.Cms.Api.Controllers.v1.ApiModuleController
+  - Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  - Mix.Cms.Api.Controllers.v1.ApiOrderController
+  - Mix.Cms.Api.Controllers.v1.ApiPageController
+  - Mix.Cms.Api.Controllers.v1.ApiPortalController
+  - Mix.Cms.Api.Controllers.v1.ApiPortalPageController
+  - Mix.Cms.Api.Controllers.v1.ApiProductController
+  - Mix.Cms.Api.Controllers.v1.ApiRoleController
+  - Mix.Cms.Api.Controllers.v1.ApiTemplateController
+  - Mix.Cms.Api.Controllers.v1.ApiThemeController
+  - Mix.Cms.Api.Controllers.v1.BaseApiController
+  - Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Api.Controllers.v1
+  nameWithType: Mix.Cms.Api.Controllers.v1
+  fullName: Mix.Cms.Api.Controllers.v1
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Api
+references:
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiAccountController
+  isExternal: true
+  name: ApiAccountController
+  nameWithType: ApiAccountController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  isExternal: true
+  name: ApiAccountController.JwtSecurityKey
+  nameWithType: ApiAccountController.JwtSecurityKey
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+- uid: Mix.Cms.Api.Controllers.v1.ApiArticleController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiArticleController
+  isExternal: true
+  name: ApiArticleController
+  nameWithType: ApiArticleController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiArticleController
+- uid: Mix.Cms.Api.Controllers.v1.ApiConfigurationController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiConfigurationController
+  isExternal: true
+  name: ApiConfigurationController
+  nameWithType: ApiConfigurationController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiConfigurationController
+- uid: Mix.Cms.Api.Controllers.v1.ApiCultureController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiCultureController
+  isExternal: true
+  name: ApiCultureController
+  nameWithType: ApiCultureController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiCultureController
+- uid: Mix.Cms.Api.Controllers.v1.ApiCustomerController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiCustomerController
+  isExternal: true
+  name: ApiCustomerController
+  nameWithType: ApiCustomerController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiCustomerController
+- uid: Mix.Cms.Api.Controllers.v1.ApiFileController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiFileController
+  isExternal: true
+  name: ApiFileController
+  nameWithType: ApiFileController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiFileController
+- uid: Mix.Cms.Api.Controllers.v1.ApiLanguageController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiLanguageController
+  isExternal: true
+  name: ApiLanguageController
+  nameWithType: ApiLanguageController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiLanguageController
+- uid: Mix.Cms.Api.Controllers.v1.ApiMediaController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiMediaController
+  isExternal: true
+  name: ApiMediaController
+  nameWithType: ApiMediaController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiMediaController
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiModuleController
+  isExternal: true
+  name: ApiModuleController
+  nameWithType: ApiModuleController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleController
+- uid: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+  isExternal: true
+  name: ApiModuleDataController
+  nameWithType: ApiModuleDataController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiModuleDataController
+- uid: Mix.Cms.Api.Controllers.v1.ApiOrderController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiOrderController
+  isExternal: true
+  name: ApiOrderController
+  nameWithType: ApiOrderController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiOrderController
+- uid: Mix.Cms.Api.Controllers.v1.ApiPageController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiPageController
+  isExternal: true
+  name: ApiPageController
+  nameWithType: ApiPageController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiPageController
+- uid: Mix.Cms.Api.Controllers.v1.ApiPortalController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiPortalController
+  isExternal: true
+  name: ApiPortalController
+  nameWithType: ApiPortalController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiPortalController
+- uid: Mix.Cms.Api.Controllers.v1.ApiPortalPageController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiPortalPageController
+  isExternal: true
+  name: ApiPortalPageController
+  nameWithType: ApiPortalPageController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiPortalPageController
+- uid: Mix.Cms.Api.Controllers.v1.ApiProductController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiProductController
+  isExternal: true
+  name: ApiProductController
+  nameWithType: ApiProductController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiProductController
+- uid: Mix.Cms.Api.Controllers.v1.ApiRoleController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiRoleController
+  isExternal: true
+  name: ApiRoleController
+  nameWithType: ApiRoleController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiRoleController
+- uid: Mix.Cms.Api.Controllers.v1.ApiTemplateController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiTemplateController
+  isExternal: true
+  name: ApiTemplateController
+  nameWithType: ApiTemplateController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiTemplateController
+- uid: Mix.Cms.Api.Controllers.v1.ApiThemeController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiThemeController
+  isExternal: true
+  name: ApiThemeController
+  nameWithType: ApiThemeController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiThemeController
+- uid: Mix.Cms.Api.Controllers.v1.BaseApiController
+  commentId: T:Mix.Cms.Api.Controllers.v1.BaseApiController
+  parent: Mix.Cms.Api.Controllers.v1
+  isExternal: true
+  name: BaseApiController
+  nameWithType: BaseApiController
+  fullName: Mix.Cms.Api.Controllers.v1.BaseApiController
+- uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  commentId: T:Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+  isExternal: true
+  name: BaseGenericApiControoler<TDbContext, TModel>
+  nameWithType: BaseGenericApiControoler<TDbContext, TModel>
+  fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler<TDbContext, TModel>
+  nameWithType.vb: BaseGenericApiControoler(Of TDbContext, TModel)
+  fullName.vb: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler(Of TDbContext, TModel)
+  name.vb: BaseGenericApiControoler(Of TDbContext, TModel)
+  spec.csharp:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2
+    name: BaseGenericApiControoler
+    nameWithType: BaseGenericApiControoler
+    fullName: Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1
+  commentId: N:Mix.Cms.Api.Controllers.v1
+  isExternal: true
+  name: Mix.Cms.Api.Controllers.v1
+  nameWithType: Mix.Cms.Api.Controllers.v1
+  fullName: Mix.Cms.Api.Controllers.v1

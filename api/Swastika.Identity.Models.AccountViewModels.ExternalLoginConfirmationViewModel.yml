@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+  commentId: T:Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+  id: ExternalLoginConfirmationViewModel
+  parent: Swastika.Identity.Models.AccountViewModels
+  children:
+  - Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor
+  - Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+  langs:
+  - csharp
+  - vb
+  name: ExternalLoginConfirmationViewModel
+  nameWithType: ExternalLoginConfirmationViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class ExternalLoginConfirmationViewModel : Object'
+    content.vb: >-
+      Public Class ExternalLoginConfirmationViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+  langs:
+  - csharp
+  - vb
+  name: ExternalLoginConfirmationViewModel()
+  nameWithType: ExternalLoginConfirmationViewModel.ExternalLoginConfirmationViewModel()
+  fullName: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.ExternalLoginConfirmationViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public ExternalLoginConfirmationViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+  commentId: P:Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+  id: Email
+  parent: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: ExternalLoginConfirmationViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.AccountViewModels
+  commentId: N:Swastika.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.AccountViewModels
+  nameWithType: Swastika.Identity.Models.AccountViewModels
+  fullName: Swastika.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.#ctor
+  isExternal: true
+  name: ExternalLoginConfirmationViewModel
+  nameWithType: ExternalLoginConfirmationViewModel.ExternalLoginConfirmationViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.ExternalLoginConfirmationViewModel
+- uid: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+  isExternal: true
+  name: Email
+  nameWithType: ExternalLoginConfirmationViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.ExternalLoginConfirmationViewModel.Email
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

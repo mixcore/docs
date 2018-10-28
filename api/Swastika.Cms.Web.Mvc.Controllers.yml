@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Controllers
+  commentId: N:Swastika.Cms.Web.Mvc.Controllers
+  id: Swastika.Cms.Web.Mvc.Controllers
+  children:
+  - Swastika.Cms.Web.Mvc.Controllers.InitCmsController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Web.Mvc.Controllers
+  nameWithType: Swastika.Cms.Web.Mvc.Controllers
+  fullName: Swastika.Cms.Web.Mvc.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Web.Mvc.Controllers.InitCmsController
+  commentId: T:Swastika.Cms.Web.Mvc.Controllers.InitCmsController
+  isExternal: true
+  name: InitCmsController
+  nameWithType: InitCmsController
+  fullName: Swastika.Cms.Web.Mvc.Controllers.InitCmsController

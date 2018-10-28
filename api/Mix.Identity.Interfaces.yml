@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Interfaces
+  commentId: N:Mix.Identity.Interfaces
+  id: Mix.Identity.Interfaces
+  children:
+  - Mix.Identity.Interfaces.IUser
+  langs:
+  - csharp
+  - vb
+  name: Mix.Identity.Interfaces
+  nameWithType: Mix.Identity.Interfaces
+  fullName: Mix.Identity.Interfaces
+  type: Namespace
+  assemblies:
+  - Mix.Identity
+references:
+- uid: Mix.Identity.Interfaces.IUser
+  commentId: T:Mix.Identity.Interfaces.IUser
+  parent: Mix.Identity.Interfaces
+  isExternal: true
+  name: IUser
+  nameWithType: IUser
+  fullName: Mix.Identity.Interfaces.IUser
+- uid: Mix.Identity.Interfaces
+  commentId: N:Mix.Identity.Interfaces
+  isExternal: true
+  name: Mix.Identity.Interfaces
+  nameWithType: Mix.Identity.Interfaces
+  fullName: Mix.Identity.Interfaces

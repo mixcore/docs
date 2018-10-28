@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  id: AccessTokenViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account
+  children:
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+  - Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+  langs:
+  - csharp
+  - vb
+  name: AccessTokenViewModel
+  nameWithType: AccessTokenViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: 'public class AccessTokenViewModel : Object'
+    content.vb: >-
+      Public Class AccessTokenViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor
+  commentId: M:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: AccessTokenViewModel()
+  nameWithType: AccessTokenViewModel.AccessTokenViewModel()
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.AccessTokenViewModel()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public AccessTokenViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+  id: Access_token
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Access_token
+  nameWithType: AccessTokenViewModel.Access_token
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public string Access_token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Access_token As String
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+  id: Token_type
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Token_type
+  nameWithType: AccessTokenViewModel.Token_type
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public string Token_type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token_type As String
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+  id: Refresh_token
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Refresh_token
+  nameWithType: AccessTokenViewModel.Refresh_token
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public string Refresh_token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Refresh_token As String
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+  id: Expires_in
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Expires_in
+  nameWithType: AccessTokenViewModel.Expires_in
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public int Expires_in { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Expires_in As Integer
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+  id: Client_id
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Client_id
+  nameWithType: AccessTokenViewModel.Client_id
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public string Client_id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Client_id As String
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+  id: Issued
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Issued
+  nameWithType: AccessTokenViewModel.Issued
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public DateTime Issued { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Issued As DateTime
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+  id: Expires
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: Expires
+  nameWithType: AccessTokenViewModel.Expires
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public DateTime Expires { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Expires As DateTime
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+  id: DeviceId
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: DeviceId
+  nameWithType: AccessTokenViewModel.DeviceId
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public string DeviceId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceId As String
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+  commentId: P:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+  id: UserData
+  parent: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserData
+  nameWithType: AccessTokenViewModel.UserData
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.Account
+  syntax:
+    content: public UserInfoViewModel UserData { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    content.vb: Public Property UserData As UserInfoViewModel
+  overload: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.ViewModels.Account
+  commentId: N:Mix.Cms.Lib.ViewModels.Account
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.Account
+  nameWithType: Mix.Cms.Lib.ViewModels.Account
+  fullName: Mix.Cms.Lib.ViewModels.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.#ctor
+  isExternal: true
+  name: AccessTokenViewModel
+  nameWithType: AccessTokenViewModel.AccessTokenViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.AccessTokenViewModel
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+  isExternal: true
+  name: Access_token
+  nameWithType: AccessTokenViewModel.Access_token
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Access_token
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+  isExternal: true
+  name: Token_type
+  nameWithType: AccessTokenViewModel.Token_type
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Token_type
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+  isExternal: true
+  name: Refresh_token
+  nameWithType: AccessTokenViewModel.Refresh_token
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Refresh_token
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+  isExternal: true
+  name: Expires_in
+  nameWithType: AccessTokenViewModel.Expires_in
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires_in
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+  isExternal: true
+  name: Client_id
+  nameWithType: AccessTokenViewModel.Client_id
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Client_id
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+  isExternal: true
+  name: Issued
+  nameWithType: AccessTokenViewModel.Issued
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Issued
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+  isExternal: true
+  name: Expires
+  nameWithType: AccessTokenViewModel.Expires
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.Expires
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+  isExternal: true
+  name: DeviceId
+  nameWithType: AccessTokenViewModel.DeviceId
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.DeviceId
+- uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+  isExternal: true
+  name: UserData
+  nameWithType: AccessTokenViewModel.UserData
+  fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel.UserData
+- uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account
+  isExternal: true
+  name: UserInfoViewModel
+  nameWithType: UserInfoViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel

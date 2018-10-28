@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Installing - Swastika I/O Core </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Installing - Swastika I/O Core ">
+    <meta name="generator" content="docfx 2.37.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="client-side/swastika-io/installing">
+<h1 id="installing-swastika-io-core-cms">Installing Swastika I/O Core CMS</h1>
+
+<p>Swastika I/O Core CMS is well-known for its ease of installation. Under most circumstances, installing Swastika I/O Core CMS is a very simple process and takes less than five minutes to complete. To install Swastika I/O Core CMS yourself, the following guide will help.</p>
+<h1 id="things-to-know-before-installing">Things to Know Before Installing</h1>
+<p>Before you begin the install, there are a few things you need to have and do.</p>
+<p>These are:</p>
+<ul>
+<li>Access to your web server (via [FTP](<a href="https://codex.Swastika">https://codex.Swastika</a> I/O Core CMS.org/Glossary#FTP))</li>
+<li>Ability to create <a href="https://docs.microsoft.com/en-us/sql/relational-databases/databases/create-a-database">MS SQL Server</a> databases</li>
+<li>A <a href="https://notepad-plus-plus.org/">text editor</a></li>
+<li>An <a href="https://filezilla-project.org/">FTP Client</a></li>
+<li>Your web browser of choice</li>
+</ul>
+<h1 id="things-you-need-to-do-to-install">Things You Need to Do to Install</h1>
+<p>Begin your installation by:</p>
+<ol>
+<li>Checking to ensure that you and your web host have the minimum requirements to run Swastika I/O Core CMS.</li>
+<li>Downloading the most current version of Swastika I/O Core CMS.</li>
+<li>Unzipping the downloaded file to a folder on your hard drive.</li>
+<li>Creating a secure password for your Secret Key</li>
+<li>Keeping this webpage open so you have it handy during the installation.</li>
+</ol>
+<h1 id="famous-5-minute-installation">Famous 5-Minute Installation</h1>
+<p>Here&#39;s the quick version of the instructions for those who are already comfortable with performing such installations. More detailed instructions follow.</p>
+<p>If you are not comfortable with renaming files, step 3 is optional and you can skip it as the install program will create the sw-config.php file for you.</p>
+<ol>
+<li>Download and unzip the Swastika I/O Core CMS package if you haven&#39;t already.</li>
+<li>Create a database for Swastika I/O Core CMS on your web server, as well as a MS SQL Server Database user who has all privileges for accessing and modifying it.</li>
+<li>(Optional) Find and rename sw-config-sample.php to sw-config.php, then edit the file (see Editing sw-config.php) and add your database information. (TBC)</li>
+<li><p>Upload the Swastika I/O Core CMS files to the desired location on your web server:</p>
+<ul>
+<li>If you want to integrate Swastika I/O Core CMS into the root of your domain (e.g. <a href="http://example.com/">http://example.com/</a>), move or upload all contents of the unzipped Swastika I/O Core CMS directory (excluding the Swastika I/O Core CMS directory itself) into the root directory of your web server.</li>
+<li>If you want to have your Swastika I/O Core CMS installation in its own subdirectory on your website (e.g. <a href="http://example.com/blog/">http://example.com/blog/</a>), create the blog directory on your server and upload the contents of the unzipped Swastika I/O Core CMS package to the directory via FTP.
+Note: If your FTP client has an option to convert file names to lower case, make sure it&#39;s disabled.</li>
+</ul>
+</li>
+<li><p>Run the Swastika I/O Core CMS installation script by accessing the URL in a web browser. This should be the URL where you uploaded the Swastika I/O Core CMS files.</p>
+<ul>
+<li>If you installed Swastika I/O Core CMS in the root directory, you should visit: <a href="http://example.com/">http://example.com/</a></li>
+<li>If you installed Swastika I/O Core CMS in its own subdirectory called blog, for example, you should visit: <a href="http://example.com/blog/">http://example.com/blog/</a>
+That&#39;s it! Swastika I/O Core CMS should now be installed.</li>
+</ul>
+</li>
+</ol>
+<h1 id="detailed-instructions">Detailed Instructions</h1>
+<h2 id="step-1-download-and-extract">Step 1: Download and Extract</h2>
+<p>Download and unzip the Swastika I/O Core CMS package from <a href="https://github.com/Swastika-IO/Swastika-IO-Core/releases">https://github.com/Swastika-IO/Swastika-IO-Core/releases</a>.</p>
+<ul>
+<li>If you will be uploading Swastika I/O Core CMS to a remote web server, download the Swastika I/O Core CMS package to your computer with a web browser and unzip the package.</li>
+<li>If you will be using FTP, skip Step 2 and go to the next step - uploading files is covered later.</li>
+<li>If you have shell access to your web server, and are comfortable using console-based tools, you may wish to download Swastika I/O Core CMS directly to your web server using wget (or lynx or another console-based web browser) if you want to avoid FTPing:</li>
+</ul>
+<pre><code class="lang-bash">wget https://github.com/Swastika-IO/Swastika-IO-Core/archive/latest.tar.gz
+</code></pre><p>Then unzip the package using: </p>
+<pre><code class="lang-bash">tar -xzvf latest.tar.gz 
+</code></pre><p>The Swastika I/O Core CMS package will extract into a folder called Swastika I/O Core CMS in the same directory that you downloaded latest.tar.gz.</p>
+<h2 id="step-2-create-the-database-and-a-user">Step 2: Create the Database and a User</h2>
+<p>If you are using a hosting provider, you may already have a Swastika I/O Core CMS database set up for you, or there may be an automated setup solution to do so. Check your hosting provider&#39;s support pages or your control panel for clues about whether or not you&#39;ll need to create one manually.</p>
+<p>If you determine that you&#39;ll need to create one manually, follow the instructions for accessing phpMyAdmin on various servers, or follow the instructions for Using Plesk, Using cPanel or Using phpMyAdmin below.</p>
+<p>If you are installing Swastika I/O Core CMS on your own web server, follow the Using phpMyAdmin or Using the MySQL Client instructions below to create your Swastika I/O Core CMS username and database.</p>
+<p>If you have only one database and it is already in use, you can install Swastika I/O Core CMS in it - just make sure to have a distinctive prefix for your tables to avoid over-writing any existing database tables.</p>
+<h3 id="using-plesk">Using Plesk</h3>
+<p>Note: Plesk recommends all users to install and manage Swastika I/O Core CMS using the Swastika I/O Core CMS Toolkit. However, if you wish to install Swastika I/O Core CMS manually, follow these steps to create a database:</p>
+<ol>
+<li>Log in to Plesk.</li>
+<li><p>In the upper right corner of the screen, click Databases.</p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_1.png" alt="plesk_create_db_1"></p>
+</li>
+<li><p>Click Add Database.</p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_2.png" alt="plesk_create_db_2"></p>
+</li>
+<li><p>Type in the database name.</p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_3.png" alt="plesk_create_db_3"></p>
+</li>
+<li><p>Type in the database user name and password, and then click Ok.</p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_4.png" alt="plesk_create_db_4"></p>
+</li>
+<li><p>Once the database has been created, click Connection info to see the information you will need to connect to the database (database server hostname and port, database name, and the database user name). plesk </p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_5.png" alt="plesk_create_db_5"></p>
+<p><img src="https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/plesk_create_db_6.png" alt="plesk_create_db_6"></p>
+</li>
+</ol>
+<h2 id="step-3-set-up-sw-configphp">Step 3: Set up sw-config.php</h2>
+<h2 id="step-4-upload-the-files">Step 4: Upload the files</h2>
+<p>Now you will need to decide where on your domain you&#39;d like your Swastika I/O Core CMS-powered site to appear:</p>
+<ul>
+<li>In the root directory of your website. (For example, <a href="http://example.com/">http://example.com/</a>)</li>
+<li>In a subdirectory of your website. (For example, <a href="http://example.com/blog/">http://example.com/blog/</a>). How to setup app in subfolder with <a href="https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/sites/site/application/">IIS</a>.</li>
+</ul>
+<p><strong>Note:</strong> The location of your root web directory in the filesystem on your web server will vary across hosting providers and operating systems. Check with your hosting provider or system administrator if you do not know where this is.</p>
+<h3 id="in-the-root-directory">In the Root Directory</h3>
+<ul>
+<li>If you need to upload your files to your web server, use an FTP client to upload all the contents of the Swastika I/O Core CMS directory (but not the directory itself) into the root directory of your website.</li>
+<li>If your files are already on your web server, and you are using shell access to install Swastika I/O Core CMS, move all of the contents of the Swastika I/O Core CMS directory (but not the directory itself) into the root directory of your website.</li>
+</ul>
+<h3 id="in-a-subdirectory">In a Subdirectory</h3>
+<ul>
+<li>If you need to upload your files to your web server, rename the Swastika I/O Core CMS directory to your desired name, then use an FTP client to upload the directory to your desired location within the root directory of your website.</li>
+<li>If your files are already on your web server, and you are using shell access to install Swastika I/O Core CMS, move the Swastika I/O Core CMS directory to your desired location within the root directory of your website, and rename the directory to your desired name.</li>
+</ul>
+<p><strong>Note:</strong> If your FTP client has an option to convert file names to lower case, make sure it&#39;s disabled.</p>
+<h2 id="step-5-run-the-install-script">Step 5: Run the Install Script</h2>
+<p>Point a web browser to start the installation start point.</p>
+<p>If you placed the Swastika I/O Core CMS files in the root directory, you should visit: <a href="http://example.com/en-us/portal/init">http://example.com/en-us/portal/init</a>
+If you placed the Swastika I/O Core CMS files in a subdirectory called blog, for example, you should visit: <a href="http://example.com/blog/en-us/portal/init">http://example.com/blog/en-us/portal/init</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

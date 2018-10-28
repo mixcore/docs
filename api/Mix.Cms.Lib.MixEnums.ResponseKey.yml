@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey
+  commentId: T:Mix.Cms.Lib.MixEnums.ResponseKey
+  id: MixEnums.ResponseKey
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.ResponseKey.BadRequest
+  - Mix.Cms.Lib.MixEnums.ResponseKey.NotFound
+  - Mix.Cms.Lib.MixEnums.ResponseKey.OK
+  - Mix.Cms.Lib.MixEnums.ResponseKey.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.ResponseKey
+  nameWithType: MixEnums.ResponseKey
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class ResponseKey : Enum'
+    content.vb: >-
+      Public NotInheritable Class ResponseKey
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.ResponseKey.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.ResponseKey.value__
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey.NotFound
+  commentId: F:Mix.Cms.Lib.MixEnums.ResponseKey.NotFound
+  id: NotFound
+  parent: Mix.Cms.Lib.MixEnums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: NotFound
+  nameWithType: MixEnums.ResponseKey.NotFound
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey.NotFound
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ResponseKey NotFound
+    return:
+      type: Mix.Cms.Lib.MixEnums.ResponseKey
+    content.vb: Public Const NotFound As MixEnums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey.OK
+  commentId: F:Mix.Cms.Lib.MixEnums.ResponseKey.OK
+  id: OK
+  parent: Mix.Cms.Lib.MixEnums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: MixEnums.ResponseKey.OK
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey.OK
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ResponseKey OK
+    return:
+      type: Mix.Cms.Lib.MixEnums.ResponseKey
+    content.vb: Public Const OK As MixEnums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey.BadRequest
+  commentId: F:Mix.Cms.Lib.MixEnums.ResponseKey.BadRequest
+  id: BadRequest
+  parent: Mix.Cms.Lib.MixEnums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: BadRequest
+  nameWithType: MixEnums.ResponseKey.BadRequest
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey.BadRequest
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ResponseKey BadRequest
+    return:
+      type: Mix.Cms.Lib.MixEnums.ResponseKey
+    content.vb: Public Const BadRequest As MixEnums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.ResponseKey
+  commentId: T:Mix.Cms.Lib.MixEnums.ResponseKey
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.ResponseKey
+  nameWithType: MixEnums.ResponseKey
+  fullName: Mix.Cms.Lib.MixEnums.ResponseKey

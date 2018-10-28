@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  commentId: T:Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  id: ExtendedClaimsProvider
+  parent: Swastika.Identity.Infrastructure
+  children:
+  - Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim(System.String,System.String)
+  - Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims(Swastika.Identity.Models.ApplicationUser)
+  langs:
+  - csharp
+  - vb
+  name: ExtendedClaimsProvider
+  nameWithType: ExtendedClaimsProvider
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Infrastructure
+  syntax:
+    content: 'public static class ExtendedClaimsProvider : Object'
+    content.vb: >-
+      Public Module ExtendedClaimsProvider
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims(Swastika.Identity.Models.ApplicationUser)
+  commentId: M:Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims(Swastika.Identity.Models.ApplicationUser)
+  id: GetClaims(Swastika.Identity.Models.ApplicationUser)
+  parent: Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  langs:
+  - csharp
+  - vb
+  name: GetClaims(ApplicationUser)
+  nameWithType: ExtendedClaimsProvider.GetClaims(ApplicationUser)
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims(Swastika.Identity.Models.ApplicationUser)
+  type: Method
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Infrastructure
+  syntax:
+    content: public static IEnumerable<Claim> GetClaims(ApplicationUser user)
+    parameters:
+    - id: user
+      type: Swastika.Identity.Models.ApplicationUser
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+    content.vb: Public Shared Function GetClaims(user As ApplicationUser) As IEnumerable(Of Claim)
+  overload: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim(System.String,System.String)
+  commentId: M:Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim(System.String,System.String)
+  id: CreateClaim(System.String,System.String)
+  parent: Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateClaim(String, String)
+  nameWithType: ExtendedClaimsProvider.CreateClaim(String, String)
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim(System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Infrastructure
+  syntax:
+    content: public static Claim CreateClaim(string type, string value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Security.Claims.Claim
+    content.vb: Public Shared Function CreateClaim(type As String, value As String) As Claim
+  overload: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastika.Identity.Infrastructure
+  commentId: N:Swastika.Identity.Infrastructure
+  isExternal: true
+  name: Swastika.Identity.Infrastructure
+  nameWithType: Swastika.Identity.Infrastructure
+  fullName: Swastika.Identity.Infrastructure
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims*
+  commentId: Overload:Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims
+  isExternal: true
+  name: GetClaims
+  nameWithType: ExtendedClaimsProvider.GetClaims
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.GetClaims
+- uid: Swastika.Identity.Models.ApplicationUser
+  commentId: T:Swastika.Identity.Models.ApplicationUser
+  parent: Swastika.Identity.Models
+  isExternal: true
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: Swastika.Identity.Models.ApplicationUser
+- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}'
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Claim>
+  nameWithType: IEnumerable<Claim>
+  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+  nameWithType.vb: IEnumerable(Of Claim)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Security.Claims.Claim)
+  name.vb: IEnumerable(Of Claim)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Models
+  commentId: N:Swastika.Identity.Models
+  isExternal: true
+  name: Swastika.Identity.Models
+  nameWithType: Swastika.Identity.Models
+  fullName: Swastika.Identity.Models
+- uid: System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim*
+  commentId: Overload:Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim
+  isExternal: true
+  name: CreateClaim
+  nameWithType: ExtendedClaimsProvider.CreateClaim
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider.CreateClaim
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Claims.Claim
+  isExternal: true
+  name: Claim
+  nameWithType: Claim
+  fullName: System.Security.Claims.Claim

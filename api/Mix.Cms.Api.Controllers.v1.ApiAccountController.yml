@@ -1,0 +1,1335 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiAccountController
+  id: ApiAccountController
+  parent: Mix.Cms.Api.Controllers.v1
+  children:
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController})
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim(System.String,System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.Details(System.String,System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync(Mix.Identity.Models.ApplicationUser)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList(Mix.Domain.Core.ViewModels.RequestPaging)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.Login(Mix.Identity.Models.AccountViewModels.LoginViewModel)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole(Mix.Identity.Models.AccountViewModels.UserRoleModel)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken(System.String)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.Register(Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel)
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.Save(Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)
+  langs:
+  - csharp
+  - vb
+  name: ApiAccountController
+  nameWithType: ApiAccountController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  type: Class
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: 'public class ApiAccountController : Controller'
+    content.vb: >-
+      Public Class ApiAccountController
+          Inherits Controller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController})
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController})
+  id: '#ctor(Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole},Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController})'
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: ApiAccountController(UserManager<ApplicationUser>, SignInManager<ApplicationUser>, RoleManager<IdentityRole>, ILogger<ApiAccountController>)
+  nameWithType: ApiAccountController.ApiAccountController(UserManager<ApplicationUser>, SignInManager<ApplicationUser>, RoleManager<IdentityRole>, ILogger<ApiAccountController>)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ApiAccountController(Microsoft.AspNetCore.Identity.UserManager<Mix.Identity.Models.ApplicationUser>, Microsoft.AspNetCore.Identity.SignInManager<Mix.Identity.Models.ApplicationUser>, Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole>, Microsoft.Extensions.Logging.ILogger<Mix.Cms.Api.Controllers.v1.ApiAccountController>)
+  type: Constructor
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public ApiAccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, RoleManager<IdentityRole> roleManager, ILogger<ApiAccountController> logger)
+    parameters:
+    - id: userManager
+      type: Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}
+    - id: signInManager
+      type: Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser}
+    - id: roleManager
+      type: Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController}
+    content.vb: Public Sub New(userManager As UserManager(Of ApplicationUser), signInManager As SignInManager(Of ApplicationUser), roleManager As RoleManager(Of IdentityRole), logger As ILogger(Of ApiAccountController))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor*
+  nameWithType.vb: ApiAccountController.ApiAccountController(UserManager(Of ApplicationUser), SignInManager(Of ApplicationUser), RoleManager(Of IdentityRole), ILogger(Of ApiAccountController))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Mix.Cms.Api.Controllers.v1.ApiAccountController.ApiAccountController(Microsoft.AspNetCore.Identity.UserManager(Of Mix.Identity.Models.ApplicationUser), Microsoft.AspNetCore.Identity.SignInManager(Of Mix.Identity.Models.ApplicationUser), Microsoft.AspNetCore.Identity.RoleManager(Of Microsoft.AspNetCore.Identity.IdentityRole), Microsoft.Extensions.Logging.ILogger(Of Mix.Cms.Api.Controllers.v1.ApiAccountController))
+  name.vb: ApiAccountController(UserManager(Of ApplicationUser), SignInManager(Of ApplicationUser), RoleManager(Of IdentityRole), ILogger(Of ApiAccountController))
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout
+  id: Logout
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Logout()
+  nameWithType: ApiAccountController.Logout()
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout()
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<bool>> Logout()
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Function Logout As Task(Of RepositoryResponse(Of Boolean))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Login(Mix.Identity.Models.AccountViewModels.LoginViewModel)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.Login(Mix.Identity.Models.AccountViewModels.LoginViewModel)
+  id: Login(Mix.Identity.Models.AccountViewModels.LoginViewModel)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Login(LoginViewModel)
+  nameWithType: ApiAccountController.Login(LoginViewModel)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Login(Mix.Identity.Models.AccountViewModels.LoginViewModel)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<AccessTokenViewModel>> Login(LoginViewModel model)
+    parameters:
+    - id: model
+      type: Mix.Identity.Models.AccountViewModels.LoginViewModel
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel}}
+    content.vb: Public Function Login(model As LoginViewModel) As Task(Of RepositoryResponse(Of AccessTokenViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.Login*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken(System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken(System.String)
+  id: RefreshToken(System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: RefreshToken(String)
+  nameWithType: ApiAccountController.RefreshToken(String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<AccessTokenViewModel>> RefreshToken(string refreshTokenId)
+    parameters:
+    - id: refreshTokenId
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel}}
+    content.vb: Public Function RefreshToken(refreshTokenId As String) As Task(Of RepositoryResponse(Of AccessTokenViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Register(Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.Register(Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel)
+  id: Register(Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Register(MixRegisterViewModel)
+  nameWithType: ApiAccountController.Register(MixRegisterViewModel)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Register(Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<AccessTokenViewModel>> Register(MixRegisterViewModel model)
+    parameters:
+    - id: model
+      type: Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel}}
+    content.vb: Public Function Register(model As MixRegisterViewModel) As Task(Of RepositoryResponse(Of AccessTokenViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.Register*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole(Mix.Identity.Models.AccountViewModels.UserRoleModel)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole(Mix.Identity.Models.AccountViewModels.UserRoleModel)
+  id: ManageUserInRole(Mix.Identity.Models.AccountViewModels.UserRoleModel)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: ManageUserInRole(UserRoleModel)
+  nameWithType: ApiAccountController.ManageUserInRole(UserRoleModel)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole(Mix.Identity.Models.AccountViewModels.UserRoleModel)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<bool>> ManageUserInRole(UserRoleModel model)
+    parameters:
+    - id: model
+      type: Mix.Identity.Models.AccountViewModels.UserRoleModel
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Function ManageUserInRole(model As UserRoleModel) As Task(Of RepositoryResponse(Of Boolean))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Details(System.String,System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.Details(System.String,System.String)
+  id: Details(System.String,System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Details(String, String)
+  nameWithType: ApiAccountController.Details(String, String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Details(System.String, System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<JObject> Details(string viewType, string id = null)
+    parameters:
+    - id: viewType
+      type: System.String
+    - id: id
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}
+    content.vb: Public Function Details(viewType As String, id As String = Nothing) As Task(Of JObject)
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.Details*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Save(Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.Save(Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)
+  id: Save(Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: Save(UserInfoViewModel)
+  nameWithType: ApiAccountController.Save(UserInfoViewModel)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Save(Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<UserInfoViewModel>> Save(UserInfoViewModel model)
+    parameters:
+    - id: model
+      type: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}
+    content.vb: Public Function Save(model As UserInfoViewModel) As Task(Of RepositoryResponse(Of UserInfoViewModel))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList(Mix.Domain.Core.ViewModels.RequestPaging)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList(Mix.Domain.Core.ViewModels.RequestPaging)
+  id: GetList(Mix.Domain.Core.ViewModels.RequestPaging)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: GetList(RequestPaging)
+  nameWithType: ApiAccountController.GetList(RequestPaging)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList(Mix.Domain.Core.ViewModels.RequestPaging)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public Task<RepositoryResponse<PaginationModel<UserInfoViewModel>>> GetList(RequestPaging request)
+    parameters:
+    - id: request
+      type: Mix.Domain.Core.ViewModels.RequestPaging
+    return:
+      type: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}}
+    content.vb: Public Function GetList(request As RequestPaging) As Task(Of RepositoryResponse(Of PaginationModel(Of UserInfoViewModel)))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync(Mix.Identity.Models.ApplicationUser)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync(Mix.Identity.Models.ApplicationUser)
+  id: GetClaimsAsync(Mix.Identity.Models.ApplicationUser)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: GetClaimsAsync(ApplicationUser)
+  nameWithType: ApiAccountController.GetClaimsAsync(ApplicationUser)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync(Mix.Identity.Models.ApplicationUser)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: protected Task<List<Claim>> GetClaimsAsync(ApplicationUser user)
+    parameters:
+    - id: user
+      type: Mix.Identity.Models.ApplicationUser
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Security.Claims.Claim}}
+    content.vb: Protected Function GetClaimsAsync(user As ApplicationUser) As Task(Of List(Of Claim))
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim(System.String,System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim(System.String,System.String)
+  id: CreateClaim(System.String,System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: CreateClaim(String, String)
+  nameWithType: ApiAccountController.CreateClaim(String, String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim(System.String, System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: protected Claim CreateClaim(string type, string value)
+    parameters:
+    - id: type
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Security.Claims.Claim
+    content.vb: Protected Function CreateClaim(type As String, value As String) As Claim
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage
+  commentId: P:Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage
+  id: ErrorMessage
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: ApiAccountController.ErrorMessage
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage
+  type: Property
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorMessage As String
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Api.Controllers.v1
+  commentId: N:Mix.Cms.Api.Controllers.v1
+  isExternal: true
+  name: Mix.Cms.Api.Controllers.v1
+  nameWithType: Mix.Cms.Api.Controllers.v1
+  fullName: Mix.Cms.Api.Controllers.v1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.#ctor
+  isExternal: true
+  name: ApiAccountController
+  nameWithType: ApiAccountController.ApiAccountController
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ApiAccountController
+- uid: Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.UserManager{Mix.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.UserManager`1
+  name: UserManager<ApplicationUser>
+  nameWithType: UserManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<Mix.Identity.Models.ApplicationUser>
+  nameWithType.vb: UserManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of Mix.Identity.Models.ApplicationUser)
+  name.vb: UserManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser}
+  commentId: '!:Microsoft.AspNetCore.Identity.SignInManager{Mix.Identity.Models.ApplicationUser}'
+  definition: Microsoft.AspNetCore.Identity.SignInManager`1
+  name: SignInManager<ApplicationUser>
+  nameWithType: SignInManager<ApplicationUser>
+  fullName: Microsoft.AspNetCore.Identity.SignInManager<Mix.Identity.Models.ApplicationUser>
+  nameWithType.vb: SignInManager(Of ApplicationUser)
+  fullName.vb: Microsoft.AspNetCore.Identity.SignInManager(Of Mix.Identity.Models.ApplicationUser)
+  name.vb: SignInManager(Of ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Identity.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: Mix.Identity.Models.ApplicationUser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}
+  commentId: '!:Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole}'
+  definition: Microsoft.AspNetCore.Identity.RoleManager`1
+  name: RoleManager<IdentityRole>
+  nameWithType: RoleManager<IdentityRole>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<Microsoft.AspNetCore.Identity.IdentityRole>
+  nameWithType.vb: RoleManager(Of IdentityRole)
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of Microsoft.AspNetCore.Identity.IdentityRole)
+  name.vb: RoleManager(Of IdentityRole)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.IdentityRole
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.IdentityRole
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.IdentityRole
+    name: IdentityRole
+    nameWithType: IdentityRole
+    fullName: Microsoft.AspNetCore.Identity.IdentityRole
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController}
+  commentId: '!:Microsoft.Extensions.Logging.ILogger{Mix.Cms.Api.Controllers.v1.ApiAccountController}'
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  name: ILogger<ApiAccountController>
+  nameWithType: ILogger<ApiAccountController>
+  fullName: Microsoft.Extensions.Logging.ILogger<Mix.Cms.Api.Controllers.v1.ApiAccountController>
+  nameWithType.vb: ILogger(Of ApiAccountController)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Mix.Cms.Api.Controllers.v1.ApiAccountController)
+  name.vb: ILogger(Of ApiAccountController)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Api.Controllers.v1.ApiAccountController
+    name: ApiAccountController
+    nameWithType: ApiAccountController
+    fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Api.Controllers.v1.ApiAccountController
+    name: ApiAccountController
+    nameWithType: ApiAccountController
+    fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.UserManager`1
+  isExternal: true
+  name: UserManager<>
+  nameWithType: UserManager<>
+  fullName: Microsoft.AspNetCore.Identity.UserManager<>
+  nameWithType.vb: UserManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.UserManager(Of )
+  name.vb: UserManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.UserManager`1
+    name: UserManager
+    nameWithType: UserManager
+    fullName: Microsoft.AspNetCore.Identity.UserManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.SignInManager`1
+  isExternal: true
+  name: SignInManager<>
+  nameWithType: SignInManager<>
+  fullName: Microsoft.AspNetCore.Identity.SignInManager<>
+  nameWithType.vb: SignInManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.SignInManager(Of )
+  name.vb: SignInManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.SignInManager`1
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNetCore.Identity.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Identity.RoleManager`1
+  isExternal: true
+  name: RoleManager<>
+  nameWithType: RoleManager<>
+  fullName: Microsoft.AspNetCore.Identity.RoleManager<>
+  nameWithType.vb: RoleManager(Of )
+  fullName.vb: Microsoft.AspNetCore.Identity.RoleManager(Of )
+  name.vb: RoleManager(Of )
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Identity.RoleManager`1
+    name: RoleManager
+    nameWithType: RoleManager
+    fullName: Microsoft.AspNetCore.Identity.RoleManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  name: ILogger<>
+  nameWithType: ILogger<>
+  fullName: Microsoft.Extensions.Logging.ILogger<>
+  nameWithType.vb: ILogger(Of )
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of )
+  name.vb: ILogger(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout
+  isExternal: true
+  name: Logout
+  nameWithType: ApiAccountController.Logout
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Logout
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<Boolean>>
+  nameWithType: Task<RepositoryResponse<Boolean>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean))
+  name.vb: Task(Of RepositoryResponse(Of Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Login*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.Login
+  isExternal: true
+  name: Login
+  nameWithType: ApiAccountController.Login
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Login
+- uid: Mix.Identity.Models.AccountViewModels.LoginViewModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.LoginViewModel
+  parent: Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: LoginViewModel
+  nameWithType: LoginViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.LoginViewModel
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<AccessTokenViewModel>>
+  nameWithType: Task<RepositoryResponse<AccessTokenViewModel>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of AccessTokenViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel))
+  name.vb: Task(Of RepositoryResponse(Of AccessTokenViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+    name: AccessTokenViewModel
+    nameWithType: AccessTokenViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+    name: AccessTokenViewModel
+    nameWithType: AccessTokenViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.AccessTokenViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken
+  isExternal: true
+  name: RefreshToken
+  nameWithType: ApiAccountController.RefreshToken
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.RefreshToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Register*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.Register
+  isExternal: true
+  name: Register
+  nameWithType: ApiAccountController.Register
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Register
+- uid: Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account
+  isExternal: true
+  name: MixRegisterViewModel
+  nameWithType: MixRegisterViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.MixRegisterViewModel
+- uid: Mix.Cms.Lib.ViewModels.Account
+  commentId: N:Mix.Cms.Lib.ViewModels.Account
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.Account
+  nameWithType: Mix.Cms.Lib.ViewModels.Account
+  fullName: Mix.Cms.Lib.ViewModels.Account
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole
+  isExternal: true
+  name: ManageUserInRole
+  nameWithType: ApiAccountController.ManageUserInRole
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ManageUserInRole
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.UserRoleModel
+  parent: Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: UserRoleModel
+  nameWithType: UserRoleModel
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Details*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.Details
+  isExternal: true
+  name: Details
+  nameWithType: ApiAccountController.Details
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Details
+- uid: System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}
+  commentId: '!:System.Threading.Tasks.Task{Newtonsoft.Json.Linq.JObject}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<JObject>
+  nameWithType: Task<JObject>
+  fullName: System.Threading.Tasks.Task<Newtonsoft.Json.Linq.JObject>
+  nameWithType.vb: Task(Of JObject)
+  fullName.vb: System.Threading.Tasks.Task(Of Newtonsoft.Json.Linq.JObject)
+  name.vb: Task(Of JObject)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Newtonsoft.Json.Linq.JObject
+    name: JObject
+    nameWithType: JObject
+    fullName: Newtonsoft.Json.Linq.JObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Newtonsoft.Json.Linq.JObject
+    name: JObject
+    nameWithType: JObject
+    fullName: Newtonsoft.Json.Linq.JObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.Save*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.Save
+  isExternal: true
+  name: Save
+  nameWithType: ApiAccountController.Save
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.Save
+- uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+  parent: Mix.Cms.Lib.ViewModels.Account
+  isExternal: true
+  name: UserInfoViewModel
+  nameWithType: UserInfoViewModel
+  fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<UserInfoViewModel>>
+  nameWithType: Task<RepositoryResponse<UserInfoViewModel>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of UserInfoViewModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel))
+  name.vb: Task(Of RepositoryResponse(Of UserInfoViewModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    name: UserInfoViewModel
+    nameWithType: UserInfoViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    name: UserInfoViewModel
+    nameWithType: UserInfoViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList
+  isExternal: true
+  name: GetList
+  nameWithType: ApiAccountController.GetList
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetList
+- uid: Mix.Domain.Core.ViewModels.RequestPaging
+  commentId: T:Mix.Domain.Core.ViewModels.RequestPaging
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestPaging
+  nameWithType: RequestPaging
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging
+- uid: System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Mix.Domain.Core.ViewModels.RepositoryResponse{Mix.Domain.Core.ViewModels.PaginationModel{Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<PaginationModel<UserInfoViewModel>>>
+  nameWithType: Task<RepositoryResponse<PaginationModel<UserInfoViewModel>>>
+  fullName: System.Threading.Tasks.Task<Mix.Domain.Core.ViewModels.RepositoryResponse<Mix.Domain.Core.ViewModels.PaginationModel<Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of PaginationModel(Of UserInfoViewModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Mix.Domain.Core.ViewModels.RepositoryResponse(Of Mix.Domain.Core.ViewModels.PaginationModel(Of Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel)))
+  name.vb: Task(Of RepositoryResponse(Of PaginationModel(Of UserInfoViewModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    name: UserInfoViewModel
+    nameWithType: UserInfoViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    name: UserInfoViewModel
+    nameWithType: UserInfoViewModel
+    fullName: Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync
+  isExternal: true
+  name: GetClaimsAsync
+  nameWithType: ApiAccountController.GetClaimsAsync
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.GetClaimsAsync
+- uid: Mix.Identity.Models.ApplicationUser
+  commentId: T:Mix.Identity.Models.ApplicationUser
+  parent: Mix.Identity.Models
+  isExternal: true
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: Mix.Identity.Models.ApplicationUser
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{System.Security.Claims.Claim}}
+  commentId: '!:System.Threading.Tasks.Task{System.Collections.Generic.List{System.Security.Claims.Claim}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<Claim>>
+  nameWithType: Task<List<Claim>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<System.Security.Claims.Claim>>
+  nameWithType.vb: Task(Of List(Of Claim))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of System.Security.Claims.Claim))
+  name.vb: Task(Of List(Of Claim))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: System.Security.Claims.Claim
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Identity.Models
+  commentId: N:Mix.Identity.Models
+  isExternal: true
+  name: Mix.Identity.Models
+  nameWithType: Mix.Identity.Models
+  fullName: Mix.Identity.Models
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim
+  isExternal: true
+  name: CreateClaim
+  nameWithType: ApiAccountController.CreateClaim
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.CreateClaim
+- uid: System.Security.Claims.Claim
+  isExternal: true
+  name: Claim
+  nameWithType: Claim
+  fullName: System.Security.Claims.Claim
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: ApiAccountController.ErrorMessage
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.ErrorMessage

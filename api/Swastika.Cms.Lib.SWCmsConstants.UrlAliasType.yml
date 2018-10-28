@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  id: SWCmsConstants.UrlAliasType
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Article
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Module
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.ModuleData
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Page
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Product
+  - Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.value__
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.UrlAliasType
+  nameWithType: SWCmsConstants.UrlAliasType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public sealed class UrlAliasType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UrlAliasType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.value__
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.value__
+  id: value__
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SWCmsConstants.UrlAliasType.value__
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Page
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Page
+  id: Page
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: SWCmsConstants.UrlAliasType.Page
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Page
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.UrlAliasType Page
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    content.vb: Public Const Page As SWCmsConstants.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Article
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Article
+  id: Article
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Article
+  nameWithType: SWCmsConstants.UrlAliasType.Article
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Article
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.UrlAliasType Article
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    content.vb: Public Const Article As SWCmsConstants.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Product
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Product
+  id: Product
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: SWCmsConstants.UrlAliasType.Product
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Product
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.UrlAliasType Product
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    content.vb: Public Const Product As SWCmsConstants.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Module
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Module
+  id: Module
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: SWCmsConstants.UrlAliasType.Module
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.Module
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.UrlAliasType Module
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    content.vb: Public Const Module As SWCmsConstants.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.ModuleData
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.ModuleData
+  id: ModuleData
+  parent: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: ModuleData
+  nameWithType: SWCmsConstants.UrlAliasType.ModuleData
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType.ModuleData
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.UrlAliasType ModuleData
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+    content.vb: Public Const ModuleData As SWCmsConstants.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.UrlAliasType
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.UrlAliasType
+  nameWithType: SWCmsConstants.UrlAliasType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.UrlAliasType

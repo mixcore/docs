@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Controllers
+  commentId: N:Swastika.Cms.Mvc.Controllers
+  id: Swastika.Cms.Mvc.Controllers
+  children:
+  - Swastika.Cms.Mvc.Controllers.BackendController
+  - Swastika.Cms.Mvc.Controllers.BaseController
+  - Swastika.Cms.Mvc.Controllers.HomeController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.Controllers
+  nameWithType: Swastika.Cms.Mvc.Controllers
+  fullName: Swastika.Cms.Mvc.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Mvc.Controllers.BackendController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BackendController
+  isExternal: true
+  name: BackendController
+  nameWithType: BackendController
+  fullName: Swastika.Cms.Mvc.Controllers.BackendController
+- uid: Swastika.Cms.Mvc.Controllers.BaseController
+  commentId: T:Swastika.Cms.Mvc.Controllers.BaseController
+  parent: Swastika.Cms.Mvc.Controllers
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Swastika.Cms.Mvc.Controllers.BaseController
+- uid: Swastika.Cms.Mvc.Controllers.HomeController
+  commentId: T:Swastika.Cms.Mvc.Controllers.HomeController
+  isExternal: true
+  name: HomeController
+  nameWithType: HomeController
+  fullName: Swastika.Cms.Mvc.Controllers.HomeController
+- uid: Swastika.Cms.Mvc.Controllers
+  commentId: N:Swastika.Cms.Mvc.Controllers
+  isExternal: true
+  name: Swastika.Cms.Mvc.Controllers
+  nameWithType: Swastika.Cms.Mvc.Controllers
+  fullName: Swastika.Cms.Mvc.Controllers

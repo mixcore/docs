@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  commentId: T:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  id: SiocCopy
+  parent: Swastika.Cms.Web.Mvc.Models.Cms
+  children:
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+  langs:
+  - csharp
+  - vb
+  name: SiocCopy
+  nameWithType: SiocCopy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: 'public class SiocCopy : Object'
+    content.vb: >-
+      Public Class SiocCopy
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: SiocCopy()
+  nameWithType: SiocCopy.SiocCopy()
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.SiocCopy()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public SiocCopy()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+  id: Culture
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: SiocCopy.Culture
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+  id: Keyword
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: SiocCopy.Keyword
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Keyword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Keyword As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+  id: Note
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: SiocCopy.Note
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Note { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Note As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+  id: Value
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SiocCopy.Value
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+  id: Priority
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocCopy.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status
+  id: Status
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocCopy.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms
+  commentId: N:Swastika.Cms.Web.Mvc.Models.Cms
+  isExternal: false
+  name: Swastika.Cms.Web.Mvc.Models.Cms
+  nameWithType: Swastika.Cms.Web.Mvc.Models.Cms
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.#ctor
+  isExternal: true
+  name: SiocCopy
+  nameWithType: SiocCopy.SiocCopy
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.SiocCopy
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: SiocCopy.Culture
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Culture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+  isExternal: true
+  name: Keyword
+  nameWithType: SiocCopy.Keyword
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Keyword
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+  isExternal: true
+  name: Note
+  nameWithType: SiocCopy.Note
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Note
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+  isExternal: true
+  name: Value
+  nameWithType: SiocCopy.Value
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Value
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocCopy.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocCopy.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocCopy.Status

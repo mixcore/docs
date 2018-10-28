@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Data
+  commentId: N:Mix.Identity.Data
+  id: Mix.Identity.Data
+  children:
+  - Mix.Identity.Data.ApplicationDbContext
+  - Mix.Identity.Data.IdentityBasedData
+  langs:
+  - csharp
+  - vb
+  name: Mix.Identity.Data
+  nameWithType: Mix.Identity.Data
+  fullName: Mix.Identity.Data
+  type: Namespace
+  assemblies:
+  - Mix.Identity
+references:
+- uid: Mix.Identity.Data.ApplicationDbContext
+  commentId: T:Mix.Identity.Data.ApplicationDbContext
+  isExternal: true
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: Mix.Identity.Data.ApplicationDbContext
+- uid: Mix.Identity.Data.IdentityBasedData
+  commentId: T:Mix.Identity.Data.IdentityBasedData
+  isExternal: true
+  name: IdentityBasedData
+  nameWithType: IdentityBasedData
+  fullName: Mix.Identity.Data.IdentityBasedData

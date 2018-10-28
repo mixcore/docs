@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  commentId: T:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  id: Common
+  parent: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  children:
+  - Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Common
+  nameWithType: Common
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: 'public class Common : Object'
+    content.vb: >-
+      Public Class Common
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common
+  langs:
+  - csharp
+  - vb
+  name: Common()
+  nameWithType: Common.Common()
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.Common()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  syntax:
+    content: public Common()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  commentId: N:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  isExternal: false
+  name: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  nameWithType: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.#ctor
+  isExternal: true
+  name: Common
+  nameWithType: Common.Common
+  fullName: Swastika.Cms.Web.Mvc.Areas.Portal.Controllers.Common.Common
