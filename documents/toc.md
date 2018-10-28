@@ -1,5 +1,5 @@
 # [Get started](xref:client-side/swastika-io/index)
-## [Dowload](https://github.com/Swastika-IO/Swastika-IO-Core/releases)
+## [Dowload](https://github.com/mixcore/mix.core/releases)
 ## [Installing](installing.md)
 # CMS User Guide
 ## [Your 1st step](xref:client-side/swastika-io/first-step)

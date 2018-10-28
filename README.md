@@ -1,6 +1,6 @@
 # mixcore Docs
 
-This project provides the source for the [mixcore documentation](http://docs.swastika.io).
+This project provides the source for the [mixcore documentation](http://docs.mixcore.org).
 
 To contribute to the mixcore documentation, please refer to the [Contributing Guide](https://github.com/mixcore/mix.core/blob/master/CONTRIBUTING.md).
 

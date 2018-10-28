@@ -43,7 +43,7 @@ In general, pages are very similar to articles in that they both have titles and
 
 To create a new Page, log in to your mixcore CMS installation with sufficient admin privileges to create new pages. Select the **Pages > Create** Page option to begin writing a new Page.
 
- ![Pages > Create Page](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/page/create-page.png)
+ ![Pages > Create Page](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/page/create-page.png)
 
 # Organizing Your Pages
 
@@ -72,7 +72,7 @@ The structure of the pages on the site would then look like this.
 5. Add content to the subpage.
 6. Click Publish when ready.
 
-![To create a subpage](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/page/set-parent-pages.png)
+![To create a subpage](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/page/set-parent-pages.png)
 
 # Changing the URL of Your Pages
 

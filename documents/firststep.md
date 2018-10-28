@@ -23,19 +23,19 @@ Let’s take a step-by-step tour through your mixcore CMS site and see how the d
 
 ### Connect to external Database Server
 
- ![config-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/config-db.jpg)
+ ![config-db.jpg](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/1st-step/config-db.jpg)
 
 ### Connect to local Database Server
 
- ![connect-local-db.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/connect-local-db.jpg)
+ ![connect-local-db.jpg](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/1st-step/connect-local-db.jpg)
 
 ### Select default culture and language
 
- ![select-default-culture.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/select-default-culture.jpg)
+ ![select-default-culture.jpg](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/1st-step/select-default-culture.jpg)
 
 ### Create super admin account
 
- ![create-admin.jpg](https://raw.githubusercontent.com/Swastika-IO/Swastika-IO-Core-Docs/master/docs/documents/_images/1st-step/create-admin.jpg)
+ ![create-admin.jpg](https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/1st-step/create-admin.jpg)
 
 ## Log In
 

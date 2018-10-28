@@ -1,10 +1,10 @@
 ---
-title: Swastika I/O Core API
-description: Find information on the Swastika I/O Core API.
+title: mixcore API
+description: Find information on the mixcore API.
 uid: api
 ---
-# Swastika I/O Core API
+# mixcore API
 
 [!INCLUDE[](~/includes/blazor-preview-notice.md)]
 
-Welcome to the Swastika I/O Core API area!
+Welcome to the mixcore API area!
