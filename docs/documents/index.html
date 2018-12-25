@@ -69,14 +69,7 @@
             <article class="content wrap" id="_content" data-uid="client-side/swastika-io/index">
 <h1 id="mixcore">mixcore</h1>
 
-<p>mixcore is free, open source and cross-platform CMS based on ASP.NET Core (Dotnet Core). It is built using the best and the most modern tools and languages (Visual Studio 2017, C# etc). Be the best and join our team!</p>
-<p><a href="https://gitter.im/mixcore/mix.core?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/mixcore/mix.core.svg" alt="Gitter"></a>
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Core?ref=badge_shield"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Core.svg?type=shield" alt="FOSSA Status"></a>
-<a href="https://www.codefactor.io/repository/github/mixcore/mix.core"><img src="https://www.codefactor.io/repository/github/mixcore/mix.core/badge" alt="CodeFactor"></a>
-<a href="https://codecov.io/gh/mixcore/mix.core"><img src="https://codecov.io/gh/mixcore/mix.core/branch/master/graph/badge.svg" alt="codecov"></a>
-<a href="https://codebeat.co/projects/github-com-smileway-swastika-io-core-master"><img src="https://codebeat.co/badges/dcd5aeaf-f8d5-412e-bc22-e937ccf3a698" alt="codebeat badge"></a>
-<a href="https://www.codacy.com/app/Smilefounder/Swastika-IO-Core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mixcore/mix.core&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/bbd56b2b0e1f4711a83dfe61181ed894" alt="Codacy Badge"></a>
-<a href="https://sonarcloud.io/dashboard?id=Swastika.Core"><img src="https://sonarcloud.io/api/project_badges/measure?project=Swastika.Core&amp;metric=alert_status" alt="Sonarcloud"></a></p>
+<p><img src="https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true" alt="Mixcore CMS" title="What is Mixcore CMS?"></p>
 <h2 id="buid-status">Buid status:</h2>
 <table>
 <thead>
@@ -99,16 +92,11 @@
 </tr>
 </tbody>
 </table>
+<h2 id="tutorials">Tutorials</h2>
 <ul>
-<li>Docs: <a href="http://docs.mixcore.org">http://docs.mixcore.org</a></li>
-<li>Demo: <a href="http://demo.mixcore.org">http://demo.mixcore.org</a> | <a href="https://www.mixcore.org">https://www.mixcore.org</a></li>
-<li>Screenshot:  <ul>
-<li><strong>Default template:</strong>
-<img src="https://github.com/mixcore/mix.core/blob/master/docs/_images/readme/Swastika-IO-Default-Template-Now-UI-Pro-800px.gif?raw=true" alt="mixcore CMS default template with Now UI Pro" title="mixcore CMS default template with Now UI Pro"></li>
-<li><strong>Admin Portal:</strong>
-<img src="https://swastika-io.github.io/Swastika-IO-Admin/img/white.png" alt="mixcore Admin Portal Bootstrap 4" title="mixcore Admin Portal Bootstrap 4"></li>
-</ul>
-</li>
+<li>Demo: <a href="http://dev.mixcore.org">http://dev.mixcore.org</a></li>
+<li>Docs: <a href="https://docs.mixcore.org">https://docs.mixcore.org</a></li>
+<li>Youtube: <a href="https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw">https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw</a></li>
 </ul>
 <h2 id="getting-started">Getting Started</h2>
 <p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
@@ -120,28 +108,27 @@
 <li><a href="https://www.visualstudio.com/downloads/">Visual Studio Community 2017</a> - Free, fully-featured IDE for students, open-source and individual developers</li>
 <li><a href="https://www.microsoft.com/en-us/sql-server/sql-server-editions-express">SQL Server 2016+</a> - Database server</li>
 </ul>
-<h3 id="installing">Installing</h3>
-<ol>
-<li>Download the source code from <a href="https://github.com/mixcore/mix.core">Github</a></li>
-<li>Restore dotnet core Nuget&#39;s packages</li>
-</ol>
-<pre><code class="lang-bash">cd [github-project-folder]\src\Mix.Cms.Web]
+<h3 id="gits-clone">GITs clone</h3>
+<pre><code class="lang-bash">mkdir mixcore
+cd mixcore
+
+git clone https://github.com/mixcore/mix.heart.git
+git clone https://github.com/mixcore/mix.identity.git
+git clone https://github.com/mixcore/mix.core.git
+</code></pre><h3 id="build--run">Build &amp; Run</h3>
+<pre><code class="lang-bash">cd mix.core/src/Mix.Cms.Web
+
+npm install
+gulp build
 dotnet restore
-</code></pre><ol>
-<li>Build dotnet core packages</li>
-</ol>
-<pre><code class="lang-bash">cd [github-project-folder]\src\Mix.Cms.Web]
+dotnet bundle
 dotnet build
-</code></pre><ol>
-<li>Then run! That it&#39;s!</li>
-</ol>
-<pre><code class="lang-bash">cd [github-project-folder]\src\Mix.Cms.Web]
 dotnet run
-</code></pre><ol>
-<li>Now you can access the site from your localhost (e.g. <a href="http://localhost:58511">http://localhost:58511</a>)</li>
-</ol>
-<p>Or just simple click &quot;_run.bat&quot; file inside &quot;[github-project-folder]\src\Mix.Cms.Web&quot; folder. :)</p>
-<p>Note: Please read the step how to prepare MS SQL Server Database <a href="/installing?id=step-2-create-the-database-and-a-user">here</a>.</p>
+</code></pre><blockquote><p><em>Note:</em> If you facing any System.Data.SqlClient.SqlException error, please replace all content inside &quot;appsettings.json&quot; file with &quot;{}&quot;.</p>
+</blockquote>
+<p>Now you can access the site from your localhost (e.g. <a href="http://localhost:5000">http://localhost:5000</a>)</p>
+<blockquote><p><em>Note:</em> Please read the step how to prepare MS SQL Server Database <a href="/installing?id=step-2-create-the-database-and-a-user">here</a>.</p>
+</blockquote>
 <h2 id="contributing">Contributing</h2>
 <p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
 <h2 id="versioning">Versioning</h2>
@@ -155,7 +142,6 @@ dotnet run
 <p>(TBC)</p>
 <h2 id="license">License</h2>
 <p>This project is licensed under the GNU General Public License v3.0 - see the <a href="LICENSE.md">LICENSE.md</a> file for details</p>
-<p><a href="https://app.fossa.io/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Core?ref=badge_large"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FSwastika-IO%2FSwastika-IO-Core.svg?type=large" alt="FOSSA Status"></a></p>
 <h2 id="thanks-to">Thanks to</h2>
 <p>This project has been developed using:</p>
 <ul>
@@ -167,7 +153,8 @@ dotnet run
 <li>And more...</li>
 </ul>
 <h2 id="tags">Tags</h2>
-<p>Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,</p>
+<blockquote><p>Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,</p>
+</blockquote>
 </article>
           </div>
           
