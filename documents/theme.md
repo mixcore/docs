@@ -10,24 +10,24 @@ Let's say you write a lot about cheese and gadgets. Through the use of the mixco
 
 ### Why mixcore CMS Themes
 
-mixcore CMS Themes are files that work together to create the design and functionality of a SIOC CMS site. Each Theme may be different, offering many choices for site owners to instantly change their website look.
+mixcore CMS Themes are files that work together to create the design and functionality of a mixcore CMS site. Each Theme may be different, offering many choices for site owners to instantly change their website look.
 
-You may wish to develop SIOC CMS Themes for your own use, for a client project or to submit to the SIOC CMS Theme Directory. Why else should you build a SIOC CMS Theme?
+You may wish to develop mixcore CMS Themes for your own use, for a client project or to submit to the mixcore CMS Theme Directory. Why else should you build a mixcore CMS Theme?
 
-To create a unique look for your SIOC CMS site.
-- To take advantage of templates, template tags, and the SIOC CMS Loop to generate different website results and looks.
+To create a unique look for your mixcore CMS site.
+- To take advantage of templates, template tags, and the mixcore CMS Loop to generate different website results and looks.
 - To provide alternative templates for specific site features, such as category pages and search result pages.
 - To quickly switch between two site layouts, or to take advantage of a Theme or style switcher to allow site owners to change the look of your site.
-- A SIOC CMS Theme has many benefits, too.
+- A mixcore CMS Theme has many benefits, too.
 
 It separates the presentation styles and template files from the system files so the site will upgrade without drastic changes to the visual presentation of the site.
 - It allows for customization of the site functionality unique to that Theme.
-- It allows for quick changes of the visual design and layout of a SIOC CMS site.
-- It removes the need for a typical SIOC CMS site owner to have to learn CSS, HTML, and ASP.NET (Dotnet) Core in order to have a great-looking website.
-- Why should you build your own SIOC CMS Theme? That's the real question.
+- It allows for quick changes of the visual design and layout of a mixcore CMS site.
+- It removes the need for a typical mixcore CMS site owner to have to learn CSS, HTML, and ASP.NET (Dotnet) Core in order to have a great-looking website.
+- Why should you build your own mixcore CMS Theme? That's the real question.
 
 It's an opportunity to learn more about CSS, HTML, and ASP.NET (Dotnet) Core.
 - It's an opportunity to put your expertise with CSS, HTML, and ASP.NET (Dotnet) Core to work.
 - It's creative.
 - It's fun (most of the time).
-- If you release it to the public, you can feel good that you shared and gave something back to the SIOC CMS Community (okay, bragging rights)
+- If you release it to the public, you can feel good that you shared and gave something back to the mixcore CMS Community (okay, bragging rights)
