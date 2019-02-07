@@ -101,7 +101,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/mixcore/docs',
+  repoUrl: 'https://github.com/mixcore/mix.core',
   
   docsSideNavCollapsible: true,
   editUrl: "https://github.com/mixcore/docs/tree/master/docs/",
