@@ -49,13 +49,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/mixcore-logo.png',
-  footerIcon: 'img/mixcore-logo.png',
+  headerIcon: 'img/mixcore-white.png',
+  footerIcon: 'img/mixcore-white.png',
   favicon: 'img/mixcore-logo-nbg.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#333',
+    primaryColor: '#0056ec',
     secondaryColor: '#20455c',
   },
 
@@ -105,6 +105,13 @@ const siteConfig = {
   
   docsSideNavCollapsible: true,
   editUrl: "https://github.com/mixcore/docs/tree/master/docs/",
+  algolia: {
+    apiKey: 'a8d14d2461c6df6cc5e628f6476e0eee',
+    indexName: 'mixcore_docs',
+    algoliaOptions: {
+      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+    },
+  },
 };
 
 module.exports = siteConfig;

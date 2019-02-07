@@ -50,7 +50,7 @@ class HomeSplash extends React.Component {
                         `}>
                       <translate>Get Started</translate>
                     </Button>
-                    <Button href="https://github.com/facebook/Docusaurus">
+                    <Button href="https://github.com/mixcore/mix.core">
                       <translate>GitHub</translate>
                     </Button>
                   </div>

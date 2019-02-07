@@ -1,6 +1,6 @@
 ---
-id: install
-title: Installing
+id: installation
+title: Installation
 ---
 # Installing mixcore CMS
 
