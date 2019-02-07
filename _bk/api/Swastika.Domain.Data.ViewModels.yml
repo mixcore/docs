@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Data.ViewModels
+  commentId: N:Swastika.Domain.Data.ViewModels
+  id: Swastika.Domain.Data.ViewModels
+  children:
+  - Swastika.Domain.Data.ViewModels.ViewModelBase`3
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Domain.Data.ViewModels
+  nameWithType: Swastika.Domain.Data.ViewModels
+  fullName: Swastika.Domain.Data.ViewModels
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.Domain.Data.ViewModels.ViewModelBase`3
+  commentId: T:Swastika.Domain.Data.ViewModels.ViewModelBase`3
+  isExternal: true
+  name: ViewModelBase<TDbContext, TModel, TView>
+  nameWithType: ViewModelBase<TDbContext, TModel, TView>
+  fullName: Swastika.Domain.Data.ViewModels.ViewModelBase<TDbContext, TModel, TView>
+  nameWithType.vb: ViewModelBase(Of TDbContext, TModel, TView)
+  fullName.vb: Swastika.Domain.Data.ViewModels.ViewModelBase(Of TDbContext, TModel, TView)
+  name.vb: ViewModelBase(Of TDbContext, TModel, TView)
+  spec.csharp:
+  - uid: Swastika.Domain.Data.ViewModels.ViewModelBase`3
+    name: ViewModelBase
+    nameWithType: ViewModelBase
+    fullName: Swastika.Domain.Data.ViewModels.ViewModelBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Data.ViewModels.ViewModelBase`3
+    name: ViewModelBase
+    nameWithType: ViewModelBase
+    fullName: Swastika.Domain.Data.ViewModels.ViewModelBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: )
+    nameWithType: )
+    fullName: )

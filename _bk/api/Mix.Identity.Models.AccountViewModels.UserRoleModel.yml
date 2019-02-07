@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.UserRoleModel
+  id: UserRoleModel
+  parent: Mix.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor
+  - Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+  - Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+  - Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+  - Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+  langs:
+  - csharp
+  - vb
+  name: UserRoleModel
+  nameWithType: UserRoleModel
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class UserRoleModel : Object'
+    content.vb: >-
+      Public Class UserRoleModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor
+  commentId: M:Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: UserRoleModel()
+  nameWithType: UserRoleModel.UserRoleModel()
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserRoleModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public UserRoleModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+  commentId: P:Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+  id: UserId
+  parent: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: UserRoleModel.UserId
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+  commentId: P:Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+  id: RoleId
+  parent: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: UserRoleModel.RoleId
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoleId As String
+  overload: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+  commentId: P:Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+  id: RoleName
+  parent: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: RoleName
+  nameWithType: UserRoleModel.RoleName
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string RoleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoleName As String
+  overload: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+  commentId: P:Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+  id: IsUserInRole
+  parent: Mix.Identity.Models.AccountViewModels.UserRoleModel
+  langs:
+  - csharp
+  - vb
+  name: IsUserInRole
+  nameWithType: UserRoleModel.IsUserInRole
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public bool IsUserInRole { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsUserInRole As Boolean
+  overload: Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.UserRoleModel.#ctor
+  isExternal: true
+  name: UserRoleModel
+  nameWithType: UserRoleModel.UserRoleModel
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserRoleModel
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: UserRoleModel.UserId
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: UserRoleModel.RoleId
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleId
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+  isExternal: true
+  name: RoleName
+  nameWithType: UserRoleModel.RoleName
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.RoleName
+- uid: Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+  isExternal: true
+  name: IsUserInRole
+  nameWithType: UserRoleModel.IsUserInRole
+  fullName: Mix.Identity.Models.AccountViewModels.UserRoleModel.IsUserInRole
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  id: MixPortalPageRole
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+  - Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+  langs:
+  - csharp
+  - vb
+  name: MixPortalPageRole
+  nameWithType: MixPortalPageRole
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixPortalPageRole : Object'
+    content.vb: >-
+      Public Class MixPortalPageRole
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: MixPortalPageRole()
+  nameWithType: MixPortalPageRole.MixPortalPageRole()
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.MixPortalPageRole()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPortalPageRole()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+  id: CreatedBy
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: MixPortalPageRole.CreatedBy
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatedBy As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+  id: CreatedDateTime
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: MixPortalPageRole.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+  id: PageId
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: PageId
+  nameWithType: MixPortalPageRole.PageId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int PageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixPortalPageRole.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+  id: RoleId
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: MixPortalPageRole.RoleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoleId As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixPortalPageRole.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+  id: Page
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPageRole
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: MixPortalPageRole.Page
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPortalPage Page { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixPortalPage
+    content.vb: Public Property Page As MixPortalPage
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.#ctor
+  isExternal: true
+  name: MixPortalPageRole
+  nameWithType: MixPortalPageRole.MixPortalPageRole
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.MixPortalPageRole
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: MixPortalPageRole.CreatedBy
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedBy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: MixPortalPageRole.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+  isExternal: true
+  name: PageId
+  nameWithType: MixPortalPageRole.PageId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.PageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixPortalPageRole.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: MixPortalPageRole.RoleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.RoleId
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixPortalPageRole.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+  isExternal: true
+  name: Page
+  nameWithType: MixPortalPageRole.Page
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPageRole.Page
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPage
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPortalPage
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixPortalPage
+  nameWithType: MixPortalPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPage

@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ProductController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ProductController
+   ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController">
+  
+  
+  <h1 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController" class="text-break">Class ProductController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html">BaseController</a>&lt;<a class="xref" href="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.html">ProductController</a>&gt;</div>
+    <div class="level2"><span class="xref">ProductController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_ROUTE_CULTURE_NAME">BaseController&lt;ProductController&gt;.ROUTE_CULTURE_NAME</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_ROUTE_DEFAULT_CULTURE">BaseController&lt;ProductController&gt;.ROUTE_DEFAULT_CULTURE</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1__domain">BaseController&lt;ProductController&gt;._domain</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1__configuration">BaseController&lt;ProductController&gt;._configuration</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1__env">BaseController&lt;ProductController&gt;._env</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_">BaseController&lt;ProductController&gt;.OnActionExecuting(ActionExecutingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_GetLanguage">BaseController&lt;ProductController&gt;.GetLanguage()</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_UploadFileAsync_Microsoft_AspNetCore_Http_IFormFile_System_String_">BaseController&lt;ProductController&gt;.UploadFileAsync(IFormFile, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_UploadListFileAsync_System_String_">BaseController&lt;ProductController&gt;.UploadListFileAsync(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_ViewContext">BaseController&lt;ProductController&gt;.ViewContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Cms.Mvc.Controllers.BaseController-1.html#Swastika_Cms_Mvc_Controllers_BaseController_1_CurrentLanguage">BaseController&lt;ProductController&gt;.CurrentLanguage</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Swastika.Cms.Mvc.Areas.Portal.Controllers.html">Swastika.Cms.Mvc.Areas.Portal.Controllers</a></h6>
+  <h6><strong>Assembly</strong>: Swastika.Cms.Web.Mvc.dll</h6>
+  <h5 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ProductController : BaseController&lt;ProductController&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController__ctor_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.#ctor*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController__ctor_Microsoft_AspNetCore_Hosting_IHostingEnvironment_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">ProductController(IHostingEnvironment)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProductController(IHostingEnvironment env)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Hosting.IHostingEnvironment</span></td>
+        <td><span class="parametername">env</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_AddEmptyProperty_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.AddEmptyProperty*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_AddEmptyProperty_System_Int32_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.AddEmptyProperty(System.Int32)">AddEmptyProperty(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult AddEmptyProperty(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Create_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Create*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Create_Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_System_Nullable_System_Int32__" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Create(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel,System.Nullable{System.Int32})">Create(BEProductViewModel, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Create(BEProductViewModel product, Nullable&lt;int&gt; categoryId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.html">BEProductViewModel</a></td>
+        <td><span class="parametername">product</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">categoryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Create_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Create*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Create_System_Nullable_System_Int32__" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Create(System.Nullable{System.Int32})">Create(Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult Create(Nullable&lt;int&gt; categoryId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">categoryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Delete_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Delete*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Delete_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Delete(System.String)">Delete(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Delete(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Draft_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Draft*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Draft_System_Int32_System_Int32_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Draft(System.Int32,System.Int32,System.String)">Draft(Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Draft(int pageSize = 10, int pageIndex = 0, string keyword = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Edit_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Edit*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Edit_Swastika_Cms_Lib_ViewModels_BackEnd_BEProductViewModel_System_String_System_Nullable_System_Int32__" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Edit(Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel,System.String,System.Nullable{System.Int32})">Edit(BEProductViewModel, String, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Edit(BEProductViewModel product, string id, Nullable&lt;int&gt; categoryId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.BackEnd.BEProductViewModel.html">BEProductViewModel</a></td>
+        <td><span class="parametername">product</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">categoryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Edit_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Edit*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Edit_System_String_System_Nullable_System_Int32__" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Edit(System.String,System.Nullable{System.Int32})">Edit(String, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Edit(string id = null, Nullable&lt;int&gt; categoryId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">categoryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_GetEditor_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.GetEditor*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_GetEditor_System_Int32_Swastika_Cms_Lib_SWCmsConstants_DataType_System_String_System_String_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.GetEditor(System.Int32,Swastika.Cms.Lib.SWCmsConstants.DataType,System.String,System.String,System.String)">GetEditor(Int32, SWCmsConstants.DataType, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IActionResult GetEditor(int index, SWCmsConstants.DataType type, string id, string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.SWCmsConstants.DataType.html">SWCmsConstants.DataType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Index_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Index*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Index_System_Int32_System_Int32_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Index(System.Int32,System.Int32,System.String)">Index(Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Index(int pageSize = 10, int pageIndex = 0, string keyword = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pageIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Recycle_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Recycle*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Recycle_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Recycle(System.String)">Recycle(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Recycle(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Restore_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Restore*"></a>
+  <h4 id="Swastika_Cms_Mvc_Areas_Portal_Controllers_ProductController_Restore_System_String_" data-uid="Swastika.Cms.Mvc.Areas.Portal.Controllers.ProductController.Restore(System.String)">Restore(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; Restore(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.IActionResult</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

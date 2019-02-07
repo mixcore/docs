@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  commentId: T:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  id: ActiveMenuTagHelper
+  parent: Swastika.Web.Start.TagHelpers
+  children:
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+  langs:
+  - csharp
+  - vb
+  name: ActiveMenuTagHelper
+  nameWithType: ActiveMenuTagHelper
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: 'public class ActiveMenuTagHelper : TagHelper'
+    content.vb: >-
+      Public Class ActiveMenuTagHelper
+          Inherits TagHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  commentId: M:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  id: Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Process(TagHelperContext, TagHelperOutput)
+  nameWithType: ActiveMenuTagHelper.Process(TagHelperContext, TagHelperOutput)
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext, Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public override void Process(TagHelperContext context, TagHelperOutput output)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+    - id: output
+      type: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+    content.vb: Public Overrides Sub Process(context As TagHelperContext, output As TagHelperOutput)
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor
+  commentId: M:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor
+  id: '#ctor'
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: ActiveMenuTagHelper()
+  nameWithType: ActiveMenuTagHelper.ActiveMenuTagHelper()
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ActiveMenuTagHelper()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public ActiveMenuTagHelper()
+    content.vb: Public Sub New
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+  id: Controllers
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Controllers
+  nameWithType: ActiveMenuTagHelper.Controllers
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public string Controllers { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Controllers As String
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+  id: Actions
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Actions
+  nameWithType: ActiveMenuTagHelper.Actions
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public string Actions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Actions As String
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+  id: PageNames
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: PageNames
+  nameWithType: ActiveMenuTagHelper.PageNames
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public string PageNames { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PageNames As String
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+  id: Id
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ActiveMenuTagHelper.Id
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+  id: ViewContext
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: ViewContext
+  nameWithType: ActiveMenuTagHelper.ViewContext
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public ViewContext ViewContext { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+    content.vb: Public Property ViewContext As ViewContext
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+  commentId: P:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+  id: RouteValues
+  parent: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: RouteValues
+  nameWithType: ActiveMenuTagHelper.RouteValues
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Web.Start.TagHelpers
+  syntax:
+    content: public IDictionary<string, string> RouteValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    content.vb: Public Property RouteValues As IDictionary(Of String, String)
+  overload: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Web.Start.TagHelpers
+  commentId: N:Swastika.Web.Start.TagHelpers
+  isExternal: true
+  name: Swastika.Web.Start.TagHelpers
+  nameWithType: Swastika.Web.Start.TagHelpers
+  fullName: Swastika.Web.Start.TagHelpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process
+  isExternal: true
+  name: Process
+  nameWithType: ActiveMenuTagHelper.Process
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Process
+- uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+  isExternal: true
+  name: TagHelperContext
+  nameWithType: TagHelperContext
+  fullName: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+- uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+  isExternal: true
+  name: TagHelperOutput
+  nameWithType: TagHelperOutput
+  fullName: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.#ctor
+  isExternal: true
+  name: ActiveMenuTagHelper
+  nameWithType: ActiveMenuTagHelper.ActiveMenuTagHelper
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ActiveMenuTagHelper
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+  isExternal: true
+  name: Controllers
+  nameWithType: ActiveMenuTagHelper.Controllers
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Controllers
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+  isExternal: true
+  name: Actions
+  nameWithType: ActiveMenuTagHelper.Actions
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Actions
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+  isExternal: true
+  name: PageNames
+  nameWithType: ActiveMenuTagHelper.PageNames
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.PageNames
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+  isExternal: true
+  name: Id
+  nameWithType: ActiveMenuTagHelper.Id
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.Id
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: ActiveMenuTagHelper.ViewContext
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.ViewContext
+- uid: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: ViewContext
+  fullName: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues*
+  commentId: Overload:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+  isExternal: true
+  name: RouteValues
+  nameWithType: ActiveMenuTagHelper.RouteValues
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper.RouteValues
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.String}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

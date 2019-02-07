@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.UI.Base.Controllers
+  commentId: N:Mix.UI.Base.Controllers
+  id: Mix.UI.Base.Controllers
+  children:
+  - Mix.UI.Base.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: Mix.UI.Base.Controllers
+  nameWithType: Mix.UI.Base.Controllers
+  fullName: Mix.UI.Base.Controllers
+  type: Namespace
+  assemblies:
+  - Mix.Heart
+references:
+- uid: Mix.UI.Base.Controllers.BaseController
+  commentId: T:Mix.UI.Base.Controllers.BaseController
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Mix.UI.Base.Controllers.BaseController

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: TTS.Web.Areas.Portal.Controllers.Apis
+  commentId: N:TTS.Web.Areas.Portal.Controllers.Apis
+  id: TTS.Web.Areas.Portal.Controllers.Apis
+  children:
+  - TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController
+  langs:
+  - csharp
+  - vb
+  name: TTS.Web.Areas.Portal.Controllers.Apis
+  nameWithType: TTS.Web.Areas.Portal.Controllers.Apis
+  fullName: TTS.Web.Areas.Portal.Controllers.Apis
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController
+  commentId: T:TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController
+  isExternal: true
+  name: ApiModuleController
+  nameWithType: ApiModuleController
+  fullName: TTS.Web.Areas.Portal.Controllers.Apis.ApiModuleController

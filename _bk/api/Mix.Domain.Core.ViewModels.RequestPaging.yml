@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Core.ViewModels.RequestPaging
+  commentId: T:Mix.Domain.Core.ViewModels.RequestPaging
+  id: RequestPaging
+  parent: Mix.Domain.Core.ViewModels
+  children:
+  - Mix.Domain.Core.ViewModels.RequestPaging.#ctor
+  - Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+  - Mix.Domain.Core.ViewModels.RequestPaging.Culture
+  - Mix.Domain.Core.ViewModels.RequestPaging.Direction
+  - Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+  - Mix.Domain.Core.ViewModels.RequestPaging.Key
+  - Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+  - Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+  - Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+  - Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+  - Mix.Domain.Core.ViewModels.RequestPaging.Query
+  - Mix.Domain.Core.ViewModels.RequestPaging.Status
+  - Mix.Domain.Core.ViewModels.RequestPaging.ToDate
+  - Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+  - Mix.Domain.Core.ViewModels.RequestPaging.UserId
+  - Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+  langs:
+  - csharp
+  - vb
+  name: RequestPaging
+  nameWithType: RequestPaging
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging
+  type: Class
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: 'public class RequestPaging : Object'
+    content.vb: >-
+      Public Class RequestPaging
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.#ctor
+  commentId: M:Mix.Domain.Core.ViewModels.RequestPaging.#ctor
+  id: '#ctor'
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: RequestPaging()
+  nameWithType: RequestPaging.RequestPaging()
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.RequestPaging()
+  type: Constructor
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public RequestPaging()
+    content.vb: Public Sub New
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+  id: ViewType
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: ViewType
+  nameWithType: RequestPaging.ViewType
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string ViewType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ViewType As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.ViewType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+  id: CountryId
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: RequestPaging.CountryId
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Culture
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Culture
+  id: Culture
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: RequestPaging.Culture
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Culture
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Direction
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Direction
+  id: Direction
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: RequestPaging.Direction
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Direction
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public int Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Direction As Integer
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Key
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Key
+  id: Key
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: RequestPaging.Key
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Key
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+  id: Keyword
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: RequestPaging.Keyword
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string Keyword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Keyword As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Keyword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Query
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Query
+  id: Query
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: RequestPaging.Query
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Query
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Query As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Query*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Status
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.Status
+  id: Status
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: RequestPaging.Status
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Status
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public Nullable<int> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Status As Nullable(Of Integer)
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+  id: OrderBy
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: RequestPaging.OrderBy
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string OrderBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrderBy As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+  id: PageIndex
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: PageIndex
+  nameWithType: RequestPaging.PageIndex
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public int PageIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PageIndex As Integer
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.PageIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+  id: PageSize
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: RequestPaging.PageSize
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public Nullable<int> PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property PageSize As Nullable(Of Integer)
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.PageSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+  id: UserAgent
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: UserAgent
+  nameWithType: RequestPaging.UserAgent
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string UserAgent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserAgent As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.UserAgent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.UserId
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.UserId
+  id: UserId
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: RequestPaging.UserId
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.UserId
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+  id: FromDate
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: RequestPaging.FromDate
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public Nullable<DateTime> FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property FromDate As Nullable(Of DateTime)
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.ToDate
+  commentId: P:Mix.Domain.Core.ViewModels.RequestPaging.ToDate
+  id: ToDate
+  parent: Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: RequestPaging.ToDate
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.ToDate
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.ViewModels
+  syntax:
+    content: public Nullable<DateTime> ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property ToDate As Nullable(Of DateTime)
+  overload: Mix.Domain.Core.ViewModels.RequestPaging.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.#ctor*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.#ctor
+  isExternal: true
+  name: RequestPaging
+  nameWithType: RequestPaging.RequestPaging
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.RequestPaging
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.ViewType*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+  isExternal: true
+  name: ViewType
+  nameWithType: RequestPaging.ViewType
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.ViewType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.CountryId*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: RequestPaging.CountryId
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.CountryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Culture*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: RequestPaging.Culture
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Culture
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Direction*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: RequestPaging.Direction
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Direction
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Key*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Key
+  isExternal: true
+  name: Key
+  nameWithType: RequestPaging.Key
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Key
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Keyword*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+  isExternal: true
+  name: Keyword
+  nameWithType: RequestPaging.Keyword
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Keyword
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Query*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Query
+  isExternal: true
+  name: Query
+  nameWithType: RequestPaging.Query
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Query
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.Status*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.Status
+  isExternal: true
+  name: Status
+  nameWithType: RequestPaging.Status
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.Status
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.OrderBy*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+  isExternal: true
+  name: OrderBy
+  nameWithType: RequestPaging.OrderBy
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.OrderBy
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.PageIndex*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+  isExternal: true
+  name: PageIndex
+  nameWithType: RequestPaging.PageIndex
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.PageIndex
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.PageSize*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+  isExternal: true
+  name: PageSize
+  nameWithType: RequestPaging.PageSize
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.PageSize
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.UserAgent*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: RequestPaging.UserAgent
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.UserAgent
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.UserId*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: RequestPaging.UserId
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.UserId
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.FromDate*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: RequestPaging.FromDate
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.FromDate
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.RequestPaging.ToDate*
+  commentId: Overload:Mix.Domain.Core.ViewModels.RequestPaging.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: RequestPaging.ToDate
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging.ToDate

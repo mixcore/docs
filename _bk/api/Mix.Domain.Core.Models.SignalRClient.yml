@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Core.Models.SignalRClient
+  commentId: T:Mix.Domain.Core.Models.SignalRClient
+  id: SignalRClient
+  parent: Mix.Domain.Core.Models
+  children:
+  - Mix.Domain.Core.Models.SignalRClient.#ctor
+  - Mix.Domain.Core.Models.SignalRClient.ConnectionId
+  - Mix.Domain.Core.Models.SignalRClient.JoinedDate
+  - Mix.Domain.Core.Models.SignalRClient.NickName
+  - Mix.Domain.Core.Models.SignalRClient.UserId
+  langs:
+  - csharp
+  - vb
+  name: SignalRClient
+  nameWithType: SignalRClient
+  fullName: Mix.Domain.Core.Models.SignalRClient
+  type: Class
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: 'public class SignalRClient : Object'
+    content.vb: >-
+      Public Class SignalRClient
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Domain.Core.Models.SignalRClient.#ctor
+  commentId: M:Mix.Domain.Core.Models.SignalRClient.#ctor
+  id: '#ctor'
+  parent: Mix.Domain.Core.Models.SignalRClient
+  langs:
+  - csharp
+  - vb
+  name: SignalRClient()
+  nameWithType: SignalRClient.SignalRClient()
+  fullName: Mix.Domain.Core.Models.SignalRClient.SignalRClient()
+  type: Constructor
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: public SignalRClient()
+    content.vb: Public Sub New
+  overload: Mix.Domain.Core.Models.SignalRClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.Models.SignalRClient.UserId
+  commentId: P:Mix.Domain.Core.Models.SignalRClient.UserId
+  id: UserId
+  parent: Mix.Domain.Core.Models.SignalRClient
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: SignalRClient.UserId
+  fullName: Mix.Domain.Core.Models.SignalRClient.UserId
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Mix.Domain.Core.Models.SignalRClient.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.Models.SignalRClient.NickName
+  commentId: P:Mix.Domain.Core.Models.SignalRClient.NickName
+  id: NickName
+  parent: Mix.Domain.Core.Models.SignalRClient
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: SignalRClient.NickName
+  fullName: Mix.Domain.Core.Models.SignalRClient.NickName
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: Mix.Domain.Core.Models.SignalRClient.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.Models.SignalRClient.ConnectionId
+  commentId: P:Mix.Domain.Core.Models.SignalRClient.ConnectionId
+  id: ConnectionId
+  parent: Mix.Domain.Core.Models.SignalRClient
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: SignalRClient.ConnectionId
+  fullName: Mix.Domain.Core.Models.SignalRClient.ConnectionId
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: public string ConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectionId As String
+  overload: Mix.Domain.Core.Models.SignalRClient.ConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Domain.Core.Models.SignalRClient.JoinedDate
+  commentId: P:Mix.Domain.Core.Models.SignalRClient.JoinedDate
+  id: JoinedDate
+  parent: Mix.Domain.Core.Models.SignalRClient
+  langs:
+  - csharp
+  - vb
+  name: JoinedDate
+  nameWithType: SignalRClient.JoinedDate
+  fullName: Mix.Domain.Core.Models.SignalRClient.JoinedDate
+  type: Property
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Core.Models
+  syntax:
+    content: public DateTime JoinedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property JoinedDate As DateTime
+  overload: Mix.Domain.Core.Models.SignalRClient.JoinedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Domain.Core.Models
+  commentId: N:Mix.Domain.Core.Models
+  isExternal: true
+  name: Mix.Domain.Core.Models
+  nameWithType: Mix.Domain.Core.Models
+  fullName: Mix.Domain.Core.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Domain.Core.Models.SignalRClient.#ctor*
+  commentId: Overload:Mix.Domain.Core.Models.SignalRClient.#ctor
+  isExternal: true
+  name: SignalRClient
+  nameWithType: SignalRClient.SignalRClient
+  fullName: Mix.Domain.Core.Models.SignalRClient.SignalRClient
+- uid: Mix.Domain.Core.Models.SignalRClient.UserId*
+  commentId: Overload:Mix.Domain.Core.Models.SignalRClient.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: SignalRClient.UserId
+  fullName: Mix.Domain.Core.Models.SignalRClient.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Domain.Core.Models.SignalRClient.NickName*
+  commentId: Overload:Mix.Domain.Core.Models.SignalRClient.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: SignalRClient.NickName
+  fullName: Mix.Domain.Core.Models.SignalRClient.NickName
+- uid: Mix.Domain.Core.Models.SignalRClient.ConnectionId*
+  commentId: Overload:Mix.Domain.Core.Models.SignalRClient.ConnectionId
+  isExternal: true
+  name: ConnectionId
+  nameWithType: SignalRClient.ConnectionId
+  fullName: Mix.Domain.Core.Models.SignalRClient.ConnectionId
+- uid: Mix.Domain.Core.Models.SignalRClient.JoinedDate*
+  commentId: Overload:Mix.Domain.Core.Models.SignalRClient.JoinedDate
+  isExternal: true
+  name: JoinedDate
+  nameWithType: SignalRClient.JoinedDate
+  fullName: Mix.Domain.Core.Models.SignalRClient.JoinedDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

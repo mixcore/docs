@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  commentId: T:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  id: add_refreshtoken_username
+  parent: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  children:
+  - Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor
+  - Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  - Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: add_refreshtoken_username
+  nameWithType: add_refreshtoken_username
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  syntax:
+    content: 'public class add_refreshtoken_username : Migration'
+    content.vb: >-
+      Public Class add_refreshtoken_username
+          Inherits Migration
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  langs:
+  - csharp
+  - vb
+  name: Up(MigrationBuilder)
+  nameWithType: add_refreshtoken_username.Up(MigrationBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  syntax:
+    content: protected override void Up(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Up(migrationBuilder As MigrationBuilder)
+  overload: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  langs:
+  - csharp
+  - vb
+  name: Down(MigrationBuilder)
+  nameWithType: add_refreshtoken_username.Down(MigrationBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  syntax:
+    content: protected override void Down(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Down(migrationBuilder As MigrationBuilder)
+  overload: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  langs:
+  - csharp
+  - vb
+  name: BuildTargetModel(ModelBuilder)
+  nameWithType: add_refreshtoken_username.BuildTargetModel(ModelBuilder)
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  syntax:
+    content: protected override void BuildTargetModel(ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Protected Overrides Sub BuildTargetModel(modelBuilder As ModelBuilder)
+  overload: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor
+  commentId: M:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username
+  langs:
+  - csharp
+  - vb
+  name: add_refreshtoken_username()
+  nameWithType: add_refreshtoken_username.add_refreshtoken_username()
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.add_refreshtoken_username()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  syntax:
+    content: public add_refreshtoken_username()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  commentId: N:Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  isExternal: true
+  name: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  nameWithType: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up
+  isExternal: true
+  name: Up
+  nameWithType: add_refreshtoken_username.Up
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Up
+- uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  isExternal: true
+  name: MigrationBuilder
+  nameWithType: MigrationBuilder
+  fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down
+  isExternal: true
+  name: Down
+  nameWithType: add_refreshtoken_username.Down
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.Down
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel
+  isExternal: true
+  name: BuildTargetModel
+  nameWithType: add_refreshtoken_username.BuildTargetModel
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.BuildTargetModel
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.#ctor
+  isExternal: true
+  name: add_refreshtoken_username
+  nameWithType: add_refreshtoken_username.add_refreshtoken_username
+  fullName: Swastika.Cms.Lib.Migrations.SiocCmsAccount.add_refreshtoken_username.add_refreshtoken_username

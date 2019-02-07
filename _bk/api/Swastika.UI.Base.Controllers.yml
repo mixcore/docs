@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.UI.Base.Controllers
+  commentId: N:Swastika.UI.Base.Controllers
+  id: Swastika.UI.Base.Controllers
+  children:
+  - Swastika.UI.Base.Controllers.BaseController
+  langs:
+  - csharp
+  - vb
+  name: Swastika.UI.Base.Controllers
+  nameWithType: Swastika.UI.Base.Controllers
+  fullName: Swastika.UI.Base.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.UI.Base.Controllers.BaseController
+  commentId: T:Swastika.UI.Base.Controllers.BaseController
+  isExternal: true
+  name: BaseController
+  nameWithType: BaseController
+  fullName: Swastika.UI.Base.Controllers.BaseController

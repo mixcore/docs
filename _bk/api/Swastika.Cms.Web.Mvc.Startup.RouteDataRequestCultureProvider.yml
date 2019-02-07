@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  commentId: T:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  id: Startup.RouteDataRequestCultureProvider
+  parent: Swastika.Cms.Web.Mvc
+  children:
+  - Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor
+  - Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)
+  - Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexOfCulture
+  - Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexofUICulture
+  langs:
+  - csharp
+  - vb
+  name: Startup.RouteDataRequestCultureProvider
+  nameWithType: Startup.RouteDataRequestCultureProvider
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: 'public class RouteDataRequestCultureProvider : RequestCultureProvider'
+    content.vb: >-
+      Public Class RouteDataRequestCultureProvider
+          Inherits RequestCultureProvider
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexOfCulture
+  commentId: F:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexOfCulture
+  id: IndexOfCulture
+  parent: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  langs:
+  - csharp
+  - vb
+  name: IndexOfCulture
+  nameWithType: Startup.RouteDataRequestCultureProvider.IndexOfCulture
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexOfCulture
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public int IndexOfCulture
+    return:
+      type: System.Int32
+    content.vb: Public IndexOfCulture As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexofUICulture
+  commentId: F:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexofUICulture
+  id: IndexofUICulture
+  parent: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  langs:
+  - csharp
+  - vb
+  name: IndexofUICulture
+  nameWithType: Startup.RouteDataRequestCultureProvider.IndexofUICulture
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.IndexofUICulture
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public int IndexofUICulture
+    return:
+      type: System.Int32
+    content.vb: Public IndexofUICulture As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)
+  id: DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)
+  parent: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  langs:
+  - csharp
+  - vb
+  name: DetermineProviderCultureResult(HttpContext)
+  nameWithType: Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult(HttpContext)
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public override Task<ProviderCultureResult> DetermineProviderCultureResult(HttpContext httpContext)
+    parameters:
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Localization.ProviderCultureResult}
+    content.vb: Public Overrides Function DetermineProviderCultureResult(httpContext As HttpContext) As Task(Of ProviderCultureResult)
+  overload: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider
+  langs:
+  - csharp
+  - vb
+  name: RouteDataRequestCultureProvider()
+  nameWithType: Startup.RouteDataRequestCultureProvider.RouteDataRequestCultureProvider()
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.RouteDataRequestCultureProvider()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public RouteDataRequestCultureProvider()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc
+  commentId: N:Swastika.Cms.Web.Mvc
+  isExternal: false
+  name: Swastika.Cms.Web.Mvc
+  nameWithType: Swastika.Cms.Web.Mvc
+  fullName: Swastika.Cms.Web.Mvc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult
+  isExternal: true
+  name: DetermineProviderCultureResult
+  nameWithType: Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.DetermineProviderCultureResult
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Localization.ProviderCultureResult}
+  commentId: '!:System.Threading.Tasks.Task{Microsoft.AspNetCore.Localization.ProviderCultureResult}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ProviderCultureResult>
+  nameWithType: Task<ProviderCultureResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Localization.ProviderCultureResult>
+  nameWithType.vb: Task(Of ProviderCultureResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Localization.ProviderCultureResult)
+  name.vb: Task(Of ProviderCultureResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Localization.ProviderCultureResult
+    name: ProviderCultureResult
+    nameWithType: ProviderCultureResult
+    fullName: Microsoft.AspNetCore.Localization.ProviderCultureResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Localization.ProviderCultureResult
+    name: ProviderCultureResult
+    nameWithType: ProviderCultureResult
+    fullName: Microsoft.AspNetCore.Localization.ProviderCultureResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.#ctor
+  isExternal: true
+  name: RouteDataRequestCultureProvider
+  nameWithType: Startup.RouteDataRequestCultureProvider.RouteDataRequestCultureProvider
+  fullName: Swastika.Cms.Web.Mvc.Startup.RouteDataRequestCultureProvider.RouteDataRequestCultureProvider

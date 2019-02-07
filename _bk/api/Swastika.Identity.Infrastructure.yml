@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Infrastructure
+  commentId: N:Swastika.Identity.Infrastructure
+  id: Swastika.Identity.Infrastructure
+  children:
+  - Swastika.Identity.Infrastructure.ApplicationUserManager
+  - Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Identity.Infrastructure
+  nameWithType: Swastika.Identity.Infrastructure
+  fullName: Swastika.Identity.Infrastructure
+  type: Namespace
+  assemblies:
+  - Swastika.Identity
+references:
+- uid: Swastika.Identity.Infrastructure.ApplicationUserManager
+  commentId: T:Swastika.Identity.Infrastructure.ApplicationUserManager
+  isExternal: true
+  name: ApplicationUserManager
+  nameWithType: ApplicationUserManager
+  fullName: Swastika.Identity.Infrastructure.ApplicationUserManager
+- uid: Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  commentId: T:Swastika.Identity.Infrastructure.ExtendedClaimsProvider
+  isExternal: true
+  name: ExtendedClaimsProvider
+  nameWithType: ExtendedClaimsProvider
+  fullName: Swastika.Identity.Infrastructure.ExtendedClaimsProvider

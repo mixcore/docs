@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  commentId: T:Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  id: MixEnums.EnumTemplateFolder
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Articles
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Layouts
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Masters
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Modules
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Pages
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Products
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.value__
+  - Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Widgets
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.EnumTemplateFolder
+  nameWithType: MixEnums.EnumTemplateFolder
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class EnumTemplateFolder : Enum'
+    content.vb: >-
+      Public NotInheritable Class EnumTemplateFolder
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.EnumTemplateFolder.value__
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Layouts
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Layouts
+  id: Layouts
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Layouts
+  nameWithType: MixEnums.EnumTemplateFolder.Layouts
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Layouts
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Layouts
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Layouts As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Pages
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Pages
+  id: Pages
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Pages
+  nameWithType: MixEnums.EnumTemplateFolder.Pages
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Pages
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Pages
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Pages As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Modules
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Modules
+  id: Modules
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Modules
+  nameWithType: MixEnums.EnumTemplateFolder.Modules
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Modules
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Modules
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Modules As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Articles
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Articles
+  id: Articles
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Articles
+  nameWithType: MixEnums.EnumTemplateFolder.Articles
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Articles
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Articles
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Articles As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Products
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Products
+  id: Products
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: MixEnums.EnumTemplateFolder.Products
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Products
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Products
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Products As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Widgets
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Widgets
+  id: Widgets
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Widgets
+  nameWithType: MixEnums.EnumTemplateFolder.Widgets
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Widgets
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Widgets
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Widgets As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Masters
+  commentId: F:Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Masters
+  id: Masters
+  parent: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Masters
+  nameWithType: MixEnums.EnumTemplateFolder.Masters
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder.Masters
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.EnumTemplateFolder Masters
+    return:
+      type: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+    content.vb: Public Const Masters As MixEnums.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  commentId: T:Mix.Cms.Lib.MixEnums.EnumTemplateFolder
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.EnumTemplateFolder
+  nameWithType: MixEnums.EnumTemplateFolder
+  fullName: Mix.Cms.Lib.MixEnums.EnumTemplateFolder

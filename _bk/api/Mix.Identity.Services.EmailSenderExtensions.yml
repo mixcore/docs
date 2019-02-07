@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Services.EmailSenderExtensions
+  commentId: T:Mix.Identity.Services.EmailSenderExtensions
+  id: EmailSenderExtensions
+  parent: Mix.Identity.Services
+  children:
+  - Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync(Microsoft.AspNetCore.Identity.UI.Services.IEmailSender,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EmailSenderExtensions
+  nameWithType: EmailSenderExtensions
+  fullName: Mix.Identity.Services.EmailSenderExtensions
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Services
+  syntax:
+    content: 'public static class EmailSenderExtensions : Object'
+    content.vb: >-
+      Public Module EmailSenderExtensions
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync(Microsoft.AspNetCore.Identity.UI.Services.IEmailSender,System.String,System.String)
+  commentId: M:Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync(Microsoft.AspNetCore.Identity.UI.Services.IEmailSender,System.String,System.String)
+  id: SendEmailConfirmationAsync(Microsoft.AspNetCore.Identity.UI.Services.IEmailSender,System.String,System.String)
+  isExtensionMethod: true
+  parent: Mix.Identity.Services.EmailSenderExtensions
+  langs:
+  - csharp
+  - vb
+  name: SendEmailConfirmationAsync(IEmailSender, String, String)
+  nameWithType: EmailSenderExtensions.SendEmailConfirmationAsync(IEmailSender, String, String)
+  fullName: Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync(Microsoft.AspNetCore.Identity.UI.Services.IEmailSender, System.String, System.String)
+  type: Method
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Services
+  syntax:
+    content: public static Task SendEmailConfirmationAsync(this IEmailSender emailSender, string email, string link)
+    parameters:
+    - id: emailSender
+      type: Microsoft.AspNetCore.Identity.UI.Services.IEmailSender
+    - id: email
+      type: System.String
+    - id: link
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SendEmailConfirmationAsync(emailSender As IEmailSender, email As String, link As String) As Task
+  overload: Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mix.Identity.Services
+  commentId: N:Mix.Identity.Services
+  isExternal: true
+  name: Mix.Identity.Services
+  nameWithType: Mix.Identity.Services
+  fullName: Mix.Identity.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync*
+  commentId: Overload:Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync
+  isExternal: true
+  name: SendEmailConfirmationAsync
+  nameWithType: EmailSenderExtensions.SendEmailConfirmationAsync
+  fullName: Mix.Identity.Services.EmailSenderExtensions.SendEmailConfirmationAsync
+- uid: Microsoft.AspNetCore.Identity.UI.Services.IEmailSender
+  isExternal: true
+  name: IEmailSender
+  nameWithType: IEmailSender
+  fullName: Microsoft.AspNetCore.Identity.UI.Services.IEmailSender
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

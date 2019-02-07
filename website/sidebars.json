@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Get Started": ["intro","install"],
+    "User guide":["1st-step"],
+    "Developer":[]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}

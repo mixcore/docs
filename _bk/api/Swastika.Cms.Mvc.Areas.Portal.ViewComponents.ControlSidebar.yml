@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  commentId: T:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  id: ControlSidebar
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  children:
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor
+  - Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke
+  langs:
+  - csharp
+  - vb
+  name: ControlSidebar
+  nameWithType: ControlSidebar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: 'public class ControlSidebar : ViewComponent'
+    content.vb: >-
+      Public Class ControlSidebar
+          Inherits ViewComponent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke
+  commentId: M:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke
+  id: Invoke
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  langs:
+  - csharp
+  - vb
+  name: Invoke()
+  nameWithType: ControlSidebar.Invoke()
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke()
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: public IViewComponentResult Invoke()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IViewComponentResult
+    content.vb: Public Function Invoke As IViewComponentResult
+  overload: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor
+  commentId: M:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar
+  langs:
+  - csharp
+  - vb
+  name: ControlSidebar()
+  nameWithType: ControlSidebar.ControlSidebar()
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.ControlSidebar()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  syntax:
+    content: public ControlSidebar()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  commentId: N:Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  isExternal: false
+  name: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  nameWithType: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: ControlSidebar.Invoke
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.Invoke
+- uid: Microsoft.AspNetCore.Mvc.IViewComponentResult
+  isExternal: true
+  name: IViewComponentResult
+  nameWithType: IViewComponentResult
+  fullName: Microsoft.AspNetCore.Mvc.IViewComponentResult
+- uid: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor*
+  commentId: Overload:Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.#ctor
+  isExternal: true
+  name: ControlSidebar
+  nameWithType: ControlSidebar.ControlSidebar
+  fullName: Swastika.Cms.Mvc.Areas.Portal.ViewComponents.ControlSidebar.ControlSidebar

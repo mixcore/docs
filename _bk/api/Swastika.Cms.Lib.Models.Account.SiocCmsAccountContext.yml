@@ -1,0 +1,1058 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  commentId: T:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  id: SiocCmsAccountContext
+  parent: Swastika.Cms.Lib.Models.Account
+  children:
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext
+  nameWithType: SiocCmsAccountContext
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class SiocCmsAccountContext : DbContext'
+    content.vb: >-
+      Public Class SiocCmsAccountContext
+          Inherits DbContext
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})
+  id: '#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext})'
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext(DbContextOptions<ApplicationDbContext>)
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext(DbContextOptions<ApplicationDbContext>)
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext(Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Identity.Data.ApplicationDbContext>)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public SiocCmsAccountContext(DbContextOptions<ApplicationDbContext> options)
+    parameters:
+    - id: options
+      type: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}
+    content.vb: Public Sub New(options As DbContextOptions(Of ApplicationDbContext))
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  nameWithType.vb: SiocCmsAccountContext.SiocCmsAccountContext(DbContextOptions(Of ApplicationDbContext))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Identity.Data.ApplicationDbContext))
+  name.vb: SiocCmsAccountContext(DbContextOptions(Of ApplicationDbContext))
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsAccountContext()
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext()
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public SiocCmsAccountContext()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  id: OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: OnConfiguring(DbContextOptionsBuilder)
+  nameWithType: SiocCmsAccountContext.OnConfiguring(DbContextOptionsBuilder)
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    parameters:
+    - id: optionsBuilder
+      type: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+    content.vb: Protected Overrides Sub OnConfiguring(optionsBuilder As DbContextOptionsBuilder)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: OnModelCreating(ModelBuilder)
+  nameWithType: SiocCmsAccountContext.OnModelCreating(ModelBuilder)
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: protected override void OnModelCreating(ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Protected Overrides Sub OnModelCreating(modelBuilder As ModelBuilder)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+  id: AspNetRoleClaims
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetRoleClaims
+  nameWithType: SiocCmsAccountContext.AspNetRoleClaims
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetRoleClaims> AspNetRoleClaims { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoleClaims}
+    content.vb: Public Overridable Property AspNetRoleClaims As DbSet(Of AspNetRoleClaims)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+  id: AspNetRoles
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetRoles
+  nameWithType: SiocCmsAccountContext.AspNetRoles
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoles}
+    content.vb: Public Overridable Property AspNetRoles As DbSet(Of AspNetRoles)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+  id: AspNetUserClaims
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaims
+  nameWithType: SiocCmsAccountContext.AspNetUserClaims
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetUserClaims> AspNetUserClaims { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}
+    content.vb: Public Overridable Property AspNetUserClaims As DbSet(Of AspNetUserClaims)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+  id: AspNetUserLogins
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserLogins
+  nameWithType: SiocCmsAccountContext.AspNetUserLogins
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetUserLogins> AspNetUserLogins { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}
+    content.vb: Public Overridable Property AspNetUserLogins As DbSet(Of AspNetUserLogins)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+  id: AspNetUserRoles
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserRoles
+  nameWithType: SiocCmsAccountContext.AspNetUserRoles
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetUserRoles> AspNetUserRoles { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}
+    content.vb: Public Overridable Property AspNetUserRoles As DbSet(Of AspNetUserRoles)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+  id: AspNetUsers
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetUsers
+  nameWithType: SiocCmsAccountContext.AspNetUsers
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUsers}
+    content.vb: Public Overridable Property AspNetUsers As DbSet(Of AspNetUsers)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+  id: AspNetUserTokens
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserTokens
+  nameWithType: SiocCmsAccountContext.AspNetUserTokens
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<AspNetUserTokens> AspNetUserTokens { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}
+    content.vb: Public Overridable Property AspNetUserTokens As DbSet(Of AspNetUserTokens)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+  id: Clients
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: Clients
+  nameWithType: SiocCmsAccountContext.Clients
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<Clients> Clients { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.Clients}
+    content.vb: Public Overridable Property Clients As DbSet(Of Clients)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+  commentId: P:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+  id: RefreshTokens
+  parent: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext
+  langs:
+  - csharp
+  - vb
+  name: RefreshTokens
+  nameWithType: SiocCmsAccountContext.RefreshTokens
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public virtual DbSet<RefreshTokens> RefreshTokens { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.RefreshTokens}
+    content.vb: Public Overridable Property RefreshTokens As DbSet(Of RefreshTokens)
+  overload: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Swastika.Cms.Lib.Models.Account
+  commentId: N:Swastika.Cms.Lib.Models.Account
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Account
+  nameWithType: Swastika.Cms.Lib.Models.Account
+  fullName: Swastika.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.#ctor
+  isExternal: true
+  name: SiocCmsAccountContext
+  nameWithType: SiocCmsAccountContext.SiocCmsAccountContext
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.SiocCmsAccountContext
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbContextOptions{Swastika.Identity.Data.ApplicationDbContext}'
+  definition: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  name: DbContextOptions<ApplicationDbContext>
+  nameWithType: DbContextOptions<ApplicationDbContext>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<Swastika.Identity.Data.ApplicationDbContext>
+  nameWithType.vb: DbContextOptions(Of ApplicationDbContext)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of Swastika.Identity.Data.ApplicationDbContext)
+  name.vb: DbContextOptions(Of ApplicationDbContext)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Identity.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    nameWithType: ApplicationDbContext
+    fullName: Swastika.Identity.Data.ApplicationDbContext
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Identity.Data.ApplicationDbContext
+    name: ApplicationDbContext
+    nameWithType: ApplicationDbContext
+    fullName: Swastika.Identity.Data.ApplicationDbContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+  isExternal: true
+  name: DbContextOptions<>
+  nameWithType: DbContextOptions<>
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptions<>
+  nameWithType.vb: DbContextOptions(Of )
+  fullName.vb: Microsoft.EntityFrameworkCore.DbContextOptions(Of )
+  name.vb: DbContextOptions(Of )
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbContextOptions`1
+    name: DbContextOptions
+    nameWithType: DbContextOptions
+    fullName: Microsoft.EntityFrameworkCore.DbContextOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring
+  isExternal: true
+  name: OnConfiguring
+  nameWithType: SiocCmsAccountContext.OnConfiguring
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnConfiguring
+- uid: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+  isExternal: true
+  name: DbContextOptionsBuilder
+  nameWithType: DbContextOptionsBuilder
+  fullName: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating
+  isExternal: true
+  name: OnModelCreating
+  nameWithType: SiocCmsAccountContext.OnModelCreating
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.OnModelCreating
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+  isExternal: true
+  name: AspNetRoleClaims
+  nameWithType: SiocCmsAccountContext.AspNetRoleClaims
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoleClaims
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoleClaims}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoleClaims}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetRoleClaims>
+  nameWithType: DbSet<AspNetRoleClaims>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetRoleClaims>
+  nameWithType.vb: DbSet(Of AspNetRoleClaims)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetRoleClaims)
+  name.vb: DbSet(Of AspNetRoleClaims)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetRoleClaims
+    name: AspNetRoleClaims
+    nameWithType: AspNetRoleClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetRoleClaims
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetRoleClaims
+    name: AspNetRoleClaims
+    nameWithType: AspNetRoleClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetRoleClaims
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.EntityFrameworkCore.DbSet`1
+  isExternal: true
+  name: DbSet<>
+  nameWithType: DbSet<>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<>
+  nameWithType.vb: DbSet(Of )
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of )
+  name.vb: DbSet(Of )
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+  isExternal: true
+  name: AspNetRoles
+  nameWithType: SiocCmsAccountContext.AspNetRoles
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetRoles
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoles}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetRoles}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetRoles>
+  nameWithType: DbSet<AspNetRoles>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetRoles>
+  nameWithType.vb: DbSet(Of AspNetRoles)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetRoles)
+  name.vb: DbSet(Of AspNetRoles)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetRoles
+    name: AspNetRoles
+    nameWithType: AspNetRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetRoles
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetRoles
+    name: AspNetRoles
+    nameWithType: AspNetRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetRoles
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+  isExternal: true
+  name: AspNetUserClaims
+  nameWithType: SiocCmsAccountContext.AspNetUserClaims
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserClaims
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetUserClaims>
+  nameWithType: DbSet<AspNetUserClaims>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetUserClaims>
+  nameWithType.vb: DbSet(Of AspNetUserClaims)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetUserClaims)
+  name.vb: DbSet(Of AspNetUserClaims)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+  isExternal: true
+  name: AspNetUserLogins
+  nameWithType: SiocCmsAccountContext.AspNetUserLogins
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserLogins
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetUserLogins>
+  nameWithType: DbSet<AspNetUserLogins>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetUserLogins>
+  nameWithType.vb: DbSet(Of AspNetUserLogins)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetUserLogins)
+  name.vb: DbSet(Of AspNetUserLogins)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+  isExternal: true
+  name: AspNetUserRoles
+  nameWithType: SiocCmsAccountContext.AspNetUserRoles
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserRoles
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetUserRoles>
+  nameWithType: DbSet<AspNetUserRoles>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetUserRoles>
+  nameWithType.vb: DbSet(Of AspNetUserRoles)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetUserRoles)
+  name.vb: DbSet(Of AspNetUserRoles)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+  isExternal: true
+  name: AspNetUsers
+  nameWithType: SiocCmsAccountContext.AspNetUsers
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUsers
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUsers}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUsers}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetUsers>
+  nameWithType: DbSet<AspNetUsers>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetUsers>
+  nameWithType.vb: DbSet(Of AspNetUsers)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetUsers)
+  name.vb: DbSet(Of AspNetUsers)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    name: AspNetUsers
+    nameWithType: AspNetUsers
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    name: AspNetUsers
+    nameWithType: AspNetUsers
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+  isExternal: true
+  name: AspNetUserTokens
+  nameWithType: SiocCmsAccountContext.AspNetUserTokens
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.AspNetUserTokens
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<AspNetUserTokens>
+  nameWithType: DbSet<AspNetUserTokens>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.AspNetUserTokens>
+  nameWithType.vb: DbSet(Of AspNetUserTokens)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.AspNetUserTokens)
+  name.vb: DbSet(Of AspNetUserTokens)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+  isExternal: true
+  name: Clients
+  nameWithType: SiocCmsAccountContext.Clients
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.Clients
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.Clients}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.Clients}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<Clients>
+  nameWithType: DbSet<Clients>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.Clients>
+  nameWithType.vb: DbSet(Of Clients)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.Clients)
+  name.vb: DbSet(Of Clients)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.Clients
+    name: Clients
+    nameWithType: Clients
+    fullName: Swastika.Cms.Lib.Models.Account.Clients
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.Clients
+    name: Clients
+    nameWithType: Clients
+    fullName: Swastika.Cms.Lib.Models.Account.Clients
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+  isExternal: true
+  name: RefreshTokens
+  nameWithType: SiocCmsAccountContext.RefreshTokens
+  fullName: Swastika.Cms.Lib.Models.Account.SiocCmsAccountContext.RefreshTokens
+- uid: Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.RefreshTokens}
+  commentId: '!:Microsoft.EntityFrameworkCore.DbSet{Swastika.Cms.Lib.Models.Account.RefreshTokens}'
+  definition: Microsoft.EntityFrameworkCore.DbSet`1
+  name: DbSet<RefreshTokens>
+  nameWithType: DbSet<RefreshTokens>
+  fullName: Microsoft.EntityFrameworkCore.DbSet<Swastika.Cms.Lib.Models.Account.RefreshTokens>
+  nameWithType.vb: DbSet(Of RefreshTokens)
+  fullName.vb: Microsoft.EntityFrameworkCore.DbSet(Of Swastika.Cms.Lib.Models.Account.RefreshTokens)
+  name.vb: DbSet(Of RefreshTokens)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.RefreshTokens
+    name: RefreshTokens
+    nameWithType: RefreshTokens
+    fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.DbSet`1
+    name: DbSet
+    nameWithType: DbSet
+    fullName: Microsoft.EntityFrameworkCore.DbSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.RefreshTokens
+    name: RefreshTokens
+    nameWithType: RefreshTokens
+    fullName: Swastika.Cms.Lib.Models.Account.RefreshTokens
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

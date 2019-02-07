@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Page section - mixcore </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Page section - mixcore ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="client-side/swastika-io/page">
+<h1 id="pages">Pages</h1>
+
+<p>In mixcore CMS, you can put content on your site as either a &quot;article&quot; or a &quot;page&quot;. When you&#39;re writing a regular blog entry, you write a article. Articles, in a default setup, appear in reverse chronological order on your blog&#39;s home page.</p>
+<p>In contrast, pages are generally for non-chronological, hierarchical content: pages like &quot;About&quot; or &quot;Contact&quot; would be common examples. See below for examples of subpages in a hierarchy. Pages live outside of the normal blog chronology, and are often used to present timeless information about yourself or your site -- information that is always relevant. You can use Pages to organize and manage the structure of your website content.</p>
+<p>In addition to the common &quot;About&quot; and &quot;Contact&quot; pages, other examples include &quot;Copyright&quot;, &quot;Disclosure&quot;, &quot;Legal Information&quot;, &quot;Reprint Permissions&quot;, &quot;Company Information&quot; or &quot;Accessibility Statement&quot;.</p>
+<p>In general, pages are very similar to articles in that they both have titles and content. mixcore CMS Theme template files maintain a consistent look throughout your site. Pages, though, have several key distinctions that make them different from articles.</p>
+<h1 id="what-pages-are">What Pages Are</h1>
+<ul>
+<li>Pages are for content that isn&#39;t specifically time-dependent, or which isn&#39;t &quot;blog or article content&quot;.</li>
+<li>Pages can be organized into pages and subpages.</li>
+<li>Pages can use different Page Templates, including template files, Template Tags and other ASP code.</li>
+<li>More sophisticated themes may provide a wider range of adjustments or display options for individual pages.</li>
+<li>It&#39;s quite possible to make a website using mixcore CMS which only contains pages.</li>
+</ul>
+<h1 id="what-pages-are-not">What Pages Are Not</h1>
+<ul>
+<li>Pages are not articles, so they don&#39;t appear in the time-structured views within a blog or article section of a website.</li>
+<li>Pages cannot be associated with Categories, but they can be assigned Tags. However, Tags on Pages are not included in lists displayed via the &quot;tag&quot; permalink.</li>
+<li>The organizational structure for Pages comes from hierarchical interrelationship, not from a system of categorization. (e.g. Tags or Categories.)</li>
+<li>Pages are not files. They are stored in your database, just like articles.</li>
+<li>Although you can put Template Tags and ASP.NET code into a Page Template file, you cannot put these into the Page or Post content without using a mixcore CMS Plugin. But be careful: integrating ASP.NET code directly into page or article content may introduce a security problem, or an unexpected error on your website.</li>
+<li>Pages are not included in your site&#39;s &quot;feeds&quot;. (e.g. RSS or Atom.)</li>
+<li>Pages and Articles can be interpreted differently by site visitors and by search engines. Commonly, search engines place more relevance to time-dependent site content - articles - because a newer article on a topic may be more relevant than a static page.</li>
+<li>A specific page (or a specific article) can be set as a static front page. Websites which are set up in this way usually have a secondary page defined on which the latest blog articles are displayed.</li>
+</ul>
+<h1 id="how-to-create-a-page">How to create a page?</h1>
+<p>To create a new Page, log in to your mixcore CMS installation with sufficient admin privileges to create new pages. Select the <strong>Pages &gt; Create</strong> Page option to begin writing a new Page.</p>
+<p> <img src="https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/page/create-page.png" alt="Pages &gt; Create Page"></p>
+<h1 id="organizing-your-pages">Organizing Your Pages</h1>
+<p>Just as you can have subcategories within your Categories, you can also have subpages within your Pages, creating a hierarchy of pages.</p>
+<p>For example, a mixcore CMS site for a travel agent may feature an individual Page for each continent and country to which the agency can make travel arrangements. Under the Page titled &quot;Africa&quot; would be subpages for Cameroon, Lesotho, Swaziland and Togo. Another parent Page &quot;South America&quot; would feature subpages of Argentina, Brazil and Chile.</p>
+<p>The structure of the pages on the site would then look like this.</p>
+<ul>
+<li><p>Africa</p>
+<ul>
+<li>Cameroon</li>
+<li>Lesotho</li>
+<li>Swaziland</li>
+<li>Togo</li>
+</ul>
+</li>
+<li><p>South America</p>
+<ul>
+<li>Argentina</li>
+<li>Brazil</li>
+<li>Chile</li>
+</ul>
+</li>
+</ul>
+<h2 id="to-create-a-subpage">To create a subpage</h2>
+<ol>
+<li>Go to Administration &gt; Pages &gt; Create Page.</li>
+<li>In the &quot;Plug &amp; Play&quot; section, click the &quot;Set Parent&quot; tab menu. Then you will see a list of all the Pages already created for your site.</li>
+<li>Select the appropriate parent Page to make the current Page a child Page.</li>
+<li>Add content to the subpage.</li>
+<li>Click Publish when ready.</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/mixcore/mix.core-Docs/master/docs/documents/_images/page/set-parent-pages.png" alt="To create a subpage"></p>
+<h1 id="changing-the-url-of-your-pages">Changing the URL of Your Pages</h1>
+<p>(TBC)</p>
+<h2 id="creating-a-list-of-pages">Creating a List of Pages</h2>
+<p>(TBC)</p>
+<h1 id="page-templates">Page Templates</h1>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mixcore/docs/blob/master/documents/page.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixProductMedia
+  id: MixProductMedia
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+  langs:
+  - csharp
+  - vb
+  name: MixProductMedia
+  nameWithType: MixProductMedia
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixProductMedia : Object'
+    content.vb: >-
+      Public Class MixProductMedia
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: MixProductMedia()
+  nameWithType: MixProductMedia.MixProductMedia()
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProductMedia()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixProductMedia()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+  id: MediaId
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: MediaId
+  nameWithType: MixProductMedia.MediaId
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int MediaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MediaId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+  id: ProductId
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: MixProductMedia.ProductId
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProductId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixProductMedia.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixProductMedia.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+  id: Image
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: MixProductMedia.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+  id: Position
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: MixProductMedia.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Position As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixProductMedia.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixProductMedia.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+  id: MixMedia
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: MixMedia
+  nameWithType: MixProductMedia.MixMedia
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixMedia MixMedia { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixMedia
+    content.vb: Public Property MixMedia As MixMedia
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+  id: MixProduct
+  parent: Mix.Cms.Lib.Models.Cms.MixProductMedia
+  langs:
+  - csharp
+  - vb
+  name: MixProduct
+  nameWithType: MixProductMedia.MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixProduct MixProduct { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixProduct
+    content.vb: Public Property MixProduct As MixProduct
+  overload: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.#ctor
+  isExternal: true
+  name: MixProductMedia
+  nameWithType: MixProductMedia.MixProductMedia
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProductMedia
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+  isExternal: true
+  name: MediaId
+  nameWithType: MixProductMedia.MediaId
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MediaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: MixProductMedia.ProductId
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.ProductId
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixProductMedia.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixProductMedia.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Image*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+  isExternal: true
+  name: Image
+  nameWithType: MixProductMedia.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Image
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Position*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+  isExternal: true
+  name: Position
+  nameWithType: MixProductMedia.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Position
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixProductMedia.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixProductMedia.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+  isExternal: true
+  name: MixMedia
+  nameWithType: MixProductMedia.MixMedia
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixMedia
+- uid: Mix.Cms.Lib.Models.Cms.MixMedia
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixMedia
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixMedia
+  nameWithType: MixMedia
+  fullName: Mix.Cms.Lib.Models.Cms.MixMedia
+- uid: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+  isExternal: true
+  name: MixProduct
+  nameWithType: MixProductMedia.MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixProductMedia.MixProduct
+- uid: Mix.Cms.Lib.Models.Cms.MixProduct
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixProduct
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixProduct
+  nameWithType: MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixProduct

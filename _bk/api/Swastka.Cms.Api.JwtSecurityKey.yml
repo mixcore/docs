@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Api.JwtSecurityKey
+  commentId: T:Swastka.Cms.Api.JwtSecurityKey
+  id: JwtSecurityKey
+  parent: Swastka.Cms.Api
+  children:
+  - Swastka.Cms.Api.JwtSecurityKey.Create(System.String)
+  langs:
+  - csharp
+  - vb
+  name: JwtSecurityKey
+  nameWithType: JwtSecurityKey
+  fullName: Swastka.Cms.Api.JwtSecurityKey
+  type: Class
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api
+  syntax:
+    content: 'public static class JwtSecurityKey : Object'
+    content.vb: >-
+      Public Module JwtSecurityKey
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastka.Cms.Api.JwtSecurityKey.Create(System.String)
+  commentId: M:Swastka.Cms.Api.JwtSecurityKey.Create(System.String)
+  id: Create(System.String)
+  parent: Swastka.Cms.Api.JwtSecurityKey
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: JwtSecurityKey.Create(String)
+  fullName: Swastka.Cms.Api.JwtSecurityKey.Create(System.String)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Api
+  syntax:
+    content: public static SymmetricSecurityKey Create(string secret)
+    parameters:
+    - id: secret
+      type: System.String
+    return:
+      type: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+    content.vb: Public Shared Function Create(secret As String) As SymmetricSecurityKey
+  overload: Swastka.Cms.Api.JwtSecurityKey.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastka.Cms.Api
+  commentId: N:Swastka.Cms.Api
+  isExternal: true
+  name: Swastka.Cms.Api
+  nameWithType: Swastka.Cms.Api
+  fullName: Swastka.Cms.Api
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastka.Cms.Api.JwtSecurityKey.Create*
+  commentId: Overload:Swastka.Cms.Api.JwtSecurityKey.Create
+  isExternal: true
+  name: Create
+  nameWithType: JwtSecurityKey.Create
+  fullName: Swastka.Cms.Api.JwtSecurityKey.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+  isExternal: true
+  name: SymmetricSecurityKey
+  nameWithType: SymmetricSecurityKey
+  fullName: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey

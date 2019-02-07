@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.ModuleType
+  commentId: T:Mix.Cms.Lib.MixEnums.ModuleType
+  id: MixEnums.ModuleType
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.ModuleType.Form
+  - Mix.Cms.Lib.MixEnums.ModuleType.Root
+  - Mix.Cms.Lib.MixEnums.ModuleType.SubArticle
+  - Mix.Cms.Lib.MixEnums.ModuleType.SubPage
+  - Mix.Cms.Lib.MixEnums.ModuleType.SubProduct
+  - Mix.Cms.Lib.MixEnums.ModuleType.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.ModuleType
+  nameWithType: MixEnums.ModuleType
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class ModuleType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ModuleType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.ModuleType.value__
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.Root
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.Root
+  id: Root
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: MixEnums.ModuleType.Root
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.Root
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ModuleType Root
+    return:
+      type: Mix.Cms.Lib.MixEnums.ModuleType
+    content.vb: Public Const Root As MixEnums.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.SubPage
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.SubPage
+  id: SubPage
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubPage
+  nameWithType: MixEnums.ModuleType.SubPage
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.SubPage
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ModuleType SubPage
+    return:
+      type: Mix.Cms.Lib.MixEnums.ModuleType
+    content.vb: Public Const SubPage As MixEnums.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.SubArticle
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.SubArticle
+  id: SubArticle
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubArticle
+  nameWithType: MixEnums.ModuleType.SubArticle
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.SubArticle
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ModuleType SubArticle
+    return:
+      type: Mix.Cms.Lib.MixEnums.ModuleType
+    content.vb: Public Const SubArticle As MixEnums.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.SubProduct
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.SubProduct
+  id: SubProduct
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubProduct
+  nameWithType: MixEnums.ModuleType.SubProduct
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.SubProduct
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ModuleType SubProduct
+    return:
+      type: Mix.Cms.Lib.MixEnums.ModuleType
+    content.vb: Public Const SubProduct As MixEnums.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ModuleType.Form
+  commentId: F:Mix.Cms.Lib.MixEnums.ModuleType.Form
+  id: Form
+  parent: Mix.Cms.Lib.MixEnums.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: MixEnums.ModuleType.Form
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType.Form
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ModuleType Form
+    return:
+      type: Mix.Cms.Lib.MixEnums.ModuleType
+    content.vb: Public Const Form As MixEnums.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.ModuleType
+  commentId: T:Mix.Cms.Lib.MixEnums.ModuleType
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.ModuleType
+  nameWithType: MixEnums.ModuleType
+  fullName: Mix.Cms.Lib.MixEnums.ModuleType

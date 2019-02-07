@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastka.Cms.Web.Startup
+  commentId: T:Swastka.Cms.Web.Startup
+  id: Startup
+  parent: Swastka.Cms.Web
+  children:
+  - Swastka.Cms.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  - Swastka.Cms.Web.Startup.Configuration
+  - Swastka.Cms.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  - Swastka.Cms.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  langs:
+  - csharp
+  - vb
+  name: Startup
+  nameWithType: Startup
+  fullName: Swastka.Cms.Web.Startup
+  type: Class
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Web
+  syntax:
+    content: 'public class Startup : Object'
+    content.vb: >-
+      Public Class Startup
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastka.Cms.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  commentId: M:Swastka.Cms.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  id: '#ctor(Microsoft.Extensions.Configuration.IConfiguration)'
+  parent: Swastka.Cms.Web.Startup
+  langs:
+  - csharp
+  - vb
+  name: Startup(IConfiguration)
+  nameWithType: Startup.Startup(IConfiguration)
+  fullName: Swastka.Cms.Web.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
+  type: Constructor
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Web
+  syntax:
+    content: public Startup(IConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Public Sub New(configuration As IConfiguration)
+  overload: Swastka.Cms.Web.Startup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Swastka.Cms.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: Swastka.Cms.Web.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigureServices(IServiceCollection)
+  nameWithType: Startup.ConfigureServices(IServiceCollection)
+  fullName: Swastka.Cms.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Web
+  syntax:
+    content: public void ConfigureServices(IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Sub ConfigureServices(services As IServiceCollection)
+  overload: Swastka.Cms.Web.Startup.ConfigureServices*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  commentId: M:Swastka.Cms.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  id: Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  parent: Swastka.Cms.Web.Startup
+  langs:
+  - csharp
+  - vb
+  name: Configure(IApplicationBuilder)
+  nameWithType: Startup.Configure(IApplicationBuilder)
+  fullName: Swastka.Cms.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)
+  type: Method
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Web
+  syntax:
+    content: public void Configure(IApplicationBuilder app)
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    content.vb: Public Sub Configure(app As IApplicationBuilder)
+  overload: Swastka.Cms.Web.Startup.Configure*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastka.Cms.Web.Startup.Configuration
+  commentId: P:Swastka.Cms.Web.Startup.Configuration
+  id: Configuration
+  parent: Swastka.Cms.Web.Startup
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Startup.Configuration
+  fullName: Swastka.Cms.Web.Startup.Configuration
+  type: Property
+  source:
+    path: Swastka.Cms.Api
+    isExternal: true
+  assemblies:
+  - Swastka.Cms.Api
+  namespace: Swastka.Cms.Web
+  syntax:
+    content: public IConfiguration Configuration { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Public ReadOnly Property Configuration As IConfiguration
+  overload: Swastka.Cms.Web.Startup.Configuration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Swastka.Cms.Web
+  commentId: N:Swastka.Cms.Web
+  isExternal: true
+  name: Swastka.Cms.Web
+  nameWithType: Swastka.Cms.Web
+  fullName: Swastka.Cms.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastka.Cms.Web.Startup.#ctor*
+  commentId: Overload:Swastka.Cms.Web.Startup.#ctor
+  isExternal: true
+  name: Startup
+  nameWithType: Startup.Startup
+  fullName: Swastka.Cms.Web.Startup.Startup
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
+- uid: Swastka.Cms.Web.Startup.ConfigureServices*
+  commentId: Overload:Swastka.Cms.Web.Startup.ConfigureServices
+  isExternal: true
+  name: ConfigureServices
+  nameWithType: Startup.ConfigureServices
+  fullName: Swastka.Cms.Web.Startup.ConfigureServices
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Swastka.Cms.Web.Startup.Configure*
+  commentId: Overload:Swastka.Cms.Web.Startup.Configure
+  isExternal: true
+  name: Configure
+  nameWithType: Startup.Configure
+  fullName: Swastka.Cms.Web.Startup.Configure
+- uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+- uid: Swastka.Cms.Web.Startup.Configuration*
+  commentId: Overload:Swastka.Cms.Web.Startup.Configuration
+  isExternal: true
+  name: Configuration
+  nameWithType: Startup.Configuration
+  fullName: Swastka.Cms.Web.Startup.Configuration

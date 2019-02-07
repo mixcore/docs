@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.TagHelpers
+  commentId: N:Swastika.Cms.Mvc.TagHelpers
+  id: Swastika.Cms.Mvc.TagHelpers
+  children:
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.TagHelpers
+  nameWithType: Swastika.Cms.Mvc.TagHelpers
+  fullName: Swastika.Cms.Mvc.TagHelpers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  commentId: T:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  isExternal: true
+  name: ActiveRouteTagHelper
+  nameWithType: ActiveRouteTagHelper
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper

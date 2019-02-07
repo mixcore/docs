@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Models.Entity
+  commentId: T:Swastika.Domain.Core.Models.Entity
+  id: Entity
+  parent: Swastika.Domain.Core.Models
+  children:
+  - Swastika.Domain.Core.Models.Entity.#ctor
+  - Swastika.Domain.Core.Models.Entity.Equals(System.Object)
+  - Swastika.Domain.Core.Models.Entity.GetHashCode
+  - Swastika.Domain.Core.Models.Entity.Id
+  - Swastika.Domain.Core.Models.Entity.op_Equality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  - Swastika.Domain.Core.Models.Entity.op_Inequality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  - Swastika.Domain.Core.Models.Entity.ToString
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: Entity
+  fullName: Swastika.Domain.Core.Models.Entity
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: 'public abstract class Entity : Object'
+    content.vb: >-
+      Public MustInherit Class Entity
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Swastika.Domain.Core.Models.Entity.op_Inequality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  commentId: M:Swastika.Domain.Core.Models.Entity.op_Inequality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  id: op_Inequality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: Inequality(Entity, Entity)
+  nameWithType: Entity.Inequality(Entity, Entity)
+  fullName: Swastika.Domain.Core.Models.Entity.Inequality(Swastika.Domain.Core.Models.Entity, Swastika.Domain.Core.Models.Entity)
+  type: Operator
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public static bool operator !=(Entity a, Entity b)
+    parameters:
+    - id: a
+      type: Swastika.Domain.Core.Models.Entity
+    - id: b
+      type: Swastika.Domain.Core.Models.Entity
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As Entity, b As Entity) As Boolean
+  overload: Swastika.Domain.Core.Models.Entity.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Domain.Core.Models.Entity.op_Equality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  commentId: M:Swastika.Domain.Core.Models.Entity.op_Equality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  id: op_Equality(Swastika.Domain.Core.Models.Entity,Swastika.Domain.Core.Models.Entity)
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: Equality(Entity, Entity)
+  nameWithType: Entity.Equality(Entity, Entity)
+  fullName: Swastika.Domain.Core.Models.Entity.Equality(Swastika.Domain.Core.Models.Entity, Swastika.Domain.Core.Models.Entity)
+  type: Operator
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public static bool operator ==(Entity a, Entity b)
+    parameters:
+    - id: a
+      type: Swastika.Domain.Core.Models.Entity
+    - id: b
+      type: Swastika.Domain.Core.Models.Entity
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As Entity, b As Entity) As Boolean
+  overload: Swastika.Domain.Core.Models.Entity.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Domain.Core.Models.Entity.Equals(System.Object)
+  commentId: M:Swastika.Domain.Core.Models.Entity.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Entity.Equals(Object)
+  fullName: Swastika.Domain.Core.Models.Entity.Equals(System.Object)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: Swastika.Domain.Core.Models.Entity.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Domain.Core.Models.Entity.GetHashCode
+  commentId: M:Swastika.Domain.Core.Models.Entity.GetHashCode
+  id: GetHashCode
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Entity.GetHashCode()
+  fullName: Swastika.Domain.Core.Models.Entity.GetHashCode()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Swastika.Domain.Core.Models.Entity.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Domain.Core.Models.Entity.ToString
+  commentId: M:Swastika.Domain.Core.Models.Entity.ToString
+  id: ToString
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Entity.ToString()
+  fullName: Swastika.Domain.Core.Models.Entity.ToString()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Swastika.Domain.Core.Models.Entity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Domain.Core.Models.Entity.#ctor
+  commentId: M:Swastika.Domain.Core.Models.Entity.#ctor
+  id: '#ctor'
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: Entity()
+  nameWithType: Entity.Entity()
+  fullName: Swastika.Domain.Core.Models.Entity.Entity()
+  type: Constructor
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: protected Entity()
+    content.vb: Protected Sub New
+  overload: Swastika.Domain.Core.Models.Entity.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Domain.Core.Models.Entity.Id
+  commentId: P:Swastika.Domain.Core.Models.Entity.Id
+  id: Id
+  parent: Swastika.Domain.Core.Models.Entity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Entity.Id
+  fullName: Swastika.Domain.Core.Models.Entity.Id
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Swastika.Domain.Core.Models.Entity.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: true
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Domain.Core.Models.Entity.op_Inequality*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.op_Inequality
+  isExternal: true
+  name: Inequality
+  nameWithType: Entity.Inequality
+  fullName: Swastika.Domain.Core.Models.Entity.Inequality
+- uid: Swastika.Domain.Core.Models.Entity
+  commentId: T:Swastika.Domain.Core.Models.Entity
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: Entity
+  nameWithType: Entity
+  fullName: Swastika.Domain.Core.Models.Entity
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Domain.Core.Models.Entity.op_Equality*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.op_Equality
+  isExternal: true
+  name: Equality
+  nameWithType: Entity.Equality
+  fullName: Swastika.Domain.Core.Models.Entity.Equality
+- uid: Swastika.Domain.Core.Models.Entity.Equals*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.Equals
+  isExternal: true
+  name: Equals
+  nameWithType: Entity.Equals
+  fullName: Swastika.Domain.Core.Models.Entity.Equals
+- uid: Swastika.Domain.Core.Models.Entity.GetHashCode*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.GetHashCode
+  isExternal: true
+  name: GetHashCode
+  nameWithType: Entity.GetHashCode
+  fullName: Swastika.Domain.Core.Models.Entity.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Domain.Core.Models.Entity.ToString*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: Entity.ToString
+  fullName: Swastika.Domain.Core.Models.Entity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Domain.Core.Models.Entity.#ctor*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.#ctor
+  isExternal: true
+  name: Entity
+  nameWithType: Entity.Entity
+  fullName: Swastika.Domain.Core.Models.Entity.Entity
+- uid: Swastika.Domain.Core.Models.Entity.Id*
+  commentId: Overload:Swastika.Domain.Core.Models.Entity.Id
+  isExternal: true
+  name: Id
+  nameWithType: Entity.Id
+  fullName: Swastika.Domain.Core.Models.Entity.Id
+- uid: System.Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid

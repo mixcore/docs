@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.FileViewModel
+  id: FileViewModel
+  parent: Mix.Cms.Lib.ViewModels
+  children:
+  - Mix.Cms.Lib.ViewModels.FileViewModel.#ctor
+  - Mix.Cms.Lib.ViewModels.FileViewModel.Content
+  - Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+  - Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+  - Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+  - Mix.Cms.Lib.ViewModels.FileViewModel.FileStream
+  - Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+  - Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+  - Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+  langs:
+  - csharp
+  - vb
+  name: FileViewModel
+  nameWithType: FileViewModel
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: 'public class FileViewModel : Object'
+    content.vb: >-
+      Public Class FileViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.#ctor
+  commentId: M:Mix.Cms.Lib.ViewModels.FileViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileViewModel()
+  nameWithType: FileViewModel.FileViewModel()
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileViewModel()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public FileViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+  id: FullPath
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: FullPath
+  nameWithType: FileViewModel.FullPath
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string FullPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullPath As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.FullPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+  id: WebPath
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: WebPath
+  nameWithType: FileViewModel.WebPath
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string WebPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WebPath As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.WebPath*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+  id: FolderName
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: FolderName
+  nameWithType: FileViewModel.FolderName
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string FolderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FolderName As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.FolderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+  id: FileFolder
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileFolder
+  nameWithType: FileViewModel.FileFolder
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string FileFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileFolder As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+  id: Filename
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: Filename
+  nameWithType: FileViewModel.Filename
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Filename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filename As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+  id: Extension
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: Extension
+  nameWithType: FileViewModel.Extension
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Extension { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Extension As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.Extension*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Content
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.Content
+  id: Content
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: FileViewModel.Content
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Content
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FileStream
+  commentId: P:Mix.Cms.Lib.ViewModels.FileViewModel.FileStream
+  id: FileStream
+  parent: Mix.Cms.Lib.ViewModels.FileViewModel
+  langs:
+  - csharp
+  - vb
+  name: FileStream
+  nameWithType: FileViewModel.FileStream
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileStream
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels
+  syntax:
+    content: public string FileStream { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileStream As String
+  overload: Mix.Cms.Lib.ViewModels.FileViewModel.FileStream*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.ViewModels
+  commentId: N:Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels
+  nameWithType: Mix.Cms.Lib.ViewModels
+  fullName: Mix.Cms.Lib.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.#ctor*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.#ctor
+  isExternal: true
+  name: FileViewModel
+  nameWithType: FileViewModel.FileViewModel
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileViewModel
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FullPath*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+  isExternal: true
+  name: FullPath
+  nameWithType: FileViewModel.FullPath
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FullPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.WebPath*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+  isExternal: true
+  name: WebPath
+  nameWithType: FileViewModel.WebPath
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.WebPath
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FolderName*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+  isExternal: true
+  name: FolderName
+  nameWithType: FileViewModel.FolderName
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FolderName
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+  isExternal: true
+  name: FileFolder
+  nameWithType: FileViewModel.FileFolder
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileFolder
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Filename*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+  isExternal: true
+  name: Filename
+  nameWithType: FileViewModel.Filename
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Filename
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Extension*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+  isExternal: true
+  name: Extension
+  nameWithType: FileViewModel.Extension
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Extension
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.Content*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.Content
+  isExternal: true
+  name: Content
+  nameWithType: FileViewModel.Content
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.Content
+- uid: Mix.Cms.Lib.ViewModels.FileViewModel.FileStream*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.FileViewModel.FileStream
+  isExternal: true
+  name: FileStream
+  nameWithType: FileViewModel.FileStream
+  fullName: Mix.Cms.Lib.ViewModels.FileViewModel.FileStream

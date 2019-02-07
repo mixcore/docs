@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  commentId: T:Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  id: RegisterViewModel
+  parent: Swastika.Identity.Models.AccountViewModels
+  children:
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  - Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  langs:
+  - csharp
+  - vb
+  name: RegisterViewModel
+  nameWithType: RegisterViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class RegisterViewModel : Object'
+    content.vb: >-
+      Public Class RegisterViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: RegisterViewModel()
+  nameWithType: RegisterViewModel.RegisterViewModel()
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.RegisterViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public RegisterViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  id: FirstName
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: RegisterViewModel.FirstName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  id: LastName
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: RegisterViewModel.LastName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  id: NickName
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: RegisterViewModel.NickName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  id: UserClaims
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserClaims
+  nameWithType: RegisterViewModel.UserClaims
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public List<SelectListItem> UserClaims { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}
+    content.vb: Public Property UserClaims As List(Of SelectListItem)
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  id: UserName
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: RegisterViewModel.UserName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  id: Email
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: RegisterViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  id: Password
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: RegisterViewModel.Password
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  id: ConfirmPassword
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: ConfirmPassword
+  nameWithType: RegisterViewModel.ConfirmPassword
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ConfirmPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConfirmPassword As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  commentId: P:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  id: ReturnUrl
+  parent: Swastika.Identity.Models.AccountViewModels.RegisterViewModel
+  langs:
+  - csharp
+  - vb
+  name: ReturnUrl
+  nameWithType: RegisterViewModel.ReturnUrl
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ReturnUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnUrl As String
+  overload: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.AccountViewModels
+  commentId: N:Swastika.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.AccountViewModels
+  nameWithType: Swastika.Identity.Models.AccountViewModels
+  fullName: Swastika.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.#ctor
+  isExternal: true
+  name: RegisterViewModel
+  nameWithType: RegisterViewModel.RegisterViewModel
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.RegisterViewModel
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: RegisterViewModel.FirstName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.FirstName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: RegisterViewModel.LastName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.LastName
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: RegisterViewModel.NickName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.NickName
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+  isExternal: true
+  name: UserClaims
+  nameWithType: RegisterViewModel.UserClaims
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserClaims
+- uid: System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}
+  commentId: '!:System.Collections.Generic.List{Microsoft.AspNetCore.Mvc.Rendering.SelectListItem}'
+  definition: System.Collections.Generic.List`1
+  name: List<SelectListItem>
+  nameWithType: List<SelectListItem>
+  fullName: System.Collections.Generic.List<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>
+  nameWithType.vb: List(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.List(Of Microsoft.AspNetCore.Mvc.Rendering.SelectListItem)
+  name.vb: List(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: Microsoft.AspNetCore.Mvc.Rendering.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: RegisterViewModel.UserName
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.UserName
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+  isExternal: true
+  name: Email
+  nameWithType: RegisterViewModel.Email
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Email
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+  isExternal: true
+  name: Password
+  nameWithType: RegisterViewModel.Password
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.Password
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+  isExternal: true
+  name: ConfirmPassword
+  nameWithType: RegisterViewModel.ConfirmPassword
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ConfirmPassword
+- uid: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl*
+  commentId: Overload:Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl
+  isExternal: true
+  name: ReturnUrl
+  nameWithType: RegisterViewModel.ReturnUrl
+  fullName: Swastika.Identity.Models.AccountViewModels.RegisterViewModel.ReturnUrl

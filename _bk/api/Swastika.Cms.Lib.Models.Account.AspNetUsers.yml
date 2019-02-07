@@ -1,0 +1,1740 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  commentId: T:Swastika.Cms.Lib.Models.Account.AspNetUsers
+  id: AspNetUsers
+  parent: Swastika.Cms.Lib.Models.Account
+  children:
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  - Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+  langs:
+  - csharp
+  - vb
+  name: AspNetUsers
+  nameWithType: AspNetUsers
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class AspNetUsers : Object'
+    content.vb: >-
+      Public Class AspNetUsers
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUsers()
+  nameWithType: AspNetUsers.AspNetUsers()
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUsers()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: AspNetUsers.Id
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  id: AccessFailedCount
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AccessFailedCount
+  nameWithType: AspNetUsers.AccessFailedCount
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public int AccessFailedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AccessFailedCount As Integer
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  id: Avatar
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Avatar
+  nameWithType: AspNetUsers.Avatar
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Avatar { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Avatar As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  id: ConcurrencyStamp
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: ConcurrencyStamp
+  nameWithType: AspNetUsers.ConcurrencyStamp
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ConcurrencyStamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConcurrencyStamp As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  id: CountryId
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: AspNetUsers.CountryId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+  id: Culture
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: AspNetUsers.Culture
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+  id: Dob
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Dob
+  nameWithType: AspNetUsers.Dob
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public Nullable<DateTime> Dob { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property Dob As Nullable(Of DateTime)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+  id: Email
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: AspNetUsers.Email
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  id: EmailConfirmed
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: EmailConfirmed
+  nameWithType: AspNetUsers.EmailConfirmed
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public bool EmailConfirmed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EmailConfirmed As Boolean
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  id: FirstName
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: AspNetUsers.FirstName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+  id: Gender
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: AspNetUsers.Gender
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string Gender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Gender As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  id: IsActived
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: IsActived
+  nameWithType: AspNetUsers.IsActived
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public bool IsActived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActived As Boolean
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  id: JoinDate
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: JoinDate
+  nameWithType: AspNetUsers.JoinDate
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime JoinDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property JoinDate As DateTime
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  id: LastModified
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LastModified
+  nameWithType: AspNetUsers.LastModified
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime LastModified { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastModified As DateTime
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+  id: LastName
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: AspNetUsers.LastName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  id: LockoutEnabled
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LockoutEnabled
+  nameWithType: AspNetUsers.LockoutEnabled
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public bool LockoutEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LockoutEnabled As Boolean
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  id: LockoutEnd
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LockoutEnd
+  nameWithType: AspNetUsers.LockoutEnd
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public Nullable<DateTimeOffset> LockoutEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public Property LockoutEnd As Nullable(Of DateTimeOffset)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  id: ModifiedBy
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: ModifiedBy
+  nameWithType: AspNetUsers.ModifiedBy
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string ModifiedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ModifiedBy As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+  id: NickName
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: AspNetUsers.NickName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  id: NormalizedEmail
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NormalizedEmail
+  nameWithType: AspNetUsers.NormalizedEmail
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string NormalizedEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NormalizedEmail As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  id: NormalizedUserName
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NormalizedUserName
+  nameWithType: AspNetUsers.NormalizedUserName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string NormalizedUserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NormalizedUserName As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  id: PasswordHash
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PasswordHash
+  nameWithType: AspNetUsers.PasswordHash
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string PasswordHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PasswordHash As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  id: PhoneNumber
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: AspNetUsers.PhoneNumber
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  id: PhoneNumberConfirmed
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberConfirmed
+  nameWithType: AspNetUsers.PhoneNumberConfirmed
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public bool PhoneNumberConfirmed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneNumberConfirmed As Boolean
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  id: RegisterType
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: RegisterType
+  nameWithType: AspNetUsers.RegisterType
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string RegisterType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegisterType As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  id: SecurityStamp
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: SecurityStamp
+  nameWithType: AspNetUsers.SecurityStamp
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string SecurityStamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SecurityStamp As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  id: TwoFactorEnabled
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: TwoFactorEnabled
+  nameWithType: AspNetUsers.TwoFactorEnabled
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public bool TwoFactorEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TwoFactorEnabled As Boolean
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+  id: UserName
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: AspNetUsers.UserName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  id: AspNetUserClaimsApplicationUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaimsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserClaimsApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserClaims> AspNetUserClaimsApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}
+    content.vb: Public Property AspNetUserClaimsApplicationUser As ICollection(Of AspNetUserClaims)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  id: AspNetUserClaimsUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaimsUser
+  nameWithType: AspNetUsers.AspNetUserClaimsUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserClaims> AspNetUserClaimsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}
+    content.vb: Public Property AspNetUserClaimsUser As ICollection(Of AspNetUserClaims)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  id: AspNetUserLoginsApplicationUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserLoginsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserLoginsApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserLogins> AspNetUserLoginsApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}
+    content.vb: Public Property AspNetUserLoginsApplicationUser As ICollection(Of AspNetUserLogins)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  id: AspNetUserLoginsUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserLoginsUser
+  nameWithType: AspNetUsers.AspNetUserLoginsUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserLogins> AspNetUserLoginsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}
+    content.vb: Public Property AspNetUserLoginsUser As ICollection(Of AspNetUserLogins)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  id: AspNetUserRolesApplicationUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserRolesApplicationUser
+  nameWithType: AspNetUsers.AspNetUserRolesApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserRoles> AspNetUserRolesApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}
+    content.vb: Public Property AspNetUserRolesApplicationUser As ICollection(Of AspNetUserRoles)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  id: AspNetUserRolesUser
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserRolesUser
+  nameWithType: AspNetUsers.AspNetUserRolesUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserRoles> AspNetUserRolesUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}
+    content.vb: Public Property AspNetUserRolesUser As ICollection(Of AspNetUserRoles)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  commentId: P:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  id: AspNetUserTokens
+  parent: Swastika.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserTokens
+  nameWithType: AspNetUsers.AspNetUserTokens
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserTokens> AspNetUserTokens { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}
+    content.vb: Public Property AspNetUserTokens As ICollection(Of AspNetUserTokens)
+  overload: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Account
+  commentId: N:Swastika.Cms.Lib.Models.Account
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Account
+  nameWithType: Swastika.Cms.Lib.Models.Account
+  fullName: Swastika.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  isExternal: true
+  name: AspNetUsers
+  nameWithType: AspNetUsers.AspNetUsers
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUsers
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+  isExternal: true
+  name: Id
+  nameWithType: AspNetUsers.Id
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  isExternal: true
+  name: AccessFailedCount
+  nameWithType: AspNetUsers.AccessFailedCount
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  isExternal: true
+  name: Avatar
+  nameWithType: AspNetUsers.Avatar
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Avatar
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  isExternal: true
+  name: ConcurrencyStamp
+  nameWithType: AspNetUsers.ConcurrencyStamp
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: AspNetUsers.CountryId
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.CountryId
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: AspNetUsers.Culture
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Culture
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+  isExternal: true
+  name: Dob
+  nameWithType: AspNetUsers.Dob
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Dob
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Email*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+  isExternal: true
+  name: Email
+  nameWithType: AspNetUsers.Email
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Email
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  isExternal: true
+  name: EmailConfirmed
+  nameWithType: AspNetUsers.EmailConfirmed
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: AspNetUsers.FirstName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.FirstName
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+  isExternal: true
+  name: Gender
+  nameWithType: AspNetUsers.Gender
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.Gender
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  isExternal: true
+  name: IsActived
+  nameWithType: AspNetUsers.IsActived
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.IsActived
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  isExternal: true
+  name: JoinDate
+  nameWithType: AspNetUsers.JoinDate
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  isExternal: true
+  name: LastModified
+  nameWithType: AspNetUsers.LastModified
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastModified
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: AspNetUsers.LastName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LastName
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  isExternal: true
+  name: LockoutEnabled
+  nameWithType: AspNetUsers.LockoutEnabled
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  isExternal: true
+  name: LockoutEnd
+  nameWithType: AspNetUsers.LockoutEnd
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+- uid: System.Nullable{System.DateTimeOffset}
+  commentId: '!:System.Nullable{System.DateTimeOffset}'
+  definition: System.Nullable`1
+  name: Nullable<DateTimeOffset>
+  nameWithType: Nullable<DateTimeOffset>
+  fullName: System.Nullable<System.DateTimeOffset>
+  nameWithType.vb: Nullable(Of DateTimeOffset)
+  fullName.vb: System.Nullable(Of System.DateTimeOffset)
+  name.vb: Nullable(Of DateTimeOffset)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  isExternal: true
+  name: ModifiedBy
+  nameWithType: AspNetUsers.ModifiedBy
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: AspNetUsers.NickName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NickName
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  isExternal: true
+  name: NormalizedEmail
+  nameWithType: AspNetUsers.NormalizedEmail
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  isExternal: true
+  name: NormalizedUserName
+  nameWithType: AspNetUsers.NormalizedUserName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  isExternal: true
+  name: PasswordHash
+  nameWithType: AspNetUsers.PasswordHash
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: AspNetUsers.PhoneNumber
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  isExternal: true
+  name: PhoneNumberConfirmed
+  nameWithType: AspNetUsers.PhoneNumberConfirmed
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  isExternal: true
+  name: RegisterType
+  nameWithType: AspNetUsers.RegisterType
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  isExternal: true
+  name: SecurityStamp
+  nameWithType: AspNetUsers.SecurityStamp
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  isExternal: true
+  name: TwoFactorEnabled
+  nameWithType: AspNetUsers.TwoFactorEnabled
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: AspNetUsers.UserName
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.UserName
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  isExternal: true
+  name: AspNetUserClaimsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserClaimsApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserClaims}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserClaims>
+  nameWithType: ICollection<AspNetUserClaims>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Account.AspNetUserClaims>
+  nameWithType.vb: ICollection(Of AspNetUserClaims)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Account.AspNetUserClaims)
+  name.vb: ICollection(Of AspNetUserClaims)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  isExternal: true
+  name: AspNetUserClaimsUser
+  nameWithType: AspNetUsers.AspNetUserClaimsUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  isExternal: true
+  name: AspNetUserLoginsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserLoginsApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserLogins}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserLogins>
+  nameWithType: ICollection<AspNetUserLogins>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Account.AspNetUserLogins>
+  nameWithType.vb: ICollection(Of AspNetUserLogins)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Account.AspNetUserLogins)
+  name.vb: ICollection(Of AspNetUserLogins)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  isExternal: true
+  name: AspNetUserLoginsUser
+  nameWithType: AspNetUsers.AspNetUserLoginsUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  isExternal: true
+  name: AspNetUserRolesApplicationUser
+  nameWithType: AspNetUsers.AspNetUserRolesApplicationUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserRoles}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserRoles>
+  nameWithType: ICollection<AspNetUserRoles>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Account.AspNetUserRoles>
+  nameWithType.vb: ICollection(Of AspNetUserRoles)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Account.AspNetUserRoles)
+  name.vb: ICollection(Of AspNetUserRoles)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  isExternal: true
+  name: AspNetUserRolesUser
+  nameWithType: AspNetUsers.AspNetUserRolesUser
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+- uid: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens*
+  commentId: Overload:Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  isExternal: true
+  name: AspNetUserTokens
+  nameWithType: AspNetUsers.AspNetUserTokens
+  fullName: Swastika.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Account.AspNetUserTokens}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserTokens>
+  nameWithType: ICollection<AspNetUserTokens>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Account.AspNetUserTokens>
+  nameWithType.vb: ICollection(Of AspNetUserTokens)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Account.AspNetUserTokens)
+  name.vb: ICollection(Of AspNetUserTokens)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Swastika.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

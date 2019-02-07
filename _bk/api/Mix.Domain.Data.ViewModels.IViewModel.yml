@@ -1,0 +1,36 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Data.ViewModels.IViewModel
+  commentId: T:Mix.Domain.Data.ViewModels.IViewModel
+  id: IViewModel
+  parent: Mix.Domain.Data.ViewModels
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IViewModel
+  nameWithType: IViewModel
+  fullName: Mix.Domain.Data.ViewModels.IViewModel
+  type: Interface
+  source:
+    path: Mix.Heart
+    isExternal: true
+  assemblies:
+  - Mix.Heart
+  namespace: Mix.Domain.Data.ViewModels
+  syntax:
+    content: public interface IViewModel
+    content.vb: Public Interface IViewModel
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: Mix.Domain.Data.ViewModels
+  commentId: N:Mix.Domain.Data.ViewModels
+  isExternal: true
+  name: Mix.Domain.Data.ViewModels
+  nameWithType: Mix.Domain.Data.ViewModels
+  fullName: Mix.Domain.Data.ViewModels

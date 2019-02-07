@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Startup
+  commentId: T:Swastika.Cms.Web.Mvc.Startup
+  id: Startup
+  parent: Swastika.Cms.Web.Mvc
+  children:
+  - Swastika.Cms.Web.Mvc.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  - Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  - Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  - Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  - Swastika.Cms.Web.Mvc.Startup.Configuration
+  - Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  - Swastika.Cms.Web.Mvc.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Swastika.Cms.Web.Mvc.Startup.CONST_ROUTE_DEFAULT_CULTURE
+  langs:
+  - csharp
+  - vb
+  name: Startup
+  nameWithType: Startup
+  fullName: Swastika.Cms.Web.Mvc.Startup
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: 'public class Startup : Object'
+    content.vb: >-
+      Public Class Startup
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Startup.CONST_ROUTE_DEFAULT_CULTURE
+  commentId: F:Swastika.Cms.Web.Mvc.Startup.CONST_ROUTE_DEFAULT_CULTURE
+  id: CONST_ROUTE_DEFAULT_CULTURE
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: CONST_ROUTE_DEFAULT_CULTURE
+  nameWithType: Startup.CONST_ROUTE_DEFAULT_CULTURE
+  fullName: Swastika.Cms.Web.Mvc.Startup.CONST_ROUTE_DEFAULT_CULTURE
+  type: Field
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public const string CONST_ROUTE_DEFAULT_CULTURE = "vi-vn"
+    return:
+      type: System.String
+    content.vb: Public Const CONST_ROUTE_DEFAULT_CULTURE As String = "vi-vn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  id: ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigIdentity(IServiceCollection, IConfiguration, String)
+  nameWithType: Startup.ConfigIdentity(IServiceCollection, IConfiguration, String)
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigIdentity(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: protected void ConfigIdentity(IServiceCollection services, IConfiguration Configuration, string connectionName)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: Configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    - id: connectionName
+      type: System.String
+    content.vb: Protected Sub ConfigIdentity(services As IServiceCollection, Configuration As IConfiguration, connectionName As String)
+  overload: Swastika.Cms.Web.Mvc.Startup.ConfigIdentity*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  id: ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigJWTToken(IServiceCollection, IConfiguration)
+  nameWithType: Startup.ConfigJWTToken(IServiceCollection, IConfiguration)
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: protected void ConfigJWTToken(IServiceCollection services, IConfiguration Configuration)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: Configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Protected Sub ConfigJWTToken(services As IServiceCollection, Configuration As IConfiguration)
+  overload: Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  id: ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigCookieAuth(IServiceCollection, IConfiguration)
+  nameWithType: Startup.ConfigCookieAuth(IServiceCollection, IConfiguration)
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: protected void ConfigCookieAuth(IServiceCollection services, IConfiguration Configuration)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: Configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Protected Sub ConfigCookieAuth(services As IServiceCollection, Configuration As IConfiguration)
+  overload: Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Swastika.Cms.Web.Mvc.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+  id: '#ctor(Microsoft.Extensions.Configuration.IConfiguration)'
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: Startup(IConfiguration)
+  nameWithType: Startup.Startup(IConfiguration)
+  fullName: Swastika.Cms.Web.Mvc.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public Startup(IConfiguration configuration)
+    parameters:
+    - id: configuration
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Public Sub New(configuration As IConfiguration)
+  overload: Swastika.Cms.Web.Mvc.Startup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: ConfigureServices(IServiceCollection)
+  nameWithType: Startup.ConfigureServices(IServiceCollection)
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public void ConfigureServices(IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Sub ConfigureServices(services As IServiceCollection)
+  overload: Swastika.Cms.Web.Mvc.Startup.ConfigureServices*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  commentId: M:Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  id: Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: Configure(IApplicationBuilder, IHostingEnvironment)
+  nameWithType: Startup.Configure(IApplicationBuilder, IHostingEnvironment)
+  fullName: Swastika.Cms.Web.Mvc.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IHostingEnvironment)
+  type: Method
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    parameters:
+    - id: app
+      type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+    - id: env
+      type: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+    content.vb: Public Sub Configure(app As IApplicationBuilder, env As IHostingEnvironment)
+  overload: Swastika.Cms.Web.Mvc.Startup.Configure*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Startup.Configuration
+  commentId: P:Swastika.Cms.Web.Mvc.Startup.Configuration
+  id: Configuration
+  parent: Swastika.Cms.Web.Mvc.Startup
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: Startup.Configuration
+  fullName: Swastika.Cms.Web.Mvc.Startup.Configuration
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc
+  syntax:
+    content: public IConfiguration Configuration { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.Configuration.IConfiguration
+    content.vb: Public ReadOnly Property Configuration As IConfiguration
+  overload: Swastika.Cms.Web.Mvc.Startup.Configuration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Swastika.Cms.Web.Mvc
+  commentId: N:Swastika.Cms.Web.Mvc
+  isExternal: true
+  name: Swastika.Cms.Web.Mvc
+  nameWithType: Swastika.Cms.Web.Mvc
+  fullName: Swastika.Cms.Web.Mvc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigIdentity*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.ConfigIdentity
+  isExternal: true
+  name: ConfigIdentity
+  nameWithType: Startup.ConfigIdentity
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigIdentity
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  isExternal: true
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.Configuration.IConfiguration
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: Microsoft.Extensions.Configuration.IConfiguration
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken
+  isExternal: true
+  name: ConfigJWTToken
+  nameWithType: Startup.ConfigJWTToken
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigJWTToken
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth
+  isExternal: true
+  name: ConfigCookieAuth
+  nameWithType: Startup.ConfigCookieAuth
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigCookieAuth
+- uid: Swastika.Cms.Web.Mvc.Startup.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.#ctor
+  isExternal: true
+  name: Startup
+  nameWithType: Startup.Startup
+  fullName: Swastika.Cms.Web.Mvc.Startup.Startup
+- uid: Swastika.Cms.Web.Mvc.Startup.ConfigureServices*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.ConfigureServices
+  isExternal: true
+  name: ConfigureServices
+  nameWithType: Startup.ConfigureServices
+  fullName: Swastika.Cms.Web.Mvc.Startup.ConfigureServices
+- uid: Swastika.Cms.Web.Mvc.Startup.Configure*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.Configure
+  isExternal: true
+  name: Configure
+  nameWithType: Startup.Configure
+  fullName: Swastika.Cms.Web.Mvc.Startup.Configure
+- uid: Microsoft.AspNetCore.Builder.IApplicationBuilder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+- uid: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+  isExternal: true
+  name: IHostingEnvironment
+  nameWithType: IHostingEnvironment
+  fullName: Microsoft.AspNetCore.Hosting.IHostingEnvironment
+- uid: Swastika.Cms.Web.Mvc.Startup.Configuration*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Startup.Configuration
+  isExternal: true
+  name: Configuration
+  nameWithType: Startup.Configuration
+  fullName: Swastika.Cms.Web.Mvc.Startup.Configuration

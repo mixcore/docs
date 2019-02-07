@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  commentId: T:Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  id: MixEnums.ConfigurationCategory
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.ConfigurationCategory.Email
+  - Mix.Cms.Lib.MixEnums.ConfigurationCategory.PageSize
+  - Mix.Cms.Lib.MixEnums.ConfigurationCategory.Site
+  - Mix.Cms.Lib.MixEnums.ConfigurationCategory.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.ConfigurationCategory
+  nameWithType: MixEnums.ConfigurationCategory
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class ConfigurationCategory : Enum'
+    content.vb: >-
+      Public NotInheritable Class ConfigurationCategory
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.ConfigurationCategory.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.ConfigurationCategory.value__
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory.PageSize
+  commentId: F:Mix.Cms.Lib.MixEnums.ConfigurationCategory.PageSize
+  id: PageSize
+  parent: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: MixEnums.ConfigurationCategory.PageSize
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory.PageSize
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ConfigurationCategory PageSize
+    return:
+      type: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+    content.vb: Public Const PageSize As MixEnums.ConfigurationCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory.Site
+  commentId: F:Mix.Cms.Lib.MixEnums.ConfigurationCategory.Site
+  id: Site
+  parent: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  langs:
+  - csharp
+  - vb
+  name: Site
+  nameWithType: MixEnums.ConfigurationCategory.Site
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory.Site
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ConfigurationCategory Site
+    return:
+      type: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+    content.vb: Public Const Site As MixEnums.ConfigurationCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory.Email
+  commentId: F:Mix.Cms.Lib.MixEnums.ConfigurationCategory.Email
+  id: Email
+  parent: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: MixEnums.ConfigurationCategory.Email
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory.Email
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.ConfigurationCategory Email
+    return:
+      type: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+    content.vb: Public Const Email As MixEnums.ConfigurationCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  commentId: T:Mix.Cms.Lib.MixEnums.ConfigurationCategory
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.ConfigurationCategory
+  nameWithType: MixEnums.ConfigurationCategory
+  fullName: Mix.Cms.Lib.MixEnums.ConfigurationCategory

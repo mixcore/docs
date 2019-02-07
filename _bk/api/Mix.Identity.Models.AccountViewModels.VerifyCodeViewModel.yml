@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  id: VerifyCodeViewModel
+  parent: Mix.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe
+  - Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+  langs:
+  - csharp
+  - vb
+  name: VerifyCodeViewModel
+  nameWithType: VerifyCodeViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class VerifyCodeViewModel : Object'
+    content.vb: >-
+      Public Class VerifyCodeViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor
+  commentId: M:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: VerifyCodeViewModel()
+  nameWithType: VerifyCodeViewModel.VerifyCodeViewModel()
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.VerifyCodeViewModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public VerifyCodeViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+  commentId: P:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+  id: Provider
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: VerifyCodeViewModel.Provider
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Provider As String
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+  commentId: P:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+  id: Code
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: VerifyCodeViewModel.Code
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Code As String
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+  commentId: P:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+  id: ReturnUrl
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: ReturnUrl
+  nameWithType: VerifyCodeViewModel.ReturnUrl
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string ReturnUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnUrl As String
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+  commentId: P:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+  id: RememberBrowser
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RememberBrowser
+  nameWithType: VerifyCodeViewModel.RememberBrowser
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public bool RememberBrowser { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RememberBrowser As Boolean
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe
+  commentId: P:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe
+  id: RememberMe
+  parent: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RememberMe
+  nameWithType: VerifyCodeViewModel.RememberMe
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public bool RememberMe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RememberMe As Boolean
+  overload: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.#ctor
+  isExternal: true
+  name: VerifyCodeViewModel
+  nameWithType: VerifyCodeViewModel.VerifyCodeViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.VerifyCodeViewModel
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+  isExternal: true
+  name: Provider
+  nameWithType: VerifyCodeViewModel.Provider
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+  isExternal: true
+  name: Code
+  nameWithType: VerifyCodeViewModel.Code
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.Code
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+  isExternal: true
+  name: ReturnUrl
+  nameWithType: VerifyCodeViewModel.ReturnUrl
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.ReturnUrl
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+  isExternal: true
+  name: RememberBrowser
+  nameWithType: VerifyCodeViewModel.RememberBrowser
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberBrowser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe
+  isExternal: true
+  name: RememberMe
+  nameWithType: VerifyCodeViewModel.RememberMe
+  fullName: Mix.Identity.Models.AccountViewModels.VerifyCodeViewModel.RememberMe

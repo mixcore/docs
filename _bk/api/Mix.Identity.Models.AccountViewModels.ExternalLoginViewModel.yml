@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel
+  commentId: T:Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel
+  id: ExternalLoginViewModel
+  parent: Mix.Identity.Models.AccountViewModels
+  children:
+  - Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor
+  - Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+  langs:
+  - csharp
+  - vb
+  name: ExternalLoginViewModel
+  nameWithType: ExternalLoginViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: 'public class ExternalLoginViewModel : Object'
+    content.vb: >-
+      Public Class ExternalLoginViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor
+  commentId: M:Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: ExternalLoginViewModel()
+  nameWithType: ExternalLoginViewModel.ExternalLoginViewModel()
+  fullName: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.ExternalLoginViewModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public ExternalLoginViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+  commentId: P:Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+  id: Email
+  parent: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: ExternalLoginViewModel.Email
+  fullName: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.AccountViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.AccountViewModels
+  commentId: N:Mix.Identity.Models.AccountViewModels
+  isExternal: true
+  name: Mix.Identity.Models.AccountViewModels
+  nameWithType: Mix.Identity.Models.AccountViewModels
+  fullName: Mix.Identity.Models.AccountViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.#ctor
+  isExternal: true
+  name: ExternalLoginViewModel
+  nameWithType: ExternalLoginViewModel.ExternalLoginViewModel
+  fullName: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.ExternalLoginViewModel
+- uid: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email*
+  commentId: Overload:Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+  isExternal: true
+  name: Email
+  nameWithType: ExternalLoginViewModel.Email
+  fullName: Mix.Identity.Models.AccountViewModels.ExternalLoginViewModel.Email
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

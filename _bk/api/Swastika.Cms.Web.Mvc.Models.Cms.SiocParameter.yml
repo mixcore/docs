@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  commentId: T:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  id: SiocParameter
+  parent: Swastika.Cms.Web.Mvc.Models.Cms
+  children:
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status
+  - Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+  langs:
+  - csharp
+  - vb
+  name: SiocParameter
+  nameWithType: SiocParameter
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  type: Class
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: 'public class SiocParameter : Object'
+    content.vb: >-
+      Public Class SiocParameter
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor
+  commentId: M:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: SiocParameter()
+  nameWithType: SiocParameter.SiocParameter()
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.SiocParameter()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public SiocParameter()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+  id: Name
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SiocParameter.Name
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+  id: Description
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SiocParameter.Description
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+  id: Value
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SiocParameter.Value
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+  id: Priority
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocParameter.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status
+  commentId: P:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status
+  id: Status
+  parent: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocParameter.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Web.Mvc
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+  namespace: Swastika.Cms.Web.Mvc.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Web.Mvc.Models.Cms
+  commentId: N:Swastika.Cms.Web.Mvc.Models.Cms
+  isExternal: false
+  name: Swastika.Cms.Web.Mvc.Models.Cms
+  nameWithType: Swastika.Cms.Web.Mvc.Models.Cms
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.#ctor
+  isExternal: true
+  name: SiocParameter
+  nameWithType: SiocParameter.SiocParameter
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.SiocParameter
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+  isExternal: true
+  name: Name
+  nameWithType: SiocParameter.Name
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+  isExternal: true
+  name: Description
+  nameWithType: SiocParameter.Description
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Description
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+  isExternal: true
+  name: Value
+  nameWithType: SiocParameter.Value
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Value
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocParameter.Priority
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status*
+  commentId: Overload:Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocParameter.Status
+  fullName: Swastika.Cms.Web.Mvc.Models.Cms.SiocParameter.Status

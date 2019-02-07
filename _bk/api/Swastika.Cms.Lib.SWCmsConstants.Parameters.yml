@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.Parameters
+  id: SWCmsConstants.Parameters
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplateExtension
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesAssetFolder
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesFolder
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.UploadFolder
+  - Swastika.Cms.Lib.SWCmsConstants.Parameters.WebRootPath
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.Parameters
+  nameWithType: SWCmsConstants.Parameters
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public static class Parameters : Object'
+    content.vb: >-
+      Public Module Parameters
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
+  id: FileFolder
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: FileFolder
+  nameWithType: SWCmsConstants.Parameters.FileFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.FileFolder
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string FileFolder = "Content"
+    return:
+      type: System.String
+    content.vb: Public Const FileFolder As String = "Content"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplateExtension
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplateExtension
+  id: TemplateExtension
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: TemplateExtension
+  nameWithType: SWCmsConstants.Parameters.TemplateExtension
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplateExtension
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string TemplateExtension = ".cshtml"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateExtension As String = ".cshtml"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesAssetFolder
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesAssetFolder
+  id: TemplatesAssetFolder
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: TemplatesAssetFolder
+  nameWithType: SWCmsConstants.Parameters.TemplatesAssetFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesAssetFolder
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string TemplatesAssetFolder = "Templates"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatesAssetFolder As String = "Templates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesFolder
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesFolder
+  id: TemplatesFolder
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: TemplatesFolder
+  nameWithType: SWCmsConstants.Parameters.TemplatesFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.TemplatesFolder
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string TemplatesFolder = "Views/Shared/Templates"
+    return:
+      type: System.String
+    content.vb: Public Const TemplatesFolder As String = "Views/Shared/Templates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.UploadFolder
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.UploadFolder
+  id: UploadFolder
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: UploadFolder
+  nameWithType: SWCmsConstants.Parameters.UploadFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.UploadFolder
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string UploadFolder = "Content/Uploads"
+    return:
+      type: System.String
+    content.vb: Public Const UploadFolder As String = "Content/Uploads"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.Parameters.WebRootPath
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.Parameters.WebRootPath
+  id: WebRootPath
+  parent: Swastika.Cms.Lib.SWCmsConstants.Parameters
+  langs:
+  - csharp
+  - vb
+  name: WebRootPath
+  nameWithType: SWCmsConstants.Parameters.WebRootPath
+  fullName: Swastika.Cms.Lib.SWCmsConstants.Parameters.WebRootPath
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string WebRootPath = "wwwroot"
+    return:
+      type: System.String
+    content.vb: Public Const WebRootPath As String = "wwwroot"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

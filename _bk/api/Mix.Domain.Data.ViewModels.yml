@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Data.ViewModels
+  commentId: N:Mix.Domain.Data.ViewModels
+  id: Mix.Domain.Data.ViewModels
+  children:
+  - Mix.Domain.Data.ViewModels.IViewModel
+  - Mix.Domain.Data.ViewModels.ViewModelBase`3
+  langs:
+  - csharp
+  - vb
+  name: Mix.Domain.Data.ViewModels
+  nameWithType: Mix.Domain.Data.ViewModels
+  fullName: Mix.Domain.Data.ViewModels
+  type: Namespace
+  assemblies:
+  - Mix.Heart
+references:
+- uid: Mix.Domain.Data.ViewModels.IViewModel
+  commentId: T:Mix.Domain.Data.ViewModels.IViewModel
+  parent: Mix.Domain.Data.ViewModels
+  isExternal: true
+  name: IViewModel
+  nameWithType: IViewModel
+  fullName: Mix.Domain.Data.ViewModels.IViewModel
+- uid: Mix.Domain.Data.ViewModels.ViewModelBase`3
+  commentId: T:Mix.Domain.Data.ViewModels.ViewModelBase`3
+  isExternal: true
+  name: ViewModelBase<TDbContext, TModel, TView>
+  nameWithType: ViewModelBase<TDbContext, TModel, TView>
+  fullName: Mix.Domain.Data.ViewModels.ViewModelBase<TDbContext, TModel, TView>
+  nameWithType.vb: ViewModelBase(Of TDbContext, TModel, TView)
+  fullName.vb: Mix.Domain.Data.ViewModels.ViewModelBase(Of TDbContext, TModel, TView)
+  name.vb: ViewModelBase(Of TDbContext, TModel, TView)
+  spec.csharp:
+  - uid: Mix.Domain.Data.ViewModels.ViewModelBase`3
+    name: ViewModelBase
+    nameWithType: ViewModelBase
+    fullName: Mix.Domain.Data.ViewModels.ViewModelBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Domain.Data.ViewModels.ViewModelBase`3
+    name: ViewModelBase
+    nameWithType: ViewModelBase
+    fullName: Mix.Domain.Data.ViewModels.ViewModelBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TDbContext
+    nameWithType: TDbContext
+    fullName: TDbContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Data.ViewModels
+  commentId: N:Mix.Domain.Data.ViewModels
+  isExternal: true
+  name: Mix.Domain.Data.ViewModels
+  nameWithType: Mix.Domain.Data.ViewModels
+  fullName: Mix.Domain.Data.ViewModels

@@ -1,0 +1,711 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseGenericApiControoler&lt;TDbContext, TModel&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseGenericApiControoler&lt;TDbContext, TModel&gt;
+   ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2">
+  
+  
+  <h1 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2" class="text-break">Class BaseGenericApiControoler&lt;TDbContext, TModel&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseGenericApiControoler&lt;TDbContext, TModel&gt;</span></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiArticleController.html">ApiArticleController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiConfigurationController.html">ApiConfigurationController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiCultureController.html">ApiCultureController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiCustomerController.html">ApiCustomerController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiLanguageController.html">ApiLanguageController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiMediaController.html">ApiMediaController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiModuleController.html">ApiModuleController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiModuleDataController.html">ApiModuleDataController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiOrderController.html">ApiOrderController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiPageController.html">ApiPageController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiPortalPageController.html">ApiPortalPageController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiProductController.html">ApiProductController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiTemplateController.html">ApiTemplateController</a></div>
+      <div class="level2"><a class="xref" href="Mix.Cms.Api.Controllers.v1.ApiThemeController.html">ApiThemeController</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mix.Cms.Api.Controllers.v1.html">Mix.Cms.Api.Controllers.v1</a></h6>
+  <h6><strong>Assembly</strong>: Mix.Cms.Api.dll</h6>
+  <h5 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BaseGenericApiControoler&lt;TDbContext, TModel&gt; : Controller where TDbContext : DbContext where TModel : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDbContext</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TModel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__ctor_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.#ctor*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__ctor_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_SignalR_IHubContext_Mix_Cms_Hub_PortalHub__" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.SignalR.IHubContext{Mix.Cms.Hub.PortalHub})">BaseGenericApiControoler(IMemoryCache, IHubContext&lt;PortalHub&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseGenericApiControoler(IMemoryCache memoryCache, IHubContext&lt;PortalHub&gt; hubContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Caching.Memory.IMemoryCache</span></td>
+        <td><span class="parametername">memoryCache</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.SignalR.IHubContext</span>&lt;<a class="xref" href="Mix.Cms.Hub.PortalHub.html">PortalHub</a>&gt;</td>
+        <td><span class="parametername">hubContext</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__domain" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._domain">_domain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _domain</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__hubContext" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._hubContext">_hubContext</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IHubContext&lt;PortalHub&gt; _hubContext</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.SignalR.IHubContext</span>&lt;<a class="xref" href="Mix.Cms.Hub.PortalHub.html">PortalHub</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__lang" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._lang">_lang</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string _lang</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2__memoryCache" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2._memoryCache">_memoryCache</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IMemoryCache _memoryCache</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Caching.Memory.IMemoryCache</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_AlertAsync_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_AlertAsync_System_String_System_Int32_System_String_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.AlertAsync(System.String,System.Int32,System.String)">AlertAsync(String, Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AlertAsync(string action, int status, string message = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_DeleteAsync_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_DeleteAsync__1_System_Linq_Expressions_Expression_System_Func__1_System_Boolean___System_Boolean_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.DeleteAsync``1(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)">DeleteAsync&lt;TView&gt;(Expression&lt;Func&lt;TModel, Boolean&gt;&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;RepositoryResponse&lt;TModel&gt;&gt; DeleteAsync&lt;TView&gt;(Expression&lt;Func&lt;TModel, bool&gt;&gt; predicate, bool isDeleteRelated = false)
+    where TView : ViewModelBase&lt;TDbContext, TModel, TView&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TModel, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isDeleteRelated</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;TModel&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetLanguage_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetLanguage" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetLanguage">GetLanguage()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void GetLanguage()</code></pre>
+  </div>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetListAsync_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetListAsync__1_System_String_Mix_Domain_Core_ViewModels_RequestPaging_System_Linq_Expressions_Expression_System_Func__1_System_Boolean____1_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetListAsync``1(System.String,Mix.Domain.Core.ViewModels.RequestPaging,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)">GetListAsync&lt;TView&gt;(String, RequestPaging, Expression&lt;Func&lt;TModel, Boolean&gt;&gt;, TModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;RepositoryResponse&lt;PaginationModel&lt;TView&gt;&gt;&gt; GetListAsync&lt;TView&gt;(string key, RequestPaging request, Expression&lt;Func&lt;TModel, bool&gt;&gt; predicate = null, TModel model = null)
+    where TView : ViewModelBase&lt;TDbContext, TModel, TView&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RequestPaging.html">RequestPaging</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TModel, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TModel</span></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.PaginationModel-1.html">PaginationModel</a>&lt;TView&gt;&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetSingleAsync_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_GetSingleAsync__1_System_String_System_Linq_Expressions_Expression_System_Func__1_System_Boolean____1_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.GetSingleAsync``1(System.String,System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`1)">GetSingleAsync&lt;TView&gt;(String, Expression&lt;Func&lt;TModel, Boolean&gt;&gt;, TModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;RepositoryResponse&lt;TView&gt;&gt; GetSingleAsync&lt;TView&gt;(string key, Expression&lt;Func&lt;TModel, bool&gt;&gt; predicate = null, TModel model = null)
+    where TView : ViewModelBase&lt;TDbContext, TModel, TView&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TModel, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TModel</span></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;TView&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_OnActionExecuting_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">OnActionExecuting(ActionExecutingContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnActionExecuting(ActionExecutingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_ParseRequestPagingDate_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_ParseRequestPagingDate_Mix_Domain_Core_ViewModels_RequestPaging_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.ParseRequestPagingDate(Mix.Domain.Core.ViewModels.RequestPaging)">ParseRequestPagingDate(RequestPaging)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ParseRequestPagingDate(RequestPaging request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RequestPaging.html">RequestPaging</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_RemoveCache_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_RemoveCache" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.RemoveCache">RemoveCache()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RemoveCache()</code></pre>
+  </div>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_SaveAsync_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_SaveAsync__1___0_System_Boolean_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveAsync``1(``0,System.Boolean)">SaveAsync&lt;TView&gt;(TView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;RepositoryResponse&lt;TView&gt;&gt; SaveAsync&lt;TView&gt;(TView vm, bool isSaveSubModel)
+    where TView : ViewModelBase&lt;TDbContext, TModel, TView&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TView</span></td>
+        <td><span class="parametername">vm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSaveSubModel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Mix.Domain.Core.ViewModels.RepositoryResponse-1.html">RepositoryResponse</a>&lt;TView&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_SaveEncrypt_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt*"></a>
+  <h4 id="Mix_Cms_Api_Controllers_v1_BaseGenericApiControoler_2_SaveEncrypt_Mix_Domain_Core_ViewModels_RequestEncrypted_" data-uid="Mix.Cms.Api.Controllers.v1.BaseGenericApiControoler`2.SaveEncrypt(Mix.Domain.Core.ViewModels.RequestEncrypted)">SaveEncrypt(RequestEncrypted)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public JObject SaveEncrypt(RequestEncrypted request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Domain.Core.ViewModels.RequestEncrypted.html">RequestEncrypted</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Linq.JObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

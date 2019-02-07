@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.ViewComponents
+  commentId: N:Swastika.Cms.Mvc.ViewComponents
+  id: Swastika.Cms.Mvc.ViewComponents
+  children:
+  - Swastika.Cms.Mvc.ViewComponents.FooterNavbar
+  - Swastika.Cms.Mvc.ViewComponents.HeaderNavbar
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.ViewComponents
+  nameWithType: Swastika.Cms.Mvc.ViewComponents
+  fullName: Swastika.Cms.Mvc.ViewComponents
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Mvc.ViewComponents.FooterNavbar
+  commentId: T:Swastika.Cms.Mvc.ViewComponents.FooterNavbar
+  isExternal: true
+  name: FooterNavbar
+  nameWithType: FooterNavbar
+  fullName: Swastika.Cms.Mvc.ViewComponents.FooterNavbar
+- uid: Swastika.Cms.Mvc.ViewComponents.HeaderNavbar
+  commentId: T:Swastika.Cms.Mvc.ViewComponents.HeaderNavbar
+  isExternal: true
+  name: HeaderNavbar
+  nameWithType: HeaderNavbar
+  fullName: Swastika.Cms.Mvc.ViewComponents.HeaderNavbar

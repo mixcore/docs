@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  id: SiocOrderItem
+  parent: Swastika.Cms.Lib.Models.Cms
+  children:
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+  - Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+  langs:
+  - csharp
+  - vb
+  name: SiocOrderItem
+  nameWithType: SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class SiocOrderItem : Object'
+    content.vb: >-
+      Public Class SiocOrderItem
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: SiocOrderItem()
+  nameWithType: SiocOrderItem.SiocOrderItem()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrderItem()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocOrderItem()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SiocOrderItem.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+  id: OrderId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: SiocOrderItem.OrderId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrderId As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+  id: ProductId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: SiocOrderItem.ProductId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductId As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+  id: Quantity
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: SiocOrderItem.Quantity
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+  id: Price
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: SiocOrderItem.Price
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public double Price { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Price As Double
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+  id: PriceUnit
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: SiocOrderItem.PriceUnit
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PriceUnit As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+  id: Specificulture
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: SiocOrderItem.Specificulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+  id: Description
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SiocOrderItem.Description
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+  id: Status
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocOrderItem.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+  id: SiocOrder
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: SiocOrder
+  nameWithType: SiocOrderItem.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocOrder SiocOrder { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    content.vb: Public Property SiocOrder As SiocOrder
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+  id: SiocProduct
+  parent: Swastika.Cms.Lib.Models.Cms.SiocOrderItem
+  langs:
+  - csharp
+  - vb
+  name: SiocProduct
+  nameWithType: SiocOrderItem.SiocProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocProduct SiocProduct { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Cms.SiocProduct
+    content.vb: Public Property SiocProduct As SiocProduct
+  overload: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.#ctor
+  isExternal: true
+  name: SiocOrderItem
+  nameWithType: SiocOrderItem.SiocOrderItem
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrderItem
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: SiocOrderItem.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+  isExternal: true
+  name: OrderId
+  nameWithType: SiocOrderItem.OrderId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.OrderId
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: SiocOrderItem.ProductId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.ProductId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+  isExternal: true
+  name: Quantity
+  nameWithType: SiocOrderItem.Quantity
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Quantity
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+  isExternal: true
+  name: Price
+  nameWithType: SiocOrderItem.Price
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: SiocOrderItem.PriceUnit
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.PriceUnit
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: SiocOrderItem.Specificulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Specificulture
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+  isExternal: true
+  name: Description
+  nameWithType: SiocOrderItem.Description
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Description
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocOrderItem.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.Status
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+  isExternal: true
+  name: SiocOrder
+  nameWithType: SiocOrderItem.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocOrder
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocOrder
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocOrder
+  nameWithType: SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+- uid: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+  isExternal: true
+  name: SiocProduct
+  nameWithType: SiocOrderItem.SiocProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocOrderItem.SiocProduct
+- uid: Swastika.Cms.Lib.Models.Cms.SiocProduct
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocProduct
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocProduct
+  nameWithType: SiocProduct
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocProduct

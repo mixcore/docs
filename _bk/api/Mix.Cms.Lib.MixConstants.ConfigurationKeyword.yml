@@ -1,0 +1,554 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  commentId: T:Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  id: MixConstants.ConfigurationKeyword
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptIV
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptKey
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ConnectionString
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultContentStatus
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultCulture
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultStatus
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplate
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateContent
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateFolder
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTheme
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsEncryptApi
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsSqlite
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Language
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.OrderBy
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.TemplateExtension
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Theme
+  - Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ThemeId
+  langs:
+  - csharp
+  - vb
+  name: MixConstants.ConfigurationKeyword
+  nameWithType: MixConstants.ConfigurationKeyword
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public static class ConfigurationKeyword : Object'
+    content.vb: >-
+      Public Module ConfigurationKeyword
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ConnectionString
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ConnectionString
+  id: ConnectionString
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: MixConstants.ConfigurationKeyword.ConnectionString
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ConnectionString
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string ConnectionString = "ConnectionString"
+    return:
+      type: System.String
+    content.vb: Public Const ConnectionString As String = "ConnectionString"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.OrderBy
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.OrderBy
+  id: OrderBy
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: OrderBy
+  nameWithType: MixConstants.ConfigurationKeyword.OrderBy
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.OrderBy
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string OrderBy = "OrderBy"
+    return:
+      type: System.String
+    content.vb: Public Const OrderBy As String = "OrderBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateFolder
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateFolder
+  id: DefaultTemplateFolder
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplateFolder
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultTemplateFolder
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateFolder
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplateFolder = "DefaultTemplateFolder"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplateFolder As String = "DefaultTemplateFolder"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Theme
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Theme
+  id: Theme
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: MixConstants.ConfigurationKeyword.Theme
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Theme
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string Theme = "Theme"
+    return:
+      type: System.String
+    content.vb: Public Const Theme As String = "Theme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Language
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Language
+  id: Language
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: MixConstants.ConfigurationKeyword.Language
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.Language
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string Language = "Language"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "Language"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultStatus
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultStatus
+  id: DefaultStatus
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultStatus
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultStatus
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultStatus
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultStatus = "DefaultStatus"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStatus As String = "DefaultStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultCulture
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultCulture
+  id: DefaultCulture
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultCulture
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultCulture
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultCulture
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultCulture = "DefaultCulture"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCulture As String = "DefaultCulture"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsSqlite
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsSqlite
+  id: IsSqlite
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: IsSqlite
+  nameWithType: MixConstants.ConfigurationKeyword.IsSqlite
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsSqlite
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string IsSqlite = "IsSqlite"
+    return:
+      type: System.String
+    content.vb: Public Const IsSqlite As String = "IsSqlite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ThemeId
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ThemeId
+  id: ThemeId
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ThemeId
+  nameWithType: MixConstants.ConfigurationKeyword.ThemeId
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ThemeId
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string ThemeId = "ThemeId"
+    return:
+      type: System.String
+    content.vb: Public Const ThemeId As String = "ThemeId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptKey
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptKey
+  id: ApiEncryptKey
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ApiEncryptKey
+  nameWithType: MixConstants.ConfigurationKeyword.ApiEncryptKey
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptKey
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string ApiEncryptKey = "ApiEncryptKey"
+    return:
+      type: System.String
+    content.vb: Public Const ApiEncryptKey As String = "ApiEncryptKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptIV
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptIV
+  id: ApiEncryptIV
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: ApiEncryptIV
+  nameWithType: MixConstants.ConfigurationKeyword.ApiEncryptIV
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.ApiEncryptIV
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string ApiEncryptIV = "ApiEncryptIV"
+    return:
+      type: System.String
+    content.vb: Public Const ApiEncryptIV As String = "ApiEncryptIV"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsEncryptApi
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsEncryptApi
+  id: IsEncryptApi
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: IsEncryptApi
+  nameWithType: MixConstants.ConfigurationKeyword.IsEncryptApi
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.IsEncryptApi
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string IsEncryptApi = "IsEncryptApi"
+    return:
+      type: System.String
+    content.vb: Public Const IsEncryptApi As String = "IsEncryptApi"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.TemplateExtension
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.TemplateExtension
+  id: TemplateExtension
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: TemplateExtension
+  nameWithType: MixConstants.ConfigurationKeyword.TemplateExtension
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.TemplateExtension
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string TemplateExtension = "TemplateExtension"
+    return:
+      type: System.String
+    content.vb: Public Const TemplateExtension As String = "TemplateExtension"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTheme
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTheme
+  id: DefaultTheme
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultTheme
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultTheme
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTheme
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultTheme = "DefaultTheme"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTheme As String = "DefaultTheme"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplate
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplate
+  id: DefaultTemplate
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplate
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultTemplate
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplate
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplate = "DefaultTemplate"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplate As String = "DefaultTemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateContent
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateContent
+  id: DefaultTemplateContent
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultTemplateContent
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultTemplateContent
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultTemplateContent
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultTemplateContent = "DefaultTemplateContent"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTemplateContent As String = "DefaultTemplateContent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultContentStatus
+  commentId: F:Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultContentStatus
+  id: DefaultContentStatus
+  parent: Mix.Cms.Lib.MixConstants.ConfigurationKeyword
+  langs:
+  - csharp
+  - vb
+  name: DefaultContentStatus
+  nameWithType: MixConstants.ConfigurationKeyword.DefaultContentStatus
+  fullName: Mix.Cms.Lib.MixConstants.ConfigurationKeyword.DefaultContentStatus
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const string DefaultContentStatus = "DefaultContentStatus"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultContentStatus As String = "DefaultContentStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1172 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ReadListItemViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ReadListItemViewModel
+   ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel">
+  
+  
+  <h1 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel" class="text-break">Class ReadListItemViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html">ViewModelBase</a>&lt;<a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a>, <a class="xref" href="Mix.Cms.Lib.Models.Cms.MixPage.html">MixPage</a>, <a class="xref" href="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.html">ReadListItemViewModel</a>&gt;</div>
+    <div class="level2"><span class="xref">ReadListItemViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Repository">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Repository</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitModel">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.InitModel()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseModel__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ParseModel(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Validate__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Validate(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandViewAsync__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ExpandViewAsync(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitViewAsync__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.InitViewAsync(MixPage, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseViewAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ParseViewAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneAsync__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.CloneAsync(MixPage, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModelsAsync__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.CloneSubModelsAsync(ReadListItemViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.RemoveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModelsAsync__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.RemoveRelatedModelsAsync(ReadListItemViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.SaveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModelsAsync__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.SaveSubModelsAsync(MixPage, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitView__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.InitView(MixPage, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseView_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ParseView(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandView__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ExpandView(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Clone__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Clone(MixPage, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModels__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.CloneSubModels(ReadListItemViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.RemoveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModels__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.RemoveRelatedModels(ReadListItemViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.SaveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModels__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.SaveSubModels(MixPage, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Exception">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Exception</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsClone">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.IsClone</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsLazyLoad">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.IsLazyLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Cultures">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Cultures</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Mapper">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Mapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Model">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ModelMapper">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.ModelMapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Priority">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Specificulture">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Specificulture</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Errors">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsValid">ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;.IsValid</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mix.Cms.Lib.ViewModels.MixPages.html">Mix.Cms.Lib.ViewModels.MixPages</a></h6>
+  <h6><strong>Assembly</strong>: Mix.Cms.Lib.dll</h6>
+  <h5 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ReadListItemViewModel : ViewModelBase&lt;MixCmsContext, MixPage, ReadListItemViewModel&gt;, IViewModel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel__ctor" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.#ctor">ReadListItemViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadListItemViewModel()</code></pre>
+  </div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel__ctor_Mix_Cms_Lib_Models_Cms_MixPage_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.#ctor(Mix.Cms.Lib.Models.Cms.MixPage,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ReadListItemViewModel(MixPage, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadListItemViewModel(MixPage model, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixPage.html">MixPage</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Childs_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Childs*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Childs" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Childs">Childs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ReadListItemViewModel&gt; Childs { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.html">ReadListItemViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Content_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Content*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Content" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Content">Content</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CreatedBy_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CreatedBy*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CreatedBy" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CreatedBy">CreatedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CreatedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CreatedDateTime_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CreatedDateTime*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CreatedDateTime" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CreatedDateTime">CreatedDateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreatedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CssClass_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CssClass*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_CssClass" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.CssClass">CssClass</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CssClass { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_DetailsUrl_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.DetailsUrl*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_DetailsUrl" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.DetailsUrl">DetailsUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DetailsUrl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Domain_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Domain*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Domain" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Domain">Domain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Excerpt_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Excerpt*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Excerpt" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Excerpt">Excerpt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Excerpt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Fields_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Fields*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Fields" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Fields">Fields</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Fields { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Icon_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Icon*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Icon" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Icon">Icon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Icon { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Id_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Id*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Id" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Image_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Image*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Image" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Image">Image</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Image { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ImageUrl_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ImageUrl*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ImageUrl" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ImageUrl">ImageUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ImageUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_IsActived_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.IsActived*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_IsActived" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.IsActived">IsActived</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActived { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_LastModified_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.LastModified*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_LastModified" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.LastModified">LastModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime LastModified { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Layout_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Layout*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Layout" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Layout">Layout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Layout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Level_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Level*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Level" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Level">Level</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;int&gt; Level { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ModifiedBy_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ModifiedBy*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ModifiedBy" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ModifiedBy">ModifiedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModifiedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Name_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Name*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Name" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_PageSize_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.PageSize*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_PageSize" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.PageSize">PageSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PageSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoDescription_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoDescription*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoDescription" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoDescription">SeoDescription</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoDescription { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoKeywords_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoKeywords*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoKeywords" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoKeywords">SeoKeywords</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoKeywords { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoName_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoName" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoName">SeoName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoTitle_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoTitle*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_SeoTitle" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.SeoTitle">SeoTitle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoTitle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_StaticUrl_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.StaticUrl*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_StaticUrl" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.StaticUrl">StaticUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string StaticUrl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Status_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Status*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Status" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Status">Status</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MixEnums.MixContentStatus Status { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.MixEnums.MixContentStatus.html">MixEnums.MixContentStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Tags_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Tags*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Tags" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Tags">Tags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Tags { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Template_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Template*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Template" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Template">Template</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Template { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Title_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Title*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Title" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Title">Title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_TotalArticle_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.TotalArticle*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_TotalArticle" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.TotalArticle">TotalArticle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalArticle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_TotalProduct_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.TotalProduct*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_TotalProduct" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.TotalProduct">TotalProduct</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalProduct { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Type_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Type*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_Type" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.Type">Type</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MixEnums.MixPageType Type { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.MixEnums.MixPageType.html">MixEnums.MixPageType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_UpdatedBy_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.UpdatedBy*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_UpdatedBy" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.UpdatedBy">UpdatedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UpdatedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_UpdatedDateTime_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.UpdatedDateTime*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_UpdatedDateTime" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.UpdatedDateTime">UpdatedDateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;DateTime&gt; UpdatedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ExpandView_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ExpandView*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_MixPages_ReadListItemViewModel_ExpandView_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel.ExpandView(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ExpandView(MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ExpandView(MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixPage, Mix.Cms.Lib.ViewModels.MixPages.ReadListItemViewModel&gt;.ExpandView(Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

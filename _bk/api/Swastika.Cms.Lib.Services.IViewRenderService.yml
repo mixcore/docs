@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Services.IViewRenderService
+  commentId: T:Swastika.Cms.Lib.Services.IViewRenderService
+  id: IViewRenderService
+  parent: Swastika.Cms.Lib.Services
+  children:
+  - Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IViewRenderService
+  nameWithType: IViewRenderService
+  fullName: Swastika.Cms.Lib.Services.IViewRenderService
+  type: Interface
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public interface IViewRenderService
+    content.vb: Public Interface IViewRenderService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync(System.String,System.Object)
+  commentId: M:Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync(System.String,System.Object)
+  id: RenderToStringAsync(System.String,System.Object)
+  parent: Swastika.Cms.Lib.Services.IViewRenderService
+  langs:
+  - csharp
+  - vb
+  name: RenderToStringAsync(String, Object)
+  nameWithType: IViewRenderService.RenderToStringAsync(String, Object)
+  fullName: Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync(System.String, System.Object)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: Task<string> RenderToStringAsync(string viewName, object model)
+    parameters:
+    - id: viewName
+      type: System.String
+    - id: model
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function RenderToStringAsync(viewName As String, model As Object) As Task(Of String)
+  overload: Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync*
+references:
+- uid: Swastika.Cms.Lib.Services
+  commentId: N:Swastika.Cms.Lib.Services
+  isExternal: true
+  name: Swastika.Cms.Lib.Services
+  nameWithType: Swastika.Cms.Lib.Services
+  fullName: Swastika.Cms.Lib.Services
+- uid: Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync*
+  commentId: Overload:Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync
+  isExternal: true
+  name: RenderToStringAsync
+  nameWithType: IViewRenderService.RenderToStringAsync
+  fullName: Swastika.Cms.Lib.Services.IViewRenderService.RenderToStringAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

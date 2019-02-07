@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Authorization.ClaimsRequirementHandler
+  commentId: T:Swastika.Identity.Authorization.ClaimsRequirementHandler
+  id: ClaimsRequirementHandler
+  parent: Swastika.Identity.Authorization
+  children:
+  - Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor
+  - Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Swastika.Identity.Authorization.ClaimRequirement)
+  langs:
+  - csharp
+  - vb
+  name: ClaimsRequirementHandler
+  nameWithType: ClaimsRequirementHandler
+  fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Authorization
+  syntax:
+    content: 'public class ClaimsRequirementHandler : AuthorizationHandler<ClaimRequirement>'
+    content.vb: >-
+      Public Class ClaimsRequirementHandler
+          Inherits AuthorizationHandler(Of ClaimRequirement)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Swastika.Identity.Authorization.ClaimRequirement)
+  commentId: M:Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Swastika.Identity.Authorization.ClaimRequirement)
+  id: HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Swastika.Identity.Authorization.ClaimRequirement)
+  parent: Swastika.Identity.Authorization.ClaimsRequirementHandler
+  langs:
+  - csharp
+  - vb
+  name: HandleRequirementAsync(AuthorizationHandlerContext, ClaimRequirement)
+  nameWithType: ClaimsRequirementHandler.HandleRequirementAsync(AuthorizationHandlerContext, ClaimRequirement)
+  fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext, Swastika.Identity.Authorization.ClaimRequirement)
+  type: Method
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Authorization
+  syntax:
+    content: protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, ClaimRequirement requirement)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+    - id: requirement
+      type: Swastika.Identity.Authorization.ClaimRequirement
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function HandleRequirementAsync(context As AuthorizationHandlerContext, requirement As ClaimRequirement) As Task
+  overload: Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor
+  commentId: M:Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Authorization.ClaimsRequirementHandler
+  langs:
+  - csharp
+  - vb
+  name: ClaimsRequirementHandler()
+  nameWithType: ClaimsRequirementHandler.ClaimsRequirementHandler()
+  fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler.ClaimsRequirementHandler()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Authorization
+  syntax:
+    content: public ClaimsRequirementHandler()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Authorization
+  commentId: N:Swastika.Identity.Authorization
+  isExternal: true
+  name: Swastika.Identity.Authorization
+  nameWithType: Swastika.Identity.Authorization
+  fullName: Swastika.Identity.Authorization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync*
+  commentId: Overload:Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync
+  isExternal: true
+  name: HandleRequirementAsync
+  nameWithType: ClaimsRequirementHandler.HandleRequirementAsync
+  fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler.HandleRequirementAsync
+- uid: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+  commentId: '!:Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext'
+  isExternal: true
+  name: AuthorizationHandlerContext
+  nameWithType: AuthorizationHandlerContext
+  fullName: Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext
+- uid: Swastika.Identity.Authorization.ClaimRequirement
+  commentId: T:Swastika.Identity.Authorization.ClaimRequirement
+  parent: Swastika.Identity.Authorization
+  isExternal: true
+  name: ClaimRequirement
+  nameWithType: ClaimRequirement
+  fullName: Swastika.Identity.Authorization.ClaimRequirement
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor*
+  commentId: Overload:Swastika.Identity.Authorization.ClaimsRequirementHandler.#ctor
+  isExternal: true
+  name: ClaimsRequirementHandler
+  nameWithType: ClaimsRequirementHandler.ClaimsRequirementHandler
+  fullName: Swastika.Identity.Authorization.ClaimsRequirementHandler.ClaimsRequirementHandler

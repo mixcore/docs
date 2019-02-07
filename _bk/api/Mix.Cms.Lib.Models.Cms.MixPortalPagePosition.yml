@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  id: MixPortalPagePosition
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+  - Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+  langs:
+  - csharp
+  - vb
+  name: MixPortalPagePosition
+  nameWithType: MixPortalPagePosition
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixPortalPagePosition : Object'
+    content.vb: >-
+      Public Class MixPortalPagePosition
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: MixPortalPagePosition()
+  nameWithType: MixPortalPagePosition.MixPortalPagePosition()
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.MixPortalPagePosition()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPortalPagePosition()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+  id: PositionId
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: PositionId
+  nameWithType: MixPortalPagePosition.PositionId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int PositionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PositionId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+  id: PortalPageId
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: PortalPageId
+  nameWithType: MixPortalPagePosition.PortalPageId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int PortalPageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PortalPageId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixPortalPagePosition.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixPortalPagePosition.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixPortalPagePosition.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+  id: PortalPage
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: PortalPage
+  nameWithType: MixPortalPagePosition.PortalPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPortalPage PortalPage { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixPortalPage
+    content.vb: Public Property PortalPage As MixPortalPage
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+  id: Position
+  parent: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: MixPortalPagePosition.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixPosition Position { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixPosition
+    content.vb: Public Property Position As MixPosition
+  overload: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.#ctor
+  isExternal: true
+  name: MixPortalPagePosition
+  nameWithType: MixPortalPagePosition.MixPortalPagePosition
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.MixPortalPagePosition
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+  isExternal: true
+  name: PositionId
+  nameWithType: MixPortalPagePosition.PositionId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PositionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+  isExternal: true
+  name: PortalPageId
+  nameWithType: MixPortalPagePosition.PortalPageId
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPageId
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixPortalPagePosition.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Description
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixPortalPagePosition.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixPortalPagePosition.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+  isExternal: true
+  name: PortalPage
+  nameWithType: MixPortalPagePosition.PortalPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.PortalPage
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPage
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPortalPage
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixPortalPage
+  nameWithType: MixPortalPage
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPage
+- uid: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+  isExternal: true
+  name: Position
+  nameWithType: MixPortalPagePosition.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixPortalPagePosition.Position
+- uid: Mix.Cms.Lib.Models.Cms.MixPosition
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixPosition
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixPosition
+  nameWithType: MixPosition
+  fullName: Mix.Cms.Lib.Models.Cms.MixPosition

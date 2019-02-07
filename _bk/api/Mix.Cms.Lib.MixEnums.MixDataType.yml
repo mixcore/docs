@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.MixDataType
+  commentId: T:Mix.Cms.Lib.MixEnums.MixDataType
+  id: MixEnums.MixDataType
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.MixDataType.Boolean
+  - Mix.Cms.Lib.MixEnums.MixDataType.Color
+  - Mix.Cms.Lib.MixEnums.MixDataType.CreditCard
+  - Mix.Cms.Lib.MixEnums.MixDataType.Currency
+  - Mix.Cms.Lib.MixEnums.MixDataType.Custom
+  - Mix.Cms.Lib.MixEnums.MixDataType.Date
+  - Mix.Cms.Lib.MixEnums.MixDataType.DateTime
+  - Mix.Cms.Lib.MixEnums.MixDataType.Duration
+  - Mix.Cms.Lib.MixEnums.MixDataType.EmailAddress
+  - Mix.Cms.Lib.MixEnums.MixDataType.Html
+  - Mix.Cms.Lib.MixEnums.MixDataType.Icon
+  - Mix.Cms.Lib.MixEnums.MixDataType.ImageUrl
+  - Mix.Cms.Lib.MixEnums.MixDataType.MultilineText
+  - Mix.Cms.Lib.MixEnums.MixDataType.Password
+  - Mix.Cms.Lib.MixEnums.MixDataType.PhoneNumber
+  - Mix.Cms.Lib.MixEnums.MixDataType.PostalCode
+  - Mix.Cms.Lib.MixEnums.MixDataType.Text
+  - Mix.Cms.Lib.MixEnums.MixDataType.Time
+  - Mix.Cms.Lib.MixEnums.MixDataType.Upload
+  - Mix.Cms.Lib.MixEnums.MixDataType.Url
+  - Mix.Cms.Lib.MixEnums.MixDataType.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.MixDataType
+  nameWithType: MixEnums.MixDataType
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class MixDataType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MixDataType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.MixDataType.value__
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Custom
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Custom
+  id: Custom
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: MixEnums.MixDataType.Custom
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Custom
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Custom
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Custom As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.DateTime
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.DateTime
+  id: DateTime
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: MixEnums.MixDataType.DateTime
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.DateTime
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType DateTime
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const DateTime As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Date
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Date
+  id: Date
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: MixEnums.MixDataType.Date
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Date
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Date
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Date As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Time
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Time
+  id: Time
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: MixEnums.MixDataType.Time
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Time
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Time
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Time As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Duration
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Duration
+  id: Duration
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: MixEnums.MixDataType.Duration
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Duration
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Duration
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Duration As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.PhoneNumber
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.PhoneNumber
+  id: PhoneNumber
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: MixEnums.MixDataType.PhoneNumber
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.PhoneNumber
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType PhoneNumber
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const PhoneNumber As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Currency
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Currency
+  id: Currency
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: MixEnums.MixDataType.Currency
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Currency
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Currency
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Currency As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Text
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Text
+  id: Text
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: MixEnums.MixDataType.Text
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Text
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Text
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Text As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Html
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Html
+  id: Html
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: MixEnums.MixDataType.Html
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Html
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Html
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Html As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.MultilineText
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.MultilineText
+  id: MultilineText
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: MultilineText
+  nameWithType: MixEnums.MixDataType.MultilineText
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.MultilineText
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType MultilineText
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const MultilineText As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.EmailAddress
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.EmailAddress
+  id: EmailAddress
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: MixEnums.MixDataType.EmailAddress
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.EmailAddress
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType EmailAddress
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const EmailAddress As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Password
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Password
+  id: Password
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: MixEnums.MixDataType.Password
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Password
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Password
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Password As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Url
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Url
+  id: Url
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: MixEnums.MixDataType.Url
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Url
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Url
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Url As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.ImageUrl
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.ImageUrl
+  id: ImageUrl
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: MixEnums.MixDataType.ImageUrl
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.ImageUrl
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType ImageUrl
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const ImageUrl As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.CreditCard
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.CreditCard
+  id: CreditCard
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: CreditCard
+  nameWithType: MixEnums.MixDataType.CreditCard
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.CreditCard
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType CreditCard
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const CreditCard As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.PostalCode
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.PostalCode
+  id: PostalCode
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: PostalCode
+  nameWithType: MixEnums.MixDataType.PostalCode
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.PostalCode
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType PostalCode
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const PostalCode As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Upload
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Upload
+  id: Upload
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Upload
+  nameWithType: MixEnums.MixDataType.Upload
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Upload
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Upload
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Upload As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Color
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Color
+  id: Color
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: MixEnums.MixDataType.Color
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Color
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Color
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Color As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Boolean
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Boolean
+  id: Boolean
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: MixEnums.MixDataType.Boolean
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Boolean
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Boolean
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Boolean As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.MixDataType.Icon
+  commentId: F:Mix.Cms.Lib.MixEnums.MixDataType.Icon
+  id: Icon
+  parent: Mix.Cms.Lib.MixEnums.MixDataType
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: MixEnums.MixDataType.Icon
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType.Icon
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.MixDataType Icon
+    return:
+      type: Mix.Cms.Lib.MixEnums.MixDataType
+    content.vb: Public Const Icon As MixEnums.MixDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.MixDataType
+  commentId: T:Mix.Cms.Lib.MixEnums.MixDataType
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.MixDataType
+  nameWithType: MixEnums.MixDataType
+  fullName: Mix.Cms.Lib.MixEnums.MixDataType

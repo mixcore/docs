@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Web
+  commentId: N:Mix.Cms.Web
+  id: Mix.Cms.Web
+  children:
+  - Mix.Cms.Web.Program
+  - Mix.Cms.Web.Startup
+  - Mix.Cms.Web.Startup.JwtSecurityKey
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Web
+  nameWithType: Mix.Cms.Web
+  fullName: Mix.Cms.Web
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Web
+references:
+- uid: Mix.Cms.Web.Startup
+  commentId: T:Mix.Cms.Web.Startup
+  isExternal: true
+  name: Startup
+  nameWithType: Startup
+  fullName: Mix.Cms.Web.Startup
+- uid: Mix.Cms.Web.Startup.JwtSecurityKey
+  commentId: T:Mix.Cms.Web.Startup.JwtSecurityKey
+  isExternal: true
+  name: Startup.JwtSecurityKey
+  nameWithType: Startup.JwtSecurityKey
+  fullName: Mix.Cms.Web.Startup.JwtSecurityKey
+- uid: Mix.Cms.Web.Program
+  commentId: T:Mix.Cms.Web.Program
+  isExternal: true
+  name: Program
+  nameWithType: Program
+  fullName: Mix.Cms.Web.Program

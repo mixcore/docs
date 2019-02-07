@@ -1,0 +1,771 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UserInfoViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UserInfoViewModel
+   ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel">
+  
+  
+  <h1 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel" class="text-break">Class UserInfoViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html">ViewModelBase</a>&lt;<a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a>, <a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsUser.html">MixCmsUser</a>, <a class="xref" href="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.html">UserInfoViewModel</a>&gt;</div>
+    <div class="level2"><span class="xref">UserInfoViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Repository">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Repository</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitModel">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.InitModel()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseModel__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ParseModel(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Validate__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Validate(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandViewAsync__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ExpandViewAsync(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitViewAsync__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.InitViewAsync(MixCmsUser, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseViewAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ParseViewAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneAsync__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.CloneAsync(MixCmsUser, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModelsAsync__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.CloneSubModelsAsync(UserInfoViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.RemoveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModelsAsync__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.RemoveRelatedModelsAsync(UserInfoViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.SaveModelAsync(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModelsAsync__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.SaveSubModelsAsync(MixCmsUser, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_InitView__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.InitView(MixCmsUser, Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ParseView_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ParseView(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ExpandView__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ExpandView(MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Clone__1_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Clone(MixCmsUser, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModels__2_System_Collections_Generic_List_Mix_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.CloneSubModels(UserInfoViewModel, List&lt;SupportedCulture&gt;, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.RemoveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModels__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.RemoveRelatedModels(UserInfoViewModel, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.SaveModel(Boolean, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModels__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.SaveSubModels(MixCmsUser, MixCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Exception">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Exception</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsClone">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.IsClone</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsLazyLoad">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.IsLazyLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Cultures">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Cultures</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Mapper">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Mapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Model">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_ModelMapper">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.ModelMapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Priority">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Specificulture">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Specificulture</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_Errors">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.ViewModelBase-3.html#Mix_Domain_Data_ViewModels_ViewModelBase_3_IsValid">ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;.IsValid</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mix.Cms.Lib.ViewModels.Account.html">Mix.Cms.Lib.ViewModels.Account</a></h6>
+  <h6><strong>Assembly</strong>: Mix.Cms.Lib.dll</h6>
+  <h5 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UserInfoViewModel : ViewModelBase&lt;MixCmsContext, MixCmsUser, UserInfoViewModel&gt;, IViewModel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel__ctor" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.#ctor">UserInfoViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserInfoViewModel()</code></pre>
+  </div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel__ctor_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.#ctor*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel__ctor_Mix_Cms_Lib_Models_Cms_MixCmsUser_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.#ctor(Mix.Cms.Lib.Models.Cms.MixCmsUser,Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">UserInfoViewModel(MixCmsUser, MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserInfoViewModel(MixCmsUser model, MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsUser.html">MixCmsUser</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Address_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Address*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Address" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Address">Address</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Address { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Avatar_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Avatar*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Avatar" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Avatar">Avatar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Avatar { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_AvatarUrl_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.AvatarUrl*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_AvatarUrl" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.AvatarUrl">AvatarUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AvatarUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_CreatedBy_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.CreatedBy*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_CreatedBy" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.CreatedBy">CreatedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CreatedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_CreatedDateTime_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.CreatedDateTime*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_CreatedDateTime" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.CreatedDateTime">CreatedDateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreatedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_DetailsUrl_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.DetailsUrl*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_DetailsUrl" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.DetailsUrl">DetailsUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DetailsUrl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Domain_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Domain*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Domain" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Domain">Domain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Domain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Email_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Email*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Email" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Email">Email</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Email { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_FirstName_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.FirstName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_FirstName" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.FirstName">FirstName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FirstName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Id_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Id*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Id" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_LastName_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.LastName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_LastName" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.LastName">LastName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LastName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_MediaFile_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.MediaFile*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_MediaFile" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.MediaFile">MediaFile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileViewModel MediaFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.ViewModels.FileViewModel.html">FileViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_MiddleName_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.MiddleName*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_MiddleName" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.MiddleName">MiddleName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MiddleName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_PhoneNumber_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.PhoneNumber*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_PhoneNumber" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.PhoneNumber">PhoneNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PhoneNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Username_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Username*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_Username" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.Username">Username</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Username { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_UserRoles_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.UserRoles*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_UserRoles" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.UserRoles">UserRoles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;UserRoleViewModel&gt; UserRoles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Mix.Cms.Lib.ViewModels.Account.UserRoleViewModel.html">UserRoleViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_ExpandView_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.ExpandView*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_ExpandView_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.ExpandView(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ExpandView(MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ExpandView(MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixCmsUser, Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel&gt;.ExpandView(Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  
+  
+  <a id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_ParseModel_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.ParseModel*"></a>
+  <h4 id="Mix_Cms_Lib_ViewModels_Account_UserInfoViewModel_ParseModel_Mix_Cms_Lib_Models_Cms_MixCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel.ParseModel(Mix.Cms.Lib.Models.Cms.MixCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ParseModel(MixCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MixCmsUser ParseModel(MixCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsContext.html">MixCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mix.Cms.Lib.Models.Cms.MixCmsUser.html">MixCmsUser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mix.Domain.Data.ViewModels.ViewModelBase&lt;Mix.Cms.Lib.Models.Cms.MixCmsContext, Mix.Cms.Lib.Models.Cms.MixCmsUser, Mix.Cms.Lib.ViewModels.Account.UserInfoViewModel&gt;.ParseModel(Mix.Cms.Lib.Models.Cms.MixCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mix.Domain.Data.ViewModels.IViewModel.html">IViewModel</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

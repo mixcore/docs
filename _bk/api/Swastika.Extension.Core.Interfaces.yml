@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Extension.Core.Interfaces
+  commentId: N:Swastika.Extension.Core.Interfaces
+  id: Swastika.Extension.Core.Interfaces
+  children:
+  - Swastika.Extension.Core.Interfaces.IService`2
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Extension.Core.Interfaces
+  nameWithType: Swastika.Extension.Core.Interfaces
+  fullName: Swastika.Extension.Core.Interfaces
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.Extension.Core.Interfaces.IService`2
+  commentId: T:Swastika.Extension.Core.Interfaces.IService`2
+  isExternal: true
+  name: IService<T, TView>
+  nameWithType: IService<T, TView>
+  fullName: Swastika.Extension.Core.Interfaces.IService<T, TView>
+  nameWithType.vb: IService(Of T, TView)
+  fullName.vb: Swastika.Extension.Core.Interfaces.IService(Of T, TView)
+  name.vb: IService(Of T, TView)
+  spec.csharp:
+  - uid: Swastika.Extension.Core.Interfaces.IService`2
+    name: IService
+    nameWithType: IService
+    fullName: Swastika.Extension.Core.Interfaces.IService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Extension.Core.Interfaces.IService`2
+    name: IService
+    nameWithType: IService
+    fullName: Swastika.Extension.Core.Interfaces.IService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TView
+    nameWithType: TView
+    fullName: TView
+  - name: )
+    nameWithType: )
+    fullName: )

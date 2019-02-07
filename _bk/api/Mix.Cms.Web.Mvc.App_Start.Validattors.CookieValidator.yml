@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator
+  commentId: T:Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator
+  id: CookieValidator
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors
+  children:
+  - Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor
+  - Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext)
+  langs:
+  - csharp
+  - vb
+  name: CookieValidator
+  nameWithType: CookieValidator
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator
+  type: Class
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: 'public class CookieValidator : Object'
+    content.vb: >-
+      Public Class CookieValidator
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext)
+  commentId: M:Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext)
+  id: ValidateAsync(Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext)
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateAsync(CookieValidatePrincipalContext)
+  nameWithType: CookieValidator.ValidateAsync(CookieValidatePrincipalContext)
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync(Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: public static Task ValidateAsync(CookieValidatePrincipalContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function ValidateAsync(context As CookieValidatePrincipalContext) As Task
+  overload: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor
+  commentId: M:Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator
+  langs:
+  - csharp
+  - vb
+  name: CookieValidator()
+  nameWithType: CookieValidator.CookieValidator()
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.CookieValidator()
+  type: Constructor
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: Mix.Cms.Web.Mvc.App_Start.Validattors
+  syntax:
+    content: public CookieValidator()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors
+  commentId: N:Mix.Cms.Web.Mvc.App_Start.Validattors
+  isExternal: true
+  name: Mix.Cms.Web.Mvc.App_Start.Validattors
+  nameWithType: Mix.Cms.Web.Mvc.App_Start.Validattors
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync*
+  commentId: Overload:Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync
+  isExternal: true
+  name: ValidateAsync
+  nameWithType: CookieValidator.ValidateAsync
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.ValidateAsync
+- uid: Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext
+  commentId: '!:Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext'
+  isExternal: true
+  name: CookieValidatePrincipalContext
+  nameWithType: CookieValidatePrincipalContext
+  fullName: Microsoft.AspNetCore.Authentication.Cookies.CookieValidatePrincipalContext
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor*
+  commentId: Overload:Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.#ctor
+  isExternal: true
+  name: CookieValidator
+  nameWithType: CookieValidator.CookieValidator
+  fullName: Mix.Cms.Web.Mvc.App_Start.Validattors.CookieValidator.CookieValidator

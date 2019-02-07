@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPages
+  commentId: N:Mix.Cms.Lib.ViewModels.MixPortalPages
+  id: Mix.Cms.Lib.ViewModels.MixPortalPages
+  children:
+  - Mix.Cms.Lib.ViewModels.MixPortalPages.ReadViewModel
+  - Mix.Cms.Lib.ViewModels.MixPortalPages.UpdateViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixPortalPages
+  nameWithType: Mix.Cms.Lib.ViewModels.MixPortalPages
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPages
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPages.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixPortalPages.ReadViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixPortalPages
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPages.ReadViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPages.UpdateViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixPortalPages.UpdateViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixPortalPages
+  isExternal: true
+  name: UpdateViewModel
+  nameWithType: UpdateViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPages.UpdateViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPages
+  commentId: N:Mix.Cms.Lib.ViewModels.MixPortalPages
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixPortalPages
+  nameWithType: Mix.Cms.Lib.ViewModels.MixPortalPages
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPages

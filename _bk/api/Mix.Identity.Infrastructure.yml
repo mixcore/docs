@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Infrastructure
+  commentId: N:Mix.Identity.Infrastructure
+  id: Mix.Identity.Infrastructure
+  children:
+  - Mix.Identity.Infrastructure.ApplicationUserManager
+  - Mix.Identity.Infrastructure.ExtendedClaimsProvider
+  langs:
+  - csharp
+  - vb
+  name: Mix.Identity.Infrastructure
+  nameWithType: Mix.Identity.Infrastructure
+  fullName: Mix.Identity.Infrastructure
+  type: Namespace
+  assemblies:
+  - Mix.Identity
+references:
+- uid: Mix.Identity.Infrastructure.ApplicationUserManager
+  commentId: T:Mix.Identity.Infrastructure.ApplicationUserManager
+  isExternal: true
+  name: ApplicationUserManager
+  nameWithType: ApplicationUserManager
+  fullName: Mix.Identity.Infrastructure.ApplicationUserManager
+- uid: Mix.Identity.Infrastructure.ExtendedClaimsProvider
+  commentId: T:Mix.Identity.Infrastructure.ExtendedClaimsProvider
+  isExternal: true
+  name: ExtendedClaimsProvider
+  nameWithType: ExtendedClaimsProvider
+  fullName: Mix.Identity.Infrastructure.ExtendedClaimsProvider

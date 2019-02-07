@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  id: InitCmsViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixInit
+  children:
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+  - Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+  langs:
+  - csharp
+  - vb
+  name: InitCmsViewModel
+  nameWithType: InitCmsViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: 'public class InitCmsViewModel : Object'
+    content.vb: >-
+      Public Class InitCmsViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor
+  commentId: M:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: InitCmsViewModel()
+  nameWithType: InitCmsViewModel.InitCmsViewModel()
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.InitCmsViewModel()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public InitCmsViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+  id: ConnectionString
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: InitCmsViewModel.ConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string ConnectionString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConnectionString As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+  id: DataBaseServer
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataBaseServer
+  nameWithType: InitCmsViewModel.DataBaseServer
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string DataBaseServer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataBaseServer As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+  id: DataBaseName
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataBaseName
+  nameWithType: InitCmsViewModel.DataBaseName
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string DataBaseName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataBaseName As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+  id: DataBaseUser
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataBaseUser
+  nameWithType: InitCmsViewModel.DataBaseUser
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string DataBaseUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataBaseUser As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+  id: DataBasePassword
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: DataBasePassword
+  nameWithType: InitCmsViewModel.DataBasePassword
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string DataBasePassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataBasePassword As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+  id: IsUseLocal
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsUseLocal
+  nameWithType: InitCmsViewModel.IsUseLocal
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public bool IsUseLocal { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsUseLocal As Boolean
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+  id: LocalDbConnectionString
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: LocalDbConnectionString
+  nameWithType: InitCmsViewModel.LocalDbConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string LocalDbConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LocalDbConnectionString As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+  id: SqliteDbConnectionString
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: SqliteDbConnectionString
+  nameWithType: InitCmsViewModel.SqliteDbConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string SqliteDbConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SqliteDbConnectionString As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+  id: SuperAdmin
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: SuperAdmin
+  nameWithType: InitCmsViewModel.SuperAdmin
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string SuperAdmin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SuperAdmin As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+  id: AdminPassword
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: AdminPassword
+  nameWithType: InitCmsViewModel.AdminPassword
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string AdminPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdminPassword As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+  id: Lang
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: Lang
+  nameWithType: InitCmsViewModel.Lang
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public string Lang { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Lang As String
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+  id: IsSqlite
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsSqlite
+  nameWithType: InitCmsViewModel.IsSqlite
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public bool IsSqlite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSqlite As Boolean
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+  commentId: P:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+  id: Culture
+  parent: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: InitCmsViewModel.Culture
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.ViewModels.MixInit
+  syntax:
+    content: public InitCulture Culture { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.ViewModels.InitCulture
+    content.vb: Public Property Culture As InitCulture
+  overload: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixInit
+  commentId: N:Mix.Cms.Lib.ViewModels.MixInit
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixInit
+  nameWithType: Mix.Cms.Lib.ViewModels.MixInit
+  fullName: Mix.Cms.Lib.ViewModels.MixInit
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.#ctor
+  isExternal: true
+  name: InitCmsViewModel
+  nameWithType: InitCmsViewModel.InitCmsViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.InitCmsViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+  isExternal: true
+  name: ConnectionString
+  nameWithType: InitCmsViewModel.ConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.ConnectionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+  isExternal: true
+  name: DataBaseServer
+  nameWithType: InitCmsViewModel.DataBaseServer
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseServer
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+  isExternal: true
+  name: DataBaseName
+  nameWithType: InitCmsViewModel.DataBaseName
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseName
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+  isExternal: true
+  name: DataBaseUser
+  nameWithType: InitCmsViewModel.DataBaseUser
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBaseUser
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+  isExternal: true
+  name: DataBasePassword
+  nameWithType: InitCmsViewModel.DataBasePassword
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.DataBasePassword
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+  isExternal: true
+  name: IsUseLocal
+  nameWithType: InitCmsViewModel.IsUseLocal
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsUseLocal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+  isExternal: true
+  name: LocalDbConnectionString
+  nameWithType: InitCmsViewModel.LocalDbConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.LocalDbConnectionString
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+  isExternal: true
+  name: SqliteDbConnectionString
+  nameWithType: InitCmsViewModel.SqliteDbConnectionString
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SqliteDbConnectionString
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+  isExternal: true
+  name: SuperAdmin
+  nameWithType: InitCmsViewModel.SuperAdmin
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.SuperAdmin
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+  isExternal: true
+  name: AdminPassword
+  nameWithType: InitCmsViewModel.AdminPassword
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.AdminPassword
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+  isExternal: true
+  name: Lang
+  nameWithType: InitCmsViewModel.Lang
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Lang
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+  isExternal: true
+  name: IsSqlite
+  nameWithType: InitCmsViewModel.IsSqlite
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.IsSqlite
+- uid: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture*
+  commentId: Overload:Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: InitCmsViewModel.Culture
+  fullName: Mix.Cms.Lib.ViewModels.MixInit.InitCmsViewModel.Culture
+- uid: Mix.Cms.Lib.ViewModels.InitCulture
+  commentId: T:Mix.Cms.Lib.ViewModels.InitCulture
+  parent: Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: InitCulture
+  nameWithType: InitCulture
+  fullName: Mix.Cms.Lib.ViewModels.InitCulture
+- uid: Mix.Cms.Lib.ViewModels
+  commentId: N:Mix.Cms.Lib.ViewModels
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels
+  nameWithType: Mix.Cms.Lib.ViewModels
+  fullName: Mix.Cms.Lib.ViewModels

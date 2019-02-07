@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Services.AuthEmailMessageSender
+  commentId: T:Swastika.Identity.Services.AuthEmailMessageSender
+  id: AuthEmailMessageSender
+  parent: Swastika.Identity.Services
+  children:
+  - Swastika.Identity.Services.AuthEmailMessageSender.#ctor
+  - Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AuthEmailMessageSender
+  nameWithType: AuthEmailMessageSender
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: 'public class AuthEmailMessageSender : Object, IEmailSender'
+    content.vb: >-
+      Public Class AuthEmailMessageSender
+          Inherits Object
+          Implements IEmailSender
+  inheritance:
+  - System.Object
+  implements:
+  - Swastika.Identity.Services.IEmailSender
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync(System.String,System.String,System.String)
+  commentId: M:Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync(System.String,System.String,System.String)
+  id: SendEmailAsync(System.String,System.String,System.String)
+  parent: Swastika.Identity.Services.AuthEmailMessageSender
+  langs:
+  - csharp
+  - vb
+  name: SendEmailAsync(String, String, String)
+  nameWithType: AuthEmailMessageSender.SendEmailAsync(String, String, String)
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: public Task SendEmailAsync(string email, string subject, string message)
+    parameters:
+    - id: email
+      type: System.String
+    - id: subject
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendEmailAsync(email As String, subject As String, message As String) As Task
+  overload: Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync*
+  implements:
+  - Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String,System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Services.AuthEmailMessageSender.#ctor
+  commentId: M:Swastika.Identity.Services.AuthEmailMessageSender.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Services.AuthEmailMessageSender
+  langs:
+  - csharp
+  - vb
+  name: AuthEmailMessageSender()
+  nameWithType: AuthEmailMessageSender.AuthEmailMessageSender()
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender.AuthEmailMessageSender()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Services
+  syntax:
+    content: public AuthEmailMessageSender()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Services.AuthEmailMessageSender.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Services
+  commentId: N:Swastika.Identity.Services
+  isExternal: true
+  name: Swastika.Identity.Services
+  nameWithType: Swastika.Identity.Services
+  fullName: Swastika.Identity.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Swastika.Identity.Services.IEmailSender
+  commentId: T:Swastika.Identity.Services.IEmailSender
+  parent: Swastika.Identity.Services
+  isExternal: true
+  name: IEmailSender
+  nameWithType: IEmailSender
+  fullName: Swastika.Identity.Services.IEmailSender
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync*
+  commentId: Overload:Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync
+  isExternal: true
+  name: SendEmailAsync
+  nameWithType: AuthEmailMessageSender.SendEmailAsync
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender.SendEmailAsync
+- uid: Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String,System.String,System.String)
+  commentId: M:Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String,System.String,System.String)
+  parent: Swastika.Identity.Services.IEmailSender
+  isExternal: true
+  name: SendEmailAsync(String, String, String)
+  nameWithType: IEmailSender.SendEmailAsync(String, String, String)
+  fullName: Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String,System.String,System.String)
+    name: SendEmailAsync
+    nameWithType: IEmailSender.SendEmailAsync
+    fullName: Swastika.Identity.Services.IEmailSender.SendEmailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Swastika.Identity.Services.IEmailSender.SendEmailAsync(System.String,System.String,System.String)
+    name: SendEmailAsync
+    nameWithType: IEmailSender.SendEmailAsync
+    fullName: Swastika.Identity.Services.IEmailSender.SendEmailAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Swastika.Identity.Services.AuthEmailMessageSender.#ctor*
+  commentId: Overload:Swastika.Identity.Services.AuthEmailMessageSender.#ctor
+  isExternal: true
+  name: AuthEmailMessageSender
+  nameWithType: AuthEmailMessageSender.AuthEmailMessageSender
+  fullName: Swastika.Identity.Services.AuthEmailMessageSender.AuthEmailMessageSender

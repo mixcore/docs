@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  commentId: T:Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  id: AddPhoneNumberViewModel
+  parent: Mix.Identity.Models.ManageViewModels
+  children:
+  - Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  - Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumberViewModel
+  nameWithType: AddPhoneNumberViewModel
+  fullName: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.ManageViewModels
+  syntax:
+    content: 'public class AddPhoneNumberViewModel : Object'
+    content.vb: >-
+      Public Class AddPhoneNumberViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  commentId: M:Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumberViewModel()
+  nameWithType: AddPhoneNumberViewModel.AddPhoneNumberViewModel()
+  fullName: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.AddPhoneNumberViewModel()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.ManageViewModels
+  syntax:
+    content: public AddPhoneNumberViewModel()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  commentId: P:Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  id: PhoneNumber
+  parent: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: AddPhoneNumberViewModel.PhoneNumber
+  fullName: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  type: Property
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity.Models.ManageViewModels
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity.Models.ManageViewModels
+  commentId: N:Mix.Identity.Models.ManageViewModels
+  isExternal: true
+  name: Mix.Identity.Models.ManageViewModels
+  nameWithType: Mix.Identity.Models.ManageViewModels
+  fullName: Mix.Identity.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor*
+  commentId: Overload:Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  isExternal: true
+  name: AddPhoneNumberViewModel
+  nameWithType: AddPhoneNumberViewModel.AddPhoneNumberViewModel
+  fullName: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.AddPhoneNumberViewModel
+- uid: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber*
+  commentId: Overload:Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: AddPhoneNumberViewModel.PhoneNumber
+  fullName: Mix.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

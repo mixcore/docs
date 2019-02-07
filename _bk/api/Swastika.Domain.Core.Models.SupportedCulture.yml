@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Models.SupportedCulture
+  commentId: T:Swastika.Domain.Core.Models.SupportedCulture
+  id: SupportedCulture
+  parent: Swastika.Domain.Core.Models
+  children:
+  - Swastika.Domain.Core.Models.SupportedCulture.#ctor
+  - Swastika.Domain.Core.Models.SupportedCulture.Alias
+  - Swastika.Domain.Core.Models.SupportedCulture.Description
+  - Swastika.Domain.Core.Models.SupportedCulture.FullName
+  - Swastika.Domain.Core.Models.SupportedCulture.Icon
+  - Swastika.Domain.Core.Models.SupportedCulture.Id
+  - Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+  - Swastika.Domain.Core.Models.SupportedCulture.Lcid
+  - Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+  langs:
+  - csharp
+  - vb
+  name: SupportedCulture
+  nameWithType: SupportedCulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: 'public class SupportedCulture : Object'
+    content.vb: >-
+      Public Class SupportedCulture
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Domain.Core.Models.SupportedCulture.#ctor
+  commentId: M:Swastika.Domain.Core.Models.SupportedCulture.#ctor
+  id: '#ctor'
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: SupportedCulture()
+  nameWithType: SupportedCulture.SupportedCulture()
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.SupportedCulture()
+  type: Constructor
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public SupportedCulture()
+    content.vb: Public Sub New
+  overload: Swastika.Domain.Core.Models.SupportedCulture.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Id
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Id
+  id: Id
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SupportedCulture.Id
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Id
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+  id: Specificulture
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: SupportedCulture.Specificulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Lcid
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Lcid
+  id: Lcid
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Lcid
+  nameWithType: SupportedCulture.Lcid
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Lcid
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string Lcid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Lcid As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Lcid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Alias
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Alias
+  id: Alias
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Alias
+  nameWithType: SupportedCulture.Alias
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Alias
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string Alias { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Alias As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Alias*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.FullName
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.FullName
+  id: FullName
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SupportedCulture.FullName
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.FullName
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Description
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Description
+  id: Description
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SupportedCulture.Description
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Description
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Icon
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.Icon
+  id: Icon
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: SupportedCulture.Icon
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Icon
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Icon As String
+  overload: Swastika.Domain.Core.Models.SupportedCulture.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+  commentId: P:Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+  id: IsSupported
+  parent: Swastika.Domain.Core.Models.SupportedCulture
+  langs:
+  - csharp
+  - vb
+  name: IsSupported
+  nameWithType: SupportedCulture.IsSupported
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+  type: Property
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public bool IsSupported { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSupported As Boolean
+  overload: Swastika.Domain.Core.Models.SupportedCulture.IsSupported*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: true
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Domain.Core.Models.SupportedCulture.#ctor*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.#ctor
+  isExternal: true
+  name: SupportedCulture
+  nameWithType: SupportedCulture.SupportedCulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.SupportedCulture
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Id*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Id
+  isExternal: true
+  name: Id
+  nameWithType: SupportedCulture.Id
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Specificulture*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: SupportedCulture.Specificulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Lcid*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Lcid
+  isExternal: true
+  name: Lcid
+  nameWithType: SupportedCulture.Lcid
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Lcid
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Alias*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Alias
+  isExternal: true
+  name: Alias
+  nameWithType: SupportedCulture.Alias
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Alias
+- uid: Swastika.Domain.Core.Models.SupportedCulture.FullName*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SupportedCulture.FullName
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.FullName
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Description*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Description
+  isExternal: true
+  name: Description
+  nameWithType: SupportedCulture.Description
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Description
+- uid: Swastika.Domain.Core.Models.SupportedCulture.Icon*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.Icon
+  isExternal: true
+  name: Icon
+  nameWithType: SupportedCulture.Icon
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.Icon
+- uid: Swastika.Domain.Core.Models.SupportedCulture.IsSupported*
+  commentId: Overload:Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+  isExternal: true
+  name: IsSupported
+  nameWithType: SupportedCulture.IsSupported
+  fullName: Swastika.Domain.Core.Models.SupportedCulture.IsSupported
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

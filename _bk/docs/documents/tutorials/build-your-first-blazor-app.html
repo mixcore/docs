@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Build your first Blazor app </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Build your first Blazor app ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="client-side/blazor/tutorials/first-app">
+<h1 id="build-your-first-blazor-app">Build your first Blazor app</h1>
+
+<div class="NOTE"><h5>Note</h5><p>Blazor is an unsupported experimental web framework that shouldn&#39;t be used for production workloads at this time.</p>
+</div>
+<p>In this tutorial, you build a Blazor app step-by-step and quickly learn the basic features of the Blazor framework.</p>
+<p><a href="https://github.com/aspnet/Blazor.Docs/tree/master/docs/tutorials/build-your-first-blazor-app/samples/">View or download sample code</a> (<a href="xref:client-side/blazor/index#view-and-download-samples">how to download</a>). See the <a class="xref" href="../get-started.html">Get started</a> topic for prerequisites.</p>
+<p>To create the project in Visual Studio:</p>
+<ol>
+<li><p>Select <strong>File</strong> &gt; <strong>New</strong> &gt; <strong>Project</strong>. Select <strong>Web</strong> &gt; <strong>ASP.NET Core Web Application</strong>. Name the project &quot;BlazorApp1&quot; in the <strong>Name</strong> field. Select <strong>OK</strong>.</p>
+<p> <img src="https://raw.githubusercontent.com/aspnet/Blazor.Docs/gh-pages/docs/tutorials/build-your-first-blazor-app/_static/new-aspnet-core-project.png" alt="New ASP.NET Core project"></p>
+</li>
+<li><p>The <strong>New ASP.NET Core Web Application</strong> dialog appears. Make sure <strong>.NET Core</strong> is selected at the top. Select either <strong>ASP.NET Core 2.0</strong> or <strong>ASP.NET Core 2.1</strong>. Choose the <strong>Blazor</strong> template and select <strong>OK</strong>.</p>
+<p> <img src="https://raw.githubusercontent.com/aspnet/Blazor.Docs/gh-pages/docs/tutorials/build-your-first-blazor-app/_static/new-blazor-app-dialog.png" alt="New Blazor app dialog"></p>
+</li>
+<li><p>Once the project is created, press <strong>Ctrl-F5</strong> to run the app <em>without the debugger</em>. Running with the debugger (<strong>F5</strong>) isn&#39;t supported at this time.</p>
+</li>
+</ol>
+<div class="NOTE"><h5>Note</h5><p>If not using Visual Studio, create the Blazor app at a command prompt on Windows, macOS, or Linux:</p>
+<pre><code class="lang-console">dotnet new blazor -o BlazorApp1
+cd BlazorApp1
+dotnet run
+</code></pre><p>Navigate to the app using the localhost address and port provided in the console window output after <code>dotnet run</code> is executed. Use <strong>Ctrl-C</strong> in the console window to shutdown the app.</p>
+</div>
+<p>The Blazor app runs in the browser:</p>
+<p><img src="https://user-images.githubusercontent.com/1874516/39509497-5515c3ea-4d9b-11e8-887f-019ea4fdb3ee.png" alt="Blazor app Home page"></p>
+<h2 id="build-components">Build components</h2>
+<ol>
+<li><p>Browse to each of the app&#39;s three pages: Home, Counter, and Fetch data.</p>
+<p> These three pages are implemented by the three Razor files in the <em>Pages</em> folder: <em>Index.cshtml</em>, <em>Counter.cshtml</em>, and <em>FetchData.cshtml</em>. Each of these files implements a Blazor component that&#39;s compiled and executed client-side in the browser.</p>
+</li>
+<li><p>Select the button on the Counter page.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39509525-6e367c66-4d9b-11e8-9978-e52a9750c34b.png" alt="Blazor app Home page"></p>
+<p> Each time the button is selected, the counter is incremented without a page refresh. Normally, this kind of client-side behavior is handled in JavaScript; but here, it&#39;s implemented in C# and .NET by the <code>Counter</code> component.</p>
+</li>
+<li><p>Take a look at the implementation of the <code>Counter</code> component in the <em>Counter.cshtml</em> file:</p>
+<pre><code class="lang-cshtml">@page &quot;/counter&quot;
+
+&lt;h1&gt;Counter&lt;/h1&gt;
+
+&lt;p&gt;Current count: @currentCount&lt;/p&gt;
+
+&lt;button class=&quot;btn btn-primary&quot; onclick=&quot;@IncrementCount&quot;&gt;Click me&lt;/button&gt;
+
+@functions {
+    int currentCount = 0;
+
+    void IncrementCount()
+    {
+        currentCount++;
+    }
+}
+</code></pre><p> The UI for the <code>Counter</code> component is defined using normal HTML. Dynamic rendering logic (for example, loops, conditionals, expressions) is added using an embedded C# syntax called <a href="https://docs.microsoft.com/aspnet/core/mvc/views/razor">Razor</a>. The HTML markup and C# rendering logic are converted into a component class at build time. The name of the generated .NET class matches the name of the file.</p>
+<p> Members of the component class are defined in a <code>@functions</code> block. In the <code>@functions</code> block, component state (properties, fields) and methods can be specified for event handling or for defining other component logic. These members can then be used as part of the component&#39;s rendering logic and for handling events.</p>
+<p> When the button is selected, the <code>Counter</code> component&#39;s registered <code>onclick</code> handler is called (the <code>IncrementCount</code> method) and the <code>Counter</code> component regenerates its render tree. Blazor compares the new render tree against the previous one and applies any modifications to the browser Document Object Model (DOM). The displayed count is updated.</p>
+</li>
+<li><p>Update the markup for the <code>Counter</code> component to make the top-level header more <em>exciting</em>.</p>
+<pre><code class="lang-cshtml">@page &quot;/counter&quot;
+&lt;h1&gt;&lt;em&gt;Counter!!&lt;/em&gt;&lt;/h1&gt;
+</code></pre></li>
+<li><p>Also modify the C# logic of the <code>Counter</code> component to make the count increment by two instead of one.</p>
+<pre><code class="lang-cshtml">@functions {
+    int currentCount = 0;
+
+    void IncrementCount()
+    {
+        currentCount += 2;
+    }
+}
+</code></pre></li>
+<li><p>Refresh the counter page in the browser to see the changes.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39509668-e8949a92-4d9b-11e8-91e9-b6a494695d92.png" alt="Exciting counter"></p>
+</li>
+</ol>
+<h2 id="use-components">Use components</h2>
+<p>After a component is defined, the component can be used to implement other components. The markup for using a component looks like an HTML tag where the name of the tag is the component type.</p>
+<ol>
+<li><p>Add a <code>Counter</code> component to the Home page of the app (<em>Index.cshtml</em>).</p>
+<pre><code class="lang-cshtml">@page &quot;/&quot;
+
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+Welcome to your new app.
+
+&lt;SurveyPrompt Title=&quot;How is Blazor working for you?&quot; /&gt;
+
+&lt;Counter /&gt;
+</code></pre></li>
+<li><p>Refresh the home page in the browser. Note the separate instance of the <code>Counter</code> component on the Home page.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39509718-224483f6-4d9c-11e8-9030-b4c7228d669d.png" alt="Blazor Home page with counter"></p>
+</li>
+</ol>
+<h2 id="component-parameters">Component parameters</h2>
+<p>Components can also have parameters, which are defined using public properties on the component class. Use attributes to specify arguments for a component in markup. </p>
+<ol>
+<li><p>Update the <code>Counter</code> component to have an <code>IncrementAmount</code> property that defaults to 1.</p>
+<pre><code class="lang-cshtml">@functions {
+    int currentCount = 0;
+
+    [Parameter]
+    private int IncrementAmount { get; set; } = 1;
+
+    void IncrementCount()
+    {
+        currentCount += IncrementAmount;
+    }
+}
+</code></pre></li>
+<li><p>On the Home page (<em>Index.cshtml</em>), change the increment amount for the <code>Counter</code> to 10 by setting an attribute that matches the name of the component&#39;s property for <code>IncrementCount</code>.</p>
+<pre><code class="lang-cshtml">&lt;Counter IncrementAmount=&quot;10&quot; /&gt;
+</code></pre></li>
+<li><p>Reload the page.</p>
+<p> The counter on the Home page now increments by 10, while the counter on the Counter page still increments by 1.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39509798-618f0720-4d9c-11e8-9125-3d4c634dff46.png" alt="Blazor count by ten"></p>
+</li>
+</ol>
+<h2 id="route-to-components">Route to components</h2>
+<p>The <code>@page</code> directive at the top of the <em>Counter.cshtml</em> file specifies that this component is a page to which requests can be routed. Specifically, the <code>Counter</code> component handles requests sent to <code>/Counter</code>. Without the <code>@page</code> directive, the component wouldn&#39;t handle routed requests, but the component could still be used by other components.</p>
+<h2 id="dependency-injection">Dependency injection</h2>
+<p>Services registered with the app&#39;s service provider are available to components via <a href="https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection">dependency injection (DI)</a>. Services can be injected into a component using the <code>@inject</code> directive.</p>
+<p>Take a look at the implementation of the <code>FetchData</code> component in <em>FetchData.cshtml</em>. The <code>@inject</code> directive is used to inject an <a href="https://docs.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> instance into the component.</p>
+<pre><code class="lang-cshtml">@page &quot;/fetchdata&quot;
+@inject HttpClient Http
+</code></pre><p>The <code>FetchData</code> component uses the injected <code>HttpClient</code> to retrieve JSON data from the server when the component is initialized. Under the covers, the <code>HttpClient</code> provided by the Blazor runtime is implemented using JavaScript interop to call the underlying browser&#39;s Fetch API to send the request (from C#, it&#39;s possible to call any JavaScript library or browser API). The retrieved data is deserialized into the <code>forecasts</code> C# variable as an array of <code>WeatherForecast</code> objects.</p>
+<pre><code class="lang-cshtml">@functions {
+    WeatherForecast[] forecasts;
+
+    protected override async Task OnInitAsync()
+    {
+        forecasts = await Http.GetJsonAsync&lt;WeatherForecast[]&gt;(&quot;/sample-data/weather.json&quot;);
+    }
+
+    class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+        public int TemperatureC { get; set; }
+        public int TemperatureF { get; set; }
+        public string Summary { get; set; }
+    }
+}
+</code></pre><p>A <code>@foreach</code> loop is used to render each forecast instance as a row in the weather table.</p>
+<pre><code class="lang-cshtml">&lt;table class=&quot;table&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Date&lt;/th&gt;
+            &lt;th&gt;Temp. (C)&lt;/th&gt;
+            &lt;th&gt;Temp. (F)&lt;/th&gt;
+            &lt;th&gt;Summary&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        @foreach (var forecast in forecasts)
+        {
+            &lt;tr&gt;
+                &lt;td&gt;@forecast.Date.ToShortDateString()&lt;/td&gt;
+                &lt;td&gt;@forecast.TemperatureC&lt;/td&gt;
+                &lt;td&gt;@forecast.TemperatureF&lt;/td&gt;
+                &lt;td&gt;@forecast.Summary&lt;/td&gt;
+            &lt;/tr&gt;
+        }
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre><h2 id="build-a-todo-list">Build a todo list</h2>
+<p>Add a new page to the app that implements a simple todo list.</p>
+<ol>
+<li><p>Add an empty text file to the <em>Pages</em> folder named <em>Todo.cshtml</em>.</p>
+</li>
+<li><p>Provide the initial markup for the page.</p>
+<pre><code class="lang-cshtml">@page &quot;/todo&quot;
+
+&lt;h1&gt;Todo&lt;/h1&gt;
+</code></pre></li>
+<li><p>Add the Todo page to the navigation bar by updating <em>Shared/NavMenu.cshtml</em>. Add a <code>NavLink</code> for the Todo page by adding the following list item markup below the existing list items.</p>
+<pre><code class="lang-cshtml">&lt;li&gt;
+    &lt;NavLink href=&quot;/todo&quot;&gt;
+        &lt;span class=&#39;glyphicon glyphicon-th-list&#39;&gt;&lt;/span&gt; Todo
+    &lt;/NavLink&gt;
+&lt;/li&gt;
+</code></pre></li>
+<li><p>Refresh the app in the browser. See the new Todo page.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39509907-bb27e77a-4d9c-11e8-91e7-ea1e7c01729e.png" alt="Blazor todo start"></p>
+</li>
+<li><p>Add a <em>TodoItem.cs</em> file to the root of the project to hold a class to represent the todo items.</p>
+</li>
+<li><p>Use the following C# code for the <code>ToDoItem</code> class.</p>
+<pre><code class="lang-csharp">public class TodoItem
+{
+    public string Title { get; set; }
+    public bool IsDone { get; set; }
+}
+</code></pre></li>
+<li><p>Go back to the <code>Todo</code> component in <em>Todo.cshtml</em> and add a field for the todos in a <code>@functions</code> block. The <code>Todo</code> component uses this field to maintain the state of the todo list.</p>
+<pre><code class="lang-cshtml">@functions {
+    IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+}
+</code></pre></li>
+<li><p>Add unordered list markup and a <code>foreach</code> loop to render each todo item as a list item.</p>
+<pre><code class="lang-cshtml">@page &quot;/todo&quot;
+
+&lt;h1&gt;Todo&lt;/h1&gt;
+
+&lt;ul&gt;
+    @foreach (var todo in todos)
+    {
+        &lt;li&gt;@todo.Title&lt;/li&gt;
+    }
+&lt;/ul&gt;
+</code></pre></li>
+<li><p>The app requires UI elements for adding todos to the list. Add a text input and a button below the list.</p>
+<pre><code class="lang-cshtml">@page &quot;/todo&quot;
+
+&lt;h1&gt;Todo&lt;/h1&gt;
+
+&lt;ul&gt;
+    @foreach (var todo in todos)
+    {
+        &lt;li&gt;@todo.Title&lt;/li&gt;
+    }
+&lt;/ul&gt;
+
+&lt;input class placeholder=&quot;Something todo&quot; /&gt;
+&lt;button&gt;Add todo&lt;/button&gt;
+
+@functions {
+    IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+}
+</code></pre></li>
+<li><p>Refresh the browser.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39512402-bc88ab46-4da5-11e8-9e3f-87b875b56383.png" alt="Add todo button"></p>
+<p> Nothing happens when the <strong>Add todo</strong> button is selected because no event handler is wired up to the button.</p>
+</li>
+<li><p>Add an <code>AddTodo</code> method to the <code>Todo</code> component and register it for button clicks using the <code>onclick</code> attribute.</p>
+<pre><code class="lang-cshtml">&lt;input placeholder=&quot;Something todo&quot; /&gt;
+&lt;button onclick=&quot;@AddTodo&quot;&gt;Add todo&lt;/button&gt;
+
+@functions {
+    IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+
+    void AddTodo()
+    {
+        // Todo: Add the todo
+    }
+}
+</code></pre><p> The <code>AddTodo</code> C# method is called every time the button is selected.</p>
+</li>
+<li><p>To get the title of the new todo item, add a <code>newTodo</code> string field and bind it to the value of the text input using the <code>bind</code> attribute.</p>
+<pre><code class="lang-csharp">IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+string newTodo;
+</code></pre><pre><code class="lang-cshtml">&lt;input placeholder=&quot;Something todo&quot; bind=&quot;@newTodo&quot; /&gt;
+</code></pre></li>
+<li><p>Update the <code>AddTodo</code> method to add the <code>TodoItem</code> with the specified title to the list. Don&#39;t forget to clear the value of the text input by setting <code>newTodo</code> to an empty string.</p>
+<pre><code class="lang-cshtml">@page &quot;/todo&quot;
+
+&lt;h1&gt;Todo&lt;/h1&gt;
+
+&lt;ul&gt;
+    @foreach (var todo in todos)
+    {
+        &lt;li&gt;@todo.Title&lt;/li&gt;
+    }
+&lt;/ul&gt;
+
+&lt;input placeholder=&quot;Something todo&quot; bind=&quot;@newTodo&quot; /&gt;
+&lt;button onclick=&quot;@AddTodo&quot;&gt;Add todo&lt;/button&gt;
+
+@functions {
+    IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+    string newTodo;
+
+    void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
+}
+</code></pre></li>
+<li><p>Refresh the browser. Add some todos to the todo list.</p>
+<p> <img src="https://user-images.githubusercontent.com/1874516/39512531-2d2ff62e-4da6-11e8-8b83-291b0efc821b.png" alt="Add todos"></p>
+</li>
+<li><p>Lastly, what&#39;s a todo list without check boxes? The title text for each todo item can be made editable as well. Add a check box input and text input for each todo item and bind their values to the <code>Title</code> and <code>IsDone</code> properties, respectively.</p>
+<pre><code class="lang-cshtml">&lt;ul&gt;
+    @foreach (var todo in todos)
+    {
+        &lt;li&gt;
+            &lt;input type=&quot;checkbox&quot; bind=&quot;@todo.IsDone&quot; /&gt;
+            &lt;input bind=&quot;@todo.Title&quot; /&gt;
+        &lt;/li&gt;
+    }
+&lt;/ul&gt;
+</code></pre></li>
+<li><p>To verify that these values are bound, update the <code>h1</code> header to show a count of the number of todo items that are not yet done (<code>IsDone</code> is <code>false</code>).</p>
+<pre><code class="lang-cshtml">&lt;h1&gt;Todo (@todos.Where(todo =&gt; !todo.IsDone).Count())&lt;/h1&gt;
+</code></pre></li>
+<li><p>The completed <code>Todo</code> component should look like this:</p>
+<pre><code class="lang-cshtml">@page &quot;/todo&quot;
+
+&lt;h1&gt;Todo (@todos.Where(todo =&gt; !todo.IsDone).Count())&lt;/h1&gt;
+
+&lt;ul&gt;
+    @foreach (var todo in todos)
+    {
+        &lt;li&gt;
+            &lt;input type=&quot;checkbox&quot; bind=&quot;@todo.IsDone&quot; /&gt;
+            &lt;input bind=&quot;@todo.Title&quot; /&gt;
+        &lt;/li&gt;
+    }
+&lt;/ul&gt;
+
+&lt;input placeholder=&quot;Something todo&quot; bind=&quot;@newTodo&quot; /&gt;
+&lt;button onclick=&quot;@AddTodo&quot;&gt;Add todo&lt;/button&gt;
+
+@functions {
+    IList&lt;TodoItem&gt; todos = new List&lt;TodoItem&gt;();
+    string newTodo;
+
+    void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
+    }
+}
+</code></pre></li>
+</ol>
+<p>Refresh the app in the browser. Try adding some todo items.</p>
+<p><img src="https://user-images.githubusercontent.com/1874516/39512621-83406508-4da6-11e8-8244-5bae2ac6b22d.png" alt="Finished Blazor todo list"></p>
+<h2 id="publish-and-deploy">Publish and deploy</h2>
+<p>When using Visual Studio, perform the following steps to publish the Todo Blazor app to Azure:</p>
+<ol>
+<li><p>Right-click on the project in <strong>Solution Explorer</strong> and select <strong>Publish</strong>.</p>
+</li>
+<li><p>In the <strong>Pick a publish target</strong> dialog, select <strong>App Service</strong> and <strong>Create New</strong>. Select <strong>Publish</strong>.</p>
+<p> <img src="https://raw.githubusercontent.com/aspnet/Blazor.Docs/gh-pages/docs/tutorials/build-your-first-blazor-app/_static/blazor-publish-pick-target.png" alt="Pick a publish target"></p>
+</li>
+<li><p>In the <strong>Create App Service</strong> dialog, choose a name for the app and select the subscription, resource group, and hosting plan. Select <strong>Create</strong> to create the app service and publish the app.</p>
+<p> <img src="https://raw.githubusercontent.com/aspnet/Blazor.Docs/gh-pages/docs/tutorials/build-your-first-blazor-app/_static/blazor-publish-create-appservice2.png" alt="Create app service"></p>
+</li>
+</ol>
+<p>Wait a minute or so for the app to be deployed.</p>
+<p>The app should now be running in Azure. Mark the todo item to build your first Blazor app as <em>done</em>. Nice job!</p>
+<p><img src="https://user-images.githubusercontent.com/1874516/39512621-83406508-4da6-11e8-8244-5bae2ac6b22d.png" alt="Blazor on Azure"></p>
+<div class="NOTE"><h5>Note</h5><p>If not using Visual Studio, publish the Blazor app at a command prompt on Windows, macOS, or Linux:</p>
+<pre><code class="lang-console">dotnet publish -c Release
+</code></pre><p>The deployment is created in the <em>/bin/Release/&lt;target-framework&gt;/publish</em> folder. Move the contents of the <em>publish</em> folder to the server or hosting service.</p>
+<p>For more information, see the <a class="xref" href="../host-and-deploy/index.html#publish-the-app">Host and deploy</a> topic.</p>
+</div>
+<h2 id="additional-resources">Additional resources</h2>
+<p>For a more involved Blazor sample app, check out the <a href="https://github.com/aspnet/samples/tree/master/samples/aspnetcore/blazor">Flight Finder sample</a> on GitHub.</p>
+<p><img src="https://msdnshared.blob.core.windows.net/media/2018/03/blazor-flight-finder.png" alt="Blazor Flight Finder"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mixcore/docs/blob/master/documents/tutorials/build-your-first-blazor-app.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

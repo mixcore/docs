@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  id: GravatarHtmlHelper.Rating
+  parent: Swastika.Common.Helper
+  children:
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating.G
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating.PG
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating.R
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating.value__
+  - Swastika.Common.Helper.GravatarHtmlHelper.Rating.X
+  langs:
+  - csharp
+  - vb
+  name: GravatarHtmlHelper.Rating
+  nameWithType: GravatarHtmlHelper.Rating
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: 'public sealed class Rating : Enum'
+    content.vb: >-
+      Public NotInheritable Class Rating
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating.value__
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.Rating.value__
+  id: value__
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GravatarHtmlHelper.Rating.value__
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating.G
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.Rating.G
+  id: G
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: GravatarHtmlHelper.Rating.G
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating.G
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.Rating G
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+    content.vb: Public Const G As GravatarHtmlHelper.Rating
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating.PG
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.Rating.PG
+  id: PG
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  langs:
+  - csharp
+  - vb
+  name: PG
+  nameWithType: GravatarHtmlHelper.Rating.PG
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating.PG
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.Rating PG
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+    content.vb: Public Const PG As GravatarHtmlHelper.Rating
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating.R
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.Rating.R
+  id: R
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  langs:
+  - csharp
+  - vb
+  name: R
+  nameWithType: GravatarHtmlHelper.Rating.R
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating.R
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.Rating R
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+    content.vb: Public Const R As GravatarHtmlHelper.Rating
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating.X
+  commentId: F:Swastika.Common.Helper.GravatarHtmlHelper.Rating.X
+  id: X
+  parent: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: GravatarHtmlHelper.Rating.X
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating.X
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Common.Helper
+  syntax:
+    content: public const GravatarHtmlHelper.Rating X
+    return:
+      type: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+    content.vb: Public Const X As GravatarHtmlHelper.Rating
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Common.Helper
+  commentId: N:Swastika.Common.Helper
+  isExternal: true
+  name: Swastika.Common.Helper
+  nameWithType: Swastika.Common.Helper
+  fullName: Swastika.Common.Helper
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  commentId: T:Swastika.Common.Helper.GravatarHtmlHelper.Rating
+  parent: Swastika.Common.Helper
+  isExternal: true
+  name: GravatarHtmlHelper.Rating
+  nameWithType: GravatarHtmlHelper.Rating
+  fullName: Swastika.Common.Helper.GravatarHtmlHelper.Rating

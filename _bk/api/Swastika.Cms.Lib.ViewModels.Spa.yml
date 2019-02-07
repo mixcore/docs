@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.ViewModels.Spa
+  commentId: N:Swastika.Cms.Lib.ViewModels.Spa
+  id: Swastika.Cms.Lib.ViewModels.Spa
+  children:
+  - Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  - Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel
+  - Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Lib.ViewModels.Spa
+  nameWithType: Swastika.Cms.Lib.ViewModels.Spa
+  fullName: Swastika.Cms.Lib.ViewModels.Spa
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel
+  isExternal: true
+  name: SpaArticleViewModel
+  nameWithType: SpaArticleViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel
+  isExternal: true
+  name: SpaModuleDataViewModel
+  nameWithType: SpaModuleDataViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.SpaModuleDataViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  commentId: T:Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+  parent: Swastika.Cms.Lib.ViewModels.Spa
+  isExternal: true
+  name: ModuleDataValueViewModel
+  nameWithType: ModuleDataValueViewModel
+  fullName: Swastika.Cms.Lib.ViewModels.Spa.ModuleDataValueViewModel
+- uid: Swastika.Cms.Lib.ViewModels.Spa
+  commentId: N:Swastika.Cms.Lib.ViewModels.Spa
+  isExternal: true
+  name: Swastika.Cms.Lib.ViewModels.Spa
+  nameWithType: Swastika.Cms.Lib.ViewModels.Spa
+  fullName: Swastika.Cms.Lib.ViewModels.Spa

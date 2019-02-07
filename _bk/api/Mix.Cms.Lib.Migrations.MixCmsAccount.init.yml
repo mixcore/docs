@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  commentId: T:Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  id: init
+  parent: Mix.Cms.Lib.Migrations.MixCmsAccount
+  children:
+  - Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor
+  - Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  - Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: init
+  nameWithType: init
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Migrations.MixCmsAccount
+  syntax:
+    content: 'public class init : Migration'
+    content.vb: >-
+      Public Class init
+          Inherits Migration
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  langs:
+  - csharp
+  - vb
+  name: Up(MigrationBuilder)
+  nameWithType: init.Up(MigrationBuilder)
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Migrations.MixCmsAccount
+  syntax:
+    content: protected override void Up(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Up(migrationBuilder As MigrationBuilder)
+  overload: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  commentId: M:Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  id: Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  parent: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  langs:
+  - csharp
+  - vb
+  name: Down(MigrationBuilder)
+  nameWithType: init.Down(MigrationBuilder)
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Migrations.MixCmsAccount
+  syntax:
+    content: protected override void Down(MigrationBuilder migrationBuilder)
+    parameters:
+    - id: migrationBuilder
+      type: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+    content.vb: Protected Overrides Sub Down(migrationBuilder As MigrationBuilder)
+  overload: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  parent: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  langs:
+  - csharp
+  - vb
+  name: BuildTargetModel(ModelBuilder)
+  nameWithType: init.BuildTargetModel(ModelBuilder)
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Migrations.MixCmsAccount
+  syntax:
+    content: protected override void BuildTargetModel(ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Protected Overrides Sub BuildTargetModel(modelBuilder As ModelBuilder)
+  overload: Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor
+  commentId: M:Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Migrations.MixCmsAccount.init
+  langs:
+  - csharp
+  - vb
+  name: init()
+  nameWithType: init.init()
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.init()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Migrations.MixCmsAccount
+  syntax:
+    content: public init()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount
+  commentId: N:Mix.Cms.Lib.Migrations.MixCmsAccount
+  isExternal: true
+  name: Mix.Cms.Lib.Migrations.MixCmsAccount
+  nameWithType: Mix.Cms.Lib.Migrations.MixCmsAccount
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up*
+  commentId: Overload:Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up
+  isExternal: true
+  name: Up
+  nameWithType: init.Up
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Up
+- uid: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+  isExternal: true
+  name: MigrationBuilder
+  nameWithType: MigrationBuilder
+  fullName: Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down*
+  commentId: Overload:Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down
+  isExternal: true
+  name: Down
+  nameWithType: init.Down
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.Down
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel*
+  commentId: Overload:Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel
+  isExternal: true
+  name: BuildTargetModel
+  nameWithType: init.BuildTargetModel
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.BuildTargetModel
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  isExternal: true
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Migrations.MixCmsAccount.init.#ctor
+  isExternal: true
+  name: init
+  nameWithType: init.init
+  fullName: Mix.Cms.Lib.Migrations.MixCmsAccount.init.init

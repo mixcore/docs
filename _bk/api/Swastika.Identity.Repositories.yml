@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Repositories
+  commentId: N:Swastika.Identity.Repositories
+  id: Swastika.Identity.Repositories
+  children:
+  - Swastika.Identity.Repositories.AuthRepository
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Identity.Repositories
+  nameWithType: Swastika.Identity.Repositories
+  fullName: Swastika.Identity.Repositories
+  type: Namespace
+  assemblies:
+  - Swastika.Identity
+references:
+- uid: Swastika.Identity.Repositories.AuthRepository
+  commentId: T:Swastika.Identity.Repositories.AuthRepository
+  isExternal: true
+  name: AuthRepository
+  nameWithType: AuthRepository
+  fullName: Swastika.Identity.Repositories.AuthRepository

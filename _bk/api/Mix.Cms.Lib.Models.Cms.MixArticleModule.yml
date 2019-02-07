@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixArticleModule
+  id: MixArticleModule
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+  langs:
+  - csharp
+  - vb
+  name: MixArticleModule
+  nameWithType: MixArticleModule
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixArticleModule : Object'
+    content.vb: >-
+      Public Class MixArticleModule
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: MixArticleModule()
+  nameWithType: MixArticleModule.MixArticleModule()
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticleModule()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixArticleModule()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+  id: ModuleId
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: ModuleId
+  nameWithType: MixArticleModule.ModuleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int ModuleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ModuleId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+  id: ArticleId
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: ArticleId
+  nameWithType: MixArticleModule.ArticleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int ArticleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ArticleId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixArticleModule.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixArticleModule.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+  id: Image
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: MixArticleModule.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Image { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Image As String
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Image*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+  id: Position
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: MixArticleModule.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Position As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixArticleModule.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixArticleModule.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+  id: MixArticle
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: MixArticle
+  nameWithType: MixArticleModule.MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixArticle MixArticle { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixArticle
+    content.vb: Public Property MixArticle As MixArticle
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+  id: MixModule
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: MixModule
+  nameWithType: MixArticleModule.MixModule
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixModule MixModule { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixModule
+    content.vb: Public Property MixModule As MixModule
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+  id: MixModuleAttributeSet
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: MixModuleAttributeSet
+  nameWithType: MixArticleModule.MixModuleAttributeSet
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<MixModuleAttributeSet> MixModuleAttributeSet { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet}
+    content.vb: Public Property MixModuleAttributeSet As ICollection(Of MixModuleAttributeSet)
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+  id: MixModuleData
+  parent: Mix.Cms.Lib.Models.Cms.MixArticleModule
+  langs:
+  - csharp
+  - vb
+  name: MixModuleData
+  nameWithType: MixArticleModule.MixModuleData
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<MixModuleData> MixModuleData { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleData}
+    content.vb: Public Property MixModuleData As ICollection(Of MixModuleData)
+  overload: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.#ctor
+  isExternal: true
+  name: MixArticleModule
+  nameWithType: MixArticleModule.MixArticleModule
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticleModule
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+  isExternal: true
+  name: ModuleId
+  nameWithType: MixArticleModule.ModuleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.ModuleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+  isExternal: true
+  name: ArticleId
+  nameWithType: MixArticleModule.ArticleId
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.ArticleId
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixArticleModule.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixArticleModule.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Image*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+  isExternal: true
+  name: Image
+  nameWithType: MixArticleModule.Image
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Image
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Position*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+  isExternal: true
+  name: Position
+  nameWithType: MixArticleModule.Position
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Position
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixArticleModule.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixArticleModule.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+  isExternal: true
+  name: MixArticle
+  nameWithType: MixArticleModule.MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixArticle
+- uid: Mix.Cms.Lib.Models.Cms.MixArticle
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixArticle
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixArticle
+  nameWithType: MixArticle
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticle
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+  isExternal: true
+  name: MixModule
+  nameWithType: MixArticleModule.MixModule
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModule
+- uid: Mix.Cms.Lib.Models.Cms.MixModule
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixModule
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixModule
+  nameWithType: MixModule
+  fullName: Mix.Cms.Lib.Models.Cms.MixModule
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+  isExternal: true
+  name: MixModuleAttributeSet
+  nameWithType: MixArticleModule.MixModuleAttributeSet
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleAttributeSet
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<MixModuleAttributeSet>
+  nameWithType: ICollection<MixModuleAttributeSet>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet>
+  nameWithType.vb: ICollection(Of MixModuleAttributeSet)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet)
+  name.vb: ICollection(Of MixModuleAttributeSet)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet
+    name: MixModuleAttributeSet
+    nameWithType: MixModuleAttributeSet
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet
+    name: MixModuleAttributeSet
+    nameWithType: MixModuleAttributeSet
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleAttributeSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+  isExternal: true
+  name: MixModuleData
+  nameWithType: MixArticleModule.MixModuleData
+  fullName: Mix.Cms.Lib.Models.Cms.MixArticleModule.MixModuleData
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleData}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Cms.MixModuleData}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<MixModuleData>
+  nameWithType: ICollection<MixModuleData>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Cms.MixModuleData>
+  nameWithType.vb: ICollection(Of MixModuleData)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Cms.MixModuleData)
+  name.vb: ICollection(Of MixModuleData)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Cms.MixModuleData
+    name: MixModuleData
+    nameWithType: MixModuleData
+    fullName: Mix.Cms.Lib.Models.Cms.MixModuleData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType
+  commentId: T:Mix.Cms.Lib.MixEnums.UrlAliasType
+  id: MixEnums.UrlAliasType
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.Article
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.Module
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.ModuleData
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.Page
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.Product
+  - Mix.Cms.Lib.MixEnums.UrlAliasType.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.UrlAliasType
+  nameWithType: MixEnums.UrlAliasType
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class UrlAliasType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UrlAliasType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.UrlAliasType.value__
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.Page
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.Page
+  id: Page
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: MixEnums.UrlAliasType.Page
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.Page
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.UrlAliasType Page
+    return:
+      type: Mix.Cms.Lib.MixEnums.UrlAliasType
+    content.vb: Public Const Page As MixEnums.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.Article
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.Article
+  id: Article
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Article
+  nameWithType: MixEnums.UrlAliasType.Article
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.Article
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.UrlAliasType Article
+    return:
+      type: Mix.Cms.Lib.MixEnums.UrlAliasType
+    content.vb: Public Const Article As MixEnums.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.Product
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.Product
+  id: Product
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Product
+  nameWithType: MixEnums.UrlAliasType.Product
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.Product
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.UrlAliasType Product
+    return:
+      type: Mix.Cms.Lib.MixEnums.UrlAliasType
+    content.vb: Public Const Product As MixEnums.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.Module
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.Module
+  id: Module
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: MixEnums.UrlAliasType.Module
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.Module
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.UrlAliasType Module
+    return:
+      type: Mix.Cms.Lib.MixEnums.UrlAliasType
+    content.vb: Public Const Module As MixEnums.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType.ModuleData
+  commentId: F:Mix.Cms.Lib.MixEnums.UrlAliasType.ModuleData
+  id: ModuleData
+  parent: Mix.Cms.Lib.MixEnums.UrlAliasType
+  langs:
+  - csharp
+  - vb
+  name: ModuleData
+  nameWithType: MixEnums.UrlAliasType.ModuleData
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType.ModuleData
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.UrlAliasType ModuleData
+    return:
+      type: Mix.Cms.Lib.MixEnums.UrlAliasType
+    content.vb: Public Const ModuleData As MixEnums.UrlAliasType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.UrlAliasType
+  commentId: T:Mix.Cms.Lib.MixEnums.UrlAliasType
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.UrlAliasType
+  nameWithType: MixEnums.UrlAliasType
+  fullName: Mix.Cms.Lib.MixEnums.UrlAliasType

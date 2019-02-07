@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  id: AddPhoneNumberViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  children:
+  - Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  - Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumberViewModel
+  nameWithType: AddPhoneNumberViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: 'public class AddPhoneNumberViewModel : Object'
+    content.vb: >-
+      Public Class AddPhoneNumberViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneNumberViewModel()
+  nameWithType: AddPhoneNumberViewModel.AddPhoneNumberViewModel()
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.AddPhoneNumberViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public AddPhoneNumberViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  commentId: P:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  id: PhoneNumber
+  parent: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: AddPhoneNumberViewModel.PhoneNumber
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.ManageViewModels
+  commentId: N:Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.ManageViewModels
+  nameWithType: Swastika.Identity.Models.ManageViewModels
+  fullName: Swastika.Identity.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.#ctor
+  isExternal: true
+  name: AddPhoneNumberViewModel
+  nameWithType: AddPhoneNumberViewModel.AddPhoneNumberViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.AddPhoneNumberViewModel
+- uid: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: AddPhoneNumberViewModel.PhoneNumber
+  fullName: Swastika.Identity.Models.ManageViewModels.AddPhoneNumberViewModel.PhoneNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

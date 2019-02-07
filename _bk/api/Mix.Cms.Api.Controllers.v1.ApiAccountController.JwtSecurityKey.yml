@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  commentId: T:Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  id: ApiAccountController.JwtSecurityKey
+  parent: Mix.Cms.Api.Controllers.v1
+  children:
+  - Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ApiAccountController.JwtSecurityKey
+  nameWithType: ApiAccountController.JwtSecurityKey
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  type: Class
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: 'public static class JwtSecurityKey : Object'
+    content.vb: >-
+      Public Module JwtSecurityKey
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create(System.String)
+  commentId: M:Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create(System.String)
+  id: Create(System.String)
+  parent: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: ApiAccountController.JwtSecurityKey.Create(String)
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create(System.String)
+  type: Method
+  source:
+    path: Mix.Cms.Api
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Api
+  namespace: Mix.Cms.Api.Controllers.v1
+  syntax:
+    content: public static SymmetricSecurityKey Create(string secret)
+    parameters:
+    - id: secret
+      type: System.String
+    return:
+      type: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+    content.vb: Public Shared Function Create(secret As String) As SymmetricSecurityKey
+  overload: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Mix.Cms.Api.Controllers.v1
+  commentId: N:Mix.Cms.Api.Controllers.v1
+  isExternal: true
+  name: Mix.Cms.Api.Controllers.v1
+  nameWithType: Mix.Cms.Api.Controllers.v1
+  fullName: Mix.Cms.Api.Controllers.v1
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create*
+  commentId: Overload:Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create
+  isExternal: true
+  name: Create
+  nameWithType: ApiAccountController.JwtSecurityKey.Create
+  fullName: Mix.Cms.Api.Controllers.v1.ApiAccountController.JwtSecurityKey.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey
+  isExternal: true
+  name: SymmetricSecurityKey
+  nameWithType: SymmetricSecurityKey
+  fullName: Microsoft.IdentityModel.Tokens.SymmetricSecurityKey

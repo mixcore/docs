@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Models.ValueObject`1
+  commentId: T:Swastika.Domain.Core.Models.ValueObject`1
+  id: ValueObject`1
+  parent: Swastika.Domain.Core.Models
+  children:
+  - Swastika.Domain.Core.Models.ValueObject`1.#ctor
+  - Swastika.Domain.Core.Models.ValueObject`1.Equals(System.Object)
+  - Swastika.Domain.Core.Models.ValueObject`1.EqualsCore(`0)
+  - Swastika.Domain.Core.Models.ValueObject`1.GetHashCode
+  - Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore
+  - Swastika.Domain.Core.Models.ValueObject`1.op_Equality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  - Swastika.Domain.Core.Models.ValueObject`1.op_Inequality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  langs:
+  - csharp
+  - vb
+  name: ValueObject<T>
+  nameWithType: ValueObject<T>
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: 'public abstract class ValueObject<T> : Object where T : ValueObject<T>'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class ValueObject(Of T As ValueObject(Of T))
+          Inherits Object
+  inheritance:
+  - System.Object
+  nameWithType.vb: ValueObject(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T)
+  name.vb: ValueObject(Of T)
+- uid: Swastika.Domain.Core.Models.ValueObject`1.op_Inequality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.op_Inequality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  id: op_Inequality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: Inequality(ValueObject<T>, ValueObject<T>)
+  nameWithType: ValueObject<T>.Inequality(ValueObject<T>, ValueObject<T>)
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Inequality(Swastika.Domain.Core.Models.ValueObject<T>, Swastika.Domain.Core.Models.ValueObject<T>)
+  type: Operator
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public static bool operator !=(ValueObject<T> a, ValueObject<T> b)
+    parameters:
+    - id: a
+      type: Swastika.Domain.Core.Models.ValueObject`1
+    - id: b
+      type: Swastika.Domain.Core.Models.ValueObject`1
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As ValueObject(Of T), b As ValueObject(Of T)) As Boolean
+  overload: Swastika.Domain.Core.Models.ValueObject`1.op_Inequality*
+  nameWithType.vb: ValueObject(Of T).Inequality(ValueObject(Of T), ValueObject(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Inequality(Swastika.Domain.Core.Models.ValueObject(Of T), Swastika.Domain.Core.Models.ValueObject(Of T))
+  name.vb: Inequality(ValueObject(Of T), ValueObject(Of T))
+- uid: Swastika.Domain.Core.Models.ValueObject`1.op_Equality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.op_Equality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  id: op_Equality(Swastika.Domain.Core.Models.ValueObject{`0},Swastika.Domain.Core.Models.ValueObject{`0})
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: Equality(ValueObject<T>, ValueObject<T>)
+  nameWithType: ValueObject<T>.Equality(ValueObject<T>, ValueObject<T>)
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Equality(Swastika.Domain.Core.Models.ValueObject<T>, Swastika.Domain.Core.Models.ValueObject<T>)
+  type: Operator
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public static bool operator ==(ValueObject<T> a, ValueObject<T> b)
+    parameters:
+    - id: a
+      type: Swastika.Domain.Core.Models.ValueObject`1
+    - id: b
+      type: Swastika.Domain.Core.Models.ValueObject`1
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As ValueObject(Of T), b As ValueObject(Of T)) As Boolean
+  overload: Swastika.Domain.Core.Models.ValueObject`1.op_Equality*
+  nameWithType.vb: ValueObject(Of T).Equality(ValueObject(Of T), ValueObject(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Equality(Swastika.Domain.Core.Models.ValueObject(Of T), Swastika.Domain.Core.Models.ValueObject(Of T))
+  name.vb: Equality(ValueObject(Of T), ValueObject(Of T))
+- uid: Swastika.Domain.Core.Models.ValueObject`1.Equals(System.Object)
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ValueObject<T>.Equals(Object)
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Equals(System.Object)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: Swastika.Domain.Core.Models.ValueObject`1.Equals*
+  nameWithType.vb: ValueObject(Of T).Equals(Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Equals(System.Object)
+- uid: Swastika.Domain.Core.Models.ValueObject`1.GetHashCode
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.GetHashCode
+  id: GetHashCode
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ValueObject<T>.GetHashCode()
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.GetHashCode()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overload: Swastika.Domain.Core.Models.ValueObject`1.GetHashCode*
+  nameWithType.vb: ValueObject(Of T).GetHashCode()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).GetHashCode()
+- uid: Swastika.Domain.Core.Models.ValueObject`1.EqualsCore(`0)
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.EqualsCore(`0)
+  id: EqualsCore(`0)
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: EqualsCore(T)
+  nameWithType: ValueObject<T>.EqualsCore(T)
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.EqualsCore(T)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: protected abstract bool EqualsCore(T other)
+    parameters:
+    - id: other
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Protected MustOverride Function EqualsCore(other As T) As Boolean
+  overload: Swastika.Domain.Core.Models.ValueObject`1.EqualsCore*
+  nameWithType.vb: ValueObject(Of T).EqualsCore(T)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).EqualsCore(T)
+- uid: Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore
+  id: GetHashCodeCore
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: GetHashCodeCore()
+  nameWithType: ValueObject<T>.GetHashCodeCore()
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.GetHashCodeCore()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: protected abstract int GetHashCodeCore()
+    return:
+      type: System.Int32
+    content.vb: Protected MustOverride Function GetHashCodeCore As Integer
+  overload: Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore*
+  nameWithType.vb: ValueObject(Of T).GetHashCodeCore()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).GetHashCodeCore()
+- uid: Swastika.Domain.Core.Models.ValueObject`1.#ctor
+  commentId: M:Swastika.Domain.Core.Models.ValueObject`1.#ctor
+  id: '#ctor'
+  parent: Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: ValueObject()
+  nameWithType: ValueObject<T>.ValueObject()
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.ValueObject()
+  type: Constructor
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: protected ValueObject()
+    content.vb: Protected Sub New
+  overload: Swastika.Domain.Core.Models.ValueObject`1.#ctor*
+  nameWithType.vb: ValueObject(Of T).ValueObject()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).ValueObject()
+references:
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: true
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Domain.Core.Models.ValueObject`1.op_Inequality*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.op_Inequality
+  isExternal: true
+  name: Inequality
+  nameWithType: ValueObject<T>.Inequality
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Inequality
+  nameWithType.vb: ValueObject(Of T).Inequality
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Inequality
+- uid: Swastika.Domain.Core.Models.ValueObject`1
+  commentId: T:Swastika.Domain.Core.Models.ValueObject`1
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: ValueObject<T>
+  nameWithType: ValueObject<T>
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>
+  nameWithType.vb: ValueObject(Of T)
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T)
+  name.vb: ValueObject(Of T)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.Models.ValueObject`1
+    name: ValueObject
+    nameWithType: ValueObject
+    fullName: Swastika.Domain.Core.Models.ValueObject
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.Models.ValueObject`1
+    name: ValueObject
+    nameWithType: ValueObject
+    fullName: Swastika.Domain.Core.Models.ValueObject
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Domain.Core.Models.ValueObject`1.op_Equality*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.op_Equality
+  isExternal: true
+  name: Equality
+  nameWithType: ValueObject<T>.Equality
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Equality
+  nameWithType.vb: ValueObject(Of T).Equality
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Equality
+- uid: Swastika.Domain.Core.Models.ValueObject`1.Equals*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.Equals
+  isExternal: true
+  name: Equals
+  nameWithType: ValueObject<T>.Equals
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.Equals
+  nameWithType.vb: ValueObject(Of T).Equals
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).Equals
+- uid: Swastika.Domain.Core.Models.ValueObject`1.GetHashCode*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.GetHashCode
+  isExternal: true
+  name: GetHashCode
+  nameWithType: ValueObject<T>.GetHashCode
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.GetHashCode
+  nameWithType.vb: ValueObject(Of T).GetHashCode
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Domain.Core.Models.ValueObject`1.EqualsCore*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.EqualsCore
+  isExternal: true
+  name: EqualsCore
+  nameWithType: ValueObject<T>.EqualsCore
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.EqualsCore
+  nameWithType.vb: ValueObject(Of T).EqualsCore
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).EqualsCore
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.GetHashCodeCore
+  isExternal: true
+  name: GetHashCodeCore
+  nameWithType: ValueObject<T>.GetHashCodeCore
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.GetHashCodeCore
+  nameWithType.vb: ValueObject(Of T).GetHashCodeCore
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).GetHashCodeCore
+- uid: Swastika.Domain.Core.Models.ValueObject`1.#ctor*
+  commentId: Overload:Swastika.Domain.Core.Models.ValueObject`1.#ctor
+  isExternal: true
+  name: ValueObject
+  nameWithType: ValueObject<T>.ValueObject
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>.ValueObject
+  nameWithType.vb: ValueObject(Of T).ValueObject
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T).ValueObject

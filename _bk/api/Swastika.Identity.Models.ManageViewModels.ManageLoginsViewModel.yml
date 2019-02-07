@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  commentId: T:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  id: ManageLoginsViewModel
+  parent: Swastika.Identity.Models.ManageViewModels
+  children:
+  - Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor
+  - Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  - Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  langs:
+  - csharp
+  - vb
+  name: ManageLoginsViewModel
+  nameWithType: ManageLoginsViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  type: Class
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: 'public class ManageLoginsViewModel : Object'
+    content.vb: >-
+      Public Class ManageLoginsViewModel
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor
+  commentId: M:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor
+  id: '#ctor'
+  parent: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  langs:
+  - csharp
+  - vb
+  name: ManageLoginsViewModel()
+  nameWithType: ManageLoginsViewModel.ManageLoginsViewModel()
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.ManageLoginsViewModel()
+  type: Constructor
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public ManageLoginsViewModel()
+    content.vb: Public Sub New
+  overload: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  commentId: P:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  id: CurrentLogins
+  parent: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentLogins
+  nameWithType: ManageLoginsViewModel.CurrentLogins
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public IList<UserLoginInfo> CurrentLogins { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}
+    content.vb: Public Property CurrentLogins As IList(Of UserLoginInfo)
+  overload: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  commentId: P:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  id: OtherLogins
+  parent: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel
+  langs:
+  - csharp
+  - vb
+  name: OtherLogins
+  nameWithType: ManageLoginsViewModel.OtherLogins
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  type: Property
+  source:
+    path: Swastika.Identity
+    isExternal: true
+  assemblies:
+  - Swastika.Identity
+  namespace: Swastika.Identity.Models.ManageViewModels
+  syntax:
+    content: public IList<AuthenticationScheme> OtherLogins { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.AspNetCore.Authentication.AuthenticationScheme}
+    content.vb: Public Property OtherLogins As IList(Of AuthenticationScheme)
+  overload: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Identity.Models.ManageViewModels
+  commentId: N:Swastika.Identity.Models.ManageViewModels
+  isExternal: true
+  name: Swastika.Identity.Models.ManageViewModels
+  nameWithType: Swastika.Identity.Models.ManageViewModels
+  fullName: Swastika.Identity.Models.ManageViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.#ctor
+  isExternal: true
+  name: ManageLoginsViewModel
+  nameWithType: ManageLoginsViewModel.ManageLoginsViewModel
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.ManageLoginsViewModel
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+  isExternal: true
+  name: CurrentLogins
+  nameWithType: ManageLoginsViewModel.CurrentLogins
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.CurrentLogins
+- uid: System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}
+  commentId: '!:System.Collections.Generic.IList{Microsoft.AspNetCore.Identity.UserLoginInfo}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<UserLoginInfo>
+  nameWithType: IList<UserLoginInfo>
+  fullName: System.Collections.Generic.IList<Microsoft.AspNetCore.Identity.UserLoginInfo>
+  nameWithType.vb: IList(Of UserLoginInfo)
+  fullName.vb: System.Collections.Generic.IList(Of Microsoft.AspNetCore.Identity.UserLoginInfo)
+  name.vb: IList(Of UserLoginInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNetCore.Identity.UserLoginInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNetCore.Identity.UserLoginInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: System.Collections.Generic.IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: System.Collections.Generic.IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins*
+  commentId: Overload:Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+  isExternal: true
+  name: OtherLogins
+  nameWithType: ManageLoginsViewModel.OtherLogins
+  fullName: Swastika.Identity.Models.ManageViewModels.ManageLoginsViewModel.OtherLogins
+- uid: System.Collections.Generic.IList{Microsoft.AspNetCore.Authentication.AuthenticationScheme}
+  commentId: '!:System.Collections.Generic.IList{Microsoft.AspNetCore.Authentication.AuthenticationScheme}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<AuthenticationScheme>
+  nameWithType: IList<AuthenticationScheme>
+  fullName: System.Collections.Generic.IList<Microsoft.AspNetCore.Authentication.AuthenticationScheme>
+  nameWithType.vb: IList(Of AuthenticationScheme)
+  fullName.vb: System.Collections.Generic.IList(Of Microsoft.AspNetCore.Authentication.AuthenticationScheme)
+  name.vb: IList(Of AuthenticationScheme)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationScheme
+    name: AuthenticationScheme
+    nameWithType: AuthenticationScheme
+    fullName: Microsoft.AspNetCore.Authentication.AuthenticationScheme
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Authentication.AuthenticationScheme
+    name: AuthenticationScheme
+    nameWithType: AuthenticationScheme
+    fullName: Microsoft.AspNetCore.Authentication.AuthenticationScheme
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

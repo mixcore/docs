@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  id: SiocCategoryPosition
+  parent: Swastika.Cms.Lib.Models.Cms
+  children:
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+  - Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryPosition
+  nameWithType: SiocCategoryPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class SiocCategoryPosition : Object'
+    content.vb: >-
+      Public Class SiocCategoryPosition
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: SiocCategoryPosition()
+  nameWithType: SiocCategoryPosition.SiocCategoryPosition()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategoryPosition()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocCategoryPosition()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+  id: PositionId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: PositionId
+  nameWithType: SiocCategoryPosition.PositionId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int PositionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PositionId As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+  id: CategoryId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: CategoryId
+  nameWithType: SiocCategoryPosition.CategoryId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int CategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CategoryId As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+  id: Specificulture
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: SiocCategoryPosition.Specificulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+  id: Description
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SiocCategoryPosition.Description
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+  id: Priority
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocCategoryPosition.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+  id: Status
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocCategoryPosition.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+  id: Position
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: SiocCategoryPosition.Position
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocPosition Position { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Cms.SiocPosition
+    content.vb: Public Property Position As SiocPosition
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+  id: SiocCategory
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition
+  langs:
+  - csharp
+  - vb
+  name: SiocCategory
+  nameWithType: SiocCategoryPosition.SiocCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocCategory SiocCategory { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Models.Cms.SiocCategory
+    content.vb: Public Property SiocCategory As SiocCategory
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.#ctor
+  isExternal: true
+  name: SiocCategoryPosition
+  nameWithType: SiocCategoryPosition.SiocCategoryPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategoryPosition
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+  isExternal: true
+  name: PositionId
+  nameWithType: SiocCategoryPosition.PositionId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.PositionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+  isExternal: true
+  name: CategoryId
+  nameWithType: SiocCategoryPosition.CategoryId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.CategoryId
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: SiocCategoryPosition.Specificulture
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Specificulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+  isExternal: true
+  name: Description
+  nameWithType: SiocCategoryPosition.Description
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Description
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocCategoryPosition.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Priority
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocCategoryPosition.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Status
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+  isExternal: true
+  name: Position
+  nameWithType: SiocCategoryPosition.Position
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.Position
+- uid: Swastika.Cms.Lib.Models.Cms.SiocPosition
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocPosition
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocPosition
+  nameWithType: SiocPosition
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocPosition
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+  isExternal: true
+  name: SiocCategory
+  nameWithType: SiocCategoryPosition.SiocCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategoryPosition.SiocCategory
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCategory
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCategory
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocCategory
+  nameWithType: SiocCategory
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCategory

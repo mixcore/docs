@@ -1,0 +1,1015 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SpaArticleViewModel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SpaArticleViewModel
+   ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel">
+  
+  
+  <h1 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel" class="text-break">Class SpaArticleViewModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html">ViewModelBase</a>&lt;<a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a>, <a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocArticle.html">SiocArticle</a>, <a class="xref" href="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.html">SpaArticleViewModel</a>&gt;</div>
+    <div class="level2"><span class="xref">SpaArticleViewModel</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_IsValid">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_ExpandView__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.ExpandView(SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_InitContext">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.InitContext()</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_InitModel">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.InitModel()</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_InitView__1_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.InitView(SiocArticle, Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_ParseModel__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.ParseModel(SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_ParseView_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.ParseView(Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Validate__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Validate(SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_CloneAsync__1_System_Collections_Generic_List_Swastika_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.CloneAsync(SiocArticle, List&lt;SupportedCulture&gt;, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModelsAsync__2_System_Collections_Generic_List_Swastika_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.CloneSubModelsAsync(SpaArticleViewModel, List&lt;SupportedCulture&gt;, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_RemoveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.RemoveModelAsync(Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModelsAsync__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.RemoveRelatedModelsAsync(SpaArticleViewModel, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_SaveModelAsync_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.SaveModelAsync(Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModelsAsync__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.SaveSubModelsAsync(SiocArticle, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Clone__1_System_Collections_Generic_List_Swastika_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Clone(SiocArticle, List&lt;SupportedCulture&gt;, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_CloneSubModels__2_System_Collections_Generic_List_Swastika_Domain_Core_Models_SupportedCulture___0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.CloneSubModels(SpaArticleViewModel, List&lt;SupportedCulture&gt;, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_RemoveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.RemoveModel(Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_RemoveRelatedModels__2__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.RemoveRelatedModels(SpaArticleViewModel, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_SaveModel_System_Boolean__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.SaveModel(Boolean, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_SaveSubModels__1__0_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.SaveSubModels(SiocArticle, SiocCmsContext, IDbContextTransaction)</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Repository">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Repository</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Exception">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Exception</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_IsClone">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.IsClone</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_IsLazyLoad">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.IsLazyLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_ListSupportedCulture">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.ListSupportedCulture</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Mapper">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Mapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Model">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_ModelMapper">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.ModelMapper</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_PageIndex">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.PageIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_PageSize">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.PageSize</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Priority">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Status">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Status</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Specificulture">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Specificulture</a>
+    </div>
+    <div>
+      <a class="xref" href="Swastika.Domain.Data.ViewModels.ViewModelBase-3.html#Swastika_Domain_Data_ViewModels_ViewModelBase_3_Errors">ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;.Errors</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Swastika.Cms.Lib.ViewModels.Spa.html">Swastika.Cms.Lib.ViewModels.Spa</a></h6>
+  <h6><strong>Assembly</strong>: Swastika.Cms.Lib.dll</h6>
+  <h5 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SpaArticleViewModel : ViewModelBase&lt;SiocCmsContext, SiocArticle, SpaArticleViewModel&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel__ctor_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.#ctor*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel__ctor" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.#ctor">SpaArticleViewModel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpaArticleViewModel()</code></pre>
+  </div>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel__ctor_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.#ctor*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel__ctor_Swastika_Cms_Lib_Models_Cms_SiocArticle_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.#ctor(Swastika.Cms.Lib.Models.Cms.SiocArticle,Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">SpaArticleViewModel(SiocArticle, SiocCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpaArticleViewModel(SiocArticle model, SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocArticle.html">SiocArticle</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Content_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Content*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Content" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Content">Content</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_CreatedBy_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.CreatedBy*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_CreatedBy" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.CreatedBy">CreatedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CreatedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_CreatedDateTime_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.CreatedDateTime*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_CreatedDateTime" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.CreatedDateTime">CreatedDateTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreatedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Domain_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Domain*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Domain" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Domain">Domain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Domain { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Excerpt_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Excerpt*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Excerpt" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Excerpt">Excerpt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Excerpt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Icon_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Icon*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Icon" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Icon">Icon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Icon { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Id_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Id*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Id" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Image_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Image*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Image" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Image">Image</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Image { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ImageUrl_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ImageUrl*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ImageUrl" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ImageUrl">ImageUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ImageUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_IsDeleted_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.IsDeleted*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_IsDeleted" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.IsDeleted">IsDeleted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDeleted { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_IsVisible_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.IsVisible*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_IsVisible" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.IsVisible">IsVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_LastModified_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.LastModified*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_LastModified" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.LastModified">LastModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;DateTime&gt; LastModified { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ModifiedBy_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ModifiedBy*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ModifiedBy" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ModifiedBy">ModifiedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ModifiedBy { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Modules_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Modules*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Modules" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Modules">Modules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;FEModuleViewModel&gt; Modules { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Swastika.Cms.Lib.ViewModels.FrontEnd.FEModuleViewModel.html">FEModuleViewModel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoDescription_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoDescription*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoDescription" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoDescription">SeoDescription</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoDescription { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoKeywords_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoKeywords*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoKeywords" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoKeywords">SeoKeywords</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoKeywords { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoName_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoName*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoName" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoName">SeoName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoTitle_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoTitle*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_SeoTitle" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.SeoTitle">SeoTitle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SeoTitle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Source_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Source*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Source" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Source">Source</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Source { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Tags_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Tags*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Tags" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Tags">Tags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Tags { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Template_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Template*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Template" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Template">Template</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Template { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_TemplatePath_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.TemplatePath*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_TemplatePath" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.TemplatePath">TemplatePath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TemplatePath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Thumbnail_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Thumbnail*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Thumbnail" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Thumbnail">Thumbnail</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Thumbnail { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ThumbnailUrl_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ThumbnailUrl*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ThumbnailUrl" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ThumbnailUrl">ThumbnailUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ThumbnailUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Title_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Title*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Title" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Title">Title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Type_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Type*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Type" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Type">Type</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Type { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_View_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.View*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_View" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.View">View</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FETemplateViewModel View { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.ViewModels.FrontEnd.FETemplateViewModel.html">FETemplateViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Views_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Views*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_Views" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.Views">Views</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;int&gt; Views { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ExpandView_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ExpandView*"></a>
+  <h4 id="Swastika_Cms_Lib_ViewModels_Spa_SpaArticleViewModel_ExpandView_Swastika_Cms_Lib_Models_Cms_SiocCmsContext_Microsoft_EntityFrameworkCore_Storage_IDbContextTransaction_" data-uid="Swastika.Cms.Lib.ViewModels.Spa.SpaArticleViewModel.ExpandView(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)">ExpandView(SiocCmsContext, IDbContextTransaction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ExpandView(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Swastika.Cms.Lib.Models.Cms.SiocCmsContext.html">SiocCmsContext</a></td>
+        <td><span class="parametername">_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction</span></td>
+        <td><span class="parametername">_transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

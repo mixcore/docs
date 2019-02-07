@@ -1,0 +1,1740 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers
+  commentId: T:Mix.Cms.Lib.Models.Account.AspNetUsers
+  id: AspNetUsers
+  parent: Mix.Cms.Lib.Models.Account
+  children:
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  - Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+  langs:
+  - csharp
+  - vb
+  name: AspNetUsers
+  nameWithType: AspNetUsers
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: 'public class AspNetUsers : Object'
+    content.vb: >-
+      Public Class AspNetUsers
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUsers()
+  nameWithType: AspNetUsers.AspNetUsers()
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUsers()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public AspNetUsers()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: AspNetUsers.Id
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  id: AccessFailedCount
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AccessFailedCount
+  nameWithType: AspNetUsers.AccessFailedCount
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public int AccessFailedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AccessFailedCount As Integer
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  id: Avatar
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Avatar
+  nameWithType: AspNetUsers.Avatar
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Avatar { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Avatar As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  id: ConcurrencyStamp
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: ConcurrencyStamp
+  nameWithType: AspNetUsers.ConcurrencyStamp
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string ConcurrencyStamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConcurrencyStamp As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  id: CountryId
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: AspNetUsers.CountryId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountryId As Integer
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+  id: Culture
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: AspNetUsers.Culture
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+  id: Dob
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Dob
+  nameWithType: AspNetUsers.Dob
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public Nullable<DateTime> Dob { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property Dob As Nullable(Of DateTime)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Dob*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+  id: Email
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: AspNetUsers.Email
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  id: EmailConfirmed
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: EmailConfirmed
+  nameWithType: AspNetUsers.EmailConfirmed
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool EmailConfirmed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EmailConfirmed As Boolean
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  id: FirstName
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: AspNetUsers.FirstName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+  id: Gender
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: AspNetUsers.Gender
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string Gender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Gender As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  id: IsActived
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: IsActived
+  nameWithType: AspNetUsers.IsActived
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool IsActived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActived As Boolean
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  id: JoinDate
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: JoinDate
+  nameWithType: AspNetUsers.JoinDate
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime JoinDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property JoinDate As DateTime
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  id: LastModified
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LastModified
+  nameWithType: AspNetUsers.LastModified
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public DateTime LastModified { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastModified As DateTime
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+  id: LastName
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: AspNetUsers.LastName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  id: LockoutEnabled
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LockoutEnabled
+  nameWithType: AspNetUsers.LockoutEnabled
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool LockoutEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LockoutEnabled As Boolean
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  id: LockoutEnd
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: LockoutEnd
+  nameWithType: AspNetUsers.LockoutEnd
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public Nullable<DateTimeOffset> LockoutEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTimeOffset}
+    content.vb: Public Property LockoutEnd As Nullable(Of DateTimeOffset)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  id: ModifiedBy
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: ModifiedBy
+  nameWithType: AspNetUsers.ModifiedBy
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string ModifiedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ModifiedBy As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+  id: NickName
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NickName
+  nameWithType: AspNetUsers.NickName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string NickName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NickName As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.NickName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  id: NormalizedEmail
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NormalizedEmail
+  nameWithType: AspNetUsers.NormalizedEmail
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string NormalizedEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NormalizedEmail As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  id: NormalizedUserName
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: NormalizedUserName
+  nameWithType: AspNetUsers.NormalizedUserName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string NormalizedUserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NormalizedUserName As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  id: PasswordHash
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PasswordHash
+  nameWithType: AspNetUsers.PasswordHash
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string PasswordHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PasswordHash As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  id: PhoneNumber
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: AspNetUsers.PhoneNumber
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  id: PhoneNumberConfirmed
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberConfirmed
+  nameWithType: AspNetUsers.PhoneNumberConfirmed
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool PhoneNumberConfirmed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneNumberConfirmed As Boolean
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  id: RegisterType
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: RegisterType
+  nameWithType: AspNetUsers.RegisterType
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string RegisterType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegisterType As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  id: SecurityStamp
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: SecurityStamp
+  nameWithType: AspNetUsers.SecurityStamp
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string SecurityStamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SecurityStamp As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  id: TwoFactorEnabled
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: TwoFactorEnabled
+  nameWithType: AspNetUsers.TwoFactorEnabled
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public bool TwoFactorEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TwoFactorEnabled As Boolean
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+  id: UserName
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: AspNetUsers.UserName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserName As String
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.UserName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  id: AspNetUserClaimsApplicationUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaimsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserClaimsApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserClaims> AspNetUserClaimsApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserClaims}
+    content.vb: Public Property AspNetUserClaimsApplicationUser As ICollection(Of AspNetUserClaims)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  id: AspNetUserClaimsUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserClaimsUser
+  nameWithType: AspNetUsers.AspNetUserClaimsUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserClaims> AspNetUserClaimsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserClaims}
+    content.vb: Public Property AspNetUserClaimsUser As ICollection(Of AspNetUserClaims)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  id: AspNetUserLoginsApplicationUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserLoginsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserLoginsApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserLogins> AspNetUserLoginsApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserLogins}
+    content.vb: Public Property AspNetUserLoginsApplicationUser As ICollection(Of AspNetUserLogins)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  id: AspNetUserLoginsUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserLoginsUser
+  nameWithType: AspNetUsers.AspNetUserLoginsUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserLogins> AspNetUserLoginsUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserLogins}
+    content.vb: Public Property AspNetUserLoginsUser As ICollection(Of AspNetUserLogins)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  id: AspNetUserRolesApplicationUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserRolesApplicationUser
+  nameWithType: AspNetUsers.AspNetUserRolesApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserRoles> AspNetUserRolesApplicationUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserRoles}
+    content.vb: Public Property AspNetUserRolesApplicationUser As ICollection(Of AspNetUserRoles)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  id: AspNetUserRolesUser
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserRolesUser
+  nameWithType: AspNetUsers.AspNetUserRolesUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserRoles> AspNetUserRolesUser { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserRoles}
+    content.vb: Public Property AspNetUserRolesUser As ICollection(Of AspNetUserRoles)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  commentId: P:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  id: AspNetUserTokens
+  parent: Mix.Cms.Lib.Models.Account.AspNetUsers
+  langs:
+  - csharp
+  - vb
+  name: AspNetUserTokens
+  nameWithType: AspNetUsers.AspNetUserTokens
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Account
+  syntax:
+    content: public ICollection<AspNetUserTokens> AspNetUserTokens { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserTokens}
+    content.vb: Public Property AspNetUserTokens As ICollection(Of AspNetUserTokens)
+  overload: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Account
+  commentId: N:Mix.Cms.Lib.Models.Account
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Account
+  nameWithType: Mix.Cms.Lib.Models.Account
+  fullName: Mix.Cms.Lib.Models.Account
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.#ctor
+  isExternal: true
+  name: AspNetUsers
+  nameWithType: AspNetUsers.AspNetUsers
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUsers
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+  isExternal: true
+  name: Id
+  nameWithType: AspNetUsers.Id
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+  isExternal: true
+  name: AccessFailedCount
+  nameWithType: AspNetUsers.AccessFailedCount
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AccessFailedCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+  isExternal: true
+  name: Avatar
+  nameWithType: AspNetUsers.Avatar
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Avatar
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+  isExternal: true
+  name: ConcurrencyStamp
+  nameWithType: AspNetUsers.ConcurrencyStamp
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.ConcurrencyStamp
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: AspNetUsers.CountryId
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.CountryId
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Culture*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: AspNetUsers.Culture
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Culture
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Dob*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+  isExternal: true
+  name: Dob
+  nameWithType: AspNetUsers.Dob
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Dob
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Email*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+  isExternal: true
+  name: Email
+  nameWithType: AspNetUsers.Email
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Email
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+  isExternal: true
+  name: EmailConfirmed
+  nameWithType: AspNetUsers.EmailConfirmed
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.EmailConfirmed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: AspNetUsers.FirstName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.FirstName
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.Gender*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+  isExternal: true
+  name: Gender
+  nameWithType: AspNetUsers.Gender
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.Gender
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+  isExternal: true
+  name: IsActived
+  nameWithType: AspNetUsers.IsActived
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.IsActived
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+  isExternal: true
+  name: JoinDate
+  nameWithType: AspNetUsers.JoinDate
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.JoinDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+  isExternal: true
+  name: LastModified
+  nameWithType: AspNetUsers.LastModified
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LastModified
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LastName*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: AspNetUsers.LastName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LastName
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+  isExternal: true
+  name: LockoutEnabled
+  nameWithType: AspNetUsers.LockoutEnabled
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnabled
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+  isExternal: true
+  name: LockoutEnd
+  nameWithType: AspNetUsers.LockoutEnd
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.LockoutEnd
+- uid: System.Nullable{System.DateTimeOffset}
+  commentId: '!:System.Nullable{System.DateTimeOffset}'
+  definition: System.Nullable`1
+  name: Nullable<DateTimeOffset>
+  nameWithType: Nullable<DateTimeOffset>
+  fullName: System.Nullable<System.DateTimeOffset>
+  nameWithType.vb: Nullable(Of DateTimeOffset)
+  fullName.vb: System.Nullable(Of System.DateTimeOffset)
+  name.vb: Nullable(Of DateTimeOffset)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTimeOffset
+    name: DateTimeOffset
+    nameWithType: DateTimeOffset
+    fullName: System.DateTimeOffset
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+  isExternal: true
+  name: ModifiedBy
+  nameWithType: AspNetUsers.ModifiedBy
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.ModifiedBy
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NickName*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+  isExternal: true
+  name: NickName
+  nameWithType: AspNetUsers.NickName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NickName
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+  isExternal: true
+  name: NormalizedEmail
+  nameWithType: AspNetUsers.NormalizedEmail
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedEmail
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+  isExternal: true
+  name: NormalizedUserName
+  nameWithType: AspNetUsers.NormalizedUserName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.NormalizedUserName
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+  isExternal: true
+  name: PasswordHash
+  nameWithType: AspNetUsers.PasswordHash
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PasswordHash
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: AspNetUsers.PhoneNumber
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumber
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+  isExternal: true
+  name: PhoneNumberConfirmed
+  nameWithType: AspNetUsers.PhoneNumberConfirmed
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.PhoneNumberConfirmed
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+  isExternal: true
+  name: RegisterType
+  nameWithType: AspNetUsers.RegisterType
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.RegisterType
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+  isExternal: true
+  name: SecurityStamp
+  nameWithType: AspNetUsers.SecurityStamp
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.SecurityStamp
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+  isExternal: true
+  name: TwoFactorEnabled
+  nameWithType: AspNetUsers.TwoFactorEnabled
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.TwoFactorEnabled
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.UserName*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: AspNetUsers.UserName
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.UserName
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+  isExternal: true
+  name: AspNetUserClaimsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserClaimsApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsApplicationUser
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserClaims}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserClaims}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserClaims>
+  nameWithType: ICollection<AspNetUserClaims>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Account.AspNetUserClaims>
+  nameWithType.vb: ICollection(Of AspNetUserClaims)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Account.AspNetUserClaims)
+  name.vb: ICollection(Of AspNetUserClaims)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+    name: AspNetUserClaims
+    nameWithType: AspNetUserClaims
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserClaims
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+  isExternal: true
+  name: AspNetUserClaimsUser
+  nameWithType: AspNetUsers.AspNetUserClaimsUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserClaimsUser
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+  isExternal: true
+  name: AspNetUserLoginsApplicationUser
+  nameWithType: AspNetUsers.AspNetUserLoginsApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsApplicationUser
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserLogins}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserLogins}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserLogins>
+  nameWithType: ICollection<AspNetUserLogins>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Account.AspNetUserLogins>
+  nameWithType.vb: ICollection(Of AspNetUserLogins)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Account.AspNetUserLogins)
+  name.vb: ICollection(Of AspNetUserLogins)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserLogins
+    name: AspNetUserLogins
+    nameWithType: AspNetUserLogins
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserLogins
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+  isExternal: true
+  name: AspNetUserLoginsUser
+  nameWithType: AspNetUsers.AspNetUserLoginsUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserLoginsUser
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+  isExternal: true
+  name: AspNetUserRolesApplicationUser
+  nameWithType: AspNetUsers.AspNetUserRolesApplicationUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesApplicationUser
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserRoles}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserRoles}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserRoles>
+  nameWithType: ICollection<AspNetUserRoles>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Account.AspNetUserRoles>
+  nameWithType.vb: ICollection(Of AspNetUserRoles)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Account.AspNetUserRoles)
+  name.vb: ICollection(Of AspNetUserRoles)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserRoles
+    name: AspNetUserRoles
+    nameWithType: AspNetUserRoles
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserRoles
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+  isExternal: true
+  name: AspNetUserRolesUser
+  nameWithType: AspNetUsers.AspNetUserRolesUser
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserRolesUser
+- uid: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens*
+  commentId: Overload:Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+  isExternal: true
+  name: AspNetUserTokens
+  nameWithType: AspNetUsers.AspNetUserTokens
+  fullName: Mix.Cms.Lib.Models.Account.AspNetUsers.AspNetUserTokens
+- uid: System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserTokens}
+  commentId: '!:System.Collections.Generic.ICollection{Mix.Cms.Lib.Models.Account.AspNetUserTokens}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<AspNetUserTokens>
+  nameWithType: ICollection<AspNetUserTokens>
+  fullName: System.Collections.Generic.ICollection<Mix.Cms.Lib.Models.Account.AspNetUserTokens>
+  nameWithType.vb: ICollection(Of AspNetUserTokens)
+  fullName.vb: System.Collections.Generic.ICollection(Of Mix.Cms.Lib.Models.Account.AspNetUserTokens)
+  name.vb: ICollection(Of AspNetUserTokens)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mix.Cms.Lib.Models.Account.AspNetUserTokens
+    name: AspNetUserTokens
+    nameWithType: AspNetUserTokens
+    fullName: Mix.Cms.Lib.Models.Account.AspNetUserTokens
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

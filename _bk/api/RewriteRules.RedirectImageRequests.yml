@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: RewriteRules.RedirectImageRequests
+  commentId: T:RewriteRules.RedirectImageRequests
+  id: RedirectImageRequests
+  parent: RewriteRules
+  children:
+  - RewriteRules.RedirectImageRequests.#ctor(System.String,System.String)
+  - RewriteRules.RedirectImageRequests.ApplyRule(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  langs:
+  - csharp
+  - vb
+  name: RedirectImageRequests
+  nameWithType: RedirectImageRequests
+  fullName: RewriteRules.RedirectImageRequests
+  type: Class
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: 'public class RedirectImageRequests : Object, IRule'
+    content.vb: >-
+      Public Class RedirectImageRequests
+          Inherits Object
+          Implements IRule
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNetCore.Rewrite.IRule
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RewriteRules.RedirectImageRequests.#ctor(System.String,System.String)
+  commentId: M:RewriteRules.RedirectImageRequests.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: RewriteRules.RedirectImageRequests
+  langs:
+  - csharp
+  - vb
+  name: RedirectImageRequests(String, String)
+  nameWithType: RedirectImageRequests.RedirectImageRequests(String, String)
+  fullName: RewriteRules.RedirectImageRequests.RedirectImageRequests(System.String, System.String)
+  type: Constructor
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: public RedirectImageRequests(string extension, string newPath)
+    parameters:
+    - id: extension
+      type: System.String
+    - id: newPath
+      type: System.String
+    content.vb: Public Sub New(extension As String, newPath As String)
+  overload: RewriteRules.RedirectImageRequests.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RewriteRules.RedirectImageRequests.ApplyRule(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  commentId: M:RewriteRules.RedirectImageRequests.ApplyRule(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  id: ApplyRule(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  parent: RewriteRules.RedirectImageRequests
+  langs:
+  - csharp
+  - vb
+  name: ApplyRule(RewriteContext)
+  nameWithType: RedirectImageRequests.ApplyRule(RewriteContext)
+  fullName: RewriteRules.RedirectImageRequests.ApplyRule(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: public void ApplyRule(RewriteContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Rewrite.RewriteContext
+    content.vb: Public Sub ApplyRule(context As RewriteContext)
+  overload: RewriteRules.RedirectImageRequests.ApplyRule*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RewriteRules
+  commentId: N:RewriteRules
+  isExternal: true
+  name: RewriteRules
+  nameWithType: RewriteRules
+  fullName: RewriteRules
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Rewrite.IRule
+  commentId: '!:Microsoft.AspNetCore.Rewrite.IRule'
+  isExternal: true
+  name: IRule
+  nameWithType: IRule
+  fullName: Microsoft.AspNetCore.Rewrite.IRule
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RewriteRules.RedirectImageRequests.#ctor*
+  commentId: Overload:RewriteRules.RedirectImageRequests.#ctor
+  isExternal: true
+  name: RedirectImageRequests
+  nameWithType: RedirectImageRequests.RedirectImageRequests
+  fullName: RewriteRules.RedirectImageRequests.RedirectImageRequests
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RewriteRules.RedirectImageRequests.ApplyRule*
+  commentId: Overload:RewriteRules.RedirectImageRequests.ApplyRule
+  isExternal: true
+  name: ApplyRule
+  nameWithType: RedirectImageRequests.ApplyRule
+  fullName: RewriteRules.RedirectImageRequests.ApplyRule
+- uid: Microsoft.AspNetCore.Rewrite.RewriteContext
+  isExternal: true
+  name: RewriteContext
+  nameWithType: RewriteContext
+  fullName: Microsoft.AspNetCore.Rewrite.RewriteContext

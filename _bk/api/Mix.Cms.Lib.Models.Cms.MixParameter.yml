@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixParameter
+  id: MixParameter
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixParameter.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixParameter.Description
+  - Mix.Cms.Lib.Models.Cms.MixParameter.Name
+  - Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+  - Mix.Cms.Lib.Models.Cms.MixParameter.Status
+  - Mix.Cms.Lib.Models.Cms.MixParameter.Value
+  langs:
+  - csharp
+  - vb
+  name: MixParameter
+  nameWithType: MixParameter
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixParameter : Object'
+    content.vb: >-
+      Public Class MixParameter
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixParameter.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: MixParameter()
+  nameWithType: MixParameter.MixParameter()
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.MixParameter()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixParameter()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Name
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixParameter.Name
+  id: Name
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MixParameter.Name
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Name
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixParameter.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixParameter.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixParameter.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixParameter.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixParameter.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Value
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixParameter.Value
+  id: Value
+  parent: Mix.Cms.Lib.Models.Cms.MixParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MixParameter.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Value
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Mix.Cms.Lib.Models.Cms.MixParameter.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.#ctor
+  isExternal: true
+  name: MixParameter
+  nameWithType: MixParameter.MixParameter
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.MixParameter
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Name*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.Name
+  isExternal: true
+  name: Name
+  nameWithType: MixParameter.Name
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixParameter.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixParameter.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixParameter.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixParameter.Value*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixParameter.Value
+  isExternal: true
+  name: Value
+  nameWithType: MixParameter.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixParameter.Value

@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums
+  commentId: T:Mix.Cms.Lib.MixEnums
+  id: MixEnums
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.#ctor
+  langs:
+  - csharp
+  - vb
+  name: MixEnums
+  nameWithType: MixEnums
+  fullName: Mix.Cms.Lib.MixEnums
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public class MixEnums : Object'
+    content.vb: >-
+      Public Class MixEnums
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.#ctor
+  commentId: M:Mix.Cms.Lib.MixEnums.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.MixEnums
+  langs:
+  - csharp
+  - vb
+  name: MixEnums()
+  nameWithType: MixEnums.MixEnums()
+  fullName: Mix.Cms.Lib.MixEnums.MixEnums()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public MixEnums()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.MixEnums.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.MixEnums.#ctor*
+  commentId: Overload:Mix.Cms.Lib.MixEnums.#ctor
+  isExternal: true
+  name: MixEnums
+  nameWithType: MixEnums.MixEnums
+  fullName: Mix.Cms.Lib.MixEnums.MixEnums

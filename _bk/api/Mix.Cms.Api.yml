@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Api
+  commentId: N:Mix.Cms.Api
+  id: Mix.Cms.Api
+  children:
+  - Mix.Cms.Api.Program
+  - Mix.Cms.Api.Startup
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Api
+  nameWithType: Mix.Cms.Api
+  fullName: Mix.Cms.Api
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Api
+references:
+- uid: Mix.Cms.Api.Program
+  commentId: T:Mix.Cms.Api.Program
+  isExternal: true
+  name: Program
+  nameWithType: Program
+  fullName: Mix.Cms.Api.Program
+- uid: Mix.Cms.Api.Startup
+  commentId: T:Mix.Cms.Api.Startup
+  isExternal: true
+  name: Startup
+  nameWithType: Startup
+  fullName: Mix.Cms.Api.Startup

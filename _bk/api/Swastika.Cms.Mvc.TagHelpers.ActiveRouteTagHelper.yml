@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  commentId: T:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  id: ActiveRouteTagHelper
+  parent: Swastika.Cms.Mvc.TagHelpers
+  children:
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+  - Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+  langs:
+  - csharp
+  - vb
+  name: ActiveRouteTagHelper
+  nameWithType: ActiveRouteTagHelper
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: 'public class ActiveRouteTagHelper : TagHelper'
+    content.vb: >-
+      Public Class ActiveRouteTagHelper
+          Inherits TagHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  commentId: M:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  id: Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext,Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Process(TagHelperContext, TagHelperOutput)
+  nameWithType: ActiveRouteTagHelper.Process(TagHelperContext, TagHelperOutput)
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext, Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public override void Process(TagHelperContext context, TagHelperOutput output)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+    - id: output
+      type: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+    content.vb: Public Overrides Sub Process(context As TagHelperContext, output As TagHelperOutput)
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor
+  commentId: M:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: ActiveRouteTagHelper()
+  nameWithType: ActiveRouteTagHelper.ActiveRouteTagHelper()
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ActiveRouteTagHelper()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public ActiveRouteTagHelper()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+  commentId: P:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+  id: Action
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: ActiveRouteTagHelper.Action
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public string Action { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Action As String
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+  commentId: P:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+  id: Controller
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: ActiveRouteTagHelper.Controller
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public string Controller { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Controller As String
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+  commentId: P:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+  id: RouteValues
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: RouteValues
+  nameWithType: ActiveRouteTagHelper.RouteValues
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public IDictionary<string, string> RouteValues { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    content.vb: Public Property RouteValues As IDictionary(Of String, String)
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+  commentId: P:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+  id: ViewContext
+  parent: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper
+  langs:
+  - csharp
+  - vb
+  name: ViewContext
+  nameWithType: ActiveRouteTagHelper.ViewContext
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Mvc.TagHelpers
+  syntax:
+    content: public ViewContext ViewContext { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+    content.vb: Public Property ViewContext As ViewContext
+  overload: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Mvc.TagHelpers
+  commentId: N:Swastika.Cms.Mvc.TagHelpers
+  isExternal: true
+  name: Swastika.Cms.Mvc.TagHelpers
+  nameWithType: Swastika.Cms.Mvc.TagHelpers
+  fullName: Swastika.Cms.Mvc.TagHelpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process
+  isExternal: true
+  name: Process
+  nameWithType: ActiveRouteTagHelper.Process
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Process
+- uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+  isExternal: true
+  name: TagHelperContext
+  nameWithType: TagHelperContext
+  fullName: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContext
+- uid: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+  isExternal: true
+  name: TagHelperOutput
+  nameWithType: TagHelperOutput
+  fullName: Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.#ctor
+  isExternal: true
+  name: ActiveRouteTagHelper
+  nameWithType: ActiveRouteTagHelper.ActiveRouteTagHelper
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ActiveRouteTagHelper
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+  isExternal: true
+  name: Action
+  nameWithType: ActiveRouteTagHelper.Action
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Action
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+  isExternal: true
+  name: Controller
+  nameWithType: ActiveRouteTagHelper.Controller
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.Controller
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+  isExternal: true
+  name: RouteValues
+  nameWithType: ActiveRouteTagHelper.RouteValues
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.RouteValues
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.String}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext*
+  commentId: Overload:Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: ActiveRouteTagHelper.ViewContext
+  fullName: Swastika.Cms.Mvc.TagHelpers.ActiveRouteTagHelper.ViewContext
+- uid: Microsoft.AspNetCore.Mvc.Rendering.ViewContext
+  isExternal: true
+  name: ViewContext
+  nameWithType: ViewContext
+  fullName: Microsoft.AspNetCore.Mvc.Rendering.ViewContext

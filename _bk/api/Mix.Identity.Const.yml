@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Const
+  commentId: T:Mix.Identity.Const
+  id: Const
+  parent: Mix.Identity
+  children:
+  - Mix.Identity.Const.#ctor
+  - Mix.Identity.Const.CONST_DEFAULT_CONNECTION
+  - Mix.Identity.Const.CONST_FILE_APPSETTING
+  langs:
+  - csharp
+  - vb
+  name: Const
+  nameWithType: Const
+  fullName: Mix.Identity.Const
+  type: Class
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity
+  syntax:
+    content: 'public class Const : Object'
+    content.vb: >-
+      Public Class Const
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Identity.Const.CONST_DEFAULT_CONNECTION
+  commentId: F:Mix.Identity.Const.CONST_DEFAULT_CONNECTION
+  id: CONST_DEFAULT_CONNECTION
+  parent: Mix.Identity.Const
+  langs:
+  - csharp
+  - vb
+  name: CONST_DEFAULT_CONNECTION
+  nameWithType: Const.CONST_DEFAULT_CONNECTION
+  fullName: Mix.Identity.Const.CONST_DEFAULT_CONNECTION
+  type: Field
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity
+  syntax:
+    content: public const string CONST_DEFAULT_CONNECTION = "AccountConnection"
+    return:
+      type: System.String
+    content.vb: Public Const CONST_DEFAULT_CONNECTION As String = "AccountConnection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Identity.Const.CONST_FILE_APPSETTING
+  commentId: F:Mix.Identity.Const.CONST_FILE_APPSETTING
+  id: CONST_FILE_APPSETTING
+  parent: Mix.Identity.Const
+  langs:
+  - csharp
+  - vb
+  name: CONST_FILE_APPSETTING
+  nameWithType: Const.CONST_FILE_APPSETTING
+  fullName: Mix.Identity.Const.CONST_FILE_APPSETTING
+  type: Field
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity
+  syntax:
+    content: public const string CONST_FILE_APPSETTING = "appsettings.json"
+    return:
+      type: System.String
+    content.vb: Public Const CONST_FILE_APPSETTING As String = "appsettings.json"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Identity.Const.#ctor
+  commentId: M:Mix.Identity.Const.#ctor
+  id: '#ctor'
+  parent: Mix.Identity.Const
+  langs:
+  - csharp
+  - vb
+  name: Const()
+  nameWithType: Const.Const()
+  fullName: Mix.Identity.Const.Const()
+  type: Constructor
+  source:
+    path: Mix.Identity
+    isExternal: true
+  assemblies:
+  - Mix.Identity
+  namespace: Mix.Identity
+  syntax:
+    content: public Const()
+    content.vb: Public Sub New
+  overload: Mix.Identity.Const.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Identity
+  commentId: N:Mix.Identity
+  isExternal: true
+  name: Mix.Identity
+  nameWithType: Mix.Identity
+  fullName: Mix.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Identity.Const.#ctor*
+  commentId: Overload:Mix.Identity.Const.#ctor
+  isExternal: true
+  name: Const
+  nameWithType: Const.Const
+  fullName: Mix.Identity.Const.Const

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Identity.Services
+  commentId: N:Mix.Identity.Services
+  id: Mix.Identity.Services
+  children:
+  - Mix.Identity.Services.AuthEmailMessageSender
+  - Mix.Identity.Services.AuthSmsMessageSender
+  - Mix.Identity.Services.EmailSender
+  - Mix.Identity.Services.EmailSenderExtensions
+  - Mix.Identity.Services.ISmsSender
+  langs:
+  - csharp
+  - vb
+  name: Mix.Identity.Services
+  nameWithType: Mix.Identity.Services
+  fullName: Mix.Identity.Services
+  type: Namespace
+  assemblies:
+  - Mix.Identity
+references:
+- uid: Mix.Identity.Services.EmailSenderExtensions
+  commentId: T:Mix.Identity.Services.EmailSenderExtensions
+  isExternal: true
+  name: EmailSenderExtensions
+  nameWithType: EmailSenderExtensions
+  fullName: Mix.Identity.Services.EmailSenderExtensions
+- uid: Mix.Identity.Services.EmailSender
+  commentId: T:Mix.Identity.Services.EmailSender
+  isExternal: true
+  name: EmailSender
+  nameWithType: EmailSender
+  fullName: Mix.Identity.Services.EmailSender
+- uid: Mix.Identity.Services.ISmsSender
+  commentId: T:Mix.Identity.Services.ISmsSender
+  parent: Mix.Identity.Services
+  isExternal: true
+  name: ISmsSender
+  nameWithType: ISmsSender
+  fullName: Mix.Identity.Services.ISmsSender
+- uid: Mix.Identity.Services.AuthEmailMessageSender
+  commentId: T:Mix.Identity.Services.AuthEmailMessageSender
+  isExternal: true
+  name: AuthEmailMessageSender
+  nameWithType: AuthEmailMessageSender
+  fullName: Mix.Identity.Services.AuthEmailMessageSender
+- uid: Mix.Identity.Services.AuthSmsMessageSender
+  commentId: T:Mix.Identity.Services.AuthSmsMessageSender
+  isExternal: true
+  name: AuthSmsMessageSender
+  nameWithType: AuthSmsMessageSender
+  fullName: Mix.Identity.Services.AuthSmsMessageSender
+- uid: Mix.Identity.Services
+  commentId: N:Mix.Identity.Services
+  isExternal: true
+  name: Mix.Identity.Services
+  nameWithType: Mix.Identity.Services
+  fullName: Mix.Identity.Services

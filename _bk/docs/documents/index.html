@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>All about mixcore </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="All about mixcore ">
+    <meta name="generator" content="docfx 2.40.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="client-side/swastika-io/index">
+<h1 id="mixcore">mixcore</h1>
+
+<p><img src="https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true" alt="Mixcore CMS" title="What is Mixcore CMS?"></p>
+<h2 id="buid-status">Buid status:</h2>
+<table>
+<thead>
+<tr>
+<th>Build server</th>
+<th>Platform</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Travis</td>
+<td>Linux / MacOS</td>
+<td><a href="https://travis-ci.org/mixcore/mix.core"><img src="https://travis-ci.org/mixcore/mix.core.svg?branch=master" alt="Build Status"></a></td>
+</tr>
+<tr>
+<td>Appveyor</td>
+<td>Windows/Vs2017</td>
+<td><a href="https://ci.appveyor.com/project/Smilefounder/swastika-core"><img src="https://ci.appveyor.com/api/projects/status/dup0f5a09j58ud8s?svg=true" alt="Build status"></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tutorials">Tutorials</h2>
+<ul>
+<li>Demo: <a href="http://dev.mixcore.org">http://dev.mixcore.org</a></li>
+<li>Docs: <a href="https://docs.mixcore.org">https://docs.mixcore.org</a></li>
+<li>Youtube: <a href="https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw">https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw</a></li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
+<p>Note: This project is under heavy construction and is not intended for general production use yet. As such, we are not accepting bugs at the moment and documentation is quite lacking.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>What things you need to install the software and how to install them</p>
+<ul>
+<li><a href="https://www.microsoft.com/net/core">.NET</a> - .NET Core framework</li>
+<li><a href="https://www.visualstudio.com/downloads/">Visual Studio Community 2017</a> - Free, fully-featured IDE for students, open-source and individual developers</li>
+<li><a href="https://www.microsoft.com/en-us/sql-server/sql-server-editions-express">SQL Server 2016+</a> - Database server</li>
+</ul>
+<h3 id="gits-clone">GITs clone</h3>
+<pre><code class="lang-bash">mkdir mixcore
+cd mixcore
+
+git clone https://github.com/mixcore/mix.heart.git
+git clone https://github.com/mixcore/mix.identity.git
+git clone https://github.com/mixcore/mix.core.git
+</code></pre><h3 id="build--run">Build &amp; Run</h3>
+<pre><code class="lang-bash">cd mix.core/src/Mix.Cms.Web
+
+npm install
+gulp build
+dotnet restore
+dotnet bundle
+dotnet build
+dotnet run
+</code></pre><blockquote><p><em>Note:</em> If you facing any System.Data.SqlClient.SqlException error, please replace all content inside &quot;appsettings.json&quot; file with &quot;{}&quot;.</p>
+</blockquote>
+<p>Now you can access the site from your localhost (e.g. <a href="http://localhost:5000">http://localhost:5000</a>)</p>
+<blockquote><p><em>Note:</em> Please read the step how to prepare MS SQL Server Database <a href="/installing?id=step-2-create-the-database-and-a-user">here</a>.</p>
+</blockquote>
+<h2 id="contributing">Contributing</h2>
+<p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
+<h2 id="versioning">Versioning</h2>
+<p>We use <a href="http://semver.org/">SemVer</a> for versioning. For the versions available, see the <a href="https://github.com/mixcore/mix.core/tags">tags on this repository</a>. </p>
+<h2 id="authors">Authors</h2>
+<ul>
+<li><strong>Smileway Team</strong> - <em>Initial work</em> - <a href="http://www.smileway.co">Smileway.co</a></li>
+</ul>
+<p>See also the list of <a href="https://github.com/mixcore/mix.core/graphs/contributors">contributors</a> who participated in this project.</p>
+<h2 id="references">References</h2>
+<p>(TBC)</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the GNU General Public License v3.0 - see the <a href="LICENSE.md">LICENSE.md</a> file for details</p>
+<h2 id="thanks-to">Thanks to</h2>
+<p>This project has been developed using:</p>
+<ul>
+<li><a href="https://www.creative-tim.com/">Creative Tim</a></li>
+<li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://www.browserstack.com/">BrowserStack</a></li>
+<li><a href="http://xtoolkit.github.io/Micon/icons/">Micon</a></li>
+<li><a href="https://www.microsoft.com/net/core">.NET</a></li>
+<li>And more...</li>
+</ul>
+<h2 id="tags">Tags</h2>
+<blockquote><p>Asp.Net Core CMS, Asp.Net Core MVC CMS, C# Core CMS, NetCoreCMS, Core CMS, Modular Architecture, CMS Theme, CMS Widget, Multilangual CMS, .Net CMS Platform, .Net CMS Open Source, .Net CMS Comparison 2017, .Net CMS System, .Net CMS Framework, .Net CMS Open Source MVC, .Net CMS tools, .Net CMS website, Content Management System, Blog Engine, DotNet Core,</p>
+</blockquote>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mixcore/docs/blob/master/documents/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Contributed by <strong>mixcore</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

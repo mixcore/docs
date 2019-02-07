@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  id: SWCmsConstants.ModuleType
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.Form
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.Root
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubArticle
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubPage
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubProduct
+  - Swastika.Cms.Lib.SWCmsConstants.ModuleType.value__
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.ModuleType
+  nameWithType: SWCmsConstants.ModuleType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public sealed class ModuleType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ModuleType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.value__
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.value__
+  id: value__
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SWCmsConstants.ModuleType.value__
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.Root
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.Root
+  id: Root
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: SWCmsConstants.ModuleType.Root
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.Root
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.ModuleType Root
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+    content.vb: Public Const Root As SWCmsConstants.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubPage
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubPage
+  id: SubPage
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubPage
+  nameWithType: SWCmsConstants.ModuleType.SubPage
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubPage
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.ModuleType SubPage
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+    content.vb: Public Const SubPage As SWCmsConstants.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubArticle
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubArticle
+  id: SubArticle
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubArticle
+  nameWithType: SWCmsConstants.ModuleType.SubArticle
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubArticle
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.ModuleType SubArticle
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+    content.vb: Public Const SubArticle As SWCmsConstants.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubProduct
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubProduct
+  id: SubProduct
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: SubProduct
+  nameWithType: SWCmsConstants.ModuleType.SubProduct
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.SubProduct
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.ModuleType SubProduct
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+    content.vb: Public Const SubProduct As SWCmsConstants.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType.Form
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.ModuleType.Form
+  id: Form
+  parent: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: SWCmsConstants.ModuleType.Form
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType.Form
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.ModuleType Form
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+    content.vb: Public Const Form As SWCmsConstants.ModuleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.ModuleType
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.ModuleType
+  nameWithType: SWCmsConstants.ModuleType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.ModuleType

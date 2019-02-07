@@ -1,0 +1,2415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  commentId: T:Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  id: ModelRepositoryBase`2
+  parent: Swastika.Domain.Data.Repository
+  children:
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(System.Func{`1,System.Boolean},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda(System.String)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage(System.Exception)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  langs:
+  - csharp
+  - vb
+  name: ModelRepositoryBase<TDbContext, TModel>
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: 'public abstract class ModelRepositoryBase<TDbContext, TModel> : Object where TDbContext : DbContext where TModel : class'
+    typeParameters:
+    - id: TDbContext
+    - id: TModel
+    content.vb: >-
+      Public MustInherit Class ModelRepositoryBase(Of TDbContext As DbContext, TModel As Class)
+          Inherits Object
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Swastika.Domain.Data.Repository.DefaultRepository`2
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel)
+  name.vb: ModelRepositoryBase(Of TDbContext, TModel)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor
+  id: '#ctor'
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: ModelRepositoryBase()
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.ModelRepositoryBase()
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.ModelRepositoryBase()
+  type: Constructor
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: protected ModelRepositoryBase()
+    content.vb: Protected Sub New
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).ModelRepositoryBase()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).ModelRepositoryBase()
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: CheckIsExists(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: CheckIsExists(TModel, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CheckIsExists(TModel, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CheckIsExists(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual bool CheckIsExists(TModel entity, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: entity
+      type: '{TModel}'
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function CheckIsExists(entity As TModel, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Boolean
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists(TModel, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(System.Func{`1,System.Boolean},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists(System.Func{`1,System.Boolean},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: CheckIsExists(System.Func{`1,System.Boolean},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: CheckIsExists(Func<TModel, Boolean>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CheckIsExists(Func<TModel, Boolean>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CheckIsExists(System.Func<TModel, System.Boolean>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public bool CheckIsExists(Func<TModel, bool> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Func{{TModel},System.Boolean}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Public Function CheckIsExists(predicate As Func(Of TModel, Boolean), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Boolean
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists(Func(Of TModel, Boolean), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists(System.Func(Of TModel, System.Boolean), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: CheckIsExists(Func(Of TModel, Boolean), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: CreateModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: CreateModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CreateModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CreateModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<TModel> CreateModel(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}
+    content.vb: Public Overridable Function CreateModel(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of TModel)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CreateModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CreateModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: CreateModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: CreateModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CreateModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CreateModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<TModel>> CreateModelAsync(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}}
+    content.vb: Public Overridable Function CreateModelAsync(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CreateModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CreateModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: EditModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: EditModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.EditModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.EditModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<TModel> EditModel(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}
+    content.vb: Public Overridable Function EditModel(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of TModel)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).EditModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).EditModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: EditModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: EditModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.EditModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.EditModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<TModel>> EditModelAsync(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}}
+    content.vb: Public Overridable Function EditModelAsync(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).EditModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).EditModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetSingleModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetSingleModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetSingleModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetSingleModel(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<TModel> GetSingleModel(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}
+    content.vb: Public Overridable Function GetSingleModel(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of TModel)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetSingleModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetSingleModel(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetSingleModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetSingleModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetSingleModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetSingleModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetSingleModelAsync(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<TModel>> GetSingleModelAsync(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}}
+    content.vb: Public Overridable Function GetSingleModelAsync(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetSingleModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetSingleModelAsync(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetSingleModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext
+  id: InitContext
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: InitContext()
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.InitContext()
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.InitContext()
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual TDbContext InitContext()
+    return:
+      type: '{TDbContext}'
+    content.vb: Public Overridable Function InitContext As TDbContext
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).InitContext()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).InitContext()
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelList(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelList(TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelList(TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelList(TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<List<TModel>> GetModelList(TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}
+    content.vb: Public Overridable Function GetModelList(_context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelList(TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelList(TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelList(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelList(String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelList(String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelList(System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable<System.Int32>, System.Nullable<System.Int32>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<PaginationModel<TModel>> GetModelList(string orderByPropertyName, OrderByDirection direction, Nullable<int> pageSize, Nullable<int> pageIndex, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: orderByPropertyName
+      type: System.String
+    - id: direction
+      type: Microsoft.Data.OData.Query.OrderByDirection
+    - id: pageSize
+      type: System.Nullable{System.Int32}
+    - id: pageIndex
+      type: System.Nullable{System.Int32}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}
+    content.vb: Public Overridable Function GetModelList(orderByPropertyName As String, direction As OrderByDirection, pageSize As Nullable(Of Integer), pageIndex As Nullable(Of Integer), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of PaginationModel(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelList(String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelList(System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelList(String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListAsync(`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListAsync(TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync(TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync(TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<List<TModel>>> GetModelListAsync(TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}}
+    content.vb: Public Overridable Function GetModelListAsync(_context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of TModel)))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync(TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync(TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListAsync(System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListAsync(String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync(String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync(System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable<System.Int32>, System.Nullable<System.Int32>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<PaginationModel<TModel>>> GetModelListAsync(string orderByPropertyName, OrderByDirection direction, Nullable<int> pageSize, Nullable<int> pageIndex, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: orderByPropertyName
+      type: System.String
+    - id: direction
+      type: Microsoft.Data.OData.Query.OrderByDirection
+    - id: pageSize
+      type: System.Nullable{System.Int32}
+    - id: pageIndex
+      type: System.Nullable{System.Int32}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}}
+    content.vb: Public Overridable Function GetModelListAsync(orderByPropertyName As String, direction As OrderByDirection, pageSize As Nullable(Of Integer), pageIndex As Nullable(Of Integer), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of PaginationModel(Of TModel)))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync(String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync(System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelListAsync(String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListBy(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListBy(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListBy(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<List<TModel>> GetModelListBy(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}
+    content.vb: Public Overridable Function GetModelListBy(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of List(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelListBy(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListBy(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListBy(Expression<Func<TModel, Boolean>>, String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListBy(Expression<Func<TModel, Boolean>>, String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListBy(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable<System.Int32>, System.Nullable<System.Int32>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<PaginationModel<TModel>> GetModelListBy(Expression<Func<TModel, bool>> predicate, string orderByPropertyName, OrderByDirection direction, Nullable<int> pageSize, Nullable<int> pageIndex, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: orderByPropertyName
+      type: System.String
+    - id: direction
+      type: Microsoft.Data.OData.Query.OrderByDirection
+    - id: pageSize
+      type: System.Nullable{System.Int32}
+    - id: pageIndex
+      type: System.Nullable{System.Int32}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}
+    content.vb: Public Overridable Function GetModelListBy(predicate As Expression(Of Func(Of TModel, Boolean)), orderByPropertyName As String, direction As OrderByDirection, pageSize As Nullable(Of Integer), pageIndex As Nullable(Of Integer), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of PaginationModel(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy(Expression(Of Func(Of TModel, Boolean)), String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelListBy(Expression(Of Func(Of TModel, Boolean)), String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListByAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<List<TModel>>> GetModelListByAsync(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}}
+    content.vb: Public Overridable Function GetModelListByAsync(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of List(Of TModel)))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelListByAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: GetModelListByAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.String,Microsoft.Data.OData.Query.OrderByDirection,System.Nullable{System.Int32},System.Nullable{System.Int32},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetModelListByAsync(Expression<Func<TModel, Boolean>>, String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync(Expression<Func<TModel, Boolean>>, String, OrderByDirection, Nullable<Int32>, Nullable<Int32>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable<System.Int32>, System.Nullable<System.Int32>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<PaginationModel<TModel>>> GetModelListByAsync(Expression<Func<TModel, bool>> predicate, string orderByPropertyName, OrderByDirection direction, Nullable<int> pageSize, Nullable<int> pageIndex, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: orderByPropertyName
+      type: System.String
+    - id: direction
+      type: Microsoft.Data.OData.Query.OrderByDirection
+    - id: pageSize
+      type: System.Nullable{System.Int32}
+    - id: pageIndex
+      type: System.Nullable{System.Int32}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}}
+    content.vb: Public Overridable Function GetModelListByAsync(predicate As Expression(Of Func(Of TModel, Boolean)), orderByPropertyName As String, direction As OrderByDirection, pageSize As Nullable(Of Integer), pageIndex As Nullable(Of Integer), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of PaginationModel(Of TModel)))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync(Expression(Of Func(Of TModel, Boolean)), String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), System.String, Microsoft.Data.OData.Query.OrderByDirection, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: GetModelListByAsync(Expression(Of Func(Of TModel, Boolean)), String, OrderByDirection, Nullable(Of Int32), Nullable(Of Int32), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage(System.Exception)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage(System.Exception)
+  id: LogErrorMessage(System.Exception)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: LogErrorMessage(Exception)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.LogErrorMessage(Exception)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.LogErrorMessage(System.Exception)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual void LogErrorMessage(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Public Overridable Sub LogErrorMessage(ex As Exception)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).LogErrorMessage(Exception)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).LogErrorMessage(System.Exception)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveListModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveListModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveListModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveListModel(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<bool> RemoveListModel(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+    content.vb: Public Overridable Function RemoveListModel(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveListModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveListModel(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: RemoveListModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveListModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveListModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveListModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveListModelAsync(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<bool>> RemoveListModelAsync(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Overridable Function RemoveListModelAsync(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveListModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveListModelAsync(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: RemoveListModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveModel(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModel(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModel(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<bool> RemoveModel(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+    content.vb: Public Overridable Function RemoveModel(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModel(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: RemoveModel(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveModel(TModel, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModel(TModel, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModel(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<bool> RemoveModel(TModel model, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+    content.vb: Public Overridable Function RemoveModel(model As TModel, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of Boolean)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModel(TModel, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModel(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveModelAsync(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync(Expression<Func<TModel, Boolean>>, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync(System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<bool>> RemoveModelAsync(Expression<Func<TModel, bool>> predicate, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: predicate
+      type: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Overridable Function RemoveModelAsync(predicate As Expression(Of Func(Of TModel, Boolean)), _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync(System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean)), TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: RemoveModelAsync(Expression(Of Func(Of TModel, Boolean)), TDbContext, IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RemoveModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveModelAsync(TModel, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync(TModel, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<bool>> RemoveModelAsync(TModel model, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+    content.vb: Public Overridable Function RemoveModelAsync(model As TModel, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of Boolean))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync(TModel, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: SaveModel(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: SaveModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual RepositoryResponse<TModel> SaveModel(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}
+    content.vb: Public Overridable Function SaveModel(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As RepositoryResponse(Of TModel)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveModel(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveModel(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: SaveModelAsync(`1,System.Boolean,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: SaveModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<RepositoryResponse<TModel>> SaveModelAsync(TModel model, bool isSaveSubModels = false, TDbContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: isSaveSubModels
+      type: System.Boolean
+    - id: _context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}}
+    content.vb: Public Overridable Function SaveModelAsync(model As TModel, isSaveSubModels As Boolean = False, _context As TDbContext = Nothing, _transaction As IDbContextTransaction = Nothing) As Task(Of RepositoryResponse(Of TModel))
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveModelAsync(TModel, Boolean, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveModelAsync(TModel, System.Boolean, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: SaveSubModel(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: SaveSubModel(TModel, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveSubModel(TModel, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveSubModel(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual bool SaveSubModel(TModel model, TDbContext context, IDbContextTransaction _transaction)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function SaveSubModel(model As TModel, context As TDbContext, _transaction As IDbContextTransaction) As Boolean
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveSubModel(TModel, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveSubModel(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: SaveSubModelAsync(`1,`0,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: SaveSubModelAsync(TModel, TDbContext, IDbContextTransaction)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveSubModelAsync(TModel, TDbContext, IDbContextTransaction)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveSubModelAsync(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: public virtual Task<bool> SaveSubModelAsync(TModel model, TDbContext context, IDbContextTransaction _transaction)
+    parameters:
+    - id: model
+      type: '{TModel}'
+    - id: context
+      type: '{TDbContext}'
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Overridable Function SaveSubModelAsync(model As TModel, context As TDbContext, _transaction As IDbContextTransaction) As Task(Of Boolean)
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveSubModelAsync(TModel, TDbContext, IDbContextTransaction)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveSubModelAsync(TModel, TDbContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda(System.String)
+  commentId: M:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda(System.String)
+  id: GetLambda(System.String)
+  parent: Swastika.Domain.Data.Repository.ModelRepositoryBase`2
+  langs:
+  - csharp
+  - vb
+  name: GetLambda(String)
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetLambda(String)
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetLambda(System.String)
+  type: Method
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Data.Repository
+  syntax:
+    content: protected LambdaExpression GetLambda(string propName)
+    parameters:
+    - id: propName
+      type: System.String
+    return:
+      type: System.Linq.Expressions.LambdaExpression
+    content.vb: Protected Function GetLambda(propName As String) As LambdaExpression
+  overload: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda*
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetLambda(String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetLambda(System.String)
+references:
+- uid: Swastika.Domain.Data.Repository
+  commentId: N:Swastika.Domain.Data.Repository
+  isExternal: true
+  name: Swastika.Domain.Data.Repository
+  nameWithType: Swastika.Domain.Data.Repository
+  fullName: Swastika.Domain.Data.Repository
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.#ctor
+  isExternal: true
+  name: ModelRepositoryBase
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.ModelRepositoryBase
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.ModelRepositoryBase
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).ModelRepositoryBase
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).ModelRepositoryBase
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CheckIsExists
+  isExternal: true
+  name: CheckIsExists
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CheckIsExists
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CheckIsExists
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CheckIsExists
+- uid: '{TModel}'
+  commentId: '!:TModel'
+  definition: TModel
+  name: TModel
+  nameWithType: TModel
+  fullName: TModel
+- uid: '{TDbContext}'
+  commentId: '!:TDbContext'
+  definition: TDbContext
+  name: TDbContext
+  nameWithType: TDbContext
+  fullName: TDbContext
+- uid: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+  isExternal: true
+  name: IDbContextTransaction
+  nameWithType: IDbContextTransaction
+  fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TModel
+  name: TModel
+  nameWithType: TModel
+  fullName: TModel
+- uid: TDbContext
+  name: TDbContext
+  nameWithType: TDbContext
+  fullName: TDbContext
+- uid: System.Func{{TModel},System.Boolean}
+  commentId: '!:System.Func{`1,System.Boolean}'
+  definition: System.Func`2
+  name: Func<TModel, Boolean>
+  nameWithType: Func<TModel, Boolean>
+  fullName: System.Func<TModel, System.Boolean>
+  nameWithType.vb: Func(Of TModel, Boolean)
+  fullName.vb: System.Func(Of TModel, System.Boolean)
+  name.vb: Func(Of TModel, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModel
+  isExternal: true
+  name: CreateModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CreateModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CreateModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CreateModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CreateModel
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{`1}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<TModel>
+  nameWithType: RepositoryResponse<TModel>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<TModel>
+  nameWithType.vb: RepositoryResponse(Of TModel)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of TModel)
+  name.vb: RepositoryResponse(Of TModel)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  isExternal: true
+  name: RepositoryResponse<TResult>
+  nameWithType: RepositoryResponse<TResult>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<TResult>
+  nameWithType.vb: RepositoryResponse(Of TResult)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of TResult)
+  name.vb: RepositoryResponse(Of TResult)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels
+  commentId: N:Swastika.Domain.Core.ViewModels
+  isExternal: true
+  name: Swastika.Domain.Core.ViewModels
+  nameWithType: Swastika.Domain.Core.ViewModels
+  fullName: Swastika.Domain.Core.ViewModels
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.CreateModelAsync
+  isExternal: true
+  name: CreateModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.CreateModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.CreateModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).CreateModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).CreateModelAsync
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{{TModel}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{`1}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<TModel>>
+  nameWithType: Task<RepositoryResponse<TModel>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<TModel>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of TModel))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of TModel))
+  name.vb: Task(Of RepositoryResponse(Of TModel))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModel
+  isExternal: true
+  name: EditModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.EditModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.EditModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).EditModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).EditModel
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.EditModelAsync
+  isExternal: true
+  name: EditModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.EditModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.EditModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).EditModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).EditModelAsync
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModel
+  isExternal: true
+  name: GetSingleModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetSingleModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetSingleModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetSingleModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetSingleModel
+- uid: System.Linq.Expressions.Expression{System.Func{{TModel},System.Boolean}}
+  commentId: '!:System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}}'
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<TModel, Boolean>>
+  nameWithType: Expression<Func<TModel, Boolean>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TModel, System.Boolean>>
+  nameWithType.vb: Expression(Of Func(Of TModel, Boolean))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TModel, System.Boolean))
+  name.vb: Expression(Of Func(Of TModel, Boolean))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: System.Linq.Expressions.Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: System.Linq.Expressions.Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetSingleModelAsync
+  isExternal: true
+  name: GetSingleModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetSingleModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetSingleModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetSingleModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetSingleModelAsync
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.InitContext
+  isExternal: true
+  name: InitContext
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.InitContext
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.InitContext
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).InitContext
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).InitContext
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelList
+  isExternal: true
+  name: GetModelList
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelList
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelList
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelList
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelList
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{`1}}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<List<TModel>>
+  nameWithType: RepositoryResponse<List<TModel>>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<TModel>>
+  nameWithType.vb: RepositoryResponse(Of List(Of TModel))
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of TModel))
+  name.vb: RepositoryResponse(Of List(Of TModel))
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Data.OData.Query.OrderByDirection
+  isExternal: true
+  name: OrderByDirection
+  nameWithType: OrderByDirection
+  fullName: Microsoft.Data.OData.Query.OrderByDirection
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{`1}}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<PaginationModel<TModel>>
+  nameWithType: RepositoryResponse<PaginationModel<TModel>>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Domain.Core.ViewModels.PaginationModel<TModel>>
+  nameWithType.vb: RepositoryResponse(Of PaginationModel(Of TModel))
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Domain.Core.ViewModels.PaginationModel(Of TModel))
+  name.vb: RepositoryResponse(Of PaginationModel(Of TModel))
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListAsync
+  isExternal: true
+  name: GetModelListAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListAsync
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{{TModel}}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Collections.Generic.List{`1}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<List<TModel>>>
+  nameWithType: Task<RepositoryResponse<List<TModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Collections.Generic.List<TModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of List(Of TModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Collections.Generic.List(Of TModel)))
+  name.vb: Task(Of RepositoryResponse(Of List(Of TModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{{TModel}}}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{Swastika.Domain.Core.ViewModels.PaginationModel{`1}}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<PaginationModel<TModel>>>
+  nameWithType: Task<RepositoryResponse<PaginationModel<TModel>>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<Swastika.Domain.Core.ViewModels.PaginationModel<TModel>>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of PaginationModel(Of TModel)))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of Swastika.Domain.Core.ViewModels.PaginationModel(Of TModel)))
+  name.vb: Task(Of RepositoryResponse(Of PaginationModel(Of TModel)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Swastika.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListBy
+  isExternal: true
+  name: GetModelListBy
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListBy
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListBy
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListBy
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetModelListByAsync
+  isExternal: true
+  name: GetModelListByAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetModelListByAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetModelListByAsync
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.LogErrorMessage
+  isExternal: true
+  name: LogErrorMessage
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.LogErrorMessage
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.LogErrorMessage
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).LogErrorMessage
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).LogErrorMessage
+- uid: System.Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModel
+  isExternal: true
+  name: RemoveListModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveListModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveListModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveListModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveListModel
+- uid: Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+  commentId: T:Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}
+  parent: Swastika.Domain.Core.ViewModels
+  definition: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+  name: RepositoryResponse<Boolean>
+  nameWithType: RepositoryResponse<Boolean>
+  fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>
+  nameWithType.vb: RepositoryResponse(Of Boolean)
+  fullName.vb: Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean)
+  name.vb: RepositoryResponse(Of Boolean)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveListModelAsync
+  isExternal: true
+  name: RemoveListModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveListModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveListModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveListModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveListModelAsync
+- uid: System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}
+  commentId: '!:System.Threading.Tasks.Task{Swastika.Domain.Core.ViewModels.RepositoryResponse{System.Boolean}}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<RepositoryResponse<Boolean>>
+  nameWithType: Task<RepositoryResponse<Boolean>>
+  fullName: System.Threading.Tasks.Task<Swastika.Domain.Core.ViewModels.RepositoryResponse<System.Boolean>>
+  nameWithType.vb: Task(Of RepositoryResponse(Of Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of Swastika.Domain.Core.ViewModels.RepositoryResponse(Of System.Boolean))
+  name.vb: Task(Of RepositoryResponse(Of Boolean))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Swastika.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModel
+  isExternal: true
+  name: RemoveModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModel
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.RemoveModelAsync
+  isExternal: true
+  name: RemoveModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.RemoveModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).RemoveModelAsync
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModel
+  isExternal: true
+  name: SaveModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveModel
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveModelAsync
+  isExternal: true
+  name: SaveModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveModelAsync
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModel
+  isExternal: true
+  name: SaveSubModel
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveSubModel
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveSubModel
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveSubModel
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveSubModel
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.SaveSubModelAsync
+  isExternal: true
+  name: SaveSubModelAsync
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.SaveSubModelAsync
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.SaveSubModelAsync
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).SaveSubModelAsync
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).SaveSubModelAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda*
+  commentId: Overload:Swastika.Domain.Data.Repository.ModelRepositoryBase`2.GetLambda
+  isExternal: true
+  name: GetLambda
+  nameWithType: ModelRepositoryBase<TDbContext, TModel>.GetLambda
+  fullName: Swastika.Domain.Data.Repository.ModelRepositoryBase<TDbContext, TModel>.GetLambda
+  nameWithType.vb: ModelRepositoryBase(Of TDbContext, TModel).GetLambda
+  fullName.vb: Swastika.Domain.Data.Repository.ModelRepositoryBase(Of TDbContext, TModel).GetLambda
+- uid: System.Linq.Expressions.LambdaExpression
+  isExternal: true
+  name: LambdaExpression
+  nameWithType: LambdaExpression
+  fullName: System.Linq.Expressions.LambdaExpression

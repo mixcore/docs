@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey
+  commentId: T:Swastika.Domain.Core.Models.Enums.ResponseKey
+  id: Enums.ResponseKey
+  parent: Swastika.Domain.Core.Models
+  children:
+  - Swastika.Domain.Core.Models.Enums.ResponseKey.BadRequest
+  - Swastika.Domain.Core.Models.Enums.ResponseKey.NotFound
+  - Swastika.Domain.Core.Models.Enums.ResponseKey.OK
+  - Swastika.Domain.Core.Models.Enums.ResponseKey.value__
+  langs:
+  - csharp
+  - vb
+  name: Enums.ResponseKey
+  nameWithType: Enums.ResponseKey
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey
+  type: Class
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: 'public sealed class ResponseKey : Enum'
+    content.vb: >-
+      Public NotInheritable Class ResponseKey
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey.value__
+  commentId: F:Swastika.Domain.Core.Models.Enums.ResponseKey.value__
+  id: value__
+  parent: Swastika.Domain.Core.Models.Enums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: Enums.ResponseKey.value__
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey.value__
+  type: Field
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey.BadRequest
+  commentId: F:Swastika.Domain.Core.Models.Enums.ResponseKey.BadRequest
+  id: BadRequest
+  parent: Swastika.Domain.Core.Models.Enums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: BadRequest
+  nameWithType: Enums.ResponseKey.BadRequest
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey.BadRequest
+  type: Field
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public const Enums.ResponseKey BadRequest
+    return:
+      type: Swastika.Domain.Core.Models.Enums.ResponseKey
+    content.vb: Public Const BadRequest As Enums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey.NotFound
+  commentId: F:Swastika.Domain.Core.Models.Enums.ResponseKey.NotFound
+  id: NotFound
+  parent: Swastika.Domain.Core.Models.Enums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: NotFound
+  nameWithType: Enums.ResponseKey.NotFound
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey.NotFound
+  type: Field
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public const Enums.ResponseKey NotFound
+    return:
+      type: Swastika.Domain.Core.Models.Enums.ResponseKey
+    content.vb: Public Const NotFound As Enums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey.OK
+  commentId: F:Swastika.Domain.Core.Models.Enums.ResponseKey.OK
+  id: OK
+  parent: Swastika.Domain.Core.Models.Enums.ResponseKey
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: Enums.ResponseKey.OK
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey.OK
+  type: Field
+  source:
+    path: Swastika
+    isExternal: true
+  assemblies:
+  - Swastika
+  namespace: Swastika.Domain.Core.Models
+  syntax:
+    content: public const Enums.ResponseKey OK
+    return:
+      type: Swastika.Domain.Core.Models.Enums.ResponseKey
+    content.vb: Public Const OK As Enums.ResponseKey
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: true
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey
+  commentId: T:Swastika.Domain.Core.Models.Enums.ResponseKey
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: Enums.ResponseKey
+  nameWithType: Enums.ResponseKey
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey

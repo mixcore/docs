@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixOrderItem
+  id: MixOrderItem
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+  langs:
+  - csharp
+  - vb
+  name: MixOrderItem
+  nameWithType: MixOrderItem
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixOrderItem : Object'
+    content.vb: >-
+      Public Class MixOrderItem
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: MixOrderItem()
+  nameWithType: MixOrderItem.MixOrderItem()
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrderItem()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixOrderItem()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+  id: Id
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MixOrderItem.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+  id: OrderId
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: OrderId
+  nameWithType: MixOrderItem.OrderId
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int OrderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrderId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+  id: ProductId
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: ProductId
+  nameWithType: MixOrderItem.ProductId
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int ProductId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProductId As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+  id: Quantity
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: MixOrderItem.Quantity
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Quantity As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+  id: Price
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: MixOrderItem.Price
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public double Price { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Price As Double
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Price*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+  id: PriceUnit
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: MixOrderItem.PriceUnit
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PriceUnit As String
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixOrderItem.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixOrderItem.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixOrderItem.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+  id: MixOrder
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: MixOrder
+  nameWithType: MixOrderItem.MixOrder
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixOrder MixOrder { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixOrder
+    content.vb: Public Property MixOrder As MixOrder
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+  id: MixProduct
+  parent: Mix.Cms.Lib.Models.Cms.MixOrderItem
+  langs:
+  - csharp
+  - vb
+  name: MixProduct
+  nameWithType: MixOrderItem.MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixProduct MixProduct { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixProduct
+    content.vb: Public Property MixProduct As MixProduct
+  overload: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.#ctor
+  isExternal: true
+  name: MixOrderItem
+  nameWithType: MixOrderItem.MixOrderItem
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrderItem
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Id*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: MixOrderItem.Id
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+  isExternal: true
+  name: OrderId
+  nameWithType: MixOrderItem.OrderId
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.OrderId
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+  isExternal: true
+  name: ProductId
+  nameWithType: MixOrderItem.ProductId
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.ProductId
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+  isExternal: true
+  name: Quantity
+  nameWithType: MixOrderItem.Quantity
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Quantity
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Price*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+  isExternal: true
+  name: Price
+  nameWithType: MixOrderItem.Price
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: MixOrderItem.PriceUnit
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.PriceUnit
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixOrderItem.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Specificulture
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixOrderItem.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixOrderItem.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+  isExternal: true
+  name: MixOrder
+  nameWithType: MixOrderItem.MixOrder
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixOrder
+- uid: Mix.Cms.Lib.Models.Cms.MixOrder
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixOrder
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixOrder
+  nameWithType: MixOrder
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrder
+- uid: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+  isExternal: true
+  name: MixProduct
+  nameWithType: MixOrderItem.MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixOrderItem.MixProduct
+- uid: Mix.Cms.Lib.Models.Cms.MixProduct
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixProduct
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixProduct
+  nameWithType: MixProduct
+  fullName: Mix.Cms.Lib.Models.Cms.MixProduct

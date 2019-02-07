@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  id: Mix.Domain.Core.ViewModels
+  children:
+  - Mix.Domain.Core.ViewModels.ApiResult`1
+  - Mix.Domain.Core.ViewModels.EntityField
+  - Mix.Domain.Core.ViewModels.FileStreamViewModel
+  - Mix.Domain.Core.ViewModels.PaginationModel`1
+  - Mix.Domain.Core.ViewModels.RepositoryResponse`1
+  - Mix.Domain.Core.ViewModels.RequestEncrypted
+  - Mix.Domain.Core.ViewModels.RequestObject
+  - Mix.Domain.Core.ViewModels.RequestPaging
+  langs:
+  - csharp
+  - vb
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels
+  type: Namespace
+  assemblies:
+  - Mix.Heart
+references:
+- uid: Mix.Domain.Core.ViewModels.ApiResult`1
+  commentId: T:Mix.Domain.Core.ViewModels.ApiResult`1
+  isExternal: true
+  name: ApiResult<T>
+  nameWithType: ApiResult<T>
+  fullName: Mix.Domain.Core.ViewModels.ApiResult<T>
+  nameWithType.vb: ApiResult(Of T)
+  fullName.vb: Mix.Domain.Core.ViewModels.ApiResult(Of T)
+  name.vb: ApiResult(Of T)
+  spec.csharp:
+  - uid: Mix.Domain.Core.ViewModels.ApiResult`1
+    name: ApiResult
+    nameWithType: ApiResult
+    fullName: Mix.Domain.Core.ViewModels.ApiResult
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Domain.Core.ViewModels.ApiResult`1
+    name: ApiResult
+    nameWithType: ApiResult
+    fullName: Mix.Domain.Core.ViewModels.ApiResult
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.EntityField
+  commentId: T:Mix.Domain.Core.ViewModels.EntityField
+  isExternal: true
+  name: EntityField
+  nameWithType: EntityField
+  fullName: Mix.Domain.Core.ViewModels.EntityField
+- uid: Mix.Domain.Core.ViewModels.FileStreamViewModel
+  commentId: T:Mix.Domain.Core.ViewModels.FileStreamViewModel
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: FileStreamViewModel
+  nameWithType: FileStreamViewModel
+  fullName: Mix.Domain.Core.ViewModels.FileStreamViewModel
+- uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+  commentId: T:Mix.Domain.Core.ViewModels.PaginationModel`1
+  isExternal: true
+  name: PaginationModel<T>
+  nameWithType: PaginationModel<T>
+  fullName: Mix.Domain.Core.ViewModels.PaginationModel<T>
+  nameWithType.vb: PaginationModel(Of T)
+  fullName.vb: Mix.Domain.Core.ViewModels.PaginationModel(Of T)
+  name.vb: PaginationModel(Of T)
+  spec.csharp:
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Domain.Core.ViewModels.PaginationModel`1
+    name: PaginationModel
+    nameWithType: PaginationModel
+    fullName: Mix.Domain.Core.ViewModels.PaginationModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+  commentId: T:Mix.Domain.Core.ViewModels.RepositoryResponse`1
+  isExternal: true
+  name: RepositoryResponse<TResult>
+  nameWithType: RepositoryResponse<TResult>
+  fullName: Mix.Domain.Core.ViewModels.RepositoryResponse<TResult>
+  nameWithType.vb: RepositoryResponse(Of TResult)
+  fullName.vb: Mix.Domain.Core.ViewModels.RepositoryResponse(Of TResult)
+  name.vb: RepositoryResponse(Of TResult)
+  spec.csharp:
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Mix.Domain.Core.ViewModels.RepositoryResponse`1
+    name: RepositoryResponse
+    nameWithType: RepositoryResponse
+    fullName: Mix.Domain.Core.ViewModels.RepositoryResponse
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Mix.Domain.Core.ViewModels.RequestObject
+  commentId: T:Mix.Domain.Core.ViewModels.RequestObject
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestObject
+  nameWithType: RequestObject
+  fullName: Mix.Domain.Core.ViewModels.RequestObject
+- uid: Mix.Domain.Core.ViewModels.RequestEncrypted
+  commentId: T:Mix.Domain.Core.ViewModels.RequestEncrypted
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestEncrypted
+  nameWithType: RequestEncrypted
+  fullName: Mix.Domain.Core.ViewModels.RequestEncrypted
+- uid: Mix.Domain.Core.ViewModels.RequestPaging
+  commentId: T:Mix.Domain.Core.ViewModels.RequestPaging
+  parent: Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: RequestPaging
+  nameWithType: RequestPaging
+  fullName: Mix.Domain.Core.ViewModels.RequestPaging
+- uid: Mix.Domain.Core.ViewModels
+  commentId: N:Mix.Domain.Core.ViewModels
+  isExternal: true
+  name: Mix.Domain.Core.ViewModels
+  nameWithType: Mix.Domain.Core.ViewModels
+  fullName: Mix.Domain.Core.ViewModels

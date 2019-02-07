@@ -1,0 +1,945 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService
+  commentId: T:Swastika.Cms.Lib.Services.GlobalLanguageService
+  id: GlobalLanguageService
+  parent: Swastika.Cms.Lib.Services
+  children:
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture(System.String)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String,System.Int32)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Translate(System.String,System.String)
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+  - Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: GlobalLanguageService
+  nameWithType: GlobalLanguageService
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: 'public class GlobalLanguageService : Object'
+    content.vb: >-
+      Public Class GlobalLanguageService
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GlobalLanguageService()
+  nameWithType: GlobalLanguageService.GlobalLanguageService()
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GlobalLanguageService()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public GlobalLanguageService()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture(System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture(System.String)
+  id: GetCulture(System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetCulture(String)
+  nameWithType: GlobalLanguageService.GetCulture(String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture(System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public SupportedCulture GetCulture(string specificulture)
+    parameters:
+    - id: specificulture
+      type: System.String
+    return:
+      type: Swastika.Domain.Core.Models.SupportedCulture
+    content.vb: Public Function GetCulture(specificulture As String) As SupportedCulture
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures
+  id: GetSupportedCultures
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetSupportedCultures()
+  nameWithType: GlobalLanguageService.GetSupportedCultures()
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures()
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public List<SupportedCulture> GetSupportedCultures()
+    return:
+      type: System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}
+    content.vb: Public Function GetSupportedCultures As List(Of SupportedCulture)
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh
+  id: Refresh
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: GlobalLanguageService.Refresh()
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh()
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public void Refresh()
+    content.vb: Public Sub Refresh
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  id: RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext,Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: RefreshCultures(SiocCmsContext, IDbContextTransaction)
+  nameWithType: GlobalLanguageService.RefreshCultures(SiocCmsContext, IDbContextTransaction)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures(Swastika.Cms.Lib.Models.Cms.SiocCmsContext, Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public void RefreshCultures(SiocCmsContext _context = null, IDbContextTransaction _transaction = null)
+    parameters:
+    - id: _context
+      type: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+    - id: _transaction
+      type: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    content.vb: Public Sub RefreshCultures(_context As SiocCmsContext = Nothing, _transaction As IDbContextTransaction = Nothing)
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Translate(System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.Translate(System.String,System.String)
+  id: Translate(System.String,System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Translate(String, String)
+  nameWithType: GlobalLanguageService.Translate(String, String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Translate(System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string Translate(string culture, string key)
+    parameters:
+    - id: culture
+      type: System.String
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Translate(culture As String, key As String) As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Translate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage(System.String,System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage(System.String,System.String,System.String)
+  id: UpdateLanguage(System.String,System.String,System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: UpdateLanguage(String, String, String)
+  nameWithType: GlobalLanguageService.UpdateLanguage(String, String, String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public bool UpdateLanguage(string key, string culture, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function UpdateLanguage(key As String, culture As String, value As String) As Boolean
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String)
+  id: GetLocalString(System.String,System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetLocalString(String, String)
+  nameWithType: GlobalLanguageService.GetLocalString(String, String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string GetLocalString(string key, string culture)
+    parameters:
+    - id: key
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalString(key As String, culture As String) As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String,System.String,System.String)
+  id: GetLocalString(System.String,System.String,System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetLocalString(String, String, String)
+  nameWithType: GlobalLanguageService.GetLocalString(String, String, String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string GetLocalString(string key, string culture, string defaultValue)
+    parameters:
+    - id: key
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: defaultValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalString(key As String, culture As String, defaultValue As String) As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String)
+  id: GetLocalInt(System.String,System.String)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetLocalInt(String, String)
+  nameWithType: GlobalLanguageService.GetLocalInt(String, String)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String, System.String)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public static int GetLocalInt(string key, string culture)
+    parameters:
+    - id: key
+      type: System.String
+    - id: culture
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetLocalInt(key As String, culture As String) As Integer
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String,System.Int32)
+  commentId: M:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String,System.String,System.Int32)
+  id: GetLocalInt(System.String,System.String,System.Int32)
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: GetLocalInt(String, String, Int32)
+  nameWithType: GlobalLanguageService.GetLocalInt(String, String, Int32)
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public int GetLocalInt(string key, string culture, int defaultValue)
+    parameters:
+    - id: key
+      type: System.String
+    - id: culture
+      type: System.String
+    - id: defaultValue
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetLocalInt(key As String, culture As String, defaultValue As Integer) As Integer
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+  id: Culture
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: GlobalLanguageService.Culture
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string Culture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Culture As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Culture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+  id: Name
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GlobalLanguageService.Name
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+  id: IsInit
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: IsInit
+  nameWithType: GlobalLanguageService.IsInit
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public bool IsInit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInit As Boolean
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+  id: Translator
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Translator
+  nameWithType: GlobalLanguageService.Translator
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public JObject Translator { get; set; }
+    parameters: []
+    return:
+      type: Newtonsoft.Json.Linq.JObject
+    content.vb: Public Property Translator As JObject
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Translator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+  id: ConnectionString
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: GlobalLanguageService.ConnectionString
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public string ConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConnectionString As String
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+  id: ListLanguage
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: ListLanguage
+  nameWithType: GlobalLanguageService.ListLanguage
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public static List<BELanguageViewModel> ListLanguage { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel}
+    content.vb: Public Shared Property ListLanguage As List(Of BELanguageViewModel)
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+  id: ListSupportedCulture
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: ListSupportedCulture
+  nameWithType: GlobalLanguageService.ListSupportedCulture
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public static List<SupportedCulture> ListSupportedCulture { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}
+    content.vb: Public Shared Property ListSupportedCulture As List(Of SupportedCulture)
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+  commentId: P:Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+  id: Instance
+  parent: Swastika.Cms.Lib.Services.GlobalLanguageService
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: GlobalLanguageService.Instance
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Services
+  syntax:
+    content: public static GlobalLanguageService Instance { get; set; }
+    parameters: []
+    return:
+      type: Swastika.Cms.Lib.Services.GlobalLanguageService
+    content.vb: Public Shared Property Instance As GlobalLanguageService
+  overload: Swastika.Cms.Lib.Services.GlobalLanguageService.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastika.Cms.Lib.Services
+  commentId: N:Swastika.Cms.Lib.Services
+  isExternal: false
+  name: Swastika.Cms.Lib.Services
+  nameWithType: Swastika.Cms.Lib.Services
+  fullName: Swastika.Cms.Lib.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.#ctor
+  isExternal: true
+  name: GlobalLanguageService
+  nameWithType: GlobalLanguageService.GlobalLanguageService
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GlobalLanguageService
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture
+  isExternal: true
+  name: GetCulture
+  nameWithType: GlobalLanguageService.GetCulture
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetCulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Domain.Core.Models.SupportedCulture
+  commentId: T:Swastika.Domain.Core.Models.SupportedCulture
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: SupportedCulture
+  nameWithType: SupportedCulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: false
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures
+  isExternal: true
+  name: GetSupportedCultures
+  nameWithType: GlobalLanguageService.GetSupportedCultures
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetSupportedCultures
+- uid: System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}
+  commentId: '!:System.Collections.Generic.List{Swastika.Domain.Core.Models.SupportedCulture}'
+  definition: System.Collections.Generic.List`1
+  name: List<SupportedCulture>
+  nameWithType: List<SupportedCulture>
+  fullName: System.Collections.Generic.List<Swastika.Domain.Core.Models.SupportedCulture>
+  nameWithType.vb: List(Of SupportedCulture)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Domain.Core.Models.SupportedCulture)
+  name.vb: List(Of SupportedCulture)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Domain.Core.Models.SupportedCulture
+    name: SupportedCulture
+    nameWithType: SupportedCulture
+    fullName: Swastika.Domain.Core.Models.SupportedCulture
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Domain.Core.Models.SupportedCulture
+    name: SupportedCulture
+    nameWithType: SupportedCulture
+    fullName: Swastika.Domain.Core.Models.SupportedCulture
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh
+  isExternal: true
+  name: Refresh
+  nameWithType: GlobalLanguageService.Refresh
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Refresh
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures
+  isExternal: true
+  name: RefreshCultures
+  nameWithType: GlobalLanguageService.RefreshCultures
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.RefreshCultures
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+  parent: Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: SiocCmsContext
+  nameWithType: SiocCmsContext
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsContext
+- uid: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+  isExternal: true
+  name: IDbContextTransaction
+  nameWithType: IDbContextTransaction
+  fullName: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: false
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Translate*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Translate
+  isExternal: true
+  name: Translate
+  nameWithType: GlobalLanguageService.Translate
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Translate
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage
+  isExternal: true
+  name: UpdateLanguage
+  nameWithType: GlobalLanguageService.UpdateLanguage
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.UpdateLanguage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString
+  isExternal: true
+  name: GetLocalString
+  nameWithType: GlobalLanguageService.GetLocalString
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalString
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt
+  isExternal: true
+  name: GetLocalInt
+  nameWithType: GlobalLanguageService.GetLocalInt
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.GetLocalInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Culture*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+  isExternal: true
+  name: Culture
+  nameWithType: GlobalLanguageService.Culture
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Culture
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Name*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+  isExternal: true
+  name: Name
+  nameWithType: GlobalLanguageService.Name
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Name
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+  isExternal: true
+  name: IsInit
+  nameWithType: GlobalLanguageService.IsInit
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.IsInit
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Translator*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+  isExternal: true
+  name: Translator
+  nameWithType: GlobalLanguageService.Translator
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Translator
+- uid: Newtonsoft.Json.Linq.JObject
+  isExternal: true
+  name: JObject
+  nameWithType: JObject
+  fullName: Newtonsoft.Json.Linq.JObject
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+  isExternal: true
+  name: ConnectionString
+  nameWithType: GlobalLanguageService.ConnectionString
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ConnectionString
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+  isExternal: true
+  name: ListLanguage
+  nameWithType: GlobalLanguageService.ListLanguage
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ListLanguage
+- uid: System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel}
+  commentId: '!:System.Collections.Generic.List{Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel}'
+  definition: System.Collections.Generic.List`1
+  name: List<BELanguageViewModel>
+  nameWithType: List<BELanguageViewModel>
+  fullName: System.Collections.Generic.List<Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel>
+  nameWithType.vb: List(Of BELanguageViewModel)
+  fullName.vb: System.Collections.Generic.List(Of Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel)
+  name.vb: List(Of BELanguageViewModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
+    name: BELanguageViewModel
+    nameWithType: BELanguageViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
+    name: BELanguageViewModel
+    nameWithType: BELanguageViewModel
+    fullName: Swastika.Cms.Lib.ViewModels.BackEnd.BELanguageViewModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+  isExternal: true
+  name: ListSupportedCulture
+  nameWithType: GlobalLanguageService.ListSupportedCulture
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.ListSupportedCulture
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService.Instance*
+  commentId: Overload:Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+  isExternal: true
+  name: Instance
+  nameWithType: GlobalLanguageService.Instance
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService.Instance
+- uid: Swastika.Cms.Lib.Services.GlobalLanguageService
+  commentId: T:Swastika.Cms.Lib.Services.GlobalLanguageService
+  parent: Swastika.Cms.Lib.Services
+  isExternal: true
+  name: GlobalLanguageService
+  nameWithType: GlobalLanguageService
+  fullName: Swastika.Cms.Lib.Services.GlobalLanguageService

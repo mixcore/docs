@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.UI.Base
+  commentId: N:Swastika.UI.Base
+  id: Swastika.UI.Base
+  children:
+  - Swastika.UI.Base.ApiHelper`1
+  langs:
+  - csharp
+  - vb
+  name: Swastika.UI.Base
+  nameWithType: Swastika.UI.Base
+  fullName: Swastika.UI.Base
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.UI.Base.ApiHelper`1
+  commentId: T:Swastika.UI.Base.ApiHelper`1
+  isExternal: true
+  name: ApiHelper<T>
+  nameWithType: ApiHelper<T>
+  fullName: Swastika.UI.Base.ApiHelper<T>
+  nameWithType.vb: ApiHelper(Of T)
+  fullName.vb: Swastika.UI.Base.ApiHelper(Of T)
+  name.vb: ApiHelper(Of T)
+  spec.csharp:
+  - uid: Swastika.UI.Base.ApiHelper`1
+    name: ApiHelper
+    nameWithType: ApiHelper
+    fullName: Swastika.UI.Base.ApiHelper
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.UI.Base.ApiHelper`1
+    name: ApiHelper
+    nameWithType: ApiHelper
+    fullName: Swastika.UI.Base.ApiHelper
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

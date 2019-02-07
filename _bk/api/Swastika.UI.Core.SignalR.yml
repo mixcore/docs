@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.UI.Core.SignalR
+  commentId: N:Swastika.UI.Core.SignalR
+  id: Swastika.UI.Core.SignalR
+  children:
+  - Swastika.UI.Core.SignalR.BaseSignalRHub
+  langs:
+  - csharp
+  - vb
+  name: Swastika.UI.Core.SignalR
+  nameWithType: Swastika.UI.Core.SignalR
+  fullName: Swastika.UI.Core.SignalR
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.UI.Core.SignalR.BaseSignalRHub
+  commentId: T:Swastika.UI.Core.SignalR.BaseSignalRHub
+  isExternal: true
+  name: BaseSignalRHub
+  nameWithType: BaseSignalRHub
+  fullName: Swastika.UI.Core.SignalR.BaseSignalRHub

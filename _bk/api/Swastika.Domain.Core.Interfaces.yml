@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Interfaces
+  commentId: N:Swastika.Domain.Core.Interfaces
+  id: Swastika.Domain.Core.Interfaces
+  children:
+  - Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  - Swastika.Domain.Core.Interfaces.IUser
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Domain.Core.Interfaces
+  nameWithType: Swastika.Domain.Core.Interfaces
+  fullName: Swastika.Domain.Core.Interfaces
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  commentId: T:Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+  isExternal: true
+  name: IExpandViewModel<TModel>
+  nameWithType: IExpandViewModel<TModel>
+  fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel<TModel>
+  nameWithType.vb: IExpandViewModel(Of TModel)
+  fullName.vb: Swastika.Domain.Core.Interfaces.IExpandViewModel(Of TModel)
+  name.vb: IExpandViewModel(Of TModel)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+    name: IExpandViewModel
+    nameWithType: IExpandViewModel
+    fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.Interfaces.IExpandViewModel`1
+    name: IExpandViewModel
+    nameWithType: IExpandViewModel
+    fullName: Swastika.Domain.Core.Interfaces.IExpandViewModel
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TModel
+    nameWithType: TModel
+    fullName: TModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.Interfaces.IUser
+  commentId: T:Swastika.Domain.Core.Interfaces.IUser
+  isExternal: true
+  name: IUser
+  nameWithType: IUser
+  fullName: Swastika.Domain.Core.Interfaces.IUser

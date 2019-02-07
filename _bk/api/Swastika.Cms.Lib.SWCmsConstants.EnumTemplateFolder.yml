@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  id: SWCmsConstants.EnumTemplateFolder
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Articles
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Layouts
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Masters
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Modules
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Pages
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Products
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.value__
+  - Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Widgets
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.EnumTemplateFolder
+  nameWithType: SWCmsConstants.EnumTemplateFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public sealed class EnumTemplateFolder : Enum'
+    content.vb: >-
+      Public NotInheritable Class EnumTemplateFolder
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.value__
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.value__
+  id: value__
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SWCmsConstants.EnumTemplateFolder.value__
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.value__
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Layouts
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Layouts
+  id: Layouts
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Layouts
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Layouts
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Layouts
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Layouts
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Layouts As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Pages
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Pages
+  id: Pages
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Pages
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Pages
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Pages
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Pages
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Pages As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Modules
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Modules
+  id: Modules
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Modules
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Modules
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Modules
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Modules
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Modules As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Articles
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Articles
+  id: Articles
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Articles
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Articles
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Articles
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Articles
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Articles As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Products
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Products
+  id: Products
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Products
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Products
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Products
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Products
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Products As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Widgets
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Widgets
+  id: Widgets
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Widgets
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Widgets
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Widgets
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Widgets
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Widgets As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Masters
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Masters
+  id: Masters
+  parent: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  langs:
+  - csharp
+  - vb
+  name: Masters
+  nameWithType: SWCmsConstants.EnumTemplateFolder.Masters
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder.Masters
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const SWCmsConstants.EnumTemplateFolder Masters
+    return:
+      type: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+    content.vb: Public Const Masters As SWCmsConstants.EnumTemplateFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder
+  parent: Swastika.Cms.Lib
+  isExternal: true
+  name: SWCmsConstants.EnumTemplateFolder
+  nameWithType: SWCmsConstants.EnumTemplateFolder
+  fullName: Swastika.Cms.Lib.SWCmsConstants.EnumTemplateFolder

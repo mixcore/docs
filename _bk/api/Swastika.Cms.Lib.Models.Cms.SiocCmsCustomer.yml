@@ -1,0 +1,939 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  commentId: T:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  id: SiocCmsCustomer
+  parent: Swastika.Cms.Lib.Models.Cms
+  children:
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+  - Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsCustomer
+  nameWithType: SiocCmsCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class SiocCmsCustomer : Object'
+    content.vb: >-
+      Public Class SiocCmsCustomer
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor
+  commentId: M:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor
+  id: '#ctor'
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: SiocCmsCustomer()
+  nameWithType: SiocCmsCustomer.SiocCmsCustomer()
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocCmsCustomer()
+  type: Constructor
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public SiocCmsCustomer()
+    content.vb: Public Sub New
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+  id: Id
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SiocCmsCustomer.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+  id: UserId
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: SiocCmsCustomer.UserId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string UserId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserId As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+  id: Username
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: SiocCmsCustomer.Username
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+  id: Email
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: SiocCmsCustomer.Email
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+  id: FirstName
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: SiocCmsCustomer.FirstName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+  id: MiddleName
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: SiocCmsCustomer.MiddleName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MiddleName As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+  id: LastName
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: SiocCmsCustomer.LastName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+  id: FullName
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SiocCmsCustomer.FullName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+  id: BirthDay
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: BirthDay
+  nameWithType: SiocCmsCustomer.BirthDay
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public Nullable<DateTime> BirthDay { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property BirthDay As Nullable(Of DateTime)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+  id: Avatar
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Avatar
+  nameWithType: SiocCmsCustomer.Avatar
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Avatar { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Avatar As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+  id: Address
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: SiocCmsCustomer.Address
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+  id: PhoneNumber
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: SiocCmsCustomer.PhoneNumber
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+  id: Status
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SiocCmsCustomer.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+  id: CreatedDateTime
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: SiocCmsCustomer.CreatedDateTime
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+  id: CreatedBy
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: SiocCmsCustomer.CreatedBy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatedBy As String
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+  id: Priority
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: SiocCmsCustomer.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+  id: IsAgreeNotified
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: IsAgreeNotified
+  nameWithType: SiocCmsCustomer.IsAgreeNotified
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public bool IsAgreeNotified { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAgreeNotified As Boolean
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+  commentId: P:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+  id: SiocOrder
+  parent: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer
+  langs:
+  - csharp
+  - vb
+  name: SiocOrder
+  nameWithType: SiocCmsCustomer.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib.Models.Cms
+  syntax:
+    content: public ICollection<SiocOrder> SiocOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrder}
+    content.vb: Public Property SiocOrder As ICollection(Of SiocOrder)
+  overload: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Swastika.Cms.Lib.Models.Cms
+  commentId: N:Swastika.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Swastika.Cms.Lib.Models.Cms
+  nameWithType: Swastika.Cms.Lib.Models.Cms
+  fullName: Swastika.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.#ctor
+  isExternal: true
+  name: SiocCmsCustomer
+  nameWithType: SiocCmsCustomer.SiocCmsCustomer
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocCmsCustomer
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+  isExternal: true
+  name: Id
+  nameWithType: SiocCmsCustomer.Id
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+  isExternal: true
+  name: UserId
+  nameWithType: SiocCmsCustomer.UserId
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.UserId
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+  isExternal: true
+  name: Username
+  nameWithType: SiocCmsCustomer.Username
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Username
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+  isExternal: true
+  name: Email
+  nameWithType: SiocCmsCustomer.Email
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Email
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+  isExternal: true
+  name: FirstName
+  nameWithType: SiocCmsCustomer.FirstName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FirstName
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: SiocCmsCustomer.MiddleName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.MiddleName
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+  isExternal: true
+  name: LastName
+  nameWithType: SiocCmsCustomer.LastName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.LastName
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SiocCmsCustomer.FullName
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.FullName
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+  isExternal: true
+  name: BirthDay
+  nameWithType: SiocCmsCustomer.BirthDay
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.BirthDay
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+  isExternal: true
+  name: Avatar
+  nameWithType: SiocCmsCustomer.Avatar
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Avatar
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+  isExternal: true
+  name: Address
+  nameWithType: SiocCmsCustomer.Address
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Address
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+  isExternal: true
+  name: PhoneNumber
+  nameWithType: SiocCmsCustomer.PhoneNumber
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.PhoneNumber
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+  isExternal: true
+  name: Status
+  nameWithType: SiocCmsCustomer.Status
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Status
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: SiocCmsCustomer.CreatedDateTime
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: SiocCmsCustomer.CreatedBy
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.CreatedBy
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: SiocCmsCustomer.Priority
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.Priority
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+  isExternal: true
+  name: IsAgreeNotified
+  nameWithType: SiocCmsCustomer.IsAgreeNotified
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.IsAgreeNotified
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder*
+  commentId: Overload:Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+  isExternal: true
+  name: SiocOrder
+  nameWithType: SiocCmsCustomer.SiocOrder
+  fullName: Swastika.Cms.Lib.Models.Cms.SiocCmsCustomer.SiocOrder
+- uid: System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrder}
+  commentId: '!:System.Collections.Generic.ICollection{Swastika.Cms.Lib.Models.Cms.SiocOrder}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SiocOrder>
+  nameWithType: ICollection<SiocOrder>
+  fullName: System.Collections.Generic.ICollection<Swastika.Cms.Lib.Models.Cms.SiocOrder>
+  nameWithType.vb: ICollection(Of SiocOrder)
+  fullName.vb: System.Collections.Generic.ICollection(Of Swastika.Cms.Lib.Models.Cms.SiocOrder)
+  name.vb: ICollection(Of SiocOrder)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    name: SiocOrder
+    nameWithType: SiocOrder
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    name: SiocOrder
+    nameWithType: SiocOrder
+    fullName: Swastika.Cms.Lib.Models.Cms.SiocOrder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

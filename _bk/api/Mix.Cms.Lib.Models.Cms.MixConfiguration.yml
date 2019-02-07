@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixConfiguration
+  id: MixConfiguration
+  parent: Mix.Cms.Lib.Models.Cms
+  children:
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+  - Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+  langs:
+  - csharp
+  - vb
+  name: MixConfiguration
+  nameWithType: MixConfiguration
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: 'public class MixConfiguration : Object'
+    content.vb: >-
+      Public Class MixConfiguration
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor
+  commentId: M:Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor
+  id: '#ctor'
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MixConfiguration()
+  nameWithType: MixConfiguration.MixConfiguration()
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.MixConfiguration()
+  type: Constructor
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixConfiguration()
+    content.vb: Public Sub New
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+  id: Keyword
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Keyword
+  nameWithType: MixConfiguration.Keyword
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Keyword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Keyword As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+  id: Specificulture
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Specificulture
+  nameWithType: MixConfiguration.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Specificulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Specificulture As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+  id: Category
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: MixConfiguration.Category
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Category { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Category As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Category*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+  id: DataType
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: MixConfiguration.DataType
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int DataType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DataType As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+  id: Description
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: MixConfiguration.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+  id: Priority
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: MixConfiguration.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Priority As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+  id: Status
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: MixConfiguration.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+  id: Value
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MixConfiguration.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+  id: CreatedDateTime
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CreatedDateTime
+  nameWithType: MixConfiguration.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public DateTime CreatedDateTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property CreatedDateTime As DateTime
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+  id: CreatedBy
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: MixConfiguration.CreatedBy
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CreatedBy As String
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+  commentId: P:Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+  id: SpecificultureNavigation
+  parent: Mix.Cms.Lib.Models.Cms.MixConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SpecificultureNavigation
+  nameWithType: MixConfiguration.SpecificultureNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+  type: Property
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib.Models.Cms
+  syntax:
+    content: public MixCulture SpecificultureNavigation { get; set; }
+    parameters: []
+    return:
+      type: Mix.Cms.Lib.Models.Cms.MixCulture
+    content.vb: Public Property SpecificultureNavigation As MixCulture
+  overload: Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Mix.Cms.Lib.Models.Cms
+  commentId: N:Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: Mix.Cms.Lib.Models.Cms
+  nameWithType: Mix.Cms.Lib.Models.Cms
+  fullName: Mix.Cms.Lib.Models.Cms
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.#ctor
+  isExternal: true
+  name: MixConfiguration
+  nameWithType: MixConfiguration.MixConfiguration
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.MixConfiguration
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+  isExternal: true
+  name: Keyword
+  nameWithType: MixConfiguration.Keyword
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Keyword
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+  isExternal: true
+  name: Specificulture
+  nameWithType: MixConfiguration.Specificulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Specificulture
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Category*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+  isExternal: true
+  name: Category
+  nameWithType: MixConfiguration.Category
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Category
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+  isExternal: true
+  name: DataType
+  nameWithType: MixConfiguration.DataType
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.DataType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Description*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+  isExternal: true
+  name: Description
+  nameWithType: MixConfiguration.Description
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Description
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+  isExternal: true
+  name: Priority
+  nameWithType: MixConfiguration.Priority
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Priority
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Status*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+  isExternal: true
+  name: Status
+  nameWithType: MixConfiguration.Status
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Status
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.Value*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+  isExternal: true
+  name: Value
+  nameWithType: MixConfiguration.Value
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.Value
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+  isExternal: true
+  name: CreatedDateTime
+  nameWithType: MixConfiguration.CreatedDateTime
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedDateTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: MixConfiguration.CreatedBy
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.CreatedBy
+- uid: Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation*
+  commentId: Overload:Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+  isExternal: true
+  name: SpecificultureNavigation
+  nameWithType: MixConfiguration.SpecificultureNavigation
+  fullName: Mix.Cms.Lib.Models.Cms.MixConfiguration.SpecificultureNavigation
+- uid: Mix.Cms.Lib.Models.Cms.MixCulture
+  commentId: T:Mix.Cms.Lib.Models.Cms.MixCulture
+  parent: Mix.Cms.Lib.Models.Cms
+  isExternal: true
+  name: MixCulture
+  nameWithType: MixCulture
+  fullName: Mix.Cms.Lib.Models.Cms.MixCulture

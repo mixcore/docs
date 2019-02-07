@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  commentId: N:Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  id: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  children:
+  - Mix.Cms.Lib.ViewModels.MixPortalPageRoles.ReadViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  nameWithType: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  type: Namespace
+  assemblies:
+  - Mix.Cms.Lib
+references:
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPageRoles.ReadViewModel
+  commentId: T:Mix.Cms.Lib.ViewModels.MixPortalPageRoles.ReadViewModel
+  parent: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  isExternal: true
+  name: ReadViewModel
+  nameWithType: ReadViewModel
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPageRoles.ReadViewModel
+- uid: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  commentId: N:Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  isExternal: true
+  name: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  nameWithType: Mix.Cms.Lib.ViewModels.MixPortalPageRoles
+  fullName: Mix.Cms.Lib.ViewModels.MixPortalPageRoles

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity.Entities
+  commentId: N:Swastika.Identity.Entities
+  id: Swastika.Identity.Entities
+  children:
+  - Swastika.Identity.Entities.Client
+  - Swastika.Identity.Entities.RefreshToken
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Identity.Entities
+  nameWithType: Swastika.Identity.Entities
+  fullName: Swastika.Identity.Entities
+  type: Namespace
+  assemblies:
+  - Swastika.Identity
+references:
+- uid: Swastika.Identity.Entities.Client
+  commentId: T:Swastika.Identity.Entities.Client
+  isExternal: true
+  name: Client
+  nameWithType: Client
+  fullName: Swastika.Identity.Entities.Client
+- uid: Swastika.Identity.Entities.RefreshToken
+  commentId: T:Swastika.Identity.Entities.RefreshToken
+  isExternal: true
+  name: RefreshToken
+  nameWithType: RefreshToken
+  fullName: Swastika.Identity.Entities.RefreshToken

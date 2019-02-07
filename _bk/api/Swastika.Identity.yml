@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Identity
+  commentId: N:Swastika.Identity
+  id: Swastika.Identity
+  children:
+  - Swastika.Identity.Const
+  - Swastika.Identity.Const.ApplicationTypes
+  - Swastika.Identity.Startup
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Identity
+  nameWithType: Swastika.Identity
+  fullName: Swastika.Identity
+  type: Namespace
+  assemblies:
+  - Swastika.Identity
+references:
+- uid: Swastika.Identity.Const
+  commentId: T:Swastika.Identity.Const
+  isExternal: true
+  name: Const
+  nameWithType: Const
+  fullName: Swastika.Identity.Const
+- uid: Swastika.Identity.Const.ApplicationTypes
+  commentId: T:Swastika.Identity.Const.ApplicationTypes
+  parent: Swastika.Identity
+  isExternal: true
+  name: Const.ApplicationTypes
+  nameWithType: Const.ApplicationTypes
+  fullName: Swastika.Identity.Const.ApplicationTypes
+- uid: Swastika.Identity.Startup
+  commentId: T:Swastika.Identity.Startup
+  isExternal: true
+  name: Startup
+  nameWithType: Startup
+  fullName: Swastika.Identity.Startup
+- uid: Swastika.Identity
+  commentId: N:Swastika.Identity
+  isExternal: true
+  name: Swastika.Identity
+  nameWithType: Swastika.Identity
+  fullName: Swastika.Identity

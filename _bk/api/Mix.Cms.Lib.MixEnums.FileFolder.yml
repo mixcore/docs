@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: Mix.Cms.Lib.MixEnums.FileFolder
+  commentId: T:Mix.Cms.Lib.MixEnums.FileFolder
+  id: MixEnums.FileFolder
+  parent: Mix.Cms.Lib
+  children:
+  - Mix.Cms.Lib.MixEnums.FileFolder.Fonts
+  - Mix.Cms.Lib.MixEnums.FileFolder.Images
+  - Mix.Cms.Lib.MixEnums.FileFolder.Others
+  - Mix.Cms.Lib.MixEnums.FileFolder.Scripts
+  - Mix.Cms.Lib.MixEnums.FileFolder.Styles
+  - Mix.Cms.Lib.MixEnums.FileFolder.Templates
+  - Mix.Cms.Lib.MixEnums.FileFolder.value__
+  langs:
+  - csharp
+  - vb
+  name: MixEnums.FileFolder
+  nameWithType: MixEnums.FileFolder
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder
+  type: Class
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: 'public sealed class FileFolder : Enum'
+    content.vb: >-
+      Public NotInheritable Class FileFolder
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.value__
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.value__
+  id: value__
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MixEnums.FileFolder.value__
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.value__
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Styles
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Styles
+  id: Styles
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Styles
+  nameWithType: MixEnums.FileFolder.Styles
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Styles
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Styles
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Styles As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Scripts
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Scripts
+  id: Scripts
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Scripts
+  nameWithType: MixEnums.FileFolder.Scripts
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Scripts
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Scripts
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Scripts As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Images
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Images
+  id: Images
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Images
+  nameWithType: MixEnums.FileFolder.Images
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Images
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Images
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Images As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Fonts
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Fonts
+  id: Fonts
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Fonts
+  nameWithType: MixEnums.FileFolder.Fonts
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Fonts
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Fonts
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Fonts As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Others
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Others
+  id: Others
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Others
+  nameWithType: MixEnums.FileFolder.Others
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Others
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Others
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Others As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Mix.Cms.Lib.MixEnums.FileFolder.Templates
+  commentId: F:Mix.Cms.Lib.MixEnums.FileFolder.Templates
+  id: Templates
+  parent: Mix.Cms.Lib.MixEnums.FileFolder
+  langs:
+  - csharp
+  - vb
+  name: Templates
+  nameWithType: MixEnums.FileFolder.Templates
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder.Templates
+  type: Field
+  source:
+    path: Mix.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Lib
+  namespace: Mix.Cms.Lib
+  syntax:
+    content: public const MixEnums.FileFolder Templates
+    return:
+      type: Mix.Cms.Lib.MixEnums.FileFolder
+    content.vb: Public Const Templates As MixEnums.FileFolder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Mix.Cms.Lib
+  commentId: N:Mix.Cms.Lib
+  isExternal: true
+  name: Mix.Cms.Lib
+  nameWithType: Mix.Cms.Lib
+  fullName: Mix.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Mix.Cms.Lib.MixEnums.FileFolder
+  commentId: T:Mix.Cms.Lib.MixEnums.FileFolder
+  parent: Mix.Cms.Lib
+  isExternal: true
+  name: MixEnums.FileFolder
+  nameWithType: MixEnums.FileFolder
+  fullName: Mix.Cms.Lib.MixEnums.FileFolder

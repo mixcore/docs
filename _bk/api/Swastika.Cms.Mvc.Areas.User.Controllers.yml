@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers
+  commentId: N:Swastika.Cms.Mvc.Areas.User.Controllers
+  id: Swastika.Cms.Mvc.Areas.User.Controllers
+  children:
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  - Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Cms.Mvc.Areas.User.Controllers
+  nameWithType: Swastika.Cms.Mvc.Areas.User.Controllers
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Web.Mvc
+references:
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  commentId: T:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+  isExternal: true
+  name: ProfileController
+  nameWithType: ProfileController
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+  commentId: T:Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+  parent: Swastika.Cms.Mvc.Areas.User.Controllers
+  isExternal: true
+  name: ProfileController.ManageMessageId
+  nameWithType: ProfileController.ManageMessageId
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers.ProfileController.ManageMessageId
+- uid: Swastika.Cms.Mvc.Areas.User.Controllers
+  commentId: N:Swastika.Cms.Mvc.Areas.User.Controllers
+  isExternal: false
+  name: Swastika.Cms.Mvc.Areas.User.Controllers
+  nameWithType: Swastika.Cms.Mvc.Areas.User.Controllers
+  fullName: Swastika.Cms.Mvc.Areas.User.Controllers

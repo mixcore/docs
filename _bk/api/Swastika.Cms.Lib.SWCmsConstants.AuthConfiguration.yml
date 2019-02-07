@@ -1,0 +1,878 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  commentId: T:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  id: SWCmsConstants.AuthConfiguration
+  parent: Swastika.Cms.Lib
+  children:
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieExpiration
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLoginPath
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLogoutPath
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieRefreshExpiration
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenIssuer
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ConnectionString
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookId
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookSecret
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleId
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleSecret
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftId
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftSecret
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdAuthority
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdClientId
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterKey
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterSecret
+  - Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+  langs:
+  - csharp
+  - vb
+  name: SWCmsConstants.AuthConfiguration
+  nameWithType: SWCmsConstants.AuthConfiguration
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  type: Class
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: 'public static class AuthConfiguration : Object'
+    content.vb: >-
+      Public Module AuthConfiguration
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
+  id: ApiEndPoint
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ApiEndPoint
+  nameWithType: SWCmsConstants.AuthConfiguration.ApiEndPoint
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ApiEndPoint
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ApiEndPoint = "/"
+    return:
+      type: System.String
+    content.vb: Public Const ApiEndPoint As String = "/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
+  id: AuthCookieAccessDeniedPath
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthCookieAccessDeniedPath
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieAccessDeniedPath
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string AuthCookieAccessDeniedPath = ""
+    return:
+      type: System.String
+    content.vb: Public Const AuthCookieAccessDeniedPath As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieExpiration
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieExpiration
+  id: AuthCookieExpiration
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthCookieExpiration
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthCookieExpiration
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieExpiration
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const int AuthCookieExpiration = 30
+    return:
+      type: System.Int32
+    content.vb: Public Const AuthCookieExpiration As Integer = 30
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLoginPath
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLoginPath
+  id: AuthCookieLoginPath
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthCookieLoginPath
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthCookieLoginPath
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLoginPath
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string AuthCookieLoginPath = ""
+    return:
+      type: System.String
+    content.vb: Public Const AuthCookieLoginPath As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLogoutPath
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLogoutPath
+  id: AuthCookieLogoutPath
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthCookieLogoutPath
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthCookieLogoutPath
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieLogoutPath
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string AuthCookieLogoutPath = ""
+    return:
+      type: System.String
+    content.vb: Public Const AuthCookieLogoutPath As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieRefreshExpiration
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieRefreshExpiration
+  id: AuthCookieRefreshExpiration
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthCookieRefreshExpiration
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthCookieRefreshExpiration
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthCookieRefreshExpiration
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const int AuthCookieRefreshExpiration = 3000
+    return:
+      type: System.Int32
+    content.vb: Public Const AuthCookieRefreshExpiration As Integer = 3000
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenIssuer
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenIssuer
+  id: AuthTokenIssuer
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthTokenIssuer
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthTokenIssuer
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenIssuer
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string AuthTokenIssuer = "Swastika"
+    return:
+      type: System.String
+    content.vb: Public Const AuthTokenIssuer As String = "Swastika"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ConnectionString
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ConnectionString
+  id: ConnectionString
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: SWCmsConstants.AuthConfiguration.ConnectionString
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.ConnectionString
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string ConnectionString = ""
+    return:
+      type: System.String
+    content.vb: Public Const ConnectionString As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookId
+  id: FacebookId
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FacebookId
+  nameWithType: SWCmsConstants.AuthConfiguration.FacebookId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string FacebookId = ""
+    return:
+      type: System.String
+    content.vb: Public Const FacebookId As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookSecret
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookSecret
+  id: FacebookSecret
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: FacebookSecret
+  nameWithType: SWCmsConstants.AuthConfiguration.FacebookSecret
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.FacebookSecret
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string FacebookSecret = ""
+    return:
+      type: System.String
+    content.vb: Public Const FacebookSecret As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleId
+  id: GoogleId
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GoogleId
+  nameWithType: SWCmsConstants.AuthConfiguration.GoogleId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string GoogleId = ""
+    return:
+      type: System.String
+    content.vb: Public Const GoogleId As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleSecret
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleSecret
+  id: GoogleSecret
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GoogleSecret
+  nameWithType: SWCmsConstants.AuthConfiguration.GoogleSecret
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.GoogleSecret
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string GoogleSecret = ""
+    return:
+      type: System.String
+    content.vb: Public Const GoogleSecret As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftId
+  id: MicrosoftId
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MicrosoftId
+  nameWithType: SWCmsConstants.AuthConfiguration.MicrosoftId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string MicrosoftId = ""
+    return:
+      type: System.String
+    content.vb: Public Const MicrosoftId As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftSecret
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftSecret
+  id: MicrosoftSecret
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: MicrosoftSecret
+  nameWithType: SWCmsConstants.AuthConfiguration.MicrosoftSecret
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.MicrosoftSecret
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string MicrosoftSecret = ""
+    return:
+      type: System.String
+    content.vb: Public Const MicrosoftSecret As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdAuthority
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdAuthority
+  id: OpenIdAuthority
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OpenIdAuthority
+  nameWithType: SWCmsConstants.AuthConfiguration.OpenIdAuthority
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdAuthority
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string OpenIdAuthority = ""
+    return:
+      type: System.String
+    content.vb: Public Const OpenIdAuthority As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdClientId
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdClientId
+  id: OpenIdClientId
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: OpenIdClientId
+  nameWithType: SWCmsConstants.AuthConfiguration.OpenIdClientId
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.OpenIdClientId
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string OpenIdClientId = ""
+    return:
+      type: System.String
+    content.vb: Public Const OpenIdClientId As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterKey
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterKey
+  id: TwitterKey
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TwitterKey
+  nameWithType: SWCmsConstants.AuthConfiguration.TwitterKey
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterKey
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string TwitterKey = ""
+    return:
+      type: System.String
+    content.vb: Public Const TwitterKey As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterSecret
+  commentId: F:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterSecret
+  id: TwitterSecret
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TwitterSecret
+  nameWithType: SWCmsConstants.AuthConfiguration.TwitterSecret
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TwitterSecret
+  type: Field
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public const string TwitterSecret = ""
+    return:
+      type: System.String
+    content.vb: Public Const TwitterSecret As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+  commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+  id: Audience
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Audience
+  nameWithType: SWCmsConstants.AuthConfiguration.Audience
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public static string Audience { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Audience As String
+  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+  commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+  id: AuthTokenKey
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: AuthTokenKey
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthTokenKey
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public static RsaSecurityKey AuthTokenKey { get; }
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Tokens.RsaSecurityKey
+    content.vb: Public Shared ReadOnly Property AuthTokenKey As RsaSecurityKey
+  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+  commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+  id: SigningCredentials
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SigningCredentials
+  nameWithType: SWCmsConstants.AuthConfiguration.SigningCredentials
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public static SigningCredentials SigningCredentials { get; }
+    parameters: []
+    return:
+      type: Microsoft.IdentityModel.Tokens.SigningCredentials
+    content.vb: Public Shared ReadOnly Property SigningCredentials As SigningCredentials
+  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+  commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+  id: TokenType
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: SWCmsConstants.AuthConfiguration.TokenType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public static string TokenType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property TokenType As String
+  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+  commentId: P:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+  id: UserClaims
+  parent: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UserClaims
+  nameWithType: SWCmsConstants.AuthConfiguration.UserClaims
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+  type: Property
+  source:
+    path: Swastika.Cms.Lib
+    isExternal: true
+  assemblies:
+  - Swastika.Cms.Lib
+  namespace: Swastika.Cms.Lib
+  syntax:
+    content: public static List<string> UserClaims { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Shared Property UserClaims As List(Of String)
+  overload: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Swastika.Cms.Lib
+  commentId: N:Swastika.Cms.Lib
+  isExternal: true
+  name: Swastika.Cms.Lib
+  nameWithType: Swastika.Cms.Lib
+  fullName: Swastika.Cms.Lib
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+  isExternal: true
+  name: Audience
+  nameWithType: SWCmsConstants.AuthConfiguration.Audience
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.Audience
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+  isExternal: true
+  name: AuthTokenKey
+  nameWithType: SWCmsConstants.AuthConfiguration.AuthTokenKey
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.AuthTokenKey
+- uid: Microsoft.IdentityModel.Tokens.RsaSecurityKey
+  commentId: '!:Microsoft.IdentityModel.Tokens.RsaSecurityKey'
+  isExternal: true
+  name: RsaSecurityKey
+  nameWithType: RsaSecurityKey
+  fullName: Microsoft.IdentityModel.Tokens.RsaSecurityKey
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+  isExternal: true
+  name: SigningCredentials
+  nameWithType: SWCmsConstants.AuthConfiguration.SigningCredentials
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.SigningCredentials
+- uid: Microsoft.IdentityModel.Tokens.SigningCredentials
+  commentId: '!:Microsoft.IdentityModel.Tokens.SigningCredentials'
+  isExternal: true
+  name: SigningCredentials
+  nameWithType: SigningCredentials
+  fullName: Microsoft.IdentityModel.Tokens.SigningCredentials
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+  isExternal: true
+  name: TokenType
+  nameWithType: SWCmsConstants.AuthConfiguration.TokenType
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.TokenType
+- uid: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims*
+  commentId: Overload:Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+  isExternal: true
+  name: UserClaims
+  nameWithType: SWCmsConstants.AuthConfiguration.UserClaims
+  fullName: Swastika.Cms.Lib.SWCmsConstants.AuthConfiguration.UserClaims
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

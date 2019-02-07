@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: RewriteRules.MethodRules
+  commentId: T:RewriteRules.MethodRules
+  id: MethodRules
+  parent: RewriteRules
+  children:
+  - RewriteRules.MethodRules.#ctor
+  - RewriteRules.MethodRules.RedirectXMLRequests(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  langs:
+  - csharp
+  - vb
+  name: MethodRules
+  nameWithType: MethodRules
+  fullName: RewriteRules.MethodRules
+  type: Class
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: 'public class MethodRules : Object'
+    content.vb: >-
+      Public Class MethodRules
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RewriteRules.MethodRules.RedirectXMLRequests(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  commentId: M:RewriteRules.MethodRules.RedirectXMLRequests(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  id: RedirectXMLRequests(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  parent: RewriteRules.MethodRules
+  langs:
+  - csharp
+  - vb
+  name: RedirectXMLRequests(RewriteContext)
+  nameWithType: MethodRules.RedirectXMLRequests(RewriteContext)
+  fullName: RewriteRules.MethodRules.RedirectXMLRequests(Microsoft.AspNetCore.Rewrite.RewriteContext)
+  type: Method
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: public static void RedirectXMLRequests(RewriteContext context)
+    parameters:
+    - id: context
+      type: Microsoft.AspNetCore.Rewrite.RewriteContext
+    content.vb: Public Shared Sub RedirectXMLRequests(context As RewriteContext)
+  overload: RewriteRules.MethodRules.RedirectXMLRequests*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RewriteRules.MethodRules.#ctor
+  commentId: M:RewriteRules.MethodRules.#ctor
+  id: '#ctor'
+  parent: RewriteRules.MethodRules
+  langs:
+  - csharp
+  - vb
+  name: MethodRules()
+  nameWithType: MethodRules.MethodRules()
+  fullName: RewriteRules.MethodRules.MethodRules()
+  type: Constructor
+  source:
+    path: Mix.Cms.Web
+    isExternal: true
+  assemblies:
+  - Mix.Cms.Web
+  namespace: RewriteRules
+  syntax:
+    content: public MethodRules()
+    content.vb: Public Sub New
+  overload: RewriteRules.MethodRules.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RewriteRules
+  commentId: N:RewriteRules
+  isExternal: true
+  name: RewriteRules
+  nameWithType: RewriteRules
+  fullName: RewriteRules
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RewriteRules.MethodRules.RedirectXMLRequests*
+  commentId: Overload:RewriteRules.MethodRules.RedirectXMLRequests
+  isExternal: true
+  name: RedirectXMLRequests
+  nameWithType: MethodRules.RedirectXMLRequests
+  fullName: RewriteRules.MethodRules.RedirectXMLRequests
+- uid: Microsoft.AspNetCore.Rewrite.RewriteContext
+  isExternal: true
+  name: RewriteContext
+  nameWithType: RewriteContext
+  fullName: Microsoft.AspNetCore.Rewrite.RewriteContext
+- uid: RewriteRules.MethodRules.#ctor*
+  commentId: Overload:RewriteRules.MethodRules.#ctor
+  isExternal: true
+  name: MethodRules
+  nameWithType: MethodRules.MethodRules
+  fullName: RewriteRules.MethodRules.MethodRules

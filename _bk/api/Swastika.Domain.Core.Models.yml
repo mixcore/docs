@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  id: Swastika.Domain.Core.Models
+  children:
+  - Swastika.Domain.Core.Models.Entity
+  - Swastika.Domain.Core.Models.Enums
+  - Swastika.Domain.Core.Models.Enums.ResponseKey
+  - Swastika.Domain.Core.Models.HistoryData`1
+  - Swastika.Domain.Core.Models.SignalRClient
+  - Swastika.Domain.Core.Models.SupportedCulture
+  - Swastika.Domain.Core.Models.ValueObject`1
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models
+  type: Namespace
+  assemblies:
+  - Swastika
+references:
+- uid: Swastika.Domain.Core.Models.Entity
+  commentId: T:Swastika.Domain.Core.Models.Entity
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: Entity
+  nameWithType: Entity
+  fullName: Swastika.Domain.Core.Models.Entity
+- uid: Swastika.Domain.Core.Models.Enums
+  commentId: T:Swastika.Domain.Core.Models.Enums
+  isExternal: true
+  name: Enums
+  nameWithType: Enums
+  fullName: Swastika.Domain.Core.Models.Enums
+- uid: Swastika.Domain.Core.Models.Enums.ResponseKey
+  commentId: T:Swastika.Domain.Core.Models.Enums.ResponseKey
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: Enums.ResponseKey
+  nameWithType: Enums.ResponseKey
+  fullName: Swastika.Domain.Core.Models.Enums.ResponseKey
+- uid: Swastika.Domain.Core.Models.HistoryData`1
+  commentId: T:Swastika.Domain.Core.Models.HistoryData`1
+  isExternal: true
+  name: HistoryData<T>
+  nameWithType: HistoryData<T>
+  fullName: Swastika.Domain.Core.Models.HistoryData<T>
+  nameWithType.vb: HistoryData(Of T)
+  fullName.vb: Swastika.Domain.Core.Models.HistoryData(Of T)
+  name.vb: HistoryData(Of T)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.Models.HistoryData`1
+    name: HistoryData
+    nameWithType: HistoryData
+    fullName: Swastika.Domain.Core.Models.HistoryData
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.Models.HistoryData`1
+    name: HistoryData
+    nameWithType: HistoryData
+    fullName: Swastika.Domain.Core.Models.HistoryData
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.Models.SignalRClient
+  commentId: T:Swastika.Domain.Core.Models.SignalRClient
+  isExternal: true
+  name: SignalRClient
+  nameWithType: SignalRClient
+  fullName: Swastika.Domain.Core.Models.SignalRClient
+- uid: Swastika.Domain.Core.Models.SupportedCulture
+  commentId: T:Swastika.Domain.Core.Models.SupportedCulture
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: SupportedCulture
+  nameWithType: SupportedCulture
+  fullName: Swastika.Domain.Core.Models.SupportedCulture
+- uid: Swastika.Domain.Core.Models.ValueObject`1
+  commentId: T:Swastika.Domain.Core.Models.ValueObject`1
+  parent: Swastika.Domain.Core.Models
+  isExternal: true
+  name: ValueObject<T>
+  nameWithType: ValueObject<T>
+  fullName: Swastika.Domain.Core.Models.ValueObject<T>
+  nameWithType.vb: ValueObject(Of T)
+  fullName.vb: Swastika.Domain.Core.Models.ValueObject(Of T)
+  name.vb: ValueObject(Of T)
+  spec.csharp:
+  - uid: Swastika.Domain.Core.Models.ValueObject`1
+    name: ValueObject
+    nameWithType: ValueObject
+    fullName: Swastika.Domain.Core.Models.ValueObject
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Swastika.Domain.Core.Models.ValueObject`1
+    name: ValueObject
+    nameWithType: ValueObject
+    fullName: Swastika.Domain.Core.Models.ValueObject
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Swastika.Domain.Core.Models
+  commentId: N:Swastika.Domain.Core.Models
+  isExternal: true
+  name: Swastika.Domain.Core.Models
+  nameWithType: Swastika.Domain.Core.Models
+  fullName: Swastika.Domain.Core.Models

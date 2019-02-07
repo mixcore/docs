@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Swastika.Web.Start.TagHelpers
+  commentId: N:Swastika.Web.Start.TagHelpers
+  id: Swastika.Web.Start.TagHelpers
+  children:
+  - Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  langs:
+  - csharp
+  - vb
+  name: Swastika.Web.Start.TagHelpers
+  nameWithType: Swastika.Web.Start.TagHelpers
+  fullName: Swastika.Web.Start.TagHelpers
+  type: Namespace
+  assemblies:
+  - Swastika.Cms.Lib
+references:
+- uid: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  commentId: T:Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
+  isExternal: true
+  name: ActiveMenuTagHelper
+  nameWithType: ActiveMenuTagHelper
+  fullName: Swastika.Web.Start.TagHelpers.ActiveMenuTagHelper
