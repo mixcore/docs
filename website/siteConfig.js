@@ -104,6 +104,7 @@ const siteConfig = {
   repoUrl: 'https://github.com/mixcore/mix.core',
   
   docsSideNavCollapsible: true,
+  editUrl: "https://github.com/mixcore/docs/tree/master/docs/",
 };
 
 module.exports = siteConfig;
