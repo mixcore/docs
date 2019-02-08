@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'intro', label: 'Docs'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
     { href: 'https://github.com/mixcore/mix.core/releases', label: 'Download' },
     { languages: true },
   ],
@@ -56,7 +56,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#0056ec',
-    secondaryColor: '#20455c',
+    secondaryColor: '#002eb8',
   },
 
   /* Custom fonts for website */

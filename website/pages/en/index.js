@@ -38,15 +38,15 @@ class HomeSplash extends React.Component {
             </div>
             <div className="inner">
               <h1 className="projectTitle">
-                {siteConfig.title}
-                <small>{siteConfig.tagline}</small>
+              <translate>Open Source .NET Core CMS</translate>
+                <small><translate>Mixcore is an unobtrusive ASP.NET Core CMS focused .NET lovers and user-friendly content management.</translate></small>
               </h1>
               <div className="section promoSection">
                 <div className="promoRow">
                   <div className="pluginRowBlock">
                     <Button
                       href={`
-                        ${siteConfig.baseUrl}docs/${language}/installation
+                        ${siteConfig.baseUrl}docs/${language}/intro
                         `}>
                       <translate>Get Started</translate>
                     </Button>
@@ -78,38 +78,25 @@ class Index extends React.Component {
               align="center"
               contents={[
                 {
-                  content: `Save time and focus on your project's documentation. Simply
-                    write docs and blog posts with [Markdown](${
-                      siteConfig.baseUrl
-                    }docs/${this.props.language}/doc-markdown)
-                    and Docusaurus will publish a set of static html files ready
-                    to serve.`,
-                  image: `${siteConfig.baseUrl}img/markdown.png`,
+                  content: `Built for NetStandard and AspNet Core, Piranha CMS can be run on Windows, Linux and Mac OS X.`,
+                  image: `${siteConfig.baseUrl}img/cross-platform.png`,
                   imageAlign: 'top',
-                  imageAlt: 'Markdown',
-                  title: <translate>Powered by ASP.Net Core</translate>,
+                  imageAlt: 'Cross Platform',
+                  title: <translate>Cross Platform</translate>,
                 },
                 {
-                  content: `[Extend or customize](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/api-pages)
-                    your project's layout by reusing React. Docusaurus can be
-                    extended while reusing the same header and footer.`,
-                  image: `${siteConfig.baseUrl}img/react.svg`,
+                  content: `Designed from the ground up for super-fast performance using EF Core and optional Caching.`,
+                  image: `${siteConfig.baseUrl}img/stopwatch.png`,
                   imageAlign: 'top',
-                  imageAlt: 'React',
-                  title: <translate>Built Using Angular.JS</translate>,
+                  imageAlt: 'Super Fast',
+                  title: <translate>Super Fast</translate>,
                 },
                 {
-                  content: `[Localization](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/translation)
-                    comes pre-configured. Use [Crowdin](https://crowdin.com/) to translate your docs
-                    into over 70 languages.`,
-                  image: `${siteConfig.baseUrl}img/translation.svg`,
+                  content: `Everything is Open Source and released under the GPL-3.0 license for maximum flexibility.`,
+                  image: `${siteConfig.baseUrl}img/github.png`,
                   imageAlign: 'top',
-                  imageAlt: 'Translation',
-                  title: <translate>Ready for Multiple language</translate>,
+                  imageAlt: 'Open Source',
+                  title: <translate>Open Source</translate>,
                 },
               ]}
               layout="threeColumn"
@@ -122,10 +109,10 @@ class Index extends React.Component {
                 {
                   content: `Get [up and running](${siteConfig.baseUrl}docs/${
                     this.props.language
-                  }/site-creation)
+                  }/intro#build-run)
                     quickly without having to worry about site design.`,
                   imageAlign: 'right',
-                  image: `${siteConfig.baseUrl}img/docusaurus_speed.svg`,
+                  image: `${siteConfig.baseUrl}img/ui-design.png`,
                   imageAlt: 'Docusaurus on a Scooter',
                   title: <translate>Quick Setup</translate>,
                 },
@@ -148,7 +135,7 @@ class Index extends React.Component {
                     manually, using a script, or with continuous integration
                     like CircleCI.`,
                   imageAlign: 'left',
-                  image: `${siteConfig.baseUrl}img/docusaurus_live.gif`,
+                  image: `${siteConfig.baseUrl}img/develop.png`,
                   imageAlt: 'Docusaurus Demo',
                   title: <translate>Develop and Deploy</translate>,
                 },
@@ -176,7 +163,7 @@ class Index extends React.Component {
                     If you have ideas for useful features, feel free to
                     contribute on [GitHub](https://github.com/facebook/docusaurus)!`,
                   imageAlign: 'right',
-                  image: `${siteConfig.baseUrl}img/docusaurus_monochrome.svg`,
+                  image: `${siteConfig.baseUrl}img/website-funcs.png`,
                   imageAlt: 'Monochromatic Docusaurus',
                   title: <translate>Website Features</translate>,
                 },
@@ -184,61 +171,7 @@ class Index extends React.Component {
               layout="twoColumn"
             />
           </Container>
-          <div className="productShowcaseSection paddingBottom">
-            <h2>
-              <translate>Who is Using Docusaurus?</translate>
-            </h2>
-            <p>
-              <translate>
-                Docusaurus is building websites for these projects...
-              </translate>
-            </p>
-            <Showcase users={pinnedUsersToShowcase} />
-            <div className="more-users">
-              <a
-                className="button"
-                href={`${siteConfig.baseUrl}${this.props.language}/users`}>
-                <translate>All Docusaurus Users</translate>
-              </a>
-            </div>
-          </div>
-          <div className="testimonials">
-            <Container padding={['bottom', 'top']}>
-              <GridBlock
-                align="center"
-                contents={[
-                  {
-                    content:
-                      "*I've helped open source many projects at Facebook and every one needed a website. They all had very similar constraints: the documentation should be written in markdown and be deployed via GitHub pages. None of the existing solutions were great, so I hacked my own and then forked it whenever we needed a new website. I’m so glad that Docusaurus now exists so that I don’t have to spend a week each time spinning up a new one.*",
-                    image: `${siteConfig.baseUrl}img/christopher-chedeau.jpg`,
-                    imageAlign: 'top',
-                    imageAlt: 'Christopher "vjeux" Chedeau',
-                    title:
-                      'Christopher "vjeux" Chedeau <br/><font size="2">Lead Prettier Developer</font>',
-                  },
-                  {
-                    content:
-                      '*Open source contributions to the React Native docs have skyrocketed after our move to Docusaurus. The docs are now hosted on a small repo in plain markdown, with none of the clutter that a typical static site generator would require. Thanks Slash!*',
-                    image: `${siteConfig.baseUrl}img/hector-ramos.png`,
-                    imageAlign: 'top',
-                    imageAlt: 'Hector Ramos',
-                    title:
-                      'Hector Ramos <br/><font size="2">Lead React Native Advocate</font>',
-                  },
-                  {
-                    content:
-                      '*Docusaurus has been a great choice for the ReasonML family of projects. It makes our documentation consistent, i18n-friendly, easy to maintain, and friendly for new contributors.*',
-                    image: `${siteConfig.baseUrl}img/ricky-vetter.jpg`,
-                    imageAlign: 'top',
-                    imageAlt: 'Ricky Vetter',
-                    title:
-                      'Ricky Vetter <br/><font size="2">ReasonReact Developer</font>',
-                  },
-                ]}
-                layout="threeColumn"
-              />
-            </Container>
-          </div>
+                    
         </div>
       </div>
     );
