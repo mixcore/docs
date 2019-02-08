@@ -112,6 +112,7 @@ const siteConfig = {
       facetFilters: ['language:LANGUAGE', 'version:VERSION'],
     },
   },
+  cname: "docs.mixcore.org",
 };
 
 module.exports = siteConfig;
