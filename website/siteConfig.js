@@ -113,6 +113,7 @@ const siteConfig = {
     },
   },
   cname: "docs.mixcore.org",
+  gaTrackingId: "UA-134185413-1",
 };
 
 module.exports = siteConfig;
