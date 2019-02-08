@@ -78,7 +78,7 @@ class Index extends React.Component {
               align="center"
               contents={[
                 {
-                  content: `Built for NetStandard and AspNet Core, Piranha CMS can be run on Windows, Linux and Mac OS X.`,
+                  content: `Built for NetStandard and AspNet Core, Mixcore CMS can be run on Windows, Linux and Mac OS X.`,
                   image: `${siteConfig.baseUrl}img/cross-platform.png`,
                   imageAlign: 'top',
                   imageAlt: 'Cross Platform',
