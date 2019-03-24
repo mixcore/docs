@@ -1,4 +1,8 @@
-# Writing Articles and Products
+---
+id: writing-post
+title: Writing Post
+---
+# Writing Post
 
 Articles are entries that display in reverse order on your home page. Articles usually have comments fields beneath them and are included in your site's RSS feed.
 
