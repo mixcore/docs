@@ -4,8 +4,9 @@
       "version-1.0.0-intro",
       "version-1.0.0-installation"
     ],
-    "User guide": [
-      "version-1.0.0-1st-step"
+    "Basic Usage": [
+      "version-1.0.0-1st-step",
+      "version-1.0.0-writing-post"
     ],
     "Developer": []
   },
