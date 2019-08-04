@@ -109,7 +109,7 @@ const siteConfig = {
     apiKey: 'a8d14d2461c6df6cc5e628f6476e0eee',
     indexName: 'mixcore_docs',
     algoliaOptions: {
-      facetFilters: ['language:LANGUAGE', 'version:VERSION'],
+      facetFilters: ['language:LANGUAGE'],
     },
   },
   cname: "docs.mixcore.org",

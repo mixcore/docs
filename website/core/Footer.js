@@ -88,13 +88,6 @@ class Footer extends React.Component {
               href={`
                 ${this.props.config.baseUrl}${docsPart}${
                 this.props.language
-              }/versioning`}>
-              Versioning
-            </a>
-            <a
-              href={`
-                ${this.props.config.baseUrl}${docsPart}${
-                this.props.language
               }/translation`}>
               Localization
             </a>

@@ -154,9 +154,6 @@ class Index extends React.Component {
                     [search](${siteConfig.baseUrl}docs/${
                     this.props.language
                   }/search),
-                    and [versioning](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/versioning),
                     along with some other special [documentation markdown features](${
                       siteConfig.baseUrl
                     }docs/${this.props.language}/doc-markdown).
