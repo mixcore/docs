@@ -51,7 +51,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/mixcore-25pt-square-white.svg',
+  headerIcon: 'img/mixcore-logo-white-25px.svg',
   footerIcon: 'img/mixcore-25pt-square-white.svg',
   favicon: 'img/mixcore-25pt-square-white.svg',
 
@@ -81,11 +81,16 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/js/code-block-buttons.js',
+  ],
+  stylesheets: ['/css/code-block-buttons.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -98,13 +103,13 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
@@ -118,6 +123,10 @@ const siteConfig = {
   // },
   cname: "docs.mixcore.org",
   gaTrackingId: "UA-134185413-1",
+  disableHeaderTitle: true,
+  //facebookAppId:
+  //facebookComments: true
+  //facebookPixelId
 };
 
 module.exports = siteConfig;

@@ -6,15 +6,14 @@ title: Getting Started
 
 ![Mixcore CMS](https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true "What is Mixcore CMS?")
 
-## Tutorials
+## References
 - Demo: http://stag.mixcore.org
 - Docs: https://docs.mixcore.org
 - Youtube: https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw
 - Twitter: https://twitter.com/mixcore_cms
 
 ## GITs clone
-
-```
+```sh
 mkdir mixcore
 cd mixcore
 
@@ -24,16 +23,16 @@ git clone https://github.com/mixcore/mix.core.git
 ```
 
 ## Build & Run
-  - **Website**
-```
+### Website
+```sh
 cd mix.core/src/Mix.Cms.Web
 npm install
 dotnet restore
 dotnet build
 dotnet run
 ```
-  - **Modify Portal**
-````
+### Modify Portal
+````sh
 cd mix.core/src/portal-app
 gulp serve
 ````
@@ -41,10 +40,10 @@ gulp serve
 > Note: If you facing any System.Data.SqlClient.SqlException error, please replace all content inside "appsettings.json" file with "{}".
 
 ## UI Screenshots 
-### Default template
-![Mixcore CMS default template with Now UI Pro](https://github.com/mixcore/mix.core/blob/master/assets/front-end.jpg?raw=true "Mixcore CMS default template with Now UI Pro")
+### Default Theme: [Now UI Pro](https://demos.creative-tim.com/now-ui-kit-pro/presentation.html)
+![Mixcore CMS default template with Now UI Pro](https://demos.creative-tim.com/now-ui-kit-pro/assets/img/presentation-page/pages/blog-posts.jpg "Mixcore CMS default template with Now UI Pro")
 ### Admin Portal
-![Mixcore Admin Portal Bootstrap 4.x](https://github.com/mixcore/mix.core/blob/master/assets/admin-portal.jpg?raw=true "Mixcore CMS Admin Portal Bootstrap 4")
+![Mixcore Admin Portal Bootstrap 4.x](/img/screencapture-stag-mixcore-org-portal-2019-08-04-16_04_15.jpg "Mixcore CMS Admin Portal Bootstrap 4")
 
 ## Thanks to
 
