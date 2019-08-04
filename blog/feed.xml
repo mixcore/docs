@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>mixcore docs Blog</title>
+        <title>Mixcore CMS docs Blog</title>
         <link>https://mixcore.org/blog</link>
-        <description>The best place to stay up-to-date with the latest mixcore docs news and events.</description>
+        <description>The best place to stay up-to-date with the latest Mixcore CMS docs news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>mixcore docs Blog</title>
+            <title>Mixcore CMS docs Blog</title>
             <url>https://mixcore.org/img/mixcore-25pt-square-white.svg</url>
             <link>https://mixcore.org/blog</link>
         </image>
