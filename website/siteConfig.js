@@ -13,8 +13,8 @@ const users = [
   {
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    // if it is not '/', like: '/test-site/img/image.jpg'.
+    image: '/img/undraw_open_source.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -49,15 +49,15 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/mixcore-white.png',
-  footerIcon: 'img/mixcore-white.png',
+  headerIcon: 'img/mixcore-logo-white-25px.svg',
+  footerIcon: 'img/mixcore-logo-white-25px.svg',
   favicon: 'img/mixcore-logo-nbg.png',
 
-  /* Colors for website */
-  colors: {
-    primaryColor: '#0056ec',
-    secondaryColor: '#002eb8',
-  },
+ /* Colors for website */
+ colors: {
+  primaryColor: '#729f00',
+  secondaryColor: '#456000',
+},
 
   /* Custom fonts for website */
   /*
@@ -72,6 +72,7 @@ const siteConfig = {
     ]
   },
   */
+
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} mixcore`,
@@ -90,8 +91,12 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/undraw_online.svg',
+  twitterImage: 'img/undraw_tweetstorm.svg',
+
+  // For sites with a sizable amount of content, set collapsible to true.
+  // Expand/collapse the links and subcategories under categories.
+  // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -107,10 +112,7 @@ const siteConfig = {
   editUrl: "https://github.com/mixcore/docs/tree/master/docs/",
   algolia: {
     apiKey: 'a8d14d2461c6df6cc5e628f6476e0eee',
-    indexName: 'mixcore_docs',
-    algoliaOptions: {
-      facetFilters: ['language:LANGUAGE'],
-    },
+    indexName: 'mixcore_docs'
   },
   cname: "docs.mixcore.org",
   gaTrackingId: "UA-134185413-1",

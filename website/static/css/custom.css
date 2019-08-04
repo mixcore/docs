@@ -1,9 +1,5 @@
 /* your custom css */
 
-.homeContainer .button{
-    min-width: 150px;
-}
-
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -17,22 +13,4 @@
 }
 
 @media only screen and (min-width: 1500px) {
-}
-
-@media only screen and (min-width: 1200px){
-    .homeContainer .homeWrapper .projectLogo {
-        align-items: center;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        left: 0;
-        padding: 0;
-        position: inherit;
-        right: 0;
-        top: 0;
-    }
-    .homeContainer .homeWrapper .projectLogo img {
-        height: 400px;
-        max-height: 250px;
-    }
 }

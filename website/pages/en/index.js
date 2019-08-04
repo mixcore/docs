@@ -9,14 +9,46 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
+const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
-const Showcase = require(`${process.cwd()}/core/Showcase.js`);
-const translate = require('../../server/translate.js').translate;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language} = this.props;
+    const {siteConfig, language = ''} = this.props;
+    const {baseUrl, docsUrl} = siteConfig;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
+    const langPart = `${language ? `${language}/` : ''}`;
+    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+
+    const SplashContainer = props => (
+      <div className="homeContainer">
+        <div className="homeSplashFade">
+          <div className="wrapper homeWrapper">{props.children}</div>
+        </div>
+      </div>
+    );
+
+    const Logo = props => (
+      <div className="projectLogo">
+        <img src={props.img_src} alt="Project Logo" />
+      </div>
+    );
+
+    const ProjectTitle = () => (
+      <h2 className="projectTitle">
+        {siteConfig.title}
+        <small>{siteConfig.tagline}</small>
+      </h2>
+    );
+
+    const PromoSection = props => (
+      <div className="section promoSection">
+        <div className="promoRow">
+          <div className="pluginRowBlock">{props.children}</div>
+        </div>
+      </div>
+    );
 
     const Button = props => (
       <div className="pluginWrapper buttonWrapper">
@@ -27,148 +59,150 @@ class HomeSplash extends React.Component {
     );
 
     return (
-      <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">
-            <div className="projectLogo">
-              <img
-                src={`${siteConfig.baseUrl}img/445821-PF5LWD-853.svg`}
-                alt="Docusaurus with Keytar"
-              />
-            </div>
-            <div className="inner">
-              <h1 className="projectTitle">
-              <translate>Open Source .NET Core CMS</translate>
-                <small><translate>Mixcore is an unobtrusive ASP.NET Core CMS focused .NET lovers and user-friendly content management.</translate></small>
-              </h1>
-              <div className="section promoSection">
-                <div className="promoRow">
-                  <div className="pluginRowBlock">
-                    <Button
-                      href={`
-                        ${siteConfig.baseUrl}docs/${language}/intro
-                        `}>
-                      <translate>Get Started</translate>
-                    </Button>
-                    <Button href="https://github.com/mixcore/mix.core">
-                      <translate>GitHub</translate>
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <SplashContainer>
+        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <div className="inner">
+          <ProjectTitle siteConfig={siteConfig} />
+          <PromoSection>
+            <Button href="#try">Try It Out</Button>
+            <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+          </PromoSection>
         </div>
-      </div>
+      </SplashContainer>
     );
   }
 }
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = 'en'} = this.props;
-    const pinnedUsersToShowcase = siteConfig.users.filter(user => user.pinned);
+    const {config: siteConfig, language = ''} = this.props;
+    const {baseUrl} = siteConfig;
+
+    const Block = props => (
+      <Container
+        padding={['bottom', 'top']}
+        id={props.id}
+        background={props.background}>
+        <GridBlock
+          align="center"
+          contents={props.children}
+          layout={props.layout}
+        />
+      </Container>
+    );
+
+    const FeatureCallout = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h2>Feature Callout</h2>
+        <MarkdownBlock>These are features of this project</MarkdownBlock>
+      </div>
+    );
+
+    const TryOut = () => (
+      <Block id="try">
+        {[
+          {
+            content:
+              'To make your landing page more attractive, use illustrations! Check out ' +
+              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw.',
+            image: `${baseUrl}img/undraw_code_review.svg`,
+            imageAlign: 'left',
+            title: 'Wonderful SVG Illustrations',
+          },
+        ]}
+      </Block>
+    );
+
+    const Description = () => (
+      <Block background="dark">
+        {[
+          {
+            content:
+              'This is another description of how this project is useful',
+            image: `${baseUrl}img/undraw_note_list.svg`,
+            imageAlign: 'right',
+            title: 'Description',
+          },
+        ]}
+      </Block>
+    );
+
+    const LearnHow = () => (
+      <Block background="light">
+        {[
+          {
+            content:
+              'Each new Docusaurus project has **randomly-generated** theme colors.',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            imageAlign: 'right',
+            title: 'Randomly Generated Theme Colors',
+          },
+        ]}
+      </Block>
+    );
+
+    const Features = () => (
+      <Block layout="fourColumn">
+        {[
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/undraw_react.svg`,
+            imageAlign: 'top',
+            title: 'Feature One',
+          },
+          {
+            content: 'The content of my second feature',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Feature Two',
+          },
+        ]}
+      </Block>
+    );
+
+    const Showcase = () => {
+      if ((siteConfig.users || []).length === 0) {
+        return null;
+      }
+
+      const showcase = siteConfig.users
+        .filter(user => user.pinned)
+        .map(user => (
+          <a href={user.infoLink} key={user.infoLink}>
+            <img src={user.image} alt={user.caption} title={user.caption} />
+          </a>
+        ));
+
+      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
+
+      return (
+        <div className="productShowcaseSection paddingBottom">
+          <h2>Who is Using This?</h2>
+          <p>This project is used by all these people</p>
+          <div className="logos">{showcase}</div>
+          <div className="more-users">
+            <a className="button" href={pageUrl('users.html')}>
+              More {siteConfig.title} Users
+            </a>
+          </div>
+        </div>
+      );
+    };
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Container padding={['bottom', 'top']} background="light">
-            <GridBlock
-              align="center"
-              contents={[
-                {
-                  content: `Built for NetStandard and AspNet Core, Mixcore CMS can be run on Windows, Linux and Mac OS X.`,
-                  image: `${siteConfig.baseUrl}img/cross-platform.png`,
-                  imageAlign: 'top',
-                  imageAlt: 'Cross Platform',
-                  title: <translate>Cross Platform</translate>,
-                },
-                {
-                  content: `Designed from the ground up for super-fast performance using EF Core and optional Caching.`,
-                  image: `${siteConfig.baseUrl}img/stopwatch.png`,
-                  imageAlign: 'top',
-                  imageAlt: 'Super Fast',
-                  title: <translate>Super Fast</translate>,
-                },
-                {
-                  content: `Everything is Open Source and released under the GPL-3.0 license for maximum flexibility.`,
-                  image: `${siteConfig.baseUrl}img/github.png`,
-                  imageAlign: 'top',
-                  imageAlt: 'Open Source',
-                  title: <translate>Open Source</translate>,
-                },
-              ]}
-              layout="threeColumn"
-            />
-            <br />
-          </Container>
-          <Container padding={['bottom', 'top']}>
-            <GridBlock
-              contents={[
-                {
-                  content: `Get [up and running](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/intro#build-run)
-                    quickly without having to worry about site design.`,
-                  imageAlign: 'right',
-                  image: `${siteConfig.baseUrl}img/ui-design.png`,
-                  imageAlt: 'Docusaurus on a Scooter',
-                  title: <translate>Quick Setup</translate>,
-                },
-              ]}
-              layout="twoColumn"
-            />
-          </Container>
-          <Container padding={['bottom', 'top']} background="light">
-            <GridBlock
-              contents={[
-                {
-                  content: `Make design and documentation changes by using the included
-                    [live server](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/site-preparation#verifying-installation).
-                    [Publish](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/publishing)
-                    your site to GitHub pages or other static file hosts
-                    manually, using a script, or with continuous integration
-                    like CircleCI.`,
-                  imageAlign: 'left',
-                  image: `${siteConfig.baseUrl}img/develop.png`,
-                  imageAlt: 'Docusaurus Demo',
-                  title: <translate>Develop and Deploy</translate>,
-                },
-              ]}
-              layout="twoColumn"
-            />
-          </Container>
-          <Container padding={['bottom', 'top']}>
-            <GridBlock
-              contents={[
-                {
-                  content: `Docusaurus currently provides support to help your website
-                    use [translations](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/translation),
-                    [search](${siteConfig.baseUrl}docs/${
-                    this.props.language
-                  }/search),
-                    along with some other special [documentation markdown features](${
-                      siteConfig.baseUrl
-                    }docs/${this.props.language}/doc-markdown).
-                    If you have ideas for useful features, feel free to
-                    contribute on [GitHub](https://github.com/facebook/docusaurus)!`,
-                  imageAlign: 'right',
-                  image: `${siteConfig.baseUrl}img/website-funcs.png`,
-                  imageAlt: 'Monochromatic Docusaurus',
-                  title: <translate>Website Features</translate>,
-                },
-              ]}
-              layout="twoColumn"
-            />
-          </Container>
-                    
+          <Features />
+          <FeatureCallout />
+          <LearnHow />
+          <TryOut />
+          <Description />
+          <Showcase />
         </div>
       </div>
     );
