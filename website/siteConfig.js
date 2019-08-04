@@ -19,7 +19,7 @@ const users = [
   //   pinned: true,
   // },
 ];
-
+ 
 const siteConfig = {
   title: 'mixcore docs', // Title for your website.
   tagline: 'mixcore tutorial',
