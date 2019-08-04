@@ -21,7 +21,7 @@ const users = [
 ];
  
 const siteConfig = {
-  title: 'mixcore docs', // Title for your website.
+  title: 'Mixcore CMS docs', // Title for your website.
   tagline: 'mixcore tutorial',
   url: 'https://mixcore.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
