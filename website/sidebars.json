@@ -1,8 +1,14 @@
 {
   "docs": {
-    "Get Started": ["introduction","installation"],
+    "Getting Started": ["introduction","installation"],
+    "Installing Mixcore": [""],
     "Basic Usage":["1st-step","writing-post"],
-    "Developer":[]
+    "Basic Administration":["why-should-i-use-https"],
+    "Customizing": [""],
+    "Maintenance": [""],
+    "Security": [""],
+    "Advanced": [""],
+    "Troubleshooting": [""]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
