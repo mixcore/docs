@@ -30,16 +30,18 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'mix.core',
-  organizationName: 'smileway',
+  projectName: 'docs',
+  organizationName: 'mixcore',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'introduction', label: 'Docs'},
-    {page: 'help', label: 'Help'},
+
+    { href: 'https://mixcore.org', label: 'Homepage' },
+    { doc: 'introduction', label: 'Docs' },
+    { page: 'help', label: 'Help' },
     // {blog: true, label: 'Blog'},
     { href: 'https://github.com/mixcore/mix.core/releases', label: 'Download' },
     { languages: true },
@@ -53,11 +55,11 @@ const siteConfig = {
   footerIcon: 'img/mixcore-25pt-square-white.svg',
   favicon: 'img/mixcore-25pt-square-white.svg',
 
- /* Colors for website */
- colors: {
-  primaryColor: '#729f00',
-  secondaryColor: '#456000',
-},
+  /* Colors for website */
+  colors: {
+    primaryColor: '#729f00',
+    secondaryColor: '#456000',
+  },
 
   /* Custom fonts for website */
   /*
@@ -107,13 +109,13 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/mixcore/mix.core',
-  
+
   docsSideNavCollapsible: true,
   editUrl: "https://github.com/mixcore/docs/tree/master/docs/",
-  algolia: {
-    apiKey: 'a8d14d2461c6df6cc5e628f6476e0eee',
-    indexName: 'mixcore_docs'
-  },
+  // algolia: {
+  //   apiKey: 'a8d14d2461c6df6cc5e628f6476e0eee',
+  //   indexName: 'mixcore_docs'
+  // },
   cname: "docs.mixcore.org",
   gaTrackingId: "UA-134185413-1",
 };
