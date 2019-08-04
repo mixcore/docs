@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Get Started": ["intro","installation"],
+    "Get Started": ["introduction","installation"],
     "Basic Usage":["1st-step","writing-post"],
     "Developer":[]
   },

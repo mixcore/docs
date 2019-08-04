@@ -1,5 +1,5 @@
 ---
-id: intro
+id: introduction
 title: Getting Started
 ---
 # mixcore

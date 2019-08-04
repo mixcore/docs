@@ -25,7 +25,7 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
+          {/* <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -34,8 +34,8 @@ class Footer extends React.Component {
                 height="58"
               />
             )}
-          </a>
-          <div>
+          </a> */}
+          {/* <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
               Getting Started (or other categories)
@@ -104,17 +104,17 @@ class Footer extends React.Component {
                 />
               </div>
             )}
-          </div>
+          </div> */}
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="https://mixcore.org"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+            src={`${this.props.config.baseUrl}img/mixcore-logo-white-25px.svg`}
+            alt="Mixcore Open Source"
             width="170"
             height="45"
           />
