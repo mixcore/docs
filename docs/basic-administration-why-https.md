@@ -1,6 +1,6 @@
 ---
 id: why-should-i-use-https
-title: Why should I use HTTPS
+title: Why should I use HTTPS?
 ---
 HTTPS is an encrypted communication protocol — essentially, a more secure way of browsing the web, since you get a private channel directly between your browser and the web server. That’s why most major sites use it.
 
