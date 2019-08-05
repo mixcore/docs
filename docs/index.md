@@ -66,9 +66,9 @@ This project has been developed using:
 Fork this repo to your GitHub account, clone it locally and try to follow
 the following simple guidelines.
 
-* **Never** write any code in your master branch
+* **Never** write any code in the master branch
 * When writing code, do it in a specific feature branch
 * Send your pull request from that feature branch
 * After your pull request has been accepted, sync the changes into master from the upstream remote
 * Delete you feature branch
-* Again, **NEVER** write any code in your master branch ;)
+* Again, **NEVER** write any code in the master branch ;)
