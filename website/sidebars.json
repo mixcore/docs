@@ -2,13 +2,42 @@
   "docs": {
     "Getting Started": ["introduction","installation"],
     "Installing Mixcore": [""],
-    "Basic Usage":["1st-step","writing-post"],
-    "Basic Administration":["why-should-i-use-https"],
-    "Customizing": [""],
-    "Maintenance": [""],
-    "Security": [""],
-    "Advanced": [""],
-    "Troubleshooting": [""]
+    "Basic Usage":[
+      "basic-usage-first-step-with-mixcore-cms",
+      "basic-usage-writing-posts",
+      "basic-usage-pages",
+      "basic-usage-media-library-screen",
+      "basic-usage-users-profile"
+    ],
+    "Basic Administration":[
+      "basic-administration-administration-screens",
+      "basic-administration-dashboard-sreen",
+      "basic-administration-roles-and-capabilities"
+    ],
+    "Customizing": [
+      "customizing-using-themes",
+      "customizing-using-modules",
+      "customizing-using-attribute-sets"
+    ],
+    "Maintenance": [
+      "maintenance-mixcore-backups",
+      "maintenance-mixcore-restores",
+      "maintenance-optimization"
+    ],
+    "Security": [
+      "security-hardening-mixcore",
+      "security-brute-force-attacks"
+    ],
+    "Advanced": [
+      "advanced-page-types",
+      "advanced-post-types",
+      "advanced-module-types",
+      "advanced-attribute-sets"
+    ],
+    "Troubleshooting": [
+      "troubleshooting-common-errors",
+      "troubleshooting-debugging"
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
