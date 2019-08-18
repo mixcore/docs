@@ -78,7 +78,7 @@ const siteConfig = {
 
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} mixcore`,
+  copyright: `Copyright © ${new Date().getFullYear()} Mixcore`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -96,7 +96,7 @@ const siteConfig = {
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
   // No .html extensions for paths.
-  cleanUrl: true,
+  cleanUrl: false,
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
@@ -125,8 +125,8 @@ const siteConfig = {
   cname: "docs.mixcore.org",
   gaTrackingId: "UA-134185413-1",
   disableHeaderTitle: true,
-  //facebookAppId:
-  //facebookComments: true
+  facebookAppId:407034623499916,
+  facebookComments: true
   //facebookPixelId
 };
 
