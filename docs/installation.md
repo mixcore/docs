@@ -81,26 +81,12 @@ Note: Plesk recommends all users to install and manage mixcore CMS using the mix
 
 1. Log in to Plesk.
 2. In the upper right corner of the screen, click Databases.
-
- ![plesk_create_db_1](/img/plesk_create_db_1.png)
-
 3. Click Add Database.
-
- ![plesk_create_db_2](/img/plesk_create_db_2.png)
-
 4. Type in the database name.
-
- ![plesk_create_db_3](/img/plesk_create_db_3.png)
-
 5. Type in the database user name and password, and then click Ok.
+6. Once the database has been created, click Connection info to see the information you will need to connect to the database (database server hostname and port, database name, and the database user name).
 
- ![plesk_create_db_4](/img/plesk_create_db_4.png)
-
-6. Once the database has been created, click Connection info to see the information you will need to connect to the database (database server hostname and port, database name, and the database user name). plesk 
-
- ![plesk_create_db_5](/img/plesk_create_db_5.png)
-
- ![plesk_create_db_6](/img/plesk_create_db_6.png)
+[![Create Database via Pleak](http://img.youtube.com/vi/XzJEfh8I9ek/0.jpg)](http://www.youtube.com/watch?v=XzJEfh8I9ek "Create Database via Plesk")
 
 ### Step 3: Set up sw-config.php
 
