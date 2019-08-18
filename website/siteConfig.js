@@ -40,6 +40,7 @@ const siteConfig = {
   headerLinks: [
 
     { href: 'https://mixcore.org', label: 'Homepage' },
+    { href: 'https://medium.com/mixcore', label: 'Blog' },
     { doc: 'introduction', label: 'Docs' },
     { page: 'help', label: 'Help' },
     // {blog: true, label: 'Blog'},

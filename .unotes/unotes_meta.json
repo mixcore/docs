@@ -1,0 +1,96 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "docs": {
+      "name": "docs",
+      "isOrdered": true,
+      "folders": {
+        "components": {
+          "name": "components",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "host-and-deploy": {
+          "name": "host-and-deploy",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {
+        "basic-administration-why-https": 0,
+        "writing-post": 1,
+        "installation": 2,
+        "dependency-injection": 3,
+        "users": 4,
+        "toc": 5,
+        "theme": 6,
+        "template": 7,
+        "settings": 8,
+        "page": 9,
+        "module": 10,
+        "medias": 11,
+        "layouts": 12,
+        "languages": 13,
+        "cultures": 14,
+        "index": 15,
+        "get-started": 16,
+        "firststep": 17,
+        "files": 18,
+        "exampledoc5": 19,
+        "exampledoc4": 20,
+        "doc3": 21,
+        "doc2": 22,
+        "doc1": 23
+      }
+    },
+    "website": {
+      "name": "website",
+      "isOrdered": true,
+      "folders": {
+        "blog": {
+          "name": "blog",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "build": {
+          "name": "build",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "core": {
+          "name": "core",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "i18n": {
+          "name": "i18n",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "pages": {
+          "name": "pages",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "static": {
+          "name": "static",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {
+        "README": 0
+      }
+    }
+  },
+  "files": {}
+}
