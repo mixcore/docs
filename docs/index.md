@@ -1,11 +1,10 @@
 ---
 id: introduction
-title: Getting Started
+title: Mixcore CMS
 ---
-# Mixcore CMS 
 
-> Fully Open Source UI Tools to create web apps
-> CMS and Dashboards built on top of .Net Core, Angular.JS and Bootstrap.
+> Fully Open Source UI Tools to create web apps.
+> Headless CMS and Dashboards built on top of .Net Core, Angular.JS and Bootstrap.
 
 ![Mixcore CMS](https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true "What is Mixcore CMS?")
 
@@ -64,7 +63,7 @@ gulp serve
 
 ## Thanks to
 
-This project has been developed using:
+> This project has been developed using:
 * [Creative Tim](https://www.creative-tim.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [BrowserStack](https://www.browserstack.com/)
