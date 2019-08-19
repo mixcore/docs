@@ -1,8 +1,7 @@
 ---
 id: installation
-title: Installation
+title: Installing Mixcore CMS
 ---
-# Installing Mixcore CMS
 
 Mixcore CMS is well-known for its ease of installation. Under most circumstances, installing Mixcore CMS is a very simple process and takes less than five minutes to complete. To install Mixcore CMS yourself, the following guide will help.
 
