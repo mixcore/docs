@@ -11,7 +11,7 @@ Before you begin the install, there are a few things you need to have and do.
 
 These are:
 
-- Access to your web server (via [FTP](https://codex.Mixcore CMS.org/Glossary#FTP))
+- Access to your web server (eg. FTP, Remote Desktop...)
 - Ability to create [MS SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/databases/create-a-database) databases
 - A [text editor](https://notepad-plus-plus.org/)
 - An [FTP Client](https://filezilla-project.org/)
@@ -30,8 +30,6 @@ Begin your installation by:
 ## Famous 5-Minute Installation
 
 Here's the quick version of the instructions for those who are already comfortable with performing such installations. More detailed instructions follow.
-
-If you are not comfortable with renaming files, step 3 is optional and you can skip it as the install program will create the sw-config.php file for you.
 
 1. Download and unzip the Mixcore CMS package if you haven't already.
 2. Create a database for Mixcore CMS on your web server, as well as a MS SQL Server Database user who has all privileges for accessing and modifying it.
@@ -77,7 +75,8 @@ Note: Plesk recommends all users to install and manage Mixcore CMS using the Mix
 
 [![Create Database via Pleak](http://img.youtube.com/vi/XzJEfh8I9ek/0.jpg)](http://www.youtube.com/watch?v=XzJEfh8I9ek "Create Database via Plesk")
 
-### Step 3: Set up sw-config.php
+### Step 3: Set up appsettings.json (optional)
+(TBD)
 
 ### Step 4: Upload the files
 
