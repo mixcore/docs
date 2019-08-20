@@ -15,11 +15,15 @@ Licenses status     |[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgi
 
 
 ## References
-- Demo: http://stag.mixcore.org
-- Docs: https://docs.mixcore.org
-- Youtube: https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw
-- Twitter: https://twitter.com/mixcore_cms
-- Medium: https://medium.com/mixcore
+
+
+|  |Links  |
+|---------|---------|
+|STAG / Demo     |http://stag.mixcore.org|
+|Dev docs     |https://docs.mixcore.org / https://mixcore.dev|
+|Youtube     |https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw|
+|Twitter     |https://twitter.com/mixcore_cms         |
+|Medium     |https://medium.com/mixcore         |
 
 ## GITs clone
 ```sh
@@ -76,6 +80,16 @@ gulp serve
 ## License
 
 Mixcore CMS is licensed under the **[GNU General Public License v3.0](https://github.com/mixcore/mix.core/blob/master/LICENSE)**
+
+
+|Permissions  |Limitations  |Conditions  |
+|---------|---------|---------|
+| Commercial use     |Liability         |License and copyright notice         |
+|Modification     |Warranty         |State changes         |
+|Distribution     |         |Disclose source         |
+|Patent use     |         |Same license         |
+|Private use     |         |         |
+
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmixcore%2Fmix.core.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmixcore%2Fmix.core?ref=badge_large)
 =======
