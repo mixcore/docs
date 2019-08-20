@@ -101,6 +101,20 @@ Now you will need to decide where on your domain you'd like your Mixcore CMS-pow
 
 Point a web browser to start the installation start point.
 
-If you placed the Mixcore CMS files in the root directory, you should visit: http://example.com/portal/init
-If you placed the Mixcore CMS files in a subdirectory called blog, for example, you should visit: http://example.com/blog/portal/init
+If you placed the Mixcore CMS files in the root directory, you should visit: http://example.com/init
+If you placed the Mixcore CMS files in a subdirectory called blog, for example, you should visit: http://example.com/blog/init
+
+##### Init step 1
+1. Input your "Your website's name"
+2. Choose first/default culture/language for your site
+3. Choose database type
+   - Localhost
+   - Remote Database
+4. Select Database Type:
+   - SQL Server
+   - MySQL
+5. Fill in all of your Database Credential that you have setup
+
+##### Init step 2
+
 
