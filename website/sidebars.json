@@ -1,7 +1,12 @@
 {
   "docs": {
-    "Getting Started": ["introduction","installation"],
-    "Installing Mixcore": [""],
+    "Getting Started": [
+      "introduction"
+    ],
+    "Installing Mixcore": [
+      "installation-before-you-install",
+      "installation-install-mixcore"
+    ],
     "Basic Usage":[
       "basic-usage-first-step-with-mixcore-cms",
       "basic-usage-writing-posts",

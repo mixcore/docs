@@ -1,6 +1,6 @@
 ---
-id: installation
-title: Installing Mixcore CMS
+id: installation-before-you-install
+title: Before You Install
 ---
 
 Mixcore CMS is well-known for its ease of installation. Under most circumstances, installing Mixcore CMS is a very simple process and takes less than five minutes to complete. To install Mixcore CMS yourself, the following guide will help.
@@ -96,25 +96,5 @@ Now you will need to decide where on your domain you'd like your Mixcore CMS-pow
 - If your files are already on your web server, and you are using shell access to install Mixcore CMS, move the Mixcore CMS directory to your desired location within the root directory of your website, and rename the directory to your desired name.
 
 **Note:** If your FTP client has an option to convert file names to lower case, make sure it's disabled.
-
-### Step 5: Run the Install Script
-
-Point a web browser to start the installation start point.
-
-If you placed the Mixcore CMS files in the root directory, you should visit: http://example.com/init
-If you placed the Mixcore CMS files in a subdirectory called blog, for example, you should visit: http://example.com/blog/init
-
-##### Init step 1
-1. Input your "Your website's name"
-2. Choose first/default culture/language for your site
-3. Choose database type
-   - Localhost
-   - Remote Database
-4. Select Database Type:
-   - SQL Server
-   - MySQL
-5. Fill in all of your Database Credential that you have setup
-
-##### Init step 2
 
 
