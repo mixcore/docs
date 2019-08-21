@@ -19,18 +19,18 @@ If you placed the Mixcore CMS files in a subdirectory called blog, for example, 
    - MySQL
 5. Fill in all of your Database Credential that you have
 
-![](../website/static/img/installation/step1.jpg)
+![](/img/installation/step1.jpg)
 
 ## Init step 2
 
 
-![](../website/static/img/installation/step2.jpg)
+![](/img/installation/step2.jpg)
 
-![](../website/static/img/installation/step3.jpg)
+![](/img/installation/step3.jpg)
 
 
 ## Init step 3
 
 
 
-![](../website/static/img/installation/step4.jpg)
+![](/img/installation/step4.jpg)
