@@ -53,9 +53,9 @@ gulp serve
 > Note: If you facing any System.Data.SqlClient.SqlException error, please replace all content inside "appsettings.json" file with "{}".
 
 ## UI Screenshots 
-### Default Theme: [Now UI Pro](https://demos.creative-tim.com/now-ui-kit-pro/presentation.html)
+### Default Theme: 
 
-> Now UI Kit PRO is a premium Bootstrap 4 kit provided by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 1000 components, 34 sections and 11 example pages.
+> [Now UI Kit PRO](https://demos.creative-tim.com/now-ui-kit-pro/presentation.html) is a premium Bootstrap 4 kit provided by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 1000 components, 34 sections and 11 example pages.
 
 ![Mixcore CMS default template with Now UI Pro](https://demos.creative-tim.com/now-ui-kit-pro/assets/img/presentation-page/pages/blog-posts.jpg "Mixcore CMS default template with Now UI Pro")
 

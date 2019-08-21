@@ -20,11 +20,10 @@ If you placed the Mixcore CMS files in a subdirectory called blog, for example, 
 5. Fill in all of your Database Credential that you have
 
 ![](/img/installation/step1.jpg)
+![](/img/installation/step2.jpg)
 
 ## Init step 2
 
-
-![](/img/installation/step2.jpg)
 
 ![](/img/installation/step3.jpg)
 
