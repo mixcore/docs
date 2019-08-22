@@ -123,7 +123,7 @@ const siteConfig = {
   //   indexName: 'mixcore_docs'
   // },
   cname: "docs.mixcore.org",
-  gaTrackingId: "UA-134185413-1",
+  gaTrackingId: "UA-134154017-3",
   disableHeaderTitle: true,
   facebookAppId:407034623499916,
   facebookComments: true
