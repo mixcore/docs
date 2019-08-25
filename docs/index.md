@@ -25,6 +25,12 @@ Licenses status     |[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgi
 |Twitter     |https://twitter.com/mixcore_cms         |
 |Medium     |https://medium.com/mixcore         |
 
+## Docker
+```sh
+docker pull mixcore/mix.core:latest
+docker run -it --rm -p 5000:80 --name mixcore_cms mixcore/mix.core:latest
+```
+
 ## GITs clone
 ```sh
 mkdir mixcore
