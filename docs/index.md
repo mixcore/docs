@@ -78,7 +78,7 @@ gulp serve
 
 > Mixcore CMS Back-office is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project.
 
-![Mixcore Admin Portal Bootstrap 4.x](/img/screencapture-stag-mixcore-org-portal-2019-08-04-16_04_15.jpg "Mixcore CMS Admin Portal Bootstrap 4")
+![Mixcore Admin Portal Bootstrap 4.x](https://docs.mixcore.org/img/screencapture-stag-mixcore-org-portal-2019-08-04-16_04_15.jpg "Mixcore CMS Admin Portal Bootstrap 4")
 
 ## Thanks to
 
