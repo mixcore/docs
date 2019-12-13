@@ -59,10 +59,10 @@ dotnet restore
 dotnet build
 dotnet run
 ```
-### Modify Portal
+### Modify & Build Portal
 ````sh
 cd mix.core/src/portal-app
-gulp serve
+gulp build
 ````
 
 > Note: If you facing any System.Data.SqlClient.SqlException error, please replace all content inside "appsettings.json" file with "{}".
