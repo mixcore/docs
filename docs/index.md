@@ -3,8 +3,9 @@ id: introduction
 title: Mixcore CMS
 ---
 
-> Fully Open Source UI Tools to create web apps.
-> Headless CMS and Dashboards built on top of .Net Core, Angular.JS and Bootstrap.
+> # Fully Open Source UI Tools to create multi-purpose Web Apps & Application Services
+>
+> #### CMS and Dashboards built on top of ASP.Net Core / Dotnet Core, SignalR, Angular.JS and Bootstrap.
 
 ![Mixcore CMS](https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true "What is Mixcore CMS?")
 
@@ -20,13 +21,13 @@ Codefactor     |[![CodeFactor](https://www.codefactor.io/repository/github/mixco
 
 |  |Links  |
 |---------|---------|
-|STAG / Demo     |http://stag.mixcore.org|
+|STAG / Demo     |http://stag.mixcore.org \| https://demo.mixcore.org/portal (admin/P@ssw0rd)|
 |Dev docs     |https://docs.mixcore.org / https://mixcore.dev|
 |Youtube     |https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw|
 |Twitter     |https://twitter.com/mixcore_cms         |
 |Medium     |https://medium.com/mixcore         |
 
-## Docker
+## Run with Docker
 
 ###  Latest Docker Image
 ```sh
@@ -45,34 +46,61 @@ docker-compose up
 mkdir mixcore
 cd mixcore
 
-git clone https://github.com/mixcore/mix.heart.git
-git clone https://github.com/mixcore/mix.identity.git
 git clone https://github.com/mixcore/mix.core.git
+
+REM Optional steps as those packages are Nuget Library
+REM git clone https://github.com/mixcore/mix.heart.git
+REM git clone https://github.com/mixcore/mix.identity.git
 ```
 
-## Build & Run
-### Website
+## Build & Run with [Dotnet SDK](https://dotnet.microsoft.com/download)
+### Build & Run Mixcore CMS
 ```sh
+REM Make sure you already read and download Dotnet Core SDK here https://dotnet.microsoft.com/download
+
 cd mix.core/src/Mix.Cms.Web
-npm install
+
 dotnet restore
 dotnet build
 dotnet run
 ```
-### Modify & Build Portal
+### Modify & Build Portal Front-End source (Optional)
 ````sh
+REM This step is optional and only needed in case you would like to modify the portal front-end code
+
 cd mix.core/src/portal-app
+
+npm install
 gulp build
 ````
 
 > Note: If you facing any System.Data.SqlClient.SqlException error, please replace all content inside "appsettings.json" file with "{}".
 
+## Special features (Out of the box)
+
+- [x] Reliability - Member roles and permissions.
+- [x] High Security - Strong Data Encryption and Security compliance.
+- [x] Multilingual- Flexible multilingual content migration.
+- [x] High Performance- Millisecond response time.
+- [x] Cross Platforms - Powered by .NET Core and run everywhere.
+- [x] Online Coding - Visual Studio Code's heart inside.
+- [x] Customizable Designs - Build any kinds of website.
+- [x] SEO Friendly - No extra plugin required.
+- [x] Media Management- Multiple file formats for your website / application.
+- [x] Manage On The Go - Manage and Code everywhere you want.
+- [x] Easy and Accessible- Non deep tech knowledge required.
+- [x] Analytics -Inside Google Analytics dashboard & no extra plugin required.
+- [x] Dynamic Modular Architecture -Powerful module layers & Attribute sets feature.
+- [x] Extensibility - API-first architecture for Plug & Play.
+- [x] Easy Backup - Powerful 1 step export.
+- [x] More Coffee time! -You can relax and explore more ton of features are not listed here...
+
 ## UI Screenshots 
 ### Default Theme: 
 
-> [Now UI Kit PRO](https://demos.creative-tim.com/now-ui-kit-pro/presentation.html) is a premium Bootstrap 4 kit provided by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 1000 components, 34 sections and 11 example pages.
+> [Shards UI Kit](https://designrevision.com/demo/shards/) Shards is a modern design system based on Bootstrap 4 that comes packed with **10 extra custom components** and **two pre-built landing pages**. It’s also lightweight with its stylesheet weighting only **~13kb minified and gzipped**.
 
-![Mixcore CMS default template with Now UI Pro](https://demos.creative-tim.com/now-ui-kit-pro/assets/img/presentation-page/pages/blog-posts.jpg "Mixcore CMS default template with Now UI Pro")
+![Mixcore CMS default template with Shards UI Kit](https://docs.mixcore.org/img/basic-usage/first-step.png "Mixcore CMS default template with Shards UI Kit")
 
 ### Admin Portal
 
