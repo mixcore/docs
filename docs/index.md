@@ -3,9 +3,9 @@ id: introduction
 title: Mixcore CMS
 ---
 
-> # Fully Open Source UI Tools to create multi-purpose Web Apps & Application Services
->
-> #### CMS and Dashboards built on top of ASP.Net Core / Dotnet Core, SignalR, Angular.JS and Bootstrap.
+# Fully Open Source UI Tools to create multi-purpose Web Apps & Application Services
+
+## CMS and Dashboards built on top of ASP.Net Core / Dotnet Core, SignalR, Angular.JS and Bootstrap.
 
 ![Mixcore CMS](https://github.com/mixcore/mix.core/blob/master/assets/mixcore.png?raw=true "What is Mixcore CMS?")
 
@@ -21,7 +21,7 @@ Codefactor     |[![CodeFactor](https://www.codefactor.io/repository/github/mixco
 
 |  |Links  |
 |---------|---------|
-|STAG / Demo     |http://stag.mixcore.org \| https://demo.mixcore.org/portal (admin/P@ssw0rd)|
+|STAG / Demo     |http://stag.mixcore.org or https://demo.mixcore.org/portal (admin/P@ssw0rd)|
 |Dev docs     |https://docs.mixcore.org / https://mixcore.dev|
 |Youtube     |https://www.youtube.com/channel/UChqzh6JnC8HBUSQ9AWIcZAw|
 |Twitter     |https://twitter.com/mixcore_cms         |
@@ -47,17 +47,26 @@ mkdir mixcore
 cd mixcore
 
 git clone https://github.com/mixcore/mix.core.git
-
-REM Optional steps as those packages are Nuget Library
-REM git clone https://github.com/mixcore/mix.heart.git
-REM git clone https://github.com/mixcore/mix.identity.git
 ```
 
-## Build & Run with [Dotnet SDK](https://dotnet.microsoft.com/download)
-### Build & Run Mixcore CMS
-```sh
-REM Make sure you already read and download Dotnet Core SDK here https://dotnet.microsoft.com/download
+Optional:
 
+> Optional steps as those packages are Nuget Library
+
+```bash
+git clone https://github.com/mixcore/mix.heart.git
+git clone https://github.com/mixcore/mix.identity.git
+```
+
+
+
+## Build & Run with [Dotnet SDK](https://dotnet.microsoft.com/download)
+
+### Build & Run Mixcore CMS
+
+> REM Make sure you already read and download Dotnet Core SDK here https://dotnet.microsoft.com/download
+
+```sh
 cd mix.core/src/Mix.Cms.Web
 
 dotnet restore
@@ -65,9 +74,10 @@ dotnet build
 dotnet run
 ```
 ### Modify & Build Portal Front-End source (Optional)
-````sh
-REM This step is optional and only needed in case you would like to modify the portal front-end code
 
+> This step is optional and only needed in case you would like to modify the portal front-end code
+
+````sh
 cd mix.core/src/portal-app
 
 npm install
@@ -78,22 +88,22 @@ gulp build
 
 ## Special features (Out of the box)
 
-- [x] Reliability - Member roles and permissions.
-- [x] High Security - Strong Data Encryption and Security compliance.
-- [x] Multilingual- Flexible multilingual content migration.
-- [x] High Performance- Millisecond response time.
-- [x] Cross Platforms - Powered by .NET Core and run everywhere.
-- [x] Online Coding - Visual Studio Code's heart inside.
-- [x] Customizable Designs - Build any kinds of website.
-- [x] SEO Friendly - No extra plugin required.
-- [x] Media Management- Multiple file formats for your website / application.
-- [x] Manage On The Go - Manage and Code everywhere you want.
-- [x] Easy and Accessible- Non deep tech knowledge required.
-- [x] Analytics -Inside Google Analytics dashboard & no extra plugin required.
-- [x] Dynamic Modular Architecture -Powerful module layers & Attribute sets feature.
-- [x] Extensibility - API-first architecture for Plug & Play.
-- [x] Easy Backup - Powerful 1 step export.
-- [x] More Coffee time! -You can relax and explore more ton of features are not listed here...
+- [x] **Reliability** - Member roles and permissions.
+- [x] **High Security** - Strong Data Encryption and Security compliance.
+- [x] **Multilingual** - Flexible multilingual content migration.
+- [x] **High Performance** - Millisecond response time.
+- [x] **Cross Platforms** - Powered by .NET Core and run everywhere.
+- [x] **Online Coding** - Visual Studio Code's heart inside.
+- [x] **Customizable Designs** - Build any kinds of website.
+- [x] **SEO Friendly** - No extra plugin required.
+- [x] **Media Management** - Multiple file formats for your website / application.
+- [x] **Manage On The Go** - Manage and Code everywhere you want.
+- [x] **Easy and Accessible** - Non deep tech knowledge required.
+- [x] **Analytics** - Inside Google Analytics dashboard & no extra plugin required.
+- [x] **Dynamic Modular Architecture** - Powerful module layers & Attribute sets feature.
+- [x] **Extensibility** - API-first architecture for Plug & Play.
+- [x] **Easy Backup** - Powerful 1 step export.
+- [x] **More Coffee time!** - You can relax and explore more ton of features are not listed here...
 
 ## UI Screenshots 
 ### Default Theme: 
