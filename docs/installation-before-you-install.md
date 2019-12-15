@@ -42,7 +42,7 @@ Here's the quick version of the instructions for those who are already comfortab
 5. Run the Mixcore CMS installation script by accessing the URL in a web browser. This should be the URL where you uploaded the Mixcore CMS files.
     - If you installed Mixcore CMS in the root directory, you should visit: http://example.com/
     - If you installed Mixcore CMS in its own subdirectory called blog, for example, you should visit: http://example.com/blog/
-  
+
 That's it! Mixcore CMS should now be installed.
 
 ## Detailed Instructions
@@ -56,9 +56,9 @@ Download and unzip the Mixcore CMS package from [https://github.com/mixcore/mix.
 
 If you are using a hosting provider, you may already have a Mixcore CMS database set up for you, or there may be an automated setup solution to do so. Check your hosting provider's support pages or your control panel for clues about whether or not you'll need to create one manually.
 
-If you determine that you'll need to create one manually, follow the instructions for accessing phpMyAdmin on various servers, or follow the instructions for Using Plesk, Using cPanel or Using phpMyAdmin below.
+If you determine that you'll need to create one manually, follow the instructions for accessing phpMyAdmin/Sql Studio Management on various servers, or follow the instructions for Using Plesk, Using cPanel or Using phpMyAdmin/Sql Studio below.
 
-If you are installing Mixcore CMS on your own web server, follow the Using phpMyAdmin or Using the MySQL Client instructions below to create your Mixcore CMS username and database.
+If you are installing Mixcore CMS on your own web server, follow the Using phpMyAdmin or Using the MySQL Client or SQL Studio Management instructions below to create your Mixcore CMS username and database.
 
 If you have only one database and it is already in use, you can install Mixcore CMS in it - just make sure to have a distinctive prefix for your tables to avoid over-writing any existing database tables.
 
