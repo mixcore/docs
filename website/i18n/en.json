@@ -30,10 +30,10 @@
         "title": "Why should I use HTTPS?"
       },
       "basic-usage-first-step-with-mixcore-cms": {
-        "title": "First Step with Mixcore CMS"
+        "title": "First Steps with Mixcore CMS"
       },
-      "basic-usage-media-library-screen": {
-        "title": "Media Library Screen"
+      "basic-usage-media-screen": {
+        "title": "Media"
       },
       "basic-usage-pages": {
         "title": "Pages"
@@ -88,10 +88,13 @@
         "title": "Host and deploy Blazor"
       },
       "introduction": {
-        "title": "Getting Started"
+        "title": "Mixcore CMS"
       },
-      "installation": {
-        "title": "Installation"
+      "installation-before-you-install": {
+        "title": "Before You Install"
+      },
+      "installation-install-mixcore": {
+        "title": "Install Mixcore CMS"
       },
       "languages": {
         "title": "languages"
