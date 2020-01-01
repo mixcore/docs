@@ -3,7 +3,7 @@ id: introduction
 title: Mixcore CMS
 ---
 
-## Fully Open Source UI Tools to create multi-purpose Web Apps & Application Services
+## Fully Open Source UI Tools to create multi-purpose Web Apps, Mobile Apps & Application Services
 
 ### CMS and Dashboards built on top of ASP.Net Core / Dotnet Core, SignalR, Angular.JS and Bootstrap.
 
