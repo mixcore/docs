@@ -55,13 +55,13 @@ The blank box where you enter your writing, links, links to images, and any info
 
    If the choosed page type is "List". All of the posts will display as a list inside the page. For example under "Blogs" page will contain a list of posts.
 
-Blog
-
- - Food
-   	- Post 1
-   	- Post 2
- - Drink
-   	- Post 3
+Example: 
+- Blog
+  - Food
+    - Post 1
+    - Post 2
+   - Drink
+      - Post 3
 
 1. Module parent:
 
@@ -71,7 +71,7 @@ Blog
 
 ### Related
 
-## Custom Fields
+## Custom Fields (with admin permission only)
 
 Custom Fields are default extra fields for post type. Fields structure & schema can be change by go to "Advanced" tab > Default Attributes
 
