@@ -81,6 +81,7 @@ dotnet run
 cd mix.core/src/portal-app
 
 npm install
+npm install --global gulp-cli
 gulp build
 ````
 
