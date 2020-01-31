@@ -16,6 +16,11 @@ module.exports = {
       links: [
         {to: '/docs/introduction', label: 'Docs', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://mixcore.org',
+          label: 'Home',
+          position: 'right',
+        },
         
         {
           href: 'https://github.com/mixcore/mix.core/releases',
