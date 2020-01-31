@@ -22,7 +22,7 @@ jobs:
             git config --global user.email "smilefounder@users.noreply.github.com"
             git config --global user.name "Huy Nguyen"
             echo "machine github.com login smilefounder password $GITHUB_TOKEN" > ~/.netrc
-            cd website && yarn install && GIT_USER=smilefounder yarn run publish-gh-pages
+            cd website && yarn install && GIT_USER=smilefounder yarn deploy
 
 workflows:
   version: 2
