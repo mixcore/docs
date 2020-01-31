@@ -88,8 +88,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs',
+          routeBasePath: 'docs',
           editUrl:
             'https://github.com/mixcore/docs/edit/master/website/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
