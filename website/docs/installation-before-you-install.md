@@ -11,6 +11,7 @@ Before you begin the install, there are a few things you need to have and do.
 
 These are:
 
+- Hosting with IIS or VPS.
 - Access to your web server (eg. FTP, Remote Desktop...)
 - Ability to create [MS SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/databases/create-a-database) databases
 - A [text editor](https://notepad-plus-plus.org/)
@@ -21,7 +22,7 @@ These are:
 
 Begin your installation by:
 
-1. Checking to ensure that you and your web host have the minimum requirements to run Mixcore CMS.
+1. Checking to ensure that you and your web host have the minimum requirements to run Mixcore CMS. [Host and deploy ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-3.1)
 2. Downloading the most current version of Mixcore CMS.
 3. Unzipping the downloaded file to a folder on your hard drive.
 4. Creating a secure password for your Secret Key during install/setup the site.
