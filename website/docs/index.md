@@ -1,7 +1,9 @@
 ---
 id: introduction
-title: Mixcore CMS
+title: Mixcore CMS 
 ---
+
+[![backer](https://opencollective.com/mixcore/tiers/backer/badge.svg?label=backer&color=brightgreen)](https://opencollective.com/mixcore#support) [![Donate](https://img.shields.io/badge/$-donate-ff69b4.svg)](https://www.paypal.me/mixcore) [![Buy us a coffee](https://img.shields.io/badge/$-BuyMeACoffee-orange.svg)](https://www.buymeacoffee.com/mixcore) 
 
 ## Fully Open Source UI Tools to create multi-purpose Web Apps, Mobile Apps & Application Services
 
@@ -160,3 +162,6 @@ the following simple guidelines.
 * Delete you feature branch
 * Again, **NEVER** write any code in the master branch ;)
 * Ref: https://datasift.github.io/gitflow/IntroducingGitFlow.html
+
+
+[![Become a Backer](https://opencollective.com/mixcore/tiers/backer.svg?avatarHeight=36)](https://opencollective.com/mixcore#support) 
