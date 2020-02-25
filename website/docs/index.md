@@ -159,3 +159,4 @@ the following simple guidelines.
 * After your pull request has been accepted, sync the changes into master from the upstream remote
 * Delete you feature branch
 * Again, **NEVER** write any code in the master branch ;)
+* Ref: https://datasift.github.io/gitflow/IntroducingGitFlow.html
