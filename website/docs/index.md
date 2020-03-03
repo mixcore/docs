@@ -74,7 +74,7 @@ cd mix.core/src/Mix.Cms.Web
 
 dotnet restore
 dotnet build
-dotnet run
+dotnet run -v n
 ```
 ### Modify & Build Portal Front-End source (Optional)
 
@@ -165,4 +165,4 @@ the following simple guidelines.
 * Ref: https://datasift.github.io/gitflow/IntroducingGitFlow.html
 
 
-[![Become a Backer](https://opencollective.com/mixcore/tiers/backer.svg?avatarHeight=36)](https://opencollective.com/mixcore#support) 
+[![Become a Backer](https://opencollective.com/mixcore/tiers/backer.svg)](https://opencollective.com/mixcore#support) 
