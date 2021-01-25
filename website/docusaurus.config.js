@@ -6,6 +6,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'mixcore', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  onBrokenLinks: 'ignore',
   themeConfig: {
     navbar: {
       title: 'Mixcore CMS',
@@ -13,15 +14,19 @@ module.exports = {
         alt: 'Mixcore CMS Logo',
         src: 'img/logo.png',
       },
-      links: [
-        {to: '/docs/introduction', label: 'Docs', position: 'left'},
+      items: [
+        // {to: '/', label: 'Docs', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://mixcore.org',
           label: 'Home',
           position: 'right',
         },
-        
+        {
+          href: 'https://github.com/mixcore/mix.core/discussions',
+          label: 'Discussions',
+          position: 'right',
+        },
         {
           href: 'https://github.com/mixcore/mix.core/releases',
           label: 'Download',
@@ -94,7 +99,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'docs',
-          routeBasePath: 'docs',
+          routeBasePath: '/',
           editUrl:
             'https://github.com/mixcore/docs/edit/master/website/',
           showLastUpdateAuthor: true,

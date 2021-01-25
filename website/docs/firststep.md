@@ -12,19 +12,15 @@ Let’s take a step-by-step tour through your mixcore CMS site and see how the d
 
 ### Connect to external Database Server
 
- ![config-db.jpg](/img/1st-step/config-db.jpg)
 
 ### Connect to local Database Server
 
- ![connect-local-db.jpg](/img/1st-step/connect-local-db.jpg)
 
 ### Select default culture and language
 
- ![select-default-culture.jpg](/img/1st-step/select-default-culture.jpg)
 
 ### Create super admin account
 
- ![create-admin.jpg](/img/1st-step/create-admin.jpg)
 
 ## Log In
 
