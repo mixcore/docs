@@ -17,16 +17,28 @@ module.exports = {
     ],
     'Basic Usage':[
       'basic-usage-first-step-with-mixcore-cms',
+      'basic-administration-screens',
       'basic-usage-writing-posts',
-      'basic-usage-pages',
+      'basic-usage-page',
+      'basic-usage-module',
+      'basic-usage-navigation',
+      'basic-usage-database',
+      'basic-usage-category',
+      'basic-usage-tag',
+      'basic-usage-media',
+      'basic-usage-file',
+      'basic-usage-user',
+      'basic-usage-theme',
+      'basic-usage-app-settings',
+      'basic-usage-configuration',
       // 'basic-usage-media-library-screen',
       'basic-usage-users-profile'
     ],
-    'Basic Administration':[
-      'basic-administration-administration-screens',
-      'basic-administration-dashboard-sreen',
-      'basic-administration-roles-and-capabilities'
-    ],
+    // 'Basic Administration':[
+    //   'basic-administration-administration-screens',
+    //   'basic-administration-dashboard-sreen',
+    //   'basic-administration-roles-and-capabilities'
+    // ],
     'Themes': [
       'themes-getting-started',
       'themes-basics',

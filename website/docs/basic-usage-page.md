@@ -1,5 +1,5 @@
 ---
-id: basic-usage-pages
+id: basic-usage-page
 title: Pages
 ---
 In Mixcore CMS, you can put content on your site as either a “post” or a “page”. When you’re writing a regular blog entry, you write a post. Posts, in a default setup, appear in reverse chronological order on your blog’s home page.
