@@ -27,9 +27,14 @@ module.exports = {
       'basic-administration-dashboard-sreen',
       'basic-administration-roles-and-capabilities'
     ],
-    'Customizing': [
-      'customizing-using-themes',
-      'customizing-using-modules',
+    'Themes': [
+      'themes-getting-started',
+      'themes-basics',
+      'themes-template-files',
+      'themes-functionality',
+      'themes-release-your-theme'
+      // 'customizing-using-themes',
+      // 'customizing-using-modules',
       // 'customizing-using-attribute-sets'
     ],
     'Maintenance': [
