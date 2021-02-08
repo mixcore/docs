@@ -23,6 +23,11 @@ module.exports = {
           position: 'right',
         },
         {
+          href: 'https://api-docs.mixcore.org',
+          label: 'API Docs',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/mixcore/mix.core/discussions',
           label: 'Discussions',
           position: 'right',

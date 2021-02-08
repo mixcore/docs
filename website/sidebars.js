@@ -39,16 +39,6 @@ module.exports = {
     //   'basic-administration-dashboard-sreen',
     //   'basic-administration-roles-and-capabilities'
     // ],
-    'Themes': [
-      'themes-getting-started',
-      'themes-basics',
-      'themes-template-files',
-      'themes-functionality',
-      'themes-release-your-theme'
-      // 'customizing-using-themes',
-      // 'customizing-using-modules',
-      // 'customizing-using-attribute-sets'
-    ],
     'Maintenance': [
       'maintenance-mixcore-backups',
       'maintenance-mixcore-restores',
@@ -68,6 +58,22 @@ module.exports = {
       'troubleshooting-common-errors',
       'troubleshooting-debugging'
     ],
+    'Developers': [
+      'dev-getting-started',
+    ],
+    'Themes': [
+      'themes-getting-started',
+      'themes-basics',
+      'themes-template-files',
+      'themes-functionality',
+      'themes-release-your-theme'
+      // 'customizing-using-themes',
+      // 'customizing-using-modules',
+      // 'customizing-using-attribute-sets'
+    ],
+    'Get Involved': [
+      'contribute-getting-started',
+    ],  
     // Features: ['mdx'],
   },
 };
