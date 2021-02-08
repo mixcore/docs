@@ -27,8 +27,11 @@ Themes take the content and data stored by Mixcore CMS and display it in the bro
 Mixcore CMS themes are incredibly powerful. But, as with every web design project, a theme is more than color and layout. Good themes improve engagement with your website’s content in addition to being beautiful.
 
 ## What are themes made of?
-At their most basic level, WordPress themes are collections of different files that work together to create what you see, as well as how your site behaves.
+At their most basic level, Mixcore themes are collections of different files that work together to create what you see, as well as how your site behaves.
 
-Required files:
-- Master
-- ...
+Basic knowledges before you start develop a theme:
+- [Overview of ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
+- [Layout in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-5.0)
+- [Razor syntax reference for ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0)
+- [Create reusable UI using the Razor class library project in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/ui-class?view=aspnetcore-5.0&tabs=visual-studio)
+- [ASP.NET Core built-in Tag Helpers](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/built-in/?view=aspnetcore-5.0)
