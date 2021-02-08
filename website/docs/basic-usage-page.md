@@ -9,3 +9,7 @@ In contrast, pages are for non-chronological content: pages like “About” or 
 In addition to the common “About” and “Contact” pages, other examples include “Copyright”, “Disclosure”, “Legal Information”, “Reprint Permissions”, “Company Information” or “Accessibility Statement”.
 
 In general, pages are very similar to posts in that they both have titles and content. Mixcore CMS Theme template files maintain a consistent look throughout your site. Pages, though, have several key distinctions that make them different from posts.
+
+## Page ViewModel
+
+## Extend Page ViewModel

@@ -14,6 +14,7 @@ Post are entries that display in reverse order on your home page. Post usually h
 6. When you are ready, select **Published** button then press **Save** button from action navigation.
 
 ## Descriptions of Post Fields
+[API Properties Document](https://api-docs.mixcore.org/api/Mix.Cms.Lib.ViewModels.MixPosts.ReadMvcViewModel.html#properties)
 
 ### Title/Headline
 The title of your post. You can use any phrases, words or characters. Avoid using the same title twice as that will cause problems. You can use commas, apostrophes, quotes, hyphens/dashes and other typical symbols in the post like "My Site - Here's Lookin' at You, Kid". mixcore CMS will then clean it up to generate a user-friendly and URL-valid name of the post (also called the "post slug") to compose the permalink for the post.
