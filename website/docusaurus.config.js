@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/mixcore',
+              href: 'https://discord.gg/67G5JZc',
             },
           ],
         },
@@ -78,7 +78,8 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              // to: 'blog',
+              href: 'https://medium.com/mixcore',
             },
             {
               label: 'GitHub',
