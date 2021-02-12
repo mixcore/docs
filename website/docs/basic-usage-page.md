@@ -13,3 +13,6 @@ In general, pages are very similar to posts in that they both have titles and co
 ## Page ViewModel
 
 ## Extend Page ViewModel
+
+## Example API for return Page Information.
+https://dev.mixcore.org/api/v1/rest/en-us/mix-page/mvc/7
