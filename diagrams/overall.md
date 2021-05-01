@@ -1,14 +1,15 @@
 
 ```mermaid
 sequenceDiagram
-    mix.portal.*->>+mix.lib.ts: Request
-    mix.lib.ts->>+mix.heart.ts: Request
-    mix.heart.ts->>+mix.core: Request
-    mix.core->>+mix.heart: Request
+    User-->>mix.portal.* (UI): Action
+    mix.portal.* (UI)->>+mix.lib.ts: Component Action
+    mix.lib.ts->>+mix.heart.ts: Generic Action Mapping
+    mix.heart.ts->>+mix.core: Request (RESTFUL)
+    mix.core->>+mix.heart: Generic Action Mapping
     
-    mix.heart-->>-mix.core: Response
-    mix.core-->>-mix.heart.ts: Response
+    mix.heart-->>-mix.core: Response (Entities + Data)
+    mix.core-->>-mix.heart.ts: Response (Entities + Data)
     mix.heart.ts-->>-mix.lib.ts: Response
-    mix.lib.ts-->>-mix.portal.*: Response
-    
+    mix.lib.ts-->>-mix.portal.* (UI): Reaction
+    mix.portal.* (UI)-->>User: Reaction
 ```
