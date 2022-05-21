@@ -1,6 +1,6 @@
 ---
-id: dev-getting-started
-title: Getting Started
+id: dev-login-workflow
+title: Login Workflow
 ---
 ## Send Login Request
 1. Encrypt Login data:
