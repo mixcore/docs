@@ -16,17 +16,17 @@ title: Login Workflow
   ```
   curl --location --request POST 'https://localhost:5010/api/v2/rest/mix-account/user/login' \
 --data-raw '{
-  "[message": "encryptMessage"
+  "message": "[encryptMessage]"
 }'
   ```
 
 ## Descrypt Login Result:
   ```
   var loginResult = {
-    message: "encryptedString"
+    message: "[encryptedString]"
   }
 
-  var result = decryptAES(encryptedString);
+  var result = decryptAES(loginResult.message);
   /*
     sample result:
     {
