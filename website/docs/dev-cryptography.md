@@ -1,6 +1,6 @@
 ---
-id: dev-getting-started
-title: Getting Started
+id: dev-cryptography
+title: Cryptography
 ---
 ## Get Mixcore Api Key
 - Go to "[host]/portal/app-settings/details"
