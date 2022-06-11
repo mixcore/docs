@@ -93,10 +93,7 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Mixcore CMS.`,
-    },
-    gtag: {
-      trackingID: 'UA-134154017-3',
-    },
+    }
   },
   presets: [
     [
@@ -115,6 +112,10 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         sitemap: {},
+        gtag: {
+          trackingID: 'UA-134154017-3',
+          anonymizeIP: true,
+        },
       },
     ],
   ],
