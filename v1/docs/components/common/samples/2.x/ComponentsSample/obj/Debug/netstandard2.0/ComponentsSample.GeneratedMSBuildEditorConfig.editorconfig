@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ComponentsSample
+build_property.ProjectDir = /workspaces/docs/v1/docs/components/common/samples/2.x/ComponentsSample/
