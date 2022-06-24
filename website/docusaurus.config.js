@@ -33,7 +33,7 @@ module.exports = {
                 //     position: 'left',
                 // },
                 {
-                    href: 'https://github.com/mixcore/mix.core/discussions',
+                    href: 'https://github.com/orgs/mixcore/discussions',
                     label: 'Discussions',
                     position: 'left',
                 },
@@ -55,52 +55,52 @@ module.exports = {
                 },
             ],
         },
-        footer: {
-            style: 'dark',
-            links: [{
-                title: 'Docs',
-                items: [{
-                    label: 'Style Guide',
-                    to: 'docs/doc1',
-                },
-                {
-                    label: 'Second Doc',
-                    to: 'docs/doc2',
-                },
-                ],
-            },
-            {
-                title: 'Community',
-                items: [{
-                    label: 'Stack Overflow',
-                    href: 'https://stackoverflow.com/questions/tagged/mixcore',
-                },
-                {
-                    label: 'Discord',
-                    href: 'https://discord.gg/67G5JZc',
-                },
-                ],
-            },
-            {
-                title: 'Social',
-                items: [{
-                    label: 'Blog',
-                    // to: 'blog',
-                    href: 'https://medium.com/mixcore',
-                },
-                {
-                    label: 'GitHub',
-                    href: 'https://github.com/mixcore/mix.core',
-                },
-                {
-                    label: 'Twitter',
-                    href: 'https://twitter.com/mixcore_cms',
-                },
-                ],
-            },
-            ],
-            copyright: `Copyright © ${new Date().getFullYear()} Mixcore CMS.`,
-        },
+        // footer: {
+        //     style: 'dark',
+        //     links: [{
+        //         title: 'Docs',
+        //         items: [{
+        //             label: 'Style Guide',
+        //             to: 'docs/doc1',
+        //         },
+        //         {
+        //             label: 'Second Doc',
+        //             to: 'docs/doc2',
+        //         },
+        //         ],
+        //     },
+        //     {
+        //         title: 'Community',
+        //         items: [{
+        //             label: 'Stack Overflow',
+        //             href: 'https://stackoverflow.com/questions/tagged/mixcore',
+        //         },
+        //         {
+        //             label: 'Discord',
+        //             href: 'https://discord.gg/67G5JZc',
+        //         },
+        //         ],
+        //     },
+        //     {
+        //         title: 'Social',
+        //         items: [{
+        //             label: 'Blog',
+        //             // to: 'blog',
+        //             href: 'https://medium.com/mixcore',
+        //         },
+        //         {
+        //             label: 'GitHub',
+        //             href: 'https://github.com/mixcore/mix.core',
+        //         },
+        //         {
+        //             label: 'Twitter',
+        //             href: 'https://twitter.com/mixcore_cms',
+        //         },
+        //         ],
+        //     },
+        //     ],
+        //     copyright: `Copyright © ${new Date().getFullYear()} Mixcore CMS.`,
+        // },
         announcementBar: {
             id: 'announcementBar-2', // Increment on change
             content: `⭐️ If you like Mixcore, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mixcore/mix.core">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mixcore_cms">Twitter ${TwitterSvg}</a>`,
