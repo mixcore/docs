@@ -58,46 +58,46 @@ module.exports = {
         footer: {
             style: 'dark',
             links: [{
-                    title: 'Docs',
-                    items: [{
-                            label: 'Style Guide',
-                            to: 'docs/doc1',
-                        },
-                        {
-                            label: 'Second Doc',
-                            to: 'docs/doc2',
-                        },
-                    ],
+                title: 'Docs',
+                items: [{
+                    label: 'Style Guide',
+                    to: 'docs/doc1',
                 },
                 {
-                    title: 'Community',
-                    items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/mixcore',
-                        },
-                        {
-                            label: 'Discord',
-                            href: 'https://discord.gg/67G5JZc',
-                        },
-                    ],
+                    label: 'Second Doc',
+                    to: 'docs/doc2',
+                },
+                ],
+            },
+            {
+                title: 'Community',
+                items: [{
+                    label: 'Stack Overflow',
+                    href: 'https://stackoverflow.com/questions/tagged/mixcore',
                 },
                 {
-                    title: 'Social',
-                    items: [{
-                            label: 'Blog',
-                            // to: 'blog',
-                            href: 'https://medium.com/mixcore',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/mixcore/mix.core',
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/mixcore_cms',
-                        },
-                    ],
+                    label: 'Discord',
+                    href: 'https://discord.gg/67G5JZc',
                 },
+                ],
+            },
+            {
+                title: 'Social',
+                items: [{
+                    label: 'Blog',
+                    // to: 'blog',
+                    href: 'https://medium.com/mixcore',
+                },
+                {
+                    label: 'GitHub',
+                    href: 'https://github.com/mixcore/mix.core',
+                },
+                {
+                    label: 'Twitter',
+                    href: 'https://twitter.com/mixcore_cms',
+                },
+                ],
+            },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Mixcore CMS.`,
         },
@@ -105,29 +105,29 @@ module.exports = {
             id: 'announcementBar-2', // Increment on change
             content: `⭐️ If you like Mixcore, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mixcore/mix.core">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mixcore_cms">Twitter ${TwitterSvg}</a>`,
         },
-        // algolia: {
-        //     // The application ID provided by Algolia
-        //     appId: 'YOUR_APP_ID',
+        algolia: {
+            // The application ID provided by Algolia
+            appId: 'J66ULBTUG1',
 
-        //     // Public API key: it is safe to commit it
-        //     apiKey: 'YOUR_SEARCH_API_KEY',
+            // Public API key: it is safe to commit it
+            apiKey: 'b9544e1264978fc515d8aa46ab2e5a90',
 
-        //     indexName: 'YOUR_INDEX_NAME',
+            indexName: 'YOUR_INDEX_NAME',
 
-        //     // Optional: see doc section below
-        //     contextualSearch: true,
+            // Optional: see doc section below
+            contextualSearch: true,
 
-        //     // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        //     externalUrlRegex: 'external\\.com|domain\\.com',
+            // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+            // externalUrlRegex: 'external\\.com|domain\\.com',
 
-        //     // Optional: Algolia search parameters
-        //     searchParameters: {},
+            // Optional: Algolia search parameters
+            // searchParameters: {},
 
-        //     // Optional: path for search page that enabled by default (`false` to disable it)
-        //     searchPagePath: 'search',
+            // Optional: path for search page that enabled by default (`false` to disable it)
+            searchPagePath: 'search',
 
-        //     //... other Algolia params
-        // },
+            //... other Algolia params
+        },
     },
     presets: [
         [
