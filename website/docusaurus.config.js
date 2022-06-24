@@ -112,7 +112,7 @@ module.exports = {
             // Public API key: it is safe to commit it
             apiKey: 'b9544e1264978fc515d8aa46ab2e5a90',
 
-            indexName: 'YOUR_INDEX_NAME',
+            indexName: 'MIXCORE',
 
             // Optional: see doc section below
             contextualSearch: true,
