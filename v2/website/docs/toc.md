@@ -1,0 +1,20 @@
+# [Get started](xref:client-side/swastika-io/index)
+## [Dowload](https://github.com/mixcore/mix.core/releases)
+## [Installing](installing.md)
+# CMS User Guide
+## [Your 1st step](xref:client-side/swastika-io/first-step)
+## [Create your 1st Page](xref:client-side/swastika-io/page)
+## [Articles & Products](article-and-product.md)
+## [Modules](module.md)
+## [Themes](theme.md)
+## [Medias](medias.md)
+## [Files](files.md)
+## [Users](users.md)
+## [Settings](settings.md)
+## [Languages](languages.md)
+## [Cultures](cultures.md)
+# Developer
+## [Theme](theme.md)
+## [Template](template.md)
+## [Module](module.md)
+# For Theme developer

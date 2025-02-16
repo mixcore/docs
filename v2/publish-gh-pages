@@ -1,0 +1,2 @@
+#!/bin/bash
+GIT_USER=Smilefounder   CURRENT_BRANCH=master   USE_SSH=true    yarn deploy
