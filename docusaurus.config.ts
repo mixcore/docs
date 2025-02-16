@@ -46,7 +46,7 @@ const config: Config = {
           showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/mixcore/docs/edit/master/website/',
+          editUrl: 'https://github.com/mixcore/docs/tree/master',
         },
         // blog: {
         //   showReadingTime: true,

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "JpEpQuzo9TA=",
+  "success": true,
+  "projectFilePath": "/Users/smilefounder/Documents/GitHub/docs/v1/docs/components/common/samples/2.x/ComponentsSample/ComponentsSample.csproj",
+  "expectedPackageFiles": [
+    "/Users/smilefounder/.nuget/packages/microsoft.aspnetcore.blazor/0.3.0/microsoft.aspnetcore.blazor.0.3.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.aspnetcore.blazor.analyzers/0.3.0/microsoft.aspnetcore.blazor.analyzers.0.3.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.aspnetcore.blazor.browser/0.3.0/microsoft.aspnetcore.blazor.browser.0.3.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.aspnetcore.blazor.build/0.3.0/microsoft.aspnetcore.blazor.build.0.3.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.aspnetcore.razor.design/2.1.0-preview2-final/microsoft.aspnetcore.razor.design.2.1.0-preview2-final.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.extensions.dependencyinjection/2.0.0/microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/smilefounder/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

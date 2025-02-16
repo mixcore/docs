@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = ComponentsSample
-build_property.ProjectDir = d:\mixcore\docs\v1\docs\components\common\samples\2.x\ComponentsSample\
+build_property.ProjectDir = /Users/smilefounder/Documents/GitHub/docs/v1/docs/components/common/samples/2.x/ComponentsSample/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

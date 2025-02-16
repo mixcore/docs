@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v1", "v1", "{DC8B9A28-E7F2-88F8-0961-80D93A9053D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B5BEF02A-8AB7-BFE0-853F-787D6EECF726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{9206F48E-09ED-A168-6AF3-737E7ED41163}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{AF7A195D-68AE-EC3A-562F-45C2992042D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D8B14DF8-41D8-09BF-535D-768C943317D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.x", "2.x", "{B5463C43-DF9C-29A5-9C67-9FFB48EC9A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentsSample", "v1\docs\components\common\samples\2.x\ComponentsSample\ComponentsSample.csproj", "{CC9E096D-0523-906F-2B89-29118E064050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC9E096D-0523-906F-2B89-29118E064050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9E096D-0523-906F-2B89-29118E064050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9E096D-0523-906F-2B89-29118E064050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9E096D-0523-906F-2B89-29118E064050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5BEF02A-8AB7-BFE0-853F-787D6EECF726} = {DC8B9A28-E7F2-88F8-0961-80D93A9053D5}
+		{9206F48E-09ED-A168-6AF3-737E7ED41163} = {B5BEF02A-8AB7-BFE0-853F-787D6EECF726}
+		{AF7A195D-68AE-EC3A-562F-45C2992042D5} = {9206F48E-09ED-A168-6AF3-737E7ED41163}
+		{D8B14DF8-41D8-09BF-535D-768C943317D0} = {AF7A195D-68AE-EC3A-562F-45C2992042D5}
+		{B5463C43-DF9C-29A5-9C67-9FFB48EC9A4B} = {D8B14DF8-41D8-09BF-535D-768C943317D0}
+		{CC9E096D-0523-906F-2B89-29118E064050} = {B5463C43-DF9C-29A5-9C67-9FFB48EC9A4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B02319-4A19-4496-B227-48A2B1A05590}
+	EndGlobalSection
+EndGlobal

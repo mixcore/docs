@@ -5,10 +5,14 @@
       "Microsoft.AspNetCore.Blazor/0.3.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Blazor.Analyzers/0.3.0": {
@@ -21,10 +25,14 @@
           "Microsoft.Extensions.DependencyInjection": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Blazor.Build/0.3.0": {
@@ -59,19 +67,27 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -83,7 +99,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.1": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -436,14 +452,15 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.1": {
-      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.1",
+      "path": "netstandard.library/2.0.3",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -560,7 +577,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     }
@@ -569,39 +586,33 @@
     ".NETStandard,Version=v2.0": [
       "Microsoft.AspNetCore.Blazor.Browser >= 0.3.0",
       "Microsoft.AspNetCore.Blazor.Build >= 0.3.0",
-      "NETStandard.Library >= 2.0.1"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smile\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/smilefounder/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\_Workspace\\Github\\mixcore\\docs\\docs\\components\\common\\samples\\2.x\\ComponentsSample\\ComponentsSample.csproj",
+      "projectUniqueName": "/Users/smilefounder/Documents/GitHub/docs/v1/docs/components/common/samples/2.x/ComponentsSample/ComponentsSample.csproj",
       "projectName": "ComponentsSample",
-      "projectPath": "e:\\_Workspace\\Github\\mixcore\\docs\\docs\\components\\common\\samples\\2.x\\ComponentsSample\\ComponentsSample.csproj",
-      "packagesPath": "C:\\Users\\smile\\.nuget\\packages\\",
-      "outputPath": "e:\\_Workspace\\Github\\mixcore\\docs\\docs\\components\\common\\samples\\2.x\\ComponentsSample\\obj\\",
+      "projectPath": "/Users/smilefounder/Documents/GitHub/docs/v1/docs/components/common/samples/2.x/ComponentsSample/ComponentsSample.csproj",
+      "packagesPath": "/Users/smilefounder/.nuget/packages/",
+      "outputPath": "/Users/smilefounder/Documents/GitHub/docs/v1/docs/components/common/samples/2.x/ComponentsSample/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\smile\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/smilefounder/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\smile\\.dotnet\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -609,10 +620,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.AspNetCore.Blazor.Browser": {
             "target": "Package",
@@ -625,15 +643,22 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.1, )",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
